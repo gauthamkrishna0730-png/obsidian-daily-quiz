@@ -176,6 +176,33 @@ main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
   background:#000; color:#fff; padding:3px 7px; border-radius:4px; font-size:.72em; white-space:nowrap; z-index:10;
 }
 
+/* ── STUDY HUB ── */
+.hub-section {
+  max-width:820px; margin:0 auto; padding:0 20px 40px;
+}
+.hub-heading {
+  font-size:.78em; font-weight:700; text-transform:uppercase; letter-spacing:.6px;
+  color:var(--muted); margin:28px 0 12px;
+}
+.hub-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.hub-card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:12px; padding:18px 20px;
+}
+.hub-card-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+.hub-card-title { font-size:.92em; font-weight:800; color:var(--text); }
+.hub-card-link {
+  font-size:.75em; color:var(--accent); text-decoration:none;
+  background:rgba(88,166,255,.1); border:1px solid rgba(88,166,255,.25);
+  border-radius:6px; padding:3px 9px;
+}
+.hub-card-link:hover { background:rgba(88,166,255,.2); }
+.hub-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+.hub-stat { background:var(--surface2); border-radius:8px; padding:10px 8px; text-align:center; }
+.hub-stat-num { font-size:1.3em; font-weight:800; line-height:1.1; }
+.hub-stat-lbl { font-size:.68em; color:var(--muted); text-transform:uppercase; letter-spacing:.4px; margin-top:2px; }
+.hub-no-data { font-size:.82em; color:var(--muted); text-align:center; padding:12px 0; }
+
 /* ── RESPONSIVE ── */
 @media(max-width:600px){
   .header { padding:14px 16px; }
@@ -184,6 +211,8 @@ main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
   .score-bar { padding:10px 16px; }
   .stock-bar { grid-template-columns:1fr; padding:10px 16px; }
   .stock-company { max-width:120px; }
+  .hub-grid { grid-template-columns:1fr; }
+  .hub-section { padding:0 12px 32px; }
 }
 </style>
 </head>
@@ -241,6 +270,29 @@ main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
 <main id="main">
   <!-- content injected by JS -->
 </main>
+
+<section class="hub-section">
+  <div class="hub-heading">My Study Hub</div>
+  <div class="hub-grid">
+
+    <div class="hub-card">
+      <div class="hub-card-header">
+        <span class="hub-card-title">🧠 Obsidian Daily Quiz</span>
+        <a class="hub-card-link" href="https://gauthamkrishna0730-png.github.io/obsidian-daily-quiz/" target="_blank">Open</a>
+      </div>
+      <div id="hubObsidianStats"><div class="hub-no-data">No data yet — complete a quiz first</div></div>
+    </div>
+
+    <div class="hub-card">
+      <div class="hub-card-header">
+        <span class="hub-card-title">📚 Dermatology PG Quiz</span>
+        <a class="hub-card-link" href="https://gauthamkrishna0730-png.github.io/dermatology-pg-quiz/" target="_blank">Open</a>
+      </div>
+      <div id="hubPgStats"><div class="hub-no-data">No data yet — complete a quiz first</div></div>
+    </div>
+
+  </div>
+</section>
 
 <script>
 // ══════════════════════════════════════════════════════════════
@@ -606,9 +658,68 @@ function restartQuiz() {
 }
 
 // ══════════════════════════════════════════════════════════════
+// STUDY HUB  (reads shared localStorage — both apps same origin)
+// ══════════════════════════════════════════════════════════════
+function hubStatsHTML(streakKey, histKey) {
+  try {
+    const sd  = JSON.parse(localStorage.getItem(streakKey) || 'null');
+    const h   = JSON.parse(localStorage.getItem(histKey)   || '[]');
+    if (!sd && !h.length) return null;
+
+    const streak   = sd ? sd.streak : 0;
+    const best     = bestStreak(h);
+    const avg7     = avgScore(h, 7);
+    const played   = h.length;
+
+    return `<div class="hub-stats">
+      <div class="hub-stat">
+        <div class="hub-stat-num" style="color:var(--orange)">🔥 ${streak}</div>
+        <div class="hub-stat-lbl">Streak</div>
+      </div>
+      <div class="hub-stat">
+        <div class="hub-stat-num" style="color:var(--accent)">${avg7 !== null ? avg7 + '%' : '–'}</div>
+        <div class="hub-stat-lbl">7-Day Avg</div>
+      </div>
+      <div class="hub-stat">
+        <div class="hub-stat-num" style="color:var(--purple)">${best}</div>
+        <div class="hub-stat-lbl">Best Streak</div>
+      </div>
+      <div class="hub-stat">
+        <div class="hub-stat-num" style="color:var(--muted)">${played}</div>
+        <div class="hub-stat-lbl">Days Played</div>
+      </div>
+      ${h.length ? (() => {
+        const last7 = h.slice(-7);
+        const bars = last7.map(e => {
+          const ht = Math.max(4, Math.round(e.pct / 100 * 32));
+          const col = e.pct >= 75 ? 'var(--green)' : e.pct >= 60 ? 'var(--orange)' : 'var(--red)';
+          return `<div class="hist-day" style="height:${ht}px;background:${col};width:14px" data-tip="${e.date}: ${e.pct}%"></div>`;
+        }).join('');
+        return `<div class="hub-stat" style="grid-column:1/-1;background:transparent;padding:4px 0">
+          <div style="display:flex;gap:3px;align-items:flex-end;justify-content:center">${bars}</div>
+          <div class="hub-stat-lbl" style="margin-top:4px">Last ${last7.length} sessions</div>
+        </div>`;
+      })() : ''}
+    </div>`;
+  } catch { return null; }
+}
+
+function renderHub() {
+  const obsEl = document.getElementById('hubObsidianStats');
+  const pgEl  = document.getElementById('hubPgStats');
+
+  const obsHTML = hubStatsHTML('derm_streak', 'derm_history');
+  if (obsHTML) obsEl.innerHTML = obsHTML;
+
+  const pgHTML = hubStatsHTML('dermPg_streak', 'dermPg_history');
+  if (pgHTML) pgEl.innerHTML = pgHTML;
+}
+
+// ══════════════════════════════════════════════════════════════
 // BOOT
 // ══════════════════════════════════════════════════════════════
 loadQuestions();
+renderHub();
 </script>
 </body>
 </html>
