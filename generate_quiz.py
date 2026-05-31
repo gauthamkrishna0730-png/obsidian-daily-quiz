@@ -10,6 +10,12 @@ from datetime import date, datetime
 from pathlib import Path
 import anthropic
 
+try:
+    import yfinance as yf
+    YFINANCE_AVAILABLE = True
+except ImportError:
+    YFINANCE_AVAILABLE = False
+
 # ─────────────────────────────────────────────
 # CONFIG  (edit these if paths change)
 # ─────────────────────────────────────────────
@@ -26,6 +32,88 @@ QUESTIONS_PER_NOTE = 2          # questions generated per note
 
 # Exclude Obsidian system folders
 EXCLUDE_DIRS = {".obsidian", ".trash", "templates", "Templates"}
+
+# ─────────────────────────────────────────────
+# STOCK WATCHLISTS
+# ─────────────────────────────────────────────
+US_WATCHLIST = [
+    "NVDA", "AAPL", "MSFT", "GOOGL", "META",
+    "AMZN", "TSLA", "JPM", "AMD", "NFLX",
+    "UBER", "CRM", "ADBE", "INTC", "BABA"
+]
+INDIA_WATCHLIST = [
+    "RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS",
+    "BHARTIARTL.NS", "ITC.NS", "SBIN.NS", "BAJFINANCE.NS", "WIPRO.NS",
+    "HINDUNILVR.NS", "ADANIENT.NS", "TATAMOTORS.NS", "SUNPHARMA.NS", "HCLTECH.NS"
+]
+
+# ─────────────────────────────────────────────
+# STOCK PICKS
+# ─────────────────────────────────────────────
+def get_stock_pick(tickers: list, market: str) -> dict | None:
+    """Return the biggest/most interesting mover from a watchlist."""
+    if not YFINANCE_AVAILABLE:
+        return None
+    picks = []
+    for symbol in tickers:
+        try:
+            t = yf.Ticker(symbol)
+            hist = t.history(period="5d")
+            if len(hist) < 2:
+                continue
+            price    = float(hist['Close'].iloc[-1])
+            prev     = float(hist['Close'].iloc[-2])
+            volume   = float(hist['Volume'].iloc[-1])
+            avg_vol  = float(hist['Volume'].mean())
+            change_p = (price - prev) / prev * 100
+            vol_ratio = volume / avg_vol if avg_vol else 1.0
+            info     = t.info
+            picks.append({
+                "symbol":       symbol.replace(".NS", "").replace(".BO", ""),
+                "name":         info.get("shortName", symbol),
+                "price":        round(price, 2),
+                "currency":     info.get("currency", "USD"),
+                "change_pct":   round(change_p, 2),
+                "volume_ratio": round(vol_ratio, 2),
+                "market":       market,
+            })
+        except Exception:
+            continue
+
+    if not picks:
+        return None
+
+    picks.sort(key=lambda x: abs(x["change_pct"]), reverse=True)
+    top = picks[0]
+
+    c = top["change_pct"]
+    vr = top["volume_ratio"]
+    if abs(c) >= 3:
+        direction = "surging" if c > 0 else "falling sharply"
+        top["note"] = f"Sharp move: {direction} {abs(c):.1f}% today"
+    elif vr >= 1.5:
+        top["note"] = f"Unusual activity: {vr:.1f}x average volume"
+    else:
+        direction = "up" if c > 0 else "down"
+        top["note"] = f"Moving {direction} {abs(c):.1f}% today"
+    return top
+
+
+def get_stock_section() -> dict:
+    """Fetch one US and one Indian stock pick."""
+    print("\n📈 Fetching stock picks…")
+    us = get_stock_pick(US_WATCHLIST, "US")
+    india = get_stock_pick(INDIA_WATCHLIST, "India")
+    if us:
+        print(f"   🇺🇸 US pick:     {us['symbol']} ({us['change_pct']:+.2f}%)")
+    else:
+        print("   🇺🇸 US pick:     unavailable (install yfinance)")
+    if india:
+        print(f"   🇮🇳 India pick:  {india['symbol']} ({india['change_pct']:+.2f}%)")
+    else:
+        print("   🇮🇳 India pick:  unavailable (install yfinance)")
+    return {"us": us, "india": india}
+
 
 # ─────────────────────────────────────────────
 # STEP 1 – collect vault files by topic
@@ -238,12 +326,16 @@ def main():
     if len(all_questions) < TOTAL_QUESTIONS:
         print(f"\n⚠  Only generated {len(all_questions)}/{TOTAL_QUESTIONS} questions.")
 
+    # ── fetch stock picks ─────────────────────
+    stocks = get_stock_section()
+
     # ── save JSON ─────────────────────────────
     output = {
         "date": today,
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "count": len(all_questions),
         "topics_covered": sorted(list({q["topic"] for q in all_questions})),
+        "stocks": stocks,
         "questions": all_questions
     }
     out_path = Path(REPO_PATH) / QUESTIONS_FILE

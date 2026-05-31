@@ -145,12 +145,45 @@ main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
 .topic-score { min-width:50px; text-align:right; font-weight:700; color:var(--muted); }
 .confetti { font-size:2em; letter-spacing:6px; }
 
+/* ── STOCK BAR ── */
+.stock-bar {
+  display:grid; grid-template-columns:1fr 1fr; gap:12px;
+  background:var(--surface); border-bottom:1px solid var(--border2);
+  padding:12px 32px;
+}
+.stock-card {
+  background:var(--surface2); border:1px solid var(--border);
+  border-radius:10px; padding:12px 16px;
+  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+}
+.stock-flag { font-size:1.3em; flex-shrink:0; }
+.stock-info { flex:1; min-width:80px; }
+.stock-symbol { font-size:1em; font-weight:800; color:var(--text); display:block; }
+.stock-company { font-size:.75em; color:var(--muted); display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:160px; }
+.stock-price-block { text-align:right; }
+.stock-price-val { font-size:1.05em; font-weight:700; color:var(--text); display:block; }
+.stock-change { font-size:.85em; font-weight:700; display:block; }
+.stock-change.up   { color:var(--green); }
+.stock-change.down { color:var(--red); }
+.stock-note { font-size:.72em; color:var(--muted); width:100%; padding-top:4px; }
+.stock-vol  { font-size:.72em; color:var(--muted); }
+
+/* ── HISTORY MINI-CHART ── */
+.history-bar { display:flex; gap:4px; align-items:flex-end; margin:10px 0; }
+.hist-day { width:18px; border-radius:3px 3px 0 0; min-height:4px; cursor:default; position:relative; }
+.hist-day:hover::after {
+  content: attr(data-tip); position:absolute; bottom:calc(100% + 4px); left:50%; transform:translateX(-50%);
+  background:#000; color:#fff; padding:3px 7px; border-radius:4px; font-size:.72em; white-space:nowrap; z-index:10;
+}
+
 /* ── RESPONSIVE ── */
 @media(max-width:600px){
   .header { padding:14px 16px; }
   main { padding:16px 12px 40px; }
   .q-card { padding:20px 16px; }
   .score-bar { padding:10px 16px; }
+  .stock-bar { grid-template-columns:1fr; padding:10px 16px; }
+  .stock-company { max-width:120px; }
 }
 </style>
 </head>
@@ -165,6 +198,33 @@ main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
     <div class="chip">Topics: <span id="topicCount">–</span></div>
     <div class="chip">Questions: <span id="qCount">–</span></div>
     <div class="chip streak-chip">🔥 Streak: <span id="streakCount">0</span> days</div>
+  </div>
+</div>
+
+<div class="stock-bar" id="stockBar" style="display:none">
+  <div class="stock-card" id="stockCardUS">
+    <div class="stock-flag">🇺🇸</div>
+    <div class="stock-info">
+      <span class="stock-symbol" id="usSymbol">–</span>
+      <span class="stock-company" id="usName">–</span>
+    </div>
+    <div class="stock-price-block">
+      <span class="stock-price-val" id="usPrice">–</span>
+      <span class="stock-change" id="usChange">–</span>
+    </div>
+    <div class="stock-note" id="usNote"></div>
+  </div>
+  <div class="stock-card" id="stockCardIN">
+    <div class="stock-flag">🇮🇳</div>
+    <div class="stock-info">
+      <span class="stock-symbol" id="inSymbol">–</span>
+      <span class="stock-company" id="inName">–</span>
+    </div>
+    <div class="stock-price-block">
+      <span class="stock-price-val" id="inPrice">–</span>
+      <span class="stock-change" id="inChange">–</span>
+    </div>
+    <div class="stock-note" id="inNote"></div>
   </div>
 </div>
 
@@ -190,8 +250,39 @@ let questions = [];
 let qIndex = 0;
 let correct = 0, wrong = 0;
 let answered = false;
-// topic tracking: {topic: {correct, total}}
 let topicStats = {};
+
+// ══════════════════════════════════════════════════════════════
+// HISTORY TRACKING  (key: derm_history  → [{date,pct,correct,total}])
+// ══════════════════════════════════════════════════════════════
+function loadHistory() {
+  try { return JSON.parse(localStorage.getItem('derm_history') || '[]'); }
+  catch { return []; }
+}
+function saveHistory(pct, corr, tot) {
+  const today = new Date().toISOString().slice(0,10);
+  let h = loadHistory().filter(e => e.date !== today);
+  h.push({date: today, pct, correct: corr, total: tot});
+  h = h.slice(-60); // keep last 60 days
+  localStorage.setItem('derm_history', JSON.stringify(h));
+}
+function bestStreak(history) {
+  if (!history.length) return 0;
+  const dates = history.map(e => e.date).sort();
+  let best = 1, cur = 1;
+  for (let i = 1; i < dates.length; i++) {
+    const diff = (new Date(dates[i]) - new Date(dates[i-1])) / 86400000;
+    cur = diff === 1 ? cur + 1 : 1;
+    if (cur > best) best = cur;
+  }
+  return best;
+}
+function avgScore(history, days = 7) {
+  const cutoff = new Date(Date.now() - days * 86400000).toISOString().slice(0,10);
+  const recent = history.filter(e => e.date >= cutoff);
+  if (!recent.length) return null;
+  return Math.round(recent.reduce((s, e) => s + e.pct, 0) / recent.length);
+}
 
 // ══════════════════════════════════════════════════════════════
 // STREAK
@@ -296,6 +387,32 @@ function loadLastAvailable() {
 }
 
 // ══════════════════════════════════════════════════════════════
+// STOCK PICKS
+// ══════════════════════════════════════════════════════════════
+function fmtPrice(price, currency) {
+  const sym = currency === 'INR' ? '₹' : currency === 'GBP' ? '£' : '$';
+  return sym + price.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+function renderStockPicks(stocks) {
+  if (!stocks || (!stocks.us && !stocks.india)) return;
+  document.getElementById('stockBar').style.display = 'grid';
+
+  function fillCard(s, prefix) {
+    if (!s) { document.getElementById(`stockCard${prefix}`).style.opacity = '0.4'; return; }
+    document.getElementById(`${prefix.toLowerCase()}Symbol`).textContent = s.symbol;
+    document.getElementById(`${prefix.toLowerCase()}Name`).textContent   = s.name;
+    document.getElementById(`${prefix.toLowerCase()}Price`).textContent  = fmtPrice(s.price, s.currency);
+    const chEl = document.getElementById(`${prefix.toLowerCase()}Change`);
+    const sign = s.change_pct >= 0 ? '+' : '';
+    chEl.textContent = `${sign}${s.change_pct}%  ·  Vol ${s.volume_ratio}x`;
+    chEl.className = `stock-change ${s.change_pct >= 0 ? 'up' : 'down'}`;
+    document.getElementById(`${prefix.toLowerCase()}Note`).textContent = s.note || '';
+  }
+  fillCard(stocks.us,    'US');
+  fillCard(stocks.india, 'IN');
+}
+
+// ══════════════════════════════════════════════════════════════
 // INIT QUIZ
 // ══════════════════════════════════════════════════════════════
 function initQuiz(data) {
@@ -315,6 +432,7 @@ function initQuiz(data) {
     topicStats[q.topic].total++;
   });
 
+  renderStockPicks(data.stocks);
   document.getElementById('scoreBar').style.display = 'flex';
   updateScoreBar();
   renderQuestion();
@@ -415,10 +533,26 @@ function renderResults() {
   markStreakDay();
   const total = correct + wrong;
   const pct = total > 0 ? Math.round(correct/total*100) : 0;
+  saveHistory(pct, correct, total);
+
   const grade = pct >= 90 ? '🥇' : pct >= 75 ? '🥈' : pct >= 60 ? '🥉' : '📚';
   const msg   = pct >= 90 ? 'Outstanding!' : pct >= 75 ? 'Well Done!' : pct >= 60 ? 'Good effort' : 'Keep Revising';
   const gradeColor = pct >= 90 ? 'var(--green)' : pct >= 75 ? 'var(--accent)' : pct >= 60 ? 'var(--orange)' : 'var(--red)';
   const streak = JSON.parse(localStorage.getItem('derm_streak')||'{"streak":0}').streak;
+
+  const history = loadHistory();
+  const best    = bestStreak(history);
+  const avg7    = avgScore(history, 7);
+  const totalDays = history.length;
+
+  // mini history chart — last 14 days
+  const last14 = history.slice(-14);
+  const maxPct = 100;
+  const histBars = last14.map(e => {
+    const h = Math.max(4, Math.round(e.pct / maxPct * 48));
+    const color = e.pct >= 75 ? 'var(--green)' : e.pct >= 60 ? 'var(--orange)' : 'var(--red)';
+    return `<div class="hist-day" style="height:${h}px;background:${color}" data-tip="${e.date}: ${e.pct}%"></div>`;
+  }).join('');
 
   // topic breakdown rows
   const topicRows = Object.entries(topicStats)
@@ -445,8 +579,16 @@ function renderResults() {
         <div class="res-card"><div class="res-num" style="color:var(--green)">${correct}</div><div class="res-lbl">Correct</div></div>
         <div class="res-card"><div class="res-num" style="color:var(--red)">${wrong}</div><div class="res-lbl">Wrong</div></div>
         <div class="res-card"><div class="res-num" style="color:var(--orange)">${questions.length - total}</div><div class="res-lbl">Skipped</div></div>
-        <div class="res-card"><div class="res-num" style="color:var(--orange)">🔥 ${streak}</div><div class="res-lbl">Day Streak</div></div>
+        <div class="res-card"><div class="res-num" style="color:var(--orange)">🔥 ${streak}</div><div class="res-lbl">Streak</div></div>
+        <div class="res-card"><div class="res-num" style="color:var(--purple)">${best}</div><div class="res-lbl">Best Streak</div></div>
+        <div class="res-card"><div class="res-num" style="color:var(--accent)">${avg7 !== null ? avg7 + '%' : '–'}</div><div class="res-lbl">7-Day Avg</div></div>
+        <div class="res-card"><div class="res-num" style="color:var(--muted)">${totalDays}</div><div class="res-lbl">Days Played</div></div>
       </div>
+      ${last14.length >= 2 ? `
+      <div class="topic-breakdown" style="margin-top:16px">
+        <h3>Last ${last14.length} Days</h3>
+        <div class="history-bar">${histBars}</div>
+      </div>` : ''}
       <div class="topic-breakdown">
         <h3>Performance by Topic</h3>
         ${topicRows}
