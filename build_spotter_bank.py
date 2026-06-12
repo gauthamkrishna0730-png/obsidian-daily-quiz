@@ -29,9 +29,14 @@ def make_distractors(correct: str, pool: list[str], n: int = 3) -> list[str]:
     return others[:n]
 
 
+QUIZ_ROOT = Path("C:/Users/ravin/Desktop/Obsidian_Daily_Quiz")
+
+def img_exists(path: str) -> bool:
+    return (QUIZ_ROOT / path).exists()
+
 def build_instrument_questions(instr_data: dict) -> list[dict]:
     all_items = [(cat["name"], item) for cat in instr_data["categories"]
-                 for item in cat["items"] if item.get("img")]
+                 for item in cat["items"] if item.get("img") and img_exists(item["img"])]
     all_names = [item["name"] for _, item in all_items]
 
     questions = []
@@ -60,7 +65,7 @@ def build_instrument_questions(instr_data: dict) -> list[dict]:
 
 def build_spotter_questions(spot_data: dict) -> list[dict]:
     all_items = [(cat["name"], item) for cat in spot_data["categories"]
-                 for item in cat["items"] if item.get("img")]
+                 for item in cat["items"] if item.get("img") and img_exists(item["img"])]
     all_names = [item["name"] for _, item in all_items]
 
     q_templates = {
