@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obsidian Daily Quiz — Dermatology PG</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface2: #1c2128;
+  --border: #30363d;
+  --border2: #21262d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --green: #56d364;
+  --red: #f85149;
+  --orange: #f0883e;
+  --yellow: #e3b341;
+  --purple: #a371f7;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI',Arial,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+
+/* ── HEADER ── */
+.header {
+  background:linear-gradient(135deg,#1a2744 0%,#0d2137 60%,#1a1a2e 100%);
+  padding:18px 32px; border-bottom:1px solid var(--border);
+  display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;
+}
+.header-left h1 { font-size:1.4em; font-weight:800; color:var(--accent); }
+.header-left p  { font-size:0.82em; color:var(--muted); margin-top:2px; }
+.header-right { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.chip { background:var(--surface2); border:1px solid var(--border); border-radius:20px;
+        padding:5px 14px; font-size:0.8em; color:var(--muted); white-space:nowrap; }
+.chip span { color:var(--accent); font-weight:700; }
+.streak-chip { border-color:#f0883e44; color:var(--orange); }
+.streak-chip span { color:var(--orange); }
+
+/* ── SCORE BAR ── */
+.score-bar {
+  display:flex; gap:16px; align-items:center; flex-wrap:wrap;
+  background:var(--surface); border-bottom:1px solid var(--border2);
+  padding:12px 32px;
+}
+.sc { text-align:center; min-width:52px; }
+.sc-num { font-size:1.6em; font-weight:800; line-height:1; }
+.sc-lbl { font-size:0.7em; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; }
+.progress-wrap { flex:1; min-width:100px; }
+.progress-bar { height:8px; background:var(--border2); border-radius:4px; overflow:hidden; }
+.progress-fill { height:100%; background:linear-gradient(90deg,#238636,#56d364); transition:width .4s cubic-bezier(.4,0,.2,1); }
+.progress-lbl { font-size:0.75em; color:var(--muted); margin-top:4px; text-align:right; }
+
+/* ── MAIN ── */
+main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
+
+/* ── LOADING / STALE / WELCOME screens ── */
+.screen { text-align:center; padding:60px 20px; }
+.screen-icon { font-size:3.5em; margin-bottom:16px; }
+.screen h2  { font-size:1.6em; font-weight:800; margin-bottom:10px; }
+.screen p   { color:var(--muted); max-width:500px; margin:0 auto 24px; line-height:1.6; }
+.screen code { background:var(--surface2); border:1px solid var(--border); border-radius:6px;
+               padding:2px 8px; font-size:0.9em; color:var(--yellow); }
+
+/* ── QUESTION CARD ── */
+.q-card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:14px; padding:28px; margin-bottom:20px;
+}
+.q-meta { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+.tag {
+  display:inline-block; padding:3px 10px; border-radius:12px;
+  font-size:0.75em; font-weight:700;
+}
+.tag-topic  { background:rgba(88,166,255,.12); color:var(--accent); }
+.tag-source { background:rgba(163,113,247,.12); color:var(--purple); }
+.tag-num    { background:rgba(139,148,158,.12); color:var(--muted); }
+.question   { font-size:1.1em; font-weight:600; line-height:1.65; color:#f0f6fc; }
+
+/* ── QUESTION IMAGE ── */
+.q-image-wrap {
+  margin:16px 0 4px;
+  display:flex; justify-content:center;
+}
+.q-image {
+  max-width:100%; max-height:340px; border-radius:10px;
+  border:2px solid var(--border); object-fit:contain;
+  background:#000;
+}
+.q-image-caption {
+  text-align:center; font-size:.78em; color:var(--muted);
+  margin-top:6px; margin-bottom:8px; font-style:italic;
+}
+
+/* ── OPTIONS ── */
+.options { display:grid; gap:10px; margin-top:22px; }
+.opt {
+  padding:13px 18px; background:var(--bg); border:2px solid var(--border);
+  border-radius:10px; cursor:pointer; font-size:0.95em; text-align:left;
+  color:var(--text); transition:all .18s; display:flex; align-items:flex-start; gap:12px;
+}
+.opt-letter {
+  min-width:26px; height:26px; border-radius:50%; border:2px solid var(--border);
+  display:flex; align-items:center; justify-content:center;
+  font-weight:800; font-size:.85em; flex-shrink:0; margin-top:1px;
+}
+.opt:hover:not(:disabled) { border-color:var(--accent); background:var(--surface2); }
+.opt:hover:not(:disabled) .opt-letter { border-color:var(--accent); color:var(--accent); }
+.opt.correct  { border-color:var(--green) !important; background:#0f2d0f !important; }
+.opt.correct .opt-letter { background:var(--green); border-color:var(--green); color:#000; }
+.opt.wrong    { border-color:var(--red) !important; background:#2d0f0f !important; }
+.opt.wrong .opt-letter { background:var(--red); border-color:var(--red); color:#fff; }
+.opt.reveal   { border-color:#1a4a1a !important; background:#0f2d0f99 !important; }
+.opt.reveal .opt-letter { border-color:var(--green); color:var(--green); }
+.opt:disabled { cursor:default; }
+
+/* ── EXPLANATION ── */
+.explanation {
+  display:none; margin-top:18px;
+  background:var(--surface2); border:1px solid var(--border);
+  border-left:4px solid var(--accent); border-radius:8px;
+  padding:14px 18px; font-size:.9em; color:#c9d1d9; line-height:1.6;
+}
+.explanation.show { display:block; }
+.explanation strong { color:var(--accent); }
+.exp-source { margin-top:8px; font-size:.8em; color:var(--muted); }
+.exp-source span { color:var(--purple); }
+
+/* ── NAV BUTTONS ── */
+.nav-row { display:flex; gap:12px; margin-top:20px; flex-wrap:wrap; }
+.btn {
+  padding:11px 24px; border:none; border-radius:8px; font-size:.95em;
+  cursor:pointer; font-weight:700; transition:all .2s;
+}
+.btn-next     { background:#1f6feb; color:white; }
+.btn-next:hover { background:#388bfd; transform:translateY(-1px); }
+.btn-restart  { background:#238636; color:white; }
+.btn-restart:hover { background:#2ea043; }
+.btn-gen      { background:#9e6a03; color:white; }
+.btn-gen:hover { background:#d4950a; }
+.btn-outline  { background:transparent; color:var(--muted); border:1px solid var(--border); }
+.btn-outline:hover { border-color:var(--accent); color:var(--accent); }
+
+/* ── RESULTS SCREEN ── */
+.results { text-align:center; }
+.results-grade { font-size:5em; font-weight:900; margin:16px 0 4px; }
+.results-label { font-size:.9em; color:var(--muted); margin-bottom:24px; }
+.results-grid  { display:grid; grid-template-columns:repeat(auto-fit,minmax(110px,1fr)); gap:12px; margin:24px 0; }
+.res-card { background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:14px; }
+.res-num  { font-size:1.8em; font-weight:800; }
+.res-lbl  { font-size:.75em; color:var(--muted); text-transform:uppercase; }
+.topic-breakdown { text-align:left; background:var(--surface); border:1px solid var(--border);
+                   border-radius:10px; padding:20px; margin:20px 0; }
+.topic-breakdown h3 { font-size:.9em; font-weight:700; color:var(--muted); margin-bottom:14px; text-transform:uppercase; letter-spacing:.5px; }
+.topic-row { display:flex; align-items:center; gap:10px; margin-bottom:8px; font-size:.88em; }
+.topic-name { min-width:200px; color:var(--text); }
+.topic-bar-wrap { flex:1; height:8px; background:var(--border2); border-radius:4px; overflow:hidden; }
+.topic-bar-fill { height:100%; border-radius:4px; transition:width .4s; }
+.topic-score { min-width:50px; text-align:right; font-weight:700; color:var(--muted); }
+.confetti { font-size:2em; letter-spacing:6px; }
+
+/* ── RESPONSIVE ── */
+@media(max-width:600px){
+  .header { padding:14px 16px; }
+  main { padding:16px 12px 40px; }
+  .q-card { padding:20px 16px; }
+  .score-bar { padding:10px 16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <h1>🧠 Obsidian Daily Quiz</h1>
+    <p id="headerDate">Loading today's questions…</p>
+  </div>
+  <div class="header-right">
+    <div class="chip">Topics: <span id="topicCount">–</span></div>
+    <div class="chip">Questions: <span id="qCount">–</span></div>
+    <div class="chip streak-chip">🔥 Streak: <span id="streakCount">0</span> days</div>
+  </div>
+</div>
+
+<div class="score-bar" id="scoreBar" style="display:none">
+  <div class="sc"><div class="sc-num" id="scCorrect" style="color:var(--green)">0</div><div class="sc-lbl">Correct</div></div>
+  <div class="sc"><div class="sc-num" id="scWrong"   style="color:var(--red)">0</div><div class="sc-lbl">Wrong</div></div>
+  <div class="sc"><div class="sc-num" id="scPct"     style="color:var(--accent)">0%</div><div class="sc-lbl">Score</div></div>
+  <div class="progress-wrap">
+    <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="progress-lbl" id="progressLbl">0 / 0</div>
+  </div>
+</div>
+
+<main id="main">
+  <!-- content injected by JS -->
+</main>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════
+let questions = [];
+let qIndex = 0;
+let correct = 0, wrong = 0;
+let answered = false;
+// topic tracking: {topic: {correct, total}}
+let topicStats = {};
+
+// ══════════════════════════════════════════════════════════════
+// STREAK
+// ══════════════════════════════════════════════════════════════
+function getStreak() {
+  const data = JSON.parse(localStorage.getItem('derm_streak') || '{"streak":0,"lastDate":""}');
+  const today = new Date().toISOString().slice(0,10);
+  const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
+  if (data.lastDate === today) return data.streak;
+  if (data.lastDate === yesterday) return data.streak; // will increment on finish
+  return 0; // streak broken
+}
+function markStreakDay() {
+  const data = JSON.parse(localStorage.getItem('derm_streak') || '{"streak":0,"lastDate":""}');
+  const today = new Date().toISOString().slice(0,10);
+  const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
+  if (data.lastDate === today) return; // already counted
+  const newStreak = (data.lastDate === yesterday) ? data.streak + 1 : 1;
+  localStorage.setItem('derm_streak', JSON.stringify({streak: newStreak, lastDate: today}));
+  document.getElementById('streakCount').textContent = newStreak;
+}
+
+// ══════════════════════════════════════════════════════════════
+// LOAD QUESTIONS
+// ══════════════════════════════════════════════════════════════
+async function loadQuestions() {
+  const main = document.getElementById('main');
+  const today = new Date().toISOString().slice(0,10);
+  document.getElementById('streakCount').textContent = getStreak();
+
+  // try to load from cache first (same-day)
+  const cached = localStorage.getItem('derm_daily_questions');
+  if (cached) {
+    const obj = JSON.parse(cached);
+    if (obj.date === today && obj.questions && obj.questions.length > 0) {
+      initQuiz(obj);
+      return;
+    }
+  }
+
+  // fetch from server
+  main.innerHTML = `<div class="screen"><div class="screen-icon">⏳</div>
+    <h2>Loading Today's Questions</h2>
+    <p>Fetching your personalised quiz generated from your Obsidian vault…</p></div>`;
+
+  try {
+    const res = await fetch('./daily_questions.json?_=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+
+    // cache it
+    localStorage.setItem('derm_daily_questions', JSON.stringify(data));
+
+    if (data.date !== today) {
+      showStaleScreen(data.date);
+      return;
+    }
+    initQuiz(data);
+  } catch(e) {
+    showErrorScreen(e.message);
+  }
+}
+
+function showStaleScreen(lastDate) {
+  document.getElementById('headerDate').textContent = `Last quiz: ${lastDate}`;
+  document.getElementById('main').innerHTML = `
+    <div class="screen">
+      <div class="screen-icon">📅</div>
+      <h2>Today's Questions Not Ready Yet</h2>
+      <p>The quiz for today (<strong>${new Date().toDateString()}</strong>) hasn't been generated yet.
+      The last available quiz is from <strong>${lastDate}</strong>.</p>
+      <p>To generate today's quiz, run the generator script:<br>
+      <code>python generate_quiz.py</code></p>
+      <div class="nav-row" style="justify-content:center">
+        <button class="btn btn-next" onclick="loadLastAvailable()">📖 Load ${lastDate}'s Quiz</button>
+        <button class="btn btn-outline" onclick="location.reload()">🔄 Refresh</button>
+      </div>
+    </div>`;
+}
+
+function showErrorScreen(msg) {
+  document.getElementById('headerDate').textContent = 'Could not load questions';
+  document.getElementById('main').innerHTML = `
+    <div class="screen">
+      <div class="screen-icon">⚠️</div>
+      <h2>Questions Not Found</h2>
+      <p>Could not load <code>daily_questions.json</code>. Make sure you've run the generator at least once:</p>
+      <p><code>cd C:\\Users\\ravin\\Desktop\\Obsidian_Daily_Quiz</code><br>
+         <code>python generate_quiz.py</code></p>
+      <p style="font-size:.8em;color:var(--muted)">Error: ${msg}</p>
+      <div class="nav-row" style="justify-content:center">
+        <button class="btn btn-outline" onclick="location.reload()">🔄 Try Again</button>
+      </div>
+    </div>`;
+}
+
+function loadLastAvailable() {
+  const cached = localStorage.getItem('derm_daily_questions');
+  if (cached) {
+    initQuiz(JSON.parse(cached));
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+// INIT QUIZ
+// ══════════════════════════════════════════════════════════════
+function initQuiz(data) {
+  questions = data.questions || [];
+  qIndex = 0; correct = 0; wrong = 0; answered = false; topicStats = {};
+
+  // update header
+  const d = new Date(data.date + 'T12:00:00');
+  document.getElementById('headerDate').textContent =
+    `${d.toLocaleDateString('en-GB',{weekday:'long',year:'numeric',month:'long',day:'numeric'})}`;
+  document.getElementById('topicCount').textContent = (data.topics_covered||[]).length;
+  document.getElementById('qCount').textContent = questions.length;
+
+  // init topic stats
+  questions.forEach(q => {
+    if (!topicStats[q.topic]) topicStats[q.topic] = {correct:0, total:0};
+    topicStats[q.topic].total++;
+  });
+
+  document.getElementById('scoreBar').style.display = 'flex';
+  updateScoreBar();
+  renderQuestion();
+}
+
+// ══════════════════════════════════════════════════════════════
+// SCORE BAR
+// ══════════════════════════════════════════════════════════════
+function updateScoreBar() {
+  const done = correct + wrong;
+  const pct = done > 0 ? Math.round(correct/done*100) : 0;
+  document.getElementById('scCorrect').textContent = correct;
+  document.getElementById('scWrong').textContent = wrong;
+  document.getElementById('scPct').textContent = pct + '%';
+  const prog = questions.length > 0 ? Math.round(qIndex/questions.length*100) : 0;
+  document.getElementById('progressFill').style.width = prog + '%';
+  document.getElementById('progressLbl').textContent = `${qIndex} / ${questions.length}`;
+}
+
+// ══════════════════════════════════════════════════════════════
+// RENDER QUESTION
+// ══════════════════════════════════════════════════════════════
+const LETTERS = ['A','B','C','D'];
+function renderQuestion() {
+  const main = document.getElementById('main');
+  if (qIndex >= questions.length) { renderResults(); return; }
+
+  const q = questions[qIndex];
+  answered = false;
+
+  const imgHtml = q.image ? `
+    <div class="q-image-wrap">
+      <img class="q-image" src="${q.image}" alt="Question image" loading="lazy"
+           onerror="this.parentElement.style.display='none'">
+    </div>
+    <div class="q-image-caption">${q.image_type === 'instrument' ? 'Identify this instrument' : q.image_type === 'spotter' ? 'Identify this figure / finding' : ''}</div>
+  ` : '';
+
+  main.innerHTML = `
+    <div class="q-card">
+      <div class="q-meta">
+        <span class="tag tag-num">Q${qIndex+1} / ${questions.length}</span>
+        <span class="tag tag-topic">📁 ${q.topic}</span>
+        <span class="tag tag-source">📄 ${q.source}</span>
+        ${q.image ? '<span class="tag" style="background:rgba(86,211,100,.12);color:var(--green)">🖼 Image</span>' : ''}
+      </div>
+      ${imgHtml}
+      <div class="question">${q.q}</div>
+      <div class="options" id="opts">
+        ${q.opts.map((opt,i) => `
+          <button class="opt" id="opt${i}" onclick="selectAnswer(${i})">
+            <span class="opt-letter">${LETTERS[i]}</span>
+            <span>${opt}</span>
+          </button>`).join('')}
+      </div>
+      <div class="explanation" id="exp">
+        <strong>📚 Explanation:</strong> ${q.exp}
+        <div class="exp-source">Source note: <span>${q.source}</span> &nbsp;·&nbsp; Topic: <span>${q.topic}</span></div>
+      </div>
+    </div>
+    <div class="nav-row" id="navRow" style="display:none">
+      ${qIndex < questions.length-1
+        ? `<button class="btn btn-next" onclick="nextQuestion()">Next Question →</button>`
+        : `<button class="btn btn-restart" onclick="renderResults()">View Results 🏆</button>`}
+      <button class="btn btn-outline" onclick="skipQuestion()">Skip</button>
+    </div>`;
+}
+
+// ══════════════════════════════════════════════════════════════
+// ANSWER
+// ══════════════════════════════════════════════════════════════
+function selectAnswer(chosen) {
+  if (answered) return;
+  answered = true;
+  const q = questions[qIndex];
+
+  document.querySelectorAll('.opt').forEach((btn,i) => {
+    btn.disabled = true;
+    if (i === q.ans) btn.classList.add('correct');
+    else if (i === chosen) btn.classList.add('wrong');
+    else btn.classList.add('reveal');
+  });
+
+  if (chosen === q.ans) {
+    correct++;
+    topicStats[q.topic].correct++;
+  } else {
+    wrong++;
+  }
+  qIndex++;
+  updateScoreBar();
+  document.getElementById('exp').classList.add('show');
+  document.getElementById('navRow').style.display = 'flex';
+}
+
+function skipQuestion() {
+  if (!answered) { qIndex++; }
+  renderQuestion();
+  updateScoreBar();
+}
+
+function nextQuestion() { renderQuestion(); }
+
+// ══════════════════════════════════════════════════════════════
+// RESULTS
+// ══════════════════════════════════════════════════════════════
+function renderResults() {
+  markStreakDay();
+  const total = correct + wrong;
+  const pct = total > 0 ? Math.round(correct/total*100) : 0;
+  const grade = pct >= 90 ? '🥇' : pct >= 75 ? '🥈' : pct >= 60 ? '🥉' : '📚';
+  const msg   = pct >= 90 ? 'Outstanding!' : pct >= 75 ? 'Well Done!' : pct >= 60 ? 'Good effort' : 'Keep Revising';
+  const gradeColor = pct >= 90 ? 'var(--green)' : pct >= 75 ? 'var(--accent)' : pct >= 60 ? 'var(--orange)' : 'var(--red)';
+  const streak = JSON.parse(localStorage.getItem('derm_streak')||'{"streak":0}').streak;
+
+  // topic breakdown rows
+  const topicRows = Object.entries(topicStats)
+    .sort((a,b) => b[1].total - a[1].total)
+    .map(([topic, s]) => {
+      const tp = s.total > 0 ? Math.round(s.correct/s.total*100) : 0;
+      const color = tp>=80 ? 'var(--green)' : tp>=60 ? 'var(--orange)' : 'var(--red)';
+      return `<div class="topic-row">
+        <div class="topic-name">${topic}</div>
+        <div class="topic-bar-wrap">
+          <div class="topic-bar-fill" style="width:${tp}%;background:${color}"></div>
+        </div>
+        <div class="topic-score" style="color:${color}">${s.correct}/${s.total}</div>
+      </div>`;
+    }).join('');
+
+  document.getElementById('scoreBar').style.display = 'none';
+  document.getElementById('main').innerHTML = `
+    <div class="q-card results">
+      <div class="confetti">🎉 🎊 🎉</div>
+      <div class="results-grade" style="color:${gradeColor}">${grade} ${pct}%</div>
+      <div class="results-label">${msg}</div>
+      <div class="results-grid">
+        <div class="res-card"><div class="res-num" style="color:var(--green)">${correct}</div><div class="res-lbl">Correct</div></div>
+        <div class="res-card"><div class="res-num" style="color:var(--red)">${wrong}</div><div class="res-lbl">Wrong</div></div>
+        <div class="res-card"><div class="res-num" style="color:var(--orange)">${questions.length - total}</div><div class="res-lbl">Skipped</div></div>
+        <div class="res-card"><div class="res-num" style="color:var(--orange)">🔥 ${streak}</div><div class="res-lbl">Day Streak</div></div>
+      </div>
+      <div class="topic-breakdown">
+        <h3>Performance by Topic</h3>
+        ${topicRows}
+      </div>
+      <div class="nav-row" style="justify-content:center;margin-top:8px">
+        <button class="btn btn-restart" onclick="restartQuiz()">🔁 Retry Today's Quiz</button>
+        <button class="btn btn-outline" onclick="location.href='https://gauthamkrishna0730-png.github.io/dermatology-pg-quiz/'">📖 Reference Resource</button>
+      </div>
+    </div>`;
+}
+
+function restartQuiz() {
+  const cached = localStorage.getItem('derm_daily_questions');
+  if (cached) initQuiz(JSON.parse(cached));
+}
+
+// ══════════════════════════════════════════════════════════════
+// BOOT
+// ══════════════════════════════════════════════════════════════
+loadQuestions();
+</script>
+</body>
+</html>
