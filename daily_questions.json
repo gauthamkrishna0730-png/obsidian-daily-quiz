@@ -1,420 +1,426 @@
 {
-  "date": "2026-06-13",
-  "generated_at": "2026-06-13T06:34:45",
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T00:00:00",
   "count": 30,
   "topics_covered": [
-    "Cosmetology"
+    "Bacterial infections",
+    "Fungal infections",
+    "Viral infections",
+    "Leprosy",
+    "STDs",
+    "Connective tissue disorders",
+    "Bullous disorders",
+    "Tumours",
+    "Procedures",
+    "Pharmacology",
+    "Basic science",
+    "Psoriasis",
+    "Eczema/Dermatitis",
+    "Pigmentary disorders"
   ],
   "questions": [
     {
-      "q": "A 35-year-old woman presents for laser hair removal of her legs. The dermatologist selects a wavelength of 800 nm with a pulse duration of 30 milliseconds. Which principle explains why this specific pulse duration was chosen for targeting the hair follicle?",
+      "q": "A 35-year-old male presents with a painless ulcer on the glans penis with indurated edges and a clean base. Inguinal lymph nodes are rubbery and non-tender. Dark-field microscopy reveals motile spiral organisms. What is the most likely diagnosis?",
       "opts": [
-        "The pulse duration must exceed the thermal relaxation time to allow heat dissipation",
-        "The pulse duration must be shorter than or equal to the thermal relaxation time to confine heat within the target",
-        "Longer pulse durations increase the depth of penetration regardless of wavelength",
-        "The pulse duration should match the optical window of 600-1200 nm"
+        "Chancroid",
+        "Primary syphilis",
+        "Lymphogranuloma venereum",
+        "Granuloma inguinale"
       ],
       "ans": 1,
-      "exp": "According to the theory of selective photothermolysis, the pulse duration must be shorter than or equal to the target's thermal relaxation time (TRT) to confine heat within the target and prevent thermal damage to surrounding tissue. Hair follicles have a TRT of 40-100 milliseconds, so a 30 ms pulse appropriately confines the thermal energy.",
-      "source": "Laser",
-      "topic": "Cosmetology"
+      "exp": "Primary syphilis presents as a painless, indurated ulcer (chancre) with non-tender regional lymphadenopathy. Dark-field microscopy showing motile spirochetes (Treponema pallidum) is diagnostic.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "A 28-year-old woman develops tense bullae on normal-appearing skin and erythematous plaques, predominantly affecting the axillae and groin. Nikolsky sign is negative. Immunofluorescence shows linear IgG and C3 at the dermoepidermal junction. What is the diagnosis?",
       "opts": [
-        "Spencer Scissors",
-        "Razor Blade Holder",
-        "Comedone Extractor",
-        "Ryder Needle Holder"
-      ],
-      "ans": 2,
-      "exp": "Central handle with two perforated cups at the ends. Expression of comedones",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p027_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "A 45-year-old woman undergoes a deep chemical peel. Within seconds of the procedure causing dermal injury, vasoconstriction occurs at the wound site. Which mediators are primarily responsible for this immediate vascular response?",
-      "opts": [
-        "Histamine and bradykinin",
-        "Serotonin and thromboxane A2",
-        "Prostaglandin E2 and nitric oxide",
-        "Interleukin-1 and tumor necrosis factor-alpha"
+        "Pemphigus vulgaris",
+        "Bullous pemphigoid",
+        "Dermatitis herpetiformis",
+        "Linear IgA disease"
       ],
       "ans": 1,
-      "exp": "Immediate vasoconstriction following endothelial disruption is elicited by the local release of serotonin and thromboxane A2 (TXA2). This response minimizes hemorrhage at the injury site during the haemostasis phase.",
-      "source": "Wound healing",
-      "topic": "Cosmetology"
+      "exp": "Bullous pemphigoid features tense bullae (subepidermal), negative Nikolsky sign, and linear IgG/C3 at the BMZ on DIF. It targets BP180 (collagen XVII) and BP230 antigens.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
     },
     {
-      "q": "A 45-year-old solid organ transplant recipient presents with a 0.8 cm nodular lesion on the nasal ala. Biopsy reveals basal cell carcinoma with morpheaform histology. Which feature MOST strongly indicates Mohs micrographic surgery as the treatment of choice?",
+      "q": "A 40-year-old leprosy patient on MDT develops sudden erythema and swelling of existing skin lesions, accompanied by fever and malaise. Nerve function remains intact. What type of leprosy reaction is this?",
       "opts": [
-        "Tumor size less than 1 cm",
-        "Location in the H-zone",
-        "Patient's age",
-        "Nodular clinical appearance"
-      ],
-      "ans": 1,
-      "exp": "Location in the H-zone (mask areas of the face including nose) is the highest priority indication for Mohs surgery. Although the morpheaform subtype, immunosuppression, and potential for iceberg phenomenon also support MMS, anatomical location in the H-zone takes precedence in appropriate use criteria.",
-      "source": "Cryotherapy and electrosurgery MOHs 11",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A plastic surgeon is planning scar revision for a long linear burn contracture across the neck. Why would multiple small continuous Z-plasties be preferred over a single large Z-plasty in this scenario?",
-      "opts": [
-        "Single large Z-plasty provides insufficient tissue lengthening",
-        "Multiple Z-plasties allow better blood supply to flaps and superior scar camouflage",
-        "Single large Z-plasty cannot achieve 90° directional change",
-        "Multiple Z-plasties require smaller lateral limb angles for the same effect"
-      ],
-      "ans": 1,
-      "exp": "For long linear contractures, multiple small continuous Z-plasties are preferred because they distribute transverse tension across smaller flaps, ensuring safer blood supply and vastly superior scar camouflage compared to a single massive Z-plasty which would create overly large flaps.",
-      "source": "Flaps 1",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A dermatologist performing a glycolic acid peel observes faint erythema on the patient's face. What is the most appropriate next step in the procedure?",
-      "opts": [
-        "Wait for spontaneous pseudofrost formation",
-        "Apply another layer to achieve deeper penetration",
-        "Neutralize with water or sodium bicarbonate solution",
-        "Allow the peel to remain for additional 10 minutes"
-      ],
-      "ans": 2,
-      "exp": "Glycolic acid (an AHA) is time-dependent and requires manual neutralization as it cannot coagulate skin proteins. Faint erythema represents the clinical endpoint, and the acid must be neutralized with water or a weak buffer like sodium bicarbonate to prevent continued penetration, over-peeling, and potential scarring.",
-      "source": "Chemical peels",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A dermatologist is using octyl cyanoacrylate (Dermabond) for wound closure. Which of the following statements regarding tissue adhesives is TRUE?",
-      "opts": [
-        "They are ideal for closing wounds under significant tension",
-        "Subcutaneous implantation is safe due to biocompatible degradation products",
-        "They exhibit bacteriostatic properties against Staphylococci and Pseudomonas",
-        "Their binding strength is equivalent to a 3-0 suture"
-      ],
-      "ans": 2,
-      "exp": "Tissue adhesives like octyl cyanoacrylate act as an antimicrobial barrier with bacteriostatic properties against organisms like Staphylococci, Pseudomonas, and E. coli. They are contraindicated for wounds under tension and must NEVER be used subcutaneously as they cause severe tissue necrosis due to toxic byproducts.",
-      "source": "Biopsy 1 1",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 32-year-old patient presents with periorbital puffiness and dark circles but has minimal skin wrinkling. Which lower lid blepharoplasty approach is most appropriate, and why?",
-      "opts": [
-        "Transcutaneous approach because it provides better access to orbital fat",
-        "Transconjunctival approach because it avoids external scarring and has lower ectropion risk",
-        "Transcutaneous approach because it allows simultaneous orbicularis muscle excision",
-        "Transconjunctival approach because it is preferred in patients with significant skin laxity"
-      ],
-      "ans": 1,
-      "exp": "Transconjunctival blepharoplasty is ideal for younger patients with baggy eyes and puffiness but minimal skin laxity. This approach leaves no visible external scar and carries a significantly lower risk of ectropion by avoiding dissection through the anterior eyelid planes.",
-      "source": "x niche 1 1 1",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 60-year-old man develops a tense, painful hemorrhagic bulla on his lower leg 24 hours after cryotherapy for an actinic keratosis. What is the most appropriate management of this blister?",
-      "opts": [
-        "Complete debridement of the blister roof and application of silver sulfadiazine",
-        "Aspiration with an 18-gauge needle inserted laterally while leaving the roof intact",
-        "Oral antibiotics and observation without intervention",
-        "Unroofing the blister and applying a hydrocolloid dressing"
-      ],
-      "ans": 1,
-      "exp": "For tense and highly painful blisters following cryotherapy, aseptic drainage using an 18-gauge needle inserted laterally is recommended. The blister roof must be left entirely intact to serve as a natural, sterile biologic dressing that promotes healing.",
-      "source": "Cryotherapy and electrosurgery",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A keloid scar following earlobe piercing is treated with surgical excision. Which adjuvant therapy should be initiated within 24-48 hours post-operatively to reduce recurrence?",
-      "opts": [
-        "Intralesional 5-fluorouracil alone",
-        "Silicone gel sheeting only",
-        "Superficial radiotherapy or intralesional corticosteroid injection",
-        "Pressure garment therapy for 6 months"
-      ],
-      "ans": 2,
-      "exp": "Early adjuvant therapy within 24-48 hours after keloid excision is critical for preventing recurrence. Superficial radiotherapy or intralesional triamcinolone injection are the most effective adjuvants. Without adjuvant therapy, keloid recurrence rates exceed 50-80%.",
-      "source": "Nail biopsy and scar revision",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A Q-switched laser with nanosecond pulse duration is most appropriate for targeting which of the following structures based on their thermal relaxation time?",
-      "opts": [
-        "Terminal hair follicles (200-300 μm diameter)",
-        "Leg veins (1 mm diameter)",
-        "Melanosomes (0.5-1.0 μm diameter)",
-        "Dermal collagen fibers"
-      ],
-      "ans": 2,
-      "exp": "Melanosomes have a diameter of 0.5-1.0 μm and a thermal relaxation time of less than 1 microsecond (250-1000 nanoseconds). This extremely short TRT necessitates nanosecond (Q-switched) or picosecond laser pulses to confine heat within these small targets according to selective photothermolysis principles.",
-      "source": "Laser",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 35-year-old woman undergoes excision of a melanocytic nevus on her back. The surgeon plans to use buried dermal sutures that will provide prolonged tensile strength support for at least 4-6 weeks in this high-tension area. Which suture material would be most appropriate?",
-      "opts": [
-        "Poliglecaprone 25 (Monocryl)",
-        "Polydioxanone (PDS II)",
-        "Plain catgut",
-        "Vicryl Rapide"
-      ],
-      "ans": 1,
-      "exp": "Polydioxanone (PDS II) retains approximately 70-74% of tensile strength at 2 weeks and 50% at 4 weeks, making it ideal for high-tension areas requiring prolonged support. Monocryl loses tensile strength rapidly (0% at 21 days), while catgut and Vicryl Rapide have even shorter strength retention periods.",
-      "source": "Wound healing 1 1",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Lipoid proteinosis",
-        "Sir Harold Gillies",
-        "Shimon Eckhouse",
-        "Bannayan-Riley-Ruvalcaba syndrome"
-      ],
-      "ans": 3,
-      "exp": "PTEN hamartoma tumor syndrome (PTEN mutation). Triad: macrocephaly, intestinal hamartomatous polyps, and pigmented penile macules",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6441.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Pran Nath Behl",
-        "Joseph Jadassohn",
-        "Pohl-Pinkus constriction",
-        "Gordon Gould"
-      ],
-      "ans": 1,
-      "exp": "Monumental 19th-century German dermatologist. Described nevus sebaceus of Jadassohn and Jadassohn-Lewandowsky syndrome",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6109.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "A 45-year-old woman with Fitzpatrick skin type V undergoes cryotherapy for a seborrheic keratosis on her forearm. Which cell type is most susceptible to damage at the lowest freezing temperature, making her at highest risk for a specific long-term complication?",
-      "opts": [
-        "Keratinocytes at -20°C to -25°C",
-        "Melanocytes at -4°C to -7°C",
-        "Fibroblasts at -15°C to -20°C",
-        "Langerhans cells at -10°C to -15°C"
-      ],
-      "ans": 1,
-      "exp": "Melanocytes are exquisitely cryosensitive and undergo cell death at temperatures of -4°C to -7°C, well before keratinocytes are destroyed. This makes hypopigmentation the most significant long-term complication in dark-skinned individuals and may be permanent if freeze duration exceeds 30 seconds.",
-      "source": "Cryotherapy and electrosurgery",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Hinderer's lines",
-        "Frankfort line",
-        "Dr Shoji Okuda",
-        "Sir Harold Gillies"
-      ],
-      "ans": 2,
-      "exp": "Japanese physician credited with an early follicular punch hair transplantation technique (1930s). Restored hair in scarred/burned scalp decades before Orentreich",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6852.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "A 45-year-old woman is undergoing upper eyelid blepharoplasty. During surgical planning, the surgeon performs the pinch test. What is the primary purpose of this maneuver?",
-      "opts": [
-        "To assess the function of the levator palpebrae superioris muscle",
-        "To determine the exact amount of redundant skin to be excised",
-        "To evaluate the position of the preaponeurotic fat pad",
-        "To measure the distance from the lid margin to the orbital rim"
-      ],
-      "ans": 1,
-      "exp": "The pinch test is performed to determine the precise amount of excess skin to excise during upper blepharoplasty. The surgeon grasps increasing amounts of skin until the upper eyelid margin begins to slightly evert, indicating the maximum safe excision.",
-      "source": "x niche 1 1 1",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Powered Dermatomes",
-        "Castroviejo (tying) forceps",
-        "Graefe's forceps",
-        "Bishop-Harmon tissue forceps"
+        "Type 1 reaction (Reversal reaction)",
+        "Type 2 reaction (ENL)",
+        "Lucio phenomenon",
+        "Downgrading reaction"
       ],
       "ans": 0,
-      "exp": "(1968 J Cobbett) Another modified Braithwaite design with oscillating guard to eliminate \"drag\". The guard is fixed to a \"D\" shaped hole to avoid rolling up of the graft harvested on to the guard",
-      "source": "ACSI Instruments – Skin-Graft & Dermatome Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p030_288.jpg",
-      "image_type": "instrument"
+      "exp": "Type 1 (reversal) reaction involves upgrading or downgrading of existing lesions with erythema and edema but without new lesion formation. It is a delayed-type hypersensitivity (Type IV) reaction mediated by T cells.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "A 22-year-old immunocompetent patient presents with grouped vesicles on an erythematous base along the T4 dermatome, preceded by 3 days of burning pain. The most appropriate antiviral treatment is:",
       "opts": [
-        "Curette",
-        "Earlobe clamp",
-        "Joseph's Double Skin Hook",
-        "Maneksha's Manual Dermabrader"
+        "Acyclovir 400 mg TID for 5 days",
+        "Valacyclovir 1000 mg TID for 7 days",
+        "Famciclovir 250 mg TID for 7 days",
+        "Acyclovir 200 mg 5 times/day for 5 days"
+      ],
+      "ans": 1,
+      "exp": "Herpes zoster in immunocompetent adults is treated with valacyclovir 1000 mg TID for 7 days, which achieves higher bioavailability than acyclovir and is the preferred oral agent.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
+    },
+    {
+      "q": "A 50-year-old farmer presents with a verrucous plaque on the foot with black dots visible on the surface. KOH mount shows copper-penny (Medlar/sclerotic) bodies. What is the causative organism?",
+      "opts": [
+        "Madurella mycetomatis",
+        "Fonsecaea pedrosoi",
+        "Sporothrix schenckii",
+        "Exophiala jeanselmei"
+      ],
+      "ans": 1,
+      "exp": "Chromoblastomycosis caused by Fonsecaea pedrosoi (most common agent) presents with verrucous plaques. The pathognomonic finding is sclerotic (Medlar/copper-penny) bodies on histology or KOH mount.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A neonate develops a widespread bullous eruption with desquamation within 48 hours of birth. Cultures from the blister fluid are sterile but nasal swab grows Staphylococcus aureus. What is the mechanism of blister formation?",
+      "opts": [
+        "Direct bacterial invasion of the epidermis",
+        "Exfoliative toxin cleaving desmoglein-1",
+        "Type III hypersensitivity reaction",
+        "Maternal IgG against epidermal antigens"
+      ],
+      "ans": 1,
+      "exp": "Staphylococcal Scalded Skin Syndrome (SSSS) is caused by exfoliative toxins A and B which specifically cleave desmoglein-1, causing intraepidermal splitting at the granular layer. Blisters are sterile as bacteria remain at the primary focus.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 45-year-old woman with a 10-year history of Raynaud's phenomenon develops skin tightening limited to the fingers and face, telangiectasias, and esophageal dysmotility. Anti-centromere antibodies are positive. What is the most likely diagnosis?",
+      "opts": [
+        "Diffuse cutaneous systemic sclerosis",
+        "Limited cutaneous systemic sclerosis (CREST syndrome)",
+        "Mixed connective tissue disease",
+        "Morphea"
+      ],
+      "ans": 1,
+      "exp": "CREST syndrome (Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasia) is the limited form of systemic sclerosis. Anti-centromere antibodies are positive in ~70-80% of limited SSc cases.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 30-year-old male presents with pruritic papules on the elbows, knees, and buttocks. Skin biopsy shows neutrophilic microabscesses at the dermal papillae tips. Direct immunofluorescence reveals granular IgA deposits at the DEJ. What is the treatment of choice?",
+      "opts": [
+        "Dapsone",
+        "Prednisolone",
+        "Colchicine",
+        "Hydroxychloroquine"
       ],
       "ans": 0,
-      "exp": "Rein Round curette",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p025_609.jpg",
-      "image_type": "instrument"
+      "exp": "Dermatitis herpetiformis (DH) is characterized by granular IgA at the DEJ and neutrophilic papillary microabscesses. Dapsone provides rapid symptomatic relief; a gluten-free diet is the long-term treatment.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "A 55-year-old male presents with a pearly, translucent nodule with telangiectasias and a rolled border on the nose. It has been slowly growing for 2 years. Histology shows palisading tumor cells with peripheral retraction artifact. What is the most likely diagnosis?",
       "opts": [
-        "Iris Forceps",
-        "Spencer Scissors",
-        "Volkmann Double Ended Scoop",
-        "Dr Ashique's modified chalazion clamp"
-      ],
-      "ans": 2,
-      "exp": "A modification of curette. Stout handle with spoon shaped extension at the ends",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p026_105.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "A 52-year-old woman presents with longitudinal melanonychia of the thumbnail. Dermoscopy shows irregular brown lines with variable spacing and thickness. What is the most appropriate biopsy technique?",
-      "opts": [
-        "Punch biopsy of the nail plate",
-        "Nail plate avulsion with punch biopsy of nail bed",
-        "Lateral longitudinal excisional biopsy including nail matrix",
-        "Shave biopsy of the proximal nail fold"
-      ],
-      "ans": 2,
-      "exp": "Lateral longitudinal excisional biopsy is the gold standard for melanonychia suspicious for subungual melanoma as it samples the entire length of the pigmented band including the nail matrix origin. This allows complete histopathological assessment of Breslow depth while minimizing nail dystrophy.",
-      "source": "Nail biopsy and scar revision",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 28-year-old woman with oily skin and comedonal acne undergoes a chemical peel. During the procedure, the dermatologist observes a white crystalline precipitate forming on the skin surface without requiring any neutralizing agent. Which property of the peeling agent explains this phenomenon?",
-      "opts": [
-        "Water solubility allowing epidermal penetration",
-        "Lipophilicity causing self-limiting penetration",
-        "Small molecular size enabling deep dermal penetration",
-        "Protein coagulation requiring timed neutralization"
+        "Squamous cell carcinoma",
+        "Basal cell carcinoma",
+        "Merkel cell carcinoma",
+        "Sebaceous carcinoma"
       ],
       "ans": 1,
-      "exp": "The white crystalline precipitate (pseudofrost) is characteristic of salicylic acid (BHA) peels. The lipophilic nature of salicylic acid allows it to penetrate sebaceous follicles, and as the hydroethanolic vehicle evaporates, the acid precipitates on the skin, making the peel self-limiting and self-neutralizing.",
-      "source": "Chemical peels",
-      "topic": "Cosmetology"
+      "exp": "Basal cell carcinoma (nodular type) presents as a pearly nodule with telangiectasias and rolled border. Histology shows palisading basaloid cells with peripheral clefting (retraction artifact). It is the most common skin cancer.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
     },
     {
-      "q": "A 35-year-old woman presents with a post-burn contracture band across the antecubital fossa limiting elbow extension. The surgeon plans a Z-plasty with limbs angled at 60° from the central limb placed along the scar. What percentage of tissue lengthening and change in scar direction will be achieved with this design?",
+      "q": "A patient with extensive psoriasis is started on methotrexate. Which investigation is most important to monitor for the most serious long-term side effect?",
       "opts": [
-        "50% lengthening with 60° directional change",
-        "75% lengthening with 90° directional change",
-        "100% lengthening with 90° directional change",
-        "75% lengthening with 120° directional change"
+        "Complete blood count",
+        "Liver biopsy or FibroScan",
+        "Serum creatinine",
+        "Chest X-ray"
       ],
       "ans": 1,
-      "exp": "The classic 60° Z-plasty is the gold standard technique that achieves 75% gain in tissue length along the original scar axis and causes a precise 90° change in the direction of the central limb. This allows optimal redirection of scars perpendicular to relaxed skin tension lines.",
-      "source": "Flaps 1",
-      "topic": "Cosmetology"
+      "exp": "The most serious long-term side effect of methotrexate in dermatology is hepatotoxicity leading to cirrhosis. Liver biopsy (traditionally) or FibroScan (non-invasive) is used to monitor hepatic fibrosis, typically after a cumulative dose of 1.5-3.5 g.",
+      "source": "Cloud fallback",
+      "topic": "Pharmacology"
     },
     {
-      "q": "Identify the clinical sign / pathological finding shown:",
+      "q": "A 25-year-old man from rural India presents with painless, progressive destruction of the nasal septum, palate, and upper lip. Biopsy shows granulomatous inflammation with plasma cells. PCR is positive for Klebsiella rhinoscleromatis. What is this condition?",
       "opts": [
-        "Sir Harold Gillies",
-        "Lucilia sericata (maggot debridement therapy)",
-        "Heliotrope rash",
-        "Groove sign (eosinophilic fasciitis)"
+        "Rhinosporidiosis",
+        "Rhinoscleroma",
+        "Leishmaniasis",
+        "Wegener's granulomatosis"
+      ],
+      "ans": 1,
+      "exp": "Rhinoscleroma is caused by Klebsiella rhinoscleromatis and presents with progressive granulomatous destruction of the upper respiratory tract. Mikulicz cells (foamy macrophages with intracellular bacteria) are pathognomonic on histology.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 32-year-old HIV-positive patient (CD4 = 80 cells/μL) develops multiple violaceous plaques on the lower limbs, palate, and lung. Biopsy shows spindle cell proliferation with slit-like vascular spaces and extravasated red blood cells. The causative agent is:",
+      "opts": [
+        "Epstein-Barr virus",
+        "Human herpesvirus 8",
+        "Human papillomavirus",
+        "Cytomegalovirus"
+      ],
+      "ans": 1,
+      "exp": "Kaposi's sarcoma is caused by Human Herpesvirus 8 (HHV-8/KSHV). It is an AIDS-defining illness when CD4 counts are low. Histology shows proliferating spindle cells, slit-like vessels, and hemosiderin deposits.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
+    },
+    {
+      "q": "A 20-year-old woman presents with recurrent oral ulcers (>3 episodes/year), genital ulcers, and hypopyon uveitis. Pathergy test is positive. What is the most likely diagnosis?",
+      "opts": [
+        "Systemic lupus erythematosus",
+        "Behcet's disease",
+        "Reiter's syndrome",
+        "Pemphigus vulgaris"
+      ],
+      "ans": 1,
+      "exp": "Behcet's disease is characterized by the triad of recurrent oral aphthae, genital ulcers, and ocular involvement (hypopyon uveitis). A positive pathergy test (pustule formation 48 hours after needle prick) is highly specific.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 60-year-old male with chronic sun exposure presents with a hyperkeratotic, scaly plaque on the lower lip that bleeds on touch. Histology shows full-thickness epidermal dysplasia with no dermal invasion. This represents:",
+      "opts": [
+        "Squamous cell carcinoma",
+        "Actinic cheilitis",
+        "Bowen's disease (SCC in situ)",
+        "Leukoplakia"
       ],
       "ans": 2,
-      "exp": "Violaceous (lilac) periorbital erythema with eyelid edema. Pathognomonic cutaneous sign of dermatomyositis",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6443.webp",
-      "image_type": "spotter"
+      "exp": "Bowen's disease (SCC in situ) shows full-thickness epidermal dysplasia with an intact basement membrane (no dermal invasion). Full-thickness dysplasia without invasion = SCC in situ (Bowen's disease).",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
     },
     {
-      "q": "During wound healing, the stabilized fibrin clot serves multiple functions beyond haemostasis. Which of the following is NOT a recognized function of the fibrin clot in wound healing?",
+      "q": "A 5-year-old child presents with honey-colored crusted lesions around the nose and mouth. Gram stain of the exudate shows Gram-positive cocci in chains. The first-line topical treatment is:",
       "opts": [
-        "Acts as a provisional wound matrix providing structural scaffold",
-        "Serves as a reservoir of growth factors including PDGF and TGF-β",
-        "Provides adhesion substrates for migrating epithelial cells",
-        "Directly stimulates collagen synthesis by myofibroblasts"
-      ],
-      "ans": 3,
-      "exp": "The fibrin clot functions as a provisional wound matrix, a reservoir of growth factors (PDGF, TGF-β, EGF, VEGF), and provides adhesion substrates (fibrin, fibronectin, vitronectin) for cell migration. Direct stimulation of collagen synthesis by myofibroblasts is not listed as a clot function.",
-      "source": "Wound healing",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Epilation Forceps",
-        "Haber Spreader",
-        "Metzenbaum Scissors",
-        "Kerure clamp"
+        "Mupirocin 2%",
+        "Fusidic acid",
+        "Retapamulin",
+        "Neomycin"
       ],
       "ans": 0,
-      "exp": "A kind of small spring forceps, used for removing unwanted hair. In electroepilation to pull out destroyed hair",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p005_76.jpg",
-      "image_type": "instrument"
+      "exp": "Impetigo most commonly caused by S. aureus (or Streptococcus pyogenes) presents with honey-colored crusts. Topical mupirocin 2% is the first-line treatment for localized impetigo as it is effective against MRSA and has low resistance.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
     },
     {
-      "q": "A 62-year-old man undergoes Mohs micrographic surgery for dermatofibrosarcoma protuberans (DFSP) on the trunk. Which immunohistochemical marker is most useful to augment margin assessment during this procedure?",
+      "q": "A 38-year-old female presents with malar rash, photosensitivity, arthralgia, and oral ulcers. ANA is positive at 1:640 (speckled pattern). Anti-dsDNA and anti-Sm antibodies are positive. The most specific antibody for SLE is:",
       "opts": [
-        "CK7",
-        "CEA",
-        "CD34",
-        "S-100"
+        "Anti-Ro (SSA)",
+        "Anti-La (SSB)",
+        "Anti-Sm",
+        "Anti-histone"
       ],
       "ans": 2,
-      "exp": "CD34 immunohistochemistry is used to augment Mohs surgery for DFSP, helping to identify tumor cells extending in unpredictable honeycomb or finger-like projections beyond clinical margins. This dramatically reduces recurrence rates compared to standard wide excision.",
-      "source": "Cryotherapy and electrosurgery MOHs 11",
-      "topic": "Cosmetology"
+      "exp": "Anti-Sm (anti-Smith) antibodies are highly specific (~99%) for SLE though not sensitive (~25%). Anti-dsDNA is also specific and correlates with disease activity and nephritis.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
     },
     {
-      "q": "Which characteristic distinguishes monofilament sutures from braided/multifilament sutures?",
+      "q": "During Mohs micrographic surgery for a basal cell carcinoma, the technique is unique because it:",
       "opts": [
-        "Higher capillarity leading to increased infection risk",
-        "Greater pliability and superior handling characteristics",
-        "Low coefficient of friction with reduced tissue drag",
-        "Better knot security due to lower memory"
+        "Examines 100% of peripheral and deep margins via horizontal frozen sections",
+        "Only examines the central tumor bulk",
+        "Uses permanent sections exclusively",
+        "Avoids local anesthesia"
       ],
-      "ans": 2,
-      "exp": "Monofilament sutures have a low coefficient of friction, allowing smooth passage through tissue with minimal drag, and low capillarity that reduces infection risk. In contrast, braided sutures have increased capillarity (harboring bacteria) but offer better handling and knot security due to their greater pliability and lower memory.",
-      "source": "Wound healing 1 1",
-      "topic": "Cosmetology"
+      "ans": 0,
+      "exp": "Mohs surgery examines 100% of the peripheral and deep surgical margins using horizontal frozen sections, compared to standard excision which samples only vertical bread-loaf sections (~1% of margins). This gives the highest cure rates for BCC/SCC.",
+      "source": "Cloud fallback",
+      "topic": "Procedures"
     },
     {
-      "q": "A 45-year-old woman undergoes excision of a large lipoma on her back. Post-operatively, she develops a fluctuant swelling at the surgical site with serous fluid aspirated on needle aspiration. Which of the following is the most appropriate primary preventive measure during surgery to avoid this complication?",
+      "q": "A 45-year-old man on long-term hydroxychloroquine for discoid lupus develops decreased visual acuity with bull's eye maculopathy on fundoscopy. The mechanism of hydroxychloroquine toxicity is:",
       "opts": [
-        "Application of topical cyanoacrylate adhesive on skin surface",
-        "Placement of deep buried sutures to eliminate dead space",
-        "Use of non-absorbable sutures for epidermal closure",
-        "Tight tying of superficial skin sutures"
+        "Inhibition of VEGF signaling",
+        "Accumulation in melanin-containing retinal pigment epithelium cells",
+        "Direct mitochondrial toxicity",
+        "Autoimmune retinitis"
       ],
       "ans": 1,
-      "exp": "The complication described is a seroma, which develops due to dead space accumulation. Dead space is eliminated by executing a precise layered closure that firmly approximates each tissue plane using deep buried sutures, preventing fluid accumulation that acts as a nidus for infection.",
-      "source": "Biopsy 1 1",
-      "topic": "Cosmetology"
+      "exp": "Hydroxychloroquine binds melanin in the RPE, leading to accumulation and eventual toxicity. Bull's eye maculopathy is the classic pattern. Annual ophthalmologic screening with OCT is recommended after 5 years of use.",
+      "source": "Cloud fallback",
+      "topic": "Pharmacology"
     },
     {
-      "q": "Identify the eminent figure shown:",
+      "q": "A 19-year-old immunocompetent patient presents with multiple flesh-colored, dome-shaped papules with central umbilication scattered on the trunk and limbs. The causative virus belongs to which family?",
       "opts": [
-        "Shimon Eckhouse",
-        "John Orlando Roe",
-        "Theodore Maiman",
-        "C. Kumar N. Patel"
+        "Herpesviridae",
+        "Poxviridae",
+        "Papillomaviridae",
+        "Picornaviridae"
+      ],
+      "ans": 1,
+      "exp": "Molluscum contagiosum is caused by Molluscum contagiosum virus (MCV), a member of the Poxviridae family. It presents with umbilicated papules and is self-limiting in immunocompetent individuals.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
+    },
+    {
+      "q": "A 48-year-old woman with chronic venous insufficiency develops a red, painful, edematous area on the lower leg with a sharply demarcated raised border and fever of 38.8°C. The most likely causative organism is:",
+      "opts": [
+        "Staphylococcus aureus",
+        "Streptococcus pyogenes (Group A Strep)",
+        "Pseudomonas aeruginosa",
+        "Haemophilus influenzae"
+      ],
+      "ans": 1,
+      "exp": "Erysipelas (sharply demarcated border, involves dermis and upper subcutis) is predominantly caused by Group A Streptococcus (S. pyogenes). The sharp border distinguishes it from cellulitis which has indistinct margins.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 26-year-old male presents with anesthesia and loss of sweating in a hypopigmented patch on the forearm. Slit-skin smear is negative. Nerve biopsy shows lymphocytic infiltration destroying the perineurium with well-formed granulomas. This is consistent with:",
+      "opts": [
+        "Lepromatous leprosy (LL)",
+        "Tuberculoid leprosy (TT)",
+        "Borderline tuberculoid leprosy (BT)",
+        "Indeterminate leprosy"
+      ],
+      "ans": 1,
+      "exp": "Tuberculoid leprosy (TT) presents with 1-5 well-defined hypopigmented anaesthetic patches, negative SSS (low bacillary load), and well-formed granulomas with lymphocytic infiltration and nerve destruction on biopsy.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
+    },
+    {
+      "q": "A 33-year-old woman presents with symmetric hyperpigmentation on cheeks, upper lip, and forehead worsening in summer while on oral contraceptives. Wood's lamp examination accentuates the pigmentation. This indicates:",
+      "opts": [
+        "Dermal melasma",
+        "Epidermal melasma",
+        "Mixed melasma",
+        "Post-inflammatory hyperpigmentation"
+      ],
+      "ans": 1,
+      "exp": "Wood's lamp (UVA 365 nm) accentuates epidermal pigmentation (appears darker under the lamp) but does NOT enhance dermal pigmentation. This helps classify melasma type and predict treatment response, as epidermal type responds better to topical depigmenting agents.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentary disorders"
+    },
+    {
+      "q": "A 52-year-old man presents with a 3 cm pearly plaque with satellite nodules on the scalp. Biopsy shows large round cells with vesicular nuclei, prominent nucleoli, and paranuclear whorls of intermediate filaments. CK20 is positive in a perinuclear dot pattern. The diagnosis is:",
+      "opts": [
+        "Metastatic small cell lung carcinoma",
+        "Merkel cell carcinoma",
+        "Cutaneous lymphoma",
+        "Amelanotic melanoma"
+      ],
+      "ans": 1,
+      "exp": "Merkel cell carcinoma (MCC) is a highly aggressive neuroendocrine tumor. CK20 positivity in a perinuclear dot pattern is pathognomonic. CK7 is negative, distinguishing it from metastatic small cell lung carcinoma (CK7+/CK20-).",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A 35-year-old male presents with a painless, non-pruritic rash on the palms and soles, along with condylomata lata in the perianal region and mucous patches. RPR is reactive at 1:64. This presentation is consistent with:",
+      "opts": [
+        "Primary syphilis",
+        "Secondary syphilis",
+        "Tertiary syphilis",
+        "Latent syphilis"
+      ],
+      "ans": 1,
+      "exp": "Secondary syphilis occurs 4-10 weeks after the primary chancre and features a generalized maculopapular rash characteristically involving palms and soles, condylomata lata, and mucous patches. RPR/VDRL titers are highest at this stage.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 40-year-old atopic patient presents with lichenified, excoriated plaques in the antecubital and popliteal fossae. The predominant T-helper cell subset driving chronic/lichenified atopic dermatitis is:",
+      "opts": [
+        "Th1 (IFN-γ dominant)",
+        "Th2 (IL-4, IL-13 dominant)",
+        "Th17 (IL-17 dominant)",
+        "Treg (IL-10 dominant)"
+      ],
+      "ans": 0,
+      "exp": "Atopic dermatitis has a biphasic immune response. The acute phase is Th2-dominated (IL-4, IL-13, IL-31). The chronic/lichenified phase shifts toward Th1 (IFN-γ) dominance with increased IFN-γ, IL-12, and GM-CSF.",
+      "source": "Cloud fallback",
+      "topic": "Eczema/Dermatitis"
+    },
+    {
+      "q": "A patient undergoing patch testing shows erythema, induration, and vesicles at the test site at D2 (48 hours) and D4 (96 hours). This reaction represents:",
+      "opts": [
+        "Irritant contact dermatitis",
+        "Allergic contact dermatitis (Type IV hypersensitivity)",
+        "Type I IgE-mediated reaction",
+        "Photoallergic reaction"
+      ],
+      "ans": 1,
+      "exp": "Patch testing detects Type IV (delayed-type) hypersensitivity causing allergic contact dermatitis. Reactions are read at 48 and 96 hours. Erythema, induration, and vesiculation indicate a true allergic reaction (+/++) versus flat erythema alone seen in irritant reactions.",
+      "source": "Cloud fallback",
+      "topic": "Eczema/Dermatitis"
+    },
+    {
+      "q": "A 29-year-old woman with psoriasis develops pitting and onycholysis of the fingernails. The nail finding most specific for psoriasis (as opposed to onychomycosis) is:",
+      "opts": [
+        "Onycholysis",
+        "Subungual hyperkeratosis",
+        "Pitting",
+        "Leukonychia"
       ],
       "ans": 2,
-      "exp": "Built the first working laser — a ruby laser — in 1960. Ruby laser later used for tattoo and pigment removal",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/6e3cc704-eefb-4539-b9c4-1348f56ed791.jpeg",
-      "image_type": "spotter"
+      "exp": "Nail pitting (punctate depressions from psoriatic matrix involvement) is most specific for psoriasis and is rarely seen in onychomycosis. The salmon/oil drop sign in the nail bed is also highly specific. Onycholysis and subungual hyperkeratosis occur in both conditions.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
+    },
+    {
+      "q": "A 55-year-old woman presents with skin-colored to yellowish papules in flexural areas along Blaschko's lines. Histology shows calcified, fragmented, and swollen elastic fibers in the mid-dermis. This is associated with mutations in which gene?",
+      "opts": [
+        "FBN1",
+        "ABCC6",
+        "COL5A1",
+        "ELN"
+      ],
+      "ans": 1,
+      "exp": "Pseudoxanthoma elasticum (PXE) is caused by ABCC6 (MRP6) mutations and affects elastic fibers. Histology shows calcified, fragmented elastic fibers in the mid-dermis. Associated with angioid streaks, cardiovascular, and GI complications.",
+      "source": "Cloud fallback",
+      "topic": "Basic science"
+    },
+    {
+      "q": "A 68-year-old farmer presents with a rapidly growing then regressing nodule on the dorsum of the hand with a central keratin-filled crater. Histology shows a symmetric cup-shaped squamous proliferation with overhanging epidermal lips and well-differentiated keratinocytes. The diagnosis is:",
+      "opts": [
+        "Squamous cell carcinoma",
+        "Basal cell carcinoma",
+        "Keratoacanthoma",
+        "Verruca vulgaris"
+      ],
+      "ans": 2,
+      "exp": "Keratoacanthoma presents as a rapidly growing then spontaneously regressing nodule with a central keratin crater on sun-exposed areas. Histology shows a symmetric, well-differentiated cup-shaped squamous proliferation with overhanging epidermal lips.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A 42-year-old male presents with painful genital ulcers with soft, undermined edges and a purulent base. Gram stain shows Gram-negative coccobacilli in a 'school of fish' arrangement. The WHO-recommended treatment is:",
+      "opts": [
+        "Benzathine penicillin 2.4 MU IM single dose",
+        "Azithromycin 1 g orally single dose",
+        "Doxycycline 100 mg BD for 21 days",
+        "Metronidazole 400 mg BD for 7 days"
+      ],
+      "ans": 1,
+      "exp": "Chancroid caused by Haemophilus ducreyi presents with painful soft ulcers and 'school of fish' Gram-stain appearance. WHO-recommended treatment is azithromycin 1 g single dose or ceftriaxone 250 mg IM. Azithromycin is preferred for oral single-dose convenience.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 60-year-old woman presents with extensive tinea capitis with a boggy, tender, pustular mass on the scalp with broken-off hair stumps. She has cervical lymphadenopathy. This clinical entity is called:",
+      "opts": [
+        "Favus",
+        "Kerion celsi",
+        "Black dot tinea",
+        "Gray patch tinea"
+      ],
+      "ans": 1,
+      "exp": "Kerion celsi is a severe inflammatory form of tinea capitis (commonly caused by T. verrucosum or T. mentagrophytes from zoophilic dermatophytes), presenting as a boggy, tender, pustular plaques with broken hairs and regional lymphadenopathy. It represents a hypersensitivity reaction to the fungus.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
     }
   ]
 }
