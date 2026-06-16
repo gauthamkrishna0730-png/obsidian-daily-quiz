@@ -1,400 +1,427 @@
 {
-  "date": "2026-06-15",
-  "generated_at": "2026-06-15T02:29:00",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T00:00:00",
   "count": 30,
   "topics_covered": [
-    "Cosmetology"
+    "Bacterial infections",
+    "Fungal infections",
+    "Viral infections",
+    "Leprosy",
+    "STDs",
+    "Connective tissue disorders",
+    "Bullous disorders",
+    "Tumours",
+    "Procedures",
+    "Pharmacology",
+    "Basic science",
+    "Psoriasis",
+    "Eczema/Dermatitis",
+    "Photodermatology",
+    "Genodermatoses"
   ],
   "questions": [
     {
-      "q": "Monopolar radiofrequency (RF) devices (e.g., Thermage) produce skin tightening via which mechanism?",
+      "q": "A 35-year-old male presents with a painless indurated ulcer on the glans penis with clean base and bilateral non-tender inguinal lymphadenopathy. Dark-field microscopy shows motile spirochetes. Which is the drug of choice?",
       "opts": [
-        "Ultrasound cavitation disrupting fibroblast membranes to stimulate collagen synthesis",
-        "Resistive (ohmic) heating of dermal tissue causing immediate collagen contraction and delayed neocollagenesis",
-        "Photochemical crosslinking of collagen fibres by near-infrared photons",
-        "Selective photothermolysis of dermal collagen fibres matching thermal relaxation time"
+        "Benzathine penicillin G 2.4 million units IM single dose",
+        "Doxycycline 100 mg BD for 14 days",
+        "Azithromycin 1g single dose",
+        "Ceftriaxone 250 mg IM single dose"
+      ],
+      "ans": 0,
+      "exp": "Primary syphilis (Hunterian chancre) is treated with Benzathine penicillin G 2.4 MU IM as a single dose — the WHO and CDC first-line recommendation.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A leprosy patient on MDT develops sudden onset of painful erythematous nodules on the face and extremities with fever and joint pains. Nerve function is intact. Which type of lepra reaction is this?",
+      "opts": [
+        "Type 1 lepra reaction (reversal reaction)",
+        "Type 2 lepra reaction (ENL)",
+        "Lucio phenomenon",
+        "Downgrading reaction"
       ],
       "ans": 1,
-      "exp": "RF current passes through tissue, generating heat via electrical resistance (ohmic heating) independent of chromophores. Temperatures of 65–75°C cause immediate collagen fibre contraction (triple-helix denaturation), followed over 3–6 months by neocollagenesis from thermally activated fibroblasts. RF penetration depth is inversely proportional to frequency — lower frequencies penetrate more deeply.",
-      "source": "Cosmetology – Radiofrequency",
-      "topic": "Cosmetology"
+      "exp": "Erythema nodosum leprosum (ENL/Type 2) is an immune complex-mediated reaction seen in BL/LL leprosy, presenting with tender erythematous nodules, fever, and systemic symptoms. Nerve function is usually intact initially.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "High-intensity focused ultrasound (HIFU, Ultherapy) achieves tissue lifting by creating discrete thermal coagulation zones (TCZs). At what depths do standard transducers target the dermis and SMAS respectively?",
+      "q": "A 28-year-old woman presents with tense bullae on normal skin and mucous membranes, with positive Nikolsky sign. Histology shows subepidermal blister with eosinophils. DIF shows linear IgG and C3 at the dermo-epidermal junction. Diagnosis?",
       "opts": [
-        "2.0 mm (papillary dermis) and 6.0 mm (subcutaneous fat)",
-        "3.0 mm (dermis) and 8.0 mm (deep fat/SMAS)",
-        "0.5 mm (epidermis) and 1.5 mm (superficial dermis)",
-        "1.5 mm (dermis), 3.0 mm (deep dermis), and 4.5 mm (SMAS/superficial fascia)"
+        "Pemphigus vulgaris",
+        "Bullous pemphigoid",
+        "Dermatitis herpetiformis",
+        "Linear IgA disease"
       ],
-      "ans": 3,
-      "exp": "HIFU focuses acoustic energy to discrete points generating 60–70°C in TCZs at 1.5 mm (superficial dermis), 3.0 mm (deep dermis), and 4.5 mm (SMAS layer) without affecting overlying or intervening tissue. Immediate SMAS contraction plus 3–6 month collagen remodelling produces tissue lifting. Real-time ultrasound imaging confirms transducer coupling and target depth.",
-      "source": "Cosmetology – HIFU",
-      "topic": "Cosmetology"
+      "ans": 1,
+      "exp": "Bullous pemphigoid presents with tense bullae on normal or erythematous skin. Histology shows subepidermal blister with eosinophils. DIF shows linear IgG and C3 at BMZ. Anti-BP180 and anti-BP230 antibodies are characteristic.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
     },
     {
-      "q": "Cryolipolysis (CoolSculpting) selectively destroys subcutaneous adipocytes at temperatures of −5°C to +5°C while sparing the overlying dermis. The basis for this selectivity is:",
+      "q": "A 42-year-old farmer presents with verrucous plaques on the foot with black dots. KOH mount shows 'copper penny' or 'medlar bodies' (sclerotic cells). Which organism is most commonly responsible?",
       "opts": [
-        "High lipid content of adipocytes allows fatty acid crystallisation at temperatures tolerated by the water-rich dermis and epidermis, triggering selective cold-induced apoptosis",
-        "Subcutaneous fat has lower thermal conductivity, retaining cold longer than dermis and causing preferential ice crystal formation",
-        "Adipocytes express cold-sensitive TRP channels (TRPM8) that mediate calcium influx causing membrane lysis",
-        "Adipocyte membranes are thinner than keratinocyte membranes, rupturing at lower temperatures"
+        "Sporothrix schenckii",
+        "Fonsecaea pedrosoi",
+        "Madurella mycetomatis",
+        "Phialophora verrucosa"
       ],
-      "ans": 0,
-      "exp": "Adipocyte selectivity is based on differential cold sensitivity: high lipid content allows fatty acid crystallisation at −5°C to +5°C, initiating apoptosis. Overlying dermis and epidermis contain predominantly water (higher freezing point resistance) and survive these temperatures. The controlled apoptotic process — not necrosis — triggers an inflammatory response with macrophage phagocytosis of lipid debris over 1–3 months, reducing fat layer thickness by 20–25%.",
-      "source": "Cosmetology – Body Contouring",
-      "topic": "Cosmetology"
+      "ans": 1,
+      "exp": "Chromoblastomycosis is most commonly caused by Fonsecaea pedrosoi. The pathognomonic finding is muriform/sclerotic cells (Medlar bodies or copper penny bodies) seen on histology or KOH mount.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
     },
     {
-      "q": "ATX-101 (deoxycholic acid 1%, Kybella) reduces submental fat volume by:",
+      "q": "A 5-year-old child presents with honey-colored crusted erosions around the nose and mouth. Gram stain shows Gram-positive cocci in clusters. The most appropriate treatment is:",
       "opts": [
-        "Detergent-mediated lysis of adipocyte plasma membranes, causing cytolysis and local inflammatory fibrosis",
-        "Blocking PPARγ nuclear receptor to inhibit preadipocyte differentiation",
-        "Activating β₃-adrenergic receptors in adipocytes to stimulate cyclic-AMP-mediated lipolysis",
-        "Inhibiting hormone-sensitive lipase via cAMP suppression, trapping triglycerides within adipocytes until apoptosis occurs"
+        "Oral fluconazole",
+        "Topical mupirocin",
+        "Topical clotrimazole",
+        "Oral griseofulvin"
       ],
-      "ans": 0,
-      "exp": "Deoxycholic acid is a bile acid detergent that disrupts phospholipid bilayers of adipocyte membranes (non-selectively), causing cytolysis → inflammatory response → fibrosis and fat volume reduction. Surrounding non-adipose tissues are also susceptible — marginal mandibular nerve injury (temporary or permanent smile asymmetry) is the most serious complication. Maximum dose per session: 10 mL (100 mg).",
-      "source": "Cosmetology – Injectables",
-      "topic": "Cosmetology"
+      "ans": 1,
+      "exp": "Non-bullous impetigo is caused by Staphylococcus aureus (or rarely Streptococcus). Topical mupirocin 2% is the first-line treatment for localized disease as it is bactericidal and has low resistance rates.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
     },
     {
-      "q": "IPL (Intense Pulsed Light) devices differ fundamentally from lasers for hair removal. Which property makes IPL less selective than a single-wavelength laser?",
+      "q": "A 25-year-old male presents with grouped vesicles on an erythematous base on the genitalia with painful inguinal lymphadenopathy. This is his second episode. The drug used for suppressive therapy is:",
       "opts": [
-        "IPL uses non-coherent, broad-spectrum polychromatic light (515–1200 nm), with cutoff filters selecting a wavelength range — simultaneously targeting multiple chromophores with lower selectivity per chromophore",
-        "IPL penetrates more superficially than Nd:YAG laser due to epidermal scatter of the broad spectrum",
-        "IPL cannot be used on FST I–II skin as melanin absorption causes guaranteed burns",
-        "IPL pulses are shorter than laser pulses, reducing thermal damage to target chromophores"
+        "Valacyclovir 1g daily",
+        "Acyclovir 400 mg twice daily",
+        "Famciclovir 500 mg once daily",
+        "Acyclovir 800 mg five times daily"
       ],
-      "ans": 0,
-      "exp": "Lasers are monochromatic, coherent, and collimated — targeting one chromophore with maximum selectivity. IPL emits broad-spectrum non-coherent light filtered by cutoff filters (e.g., 695 nm filter for hair in FST I–III). Multiple chromophores (melanin + oxyhemoglobin) absorb simultaneously, reducing selectivity. In darker skin types (FST IV–VI), epidermal melanin competes with follicular melanin absorption, increasing burn risk — Nd:YAG 1064 nm is safer.",
-      "source": "Cosmetology – IPL",
-      "topic": "Cosmetology"
+      "ans": 1,
+      "exp": "Genital herpes suppressive therapy with acyclovir 400 mg BD (or valacyclovir 500 mg OD) significantly reduces recurrences and transmission. Acyclovir 400 mg BD is the standard suppressive regimen.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "For diode 810 nm laser hair removal, which parameter is MOST critical to selectively destroy the follicle (bulge + dermal papilla) while sparing the epidermis?",
+      "q": "A 60-year-old male presents with pruritic papules and vesicles in a herpetiform pattern over the elbows, knees, and buttocks. Biopsy shows subepidermal blister with neutrophils at dermal papillary tips. DIF shows granular IgA deposits at dermal papillae. Diagnosis?",
       "opts": [
-        "Spot size — larger spots increase fluence uniformity and minimise edge scatter",
-        "Repetition rate — burst mode at 10 Hz creates cumulative sub-threshold heating without individual pulse tissue injury",
-        "Pulse duration — must match the thermal relaxation time (TRT) of the entire follicular unit (40–100 ms for terminal hair), not just individual melanin granules",
-        "Wavelength — must be changed to 755 nm for all hair types for optimal melanin absorption"
+        "Bullous pemphigoid",
+        "Linear IgA disease",
+        "Dermatitis herpetiformis",
+        "Epidermolysis bullosa acquisita"
       ],
       "ans": 2,
-      "exp": "Selective photothermolysis for hair removal requires pulse duration matching the TRT of the entire follicular structure (40–100 ms for a terminal follicle — far longer than the TRT of melanin granules in microseconds). Pulses this long selectively heat the whole follicular unit including the germ cells (bulge + papilla) through heat diffusion from follicular melanin, while cryogen spray or contact cooling protects the overlying epidermis. Coarser hair has a longer TRT and requires longer pulses.",
-      "source": "Cosmetology – Laser Hair Removal",
-      "topic": "Cosmetology"
+      "exp": "Dermatitis herpetiformis (Duhring's disease) is characterized by intensely pruritic vesicles over extensor surfaces, granular IgA deposits at dermal papillae on DIF, and association with gluten-sensitive enteropathy. Treatment: dapsone and gluten-free diet.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
     },
     {
-      "q": "Standard botulinum toxin injection for glabellar frown lines targets which muscles?",
+      "q": "A 55-year-old female on long-term hydroxychloroquine for SLE presents with photosensitivity, discoid rashes, and oral ulcers. Lab shows anti-dsDNA positive, ANA 1:640 speckled pattern. Which finding is most specific for SLE?",
       "opts": [
-        "Frontalis and levator palpebrae superioris",
-        "Corrugator supercilii, procerus, and depressor supercilii (±medial orbicularis oculi)",
-        "Frontalis, orbicularis oculi, and zygomaticus major",
-        "Nasalis and procerus only"
+        "Anti-Ro/SSA antibodies",
+        "Anti-dsDNA antibodies",
+        "ANA positivity",
+        "Anti-histone antibodies"
       ],
       "ans": 1,
-      "exp": "The glabellar complex producing '11 lines' comprises: corrugator supercilii (medial brow depression/adduction → oblique lines), procerus (nasal root depression → horizontal lines), and depressor supercilii with medial orbicularis oculi fibres (medial brow depression). FDA-approved onabotulinumtoxinA dose: 20 U across 5 injection points. Injecting frontalis here risks brow ptosis.",
-      "source": "Cosmetology – Botulinum Toxin",
-      "topic": "Cosmetology"
+      "exp": "Anti-dsDNA antibodies are highly specific for SLE (95% specificity) and correlate with disease activity and lupus nephritis. ANA is sensitive but not specific. Anti-Ro is seen in subacute cutaneous LE and neonatal LE. Anti-histone is characteristic of drug-induced lupus.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
     },
     {
-      "q": "A patient develops unilateral upper eyelid ptosis 10 days after forehead botulinum toxin injection. The mechanism and management are:",
+      "q": "A 30-year-old male presents with well-defined hypopigmented anaesthetic patches on the trunk. Slit-skin smear is negative. Biopsy shows epithelioid cell granulomas destroying neurovascular bundles in the dermis. Ridley-Jopling classification?",
       "opts": [
-        "Toxin diffusion through the orbital septum from a suprabrow injection to the levator palpebrae superioris; managed with apraclonidine 0.5% eye drops (α₂-agonist stimulating Müller's muscle)",
-        "Frontalis paralysis causing brow ptosis — lift the brow manually to confirm eyelid is unaffected",
-        "Direct levator palpebrae injection — irreversible; wait 3–4 months for complete toxin wear-off",
-        "Allergic periorbital oedema causing mechanical ptosis — treat with oral antihistamines"
+        "Tuberculoid (TT)",
+        "Borderline tuberculoid (BT)",
+        "Borderline lepromatous (BL)",
+        "Lepromatous (LL)"
       ],
       "ans": 0,
-      "exp": "Lid ptosis post-forehead botox results from toxin diffusion (not direct injection) through the orbital septum when injection sites are too close to the orbital rim (<1 cm). Apraclonidine 0.5% eye drops (alpha-agonist) stimulate Müller's muscle (a sympathetically innervated accessory lid elevator), partially lifting the lid by 1–2 mm within 10 minutes — used until toxin effect wanes (~6–8 weeks). Prevention: inject ≥1 cm above orbital rim, avoid post-injection massage.",
-      "source": "Cosmetology – Botulinum Toxin Complications",
-      "topic": "Cosmetology"
+      "exp": "Tuberculoid (TT) leprosy: few well-defined hypopigmented anaesthetic lesions, negative smear (paucibacillary), epithelioid granulomas with giant cells destroying dermal nerves on histology. High cell-mediated immunity.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "Calcium hydroxylapatite (CaHA, Radiesse) differs critically from HA fillers because:",
+      "q": "A patient with psoriasis has silvery scales on an erythematous base. Removal of scales reveals pinpoint bleeding. This sign is called:",
       "opts": [
-        "It is reversible with hyaluronidase injection, making vascular occlusion manageable",
-        "CaHA is contraindicated in the lips due to risk of nodule formation but approved for periorbital use",
-        "CaHA microspheres provide immediate volume AND serve as a scaffold for autologous collagen deposition (biostimulation) over 12–18 months, with NO available reversal agent",
-        "CaHA has no risk of the Tyndall effect since it is not optically transparent like HA"
-      ],
-      "ans": 2,
-      "exp": "CaHA (Radiesse) provides dual action: immediate volume from gel carrier + long-term biostimulation as CaHA microspheres (25–45 μm) scaffold fibroblast attachment → type I collagen synthesis. Results last 12–18 months. Critically, there is NO reversal agent — unlike HA fillers (reversed with hyaluronidase). Vascular occlusion with CaHA is a medical emergency requiring warm compresses, nitropaste, aspirin, and possibly hyperbaric oxygen.",
-      "source": "Cosmetology – Dermal Fillers",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Poly-L-lactic acid (PLLA, Sculptra) is classified as a 'biostimulatory' filler. The correct mechanism and treatment interval are:",
-      "opts": [
-        "PLLA cross-links with endogenous HA to create a hybrid scaffold with immediate and long-term volume",
-        "PLLA is phagocytosed by adipocytes, stimulating lipogenesis and soft tissue volume in treated areas",
-        "PLLA particles act as osmotic agents, drawing tissue fluid to create immediate and sustained volume",
-        "PLLA microparticles trigger controlled foreign body response → fibroblast activation → type I collagen neosynthesis as particles degrade over 6–12 months; requires 2–3 sessions spaced 4–6 weeks apart"
-      ],
-      "ans": 3,
-      "exp": "PLLA microparticles (2–50 μm) are phagocytosed by macrophages, triggering a controlled foreign body granulomatous response that activates fibroblasts to deposit new collagen. As PLLA hydrolyses to lactic acid → CO₂ + H₂O over 6–12 months, the neo-collagen scaffold maintains volume for 2+ years. Results are gradual (not immediate). Protocol: 2–3 sessions 4–6 weeks apart; avoid over-injection which risks nodule formation.",
-      "source": "Cosmetology – Biostimulators",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Azelaic acid's depigmenting mechanism is distinct from kojic acid. It works by:",
-      "opts": [
-        "Blocking PAR-2 receptors to prevent melanosome transfer from melanocytes to keratinocytes",
-        "Competitive inhibition of tyrosinase with selective cytotoxic and antiproliferative effects on hyperactive (melasma/PIH) melanocytes, sparing normally functioning melanocytes",
-        "Photochemical destruction of melanin via singlet oxygen generation under UV exposure",
-        "Chelating copper from the tyrosinase active site (same mechanism as kojic acid)"
+        "Darier's sign",
+        "Auspitz sign",
+        "Nikolsky sign",
+        "Koebner phenomenon"
       ],
       "ans": 1,
-      "exp": "Azelaic acid competitively inhibits tyrosinase but uniquely exerts selective antiproliferative and mildly cytotoxic effects on hyperactive melanocytes (as in melasma and PIH) while sparing normally functioning melanocytes — making it safer for long-term use than hydroquinone. Additional mechanisms: normalises follicular keratinisation (comedolytic), inhibits Cutibacterium acnes (bacteriostatic), and inhibits 5α-reductase (anti-androgenic).",
-      "source": "Cosmetology – Depigmenting Agents",
-      "topic": "Cosmetology"
+      "exp": "Auspitz sign: pinpoint bleeding seen on removal of psoriatic scales due to thinned suprapapillary epidermis over dilated tortuous capillaries in elongated dermal papillae. It is characteristic of psoriasis.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
     },
     {
-      "q": "Niacinamide (vitamin B₃, 4–5%) reduces skin pigmentation by a mechanism DIFFERENT from tyrosinase inhibitors. It acts by:",
+      "q": "A 45-year-old woman presents with periorbital heliotrope rash, Gottron's papules over knuckles, and proximal muscle weakness. Which autoantibody is associated with interstitial lung disease in this condition?",
       "opts": [
-        "Blocking melanocortin-1 receptor (MC1R) to reduce α-MSH-driven melanogenesis",
-        "Increasing epidermal cell turnover, accelerating loss of pigmented keratinocytes",
-        "Inhibiting protease-activated receptor 2 (PAR-2)-mediated melanosome transfer from melanocytes to keratinocytes",
-        "Inhibiting DOPA oxidase at the rate-limiting step of melanin biosynthesis"
-      ],
-      "ans": 2,
-      "exp": "Niacinamide inhibits the transfer of melanosomes from melanocytes to keratinocytes by interfering with PAR-2 (protease-activated receptor 2) signalling — the mechanism by which keratinocytes phagocytose melanosomes. It does NOT inhibit tyrosinase. Clinical studies show 4% niacinamide matches 4% hydroquinone in reducing facial pigmentation with better tolerability. Additional benefits: barrier enhancement, anti-inflammatory, sebostatic.",
-      "source": "Cosmetology – Depigmenting Agents",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Spironolactone is used off-label for female pattern hair loss (FPHL). Its primary mechanism is:",
-      "opts": [
-        "Potassium channel opening in dermal papilla cells, mimicking minoxidil's mechanism",
-        "Competitive antagonism of androgen receptors (AR) in hair follicle dermal papilla, preventing DHT binding and follicular miniaturisation signalling",
-        "Inhibition of 5α-reductase type 2, reducing DHT conversion in dermal papilla cells",
-        "Inhibition of adrenal androgen synthesis (DHEA, androstenedione) via CYP17A1 blockade"
-      ],
-      "ans": 1,
-      "exp": "Spironolactone primarily blocks androgen receptors (AR) in target tissues including hair follicle dermal papilla cells, preventing DHT binding and downstream miniaturisation. It also mildly reduces adrenal androgen synthesis. Standard dose: 100–200 mg/day for FPHL. Key contraindications: pregnancy (teratogenic feminisation of male fetus — must use contraception), hyperkalaemia, renal impairment. Monitor serum potassium and blood pressure.",
-      "source": "Cosmetology – Hair Loss",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "For intralesional corticosteroid injection in alopecia areata (AA), the optimal technique is:",
-      "opts": [
-        "Betamethasone valerate 0.1% applied topically under polyethylene occlusion for 24 hours",
-        "Hydrocortisone 20 mg/mL intralesionally to avoid dermal atrophy while retaining anti-inflammatory efficacy",
-        "Triamcinolone acetonide 5–10 mg/mL injected intradermally (0.1 mL per site, 1 cm intervals) targeting perifollicular dermal inflammation",
-        "Triamcinolone acetonide 40 mg/mL injected deep subcutaneously for a long-lasting depot effect"
-      ],
-      "ans": 2,
-      "exp": "Intralesional triamcinolone acetonide (ILT) 5–10 mg/mL injected intradermally at 0.1 mL per site, 1 cm apart is first-line for patchy AA. Intradermal (not subcutaneous) placement targets perifollicular inflammatory infiltrate directly. Higher concentrations (40 mg/mL) or subcutaneous injection cause fat atrophy and telangiectasia. Maximum dose per session: ~20 mg. Repeated every 4–6 weeks. Eyebrow/eyelash AA: use lower concentration (2.5 mg/mL).",
-      "source": "Cosmetology – Alopecia Areata",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Polydioxanone (PDO) thread lifts achieve facial rejuvenation by which dual mechanism?",
-      "opts": [
-        "Permanent mechanical lift via barbed sutures anchored to deep fascia with indefinite duration",
-        "Immediate tissue repositioning by barbed threads + delayed biostimulation as PDO degrades over 6–9 months, stimulating fibroblast collagen and elastin deposition along the thread tract",
-        "PDO threads dissolve in 2 weeks, after which only the temporary inflammatory response provides mild lift",
-        "Scar tissue bands forming along thread trajectories that permanently anchor ptotic tissue"
-      ],
-      "ans": 1,
-      "exp": "PDO threads provide: (1) immediate mechanical effect — barbs/cogs engage dermis and SMAS, repositioning ptotic tissue; (2) delayed biostimulatory effect — PDO hydrolysis over 6–9 months stimulates fibroblasts to deposit type I collagen and elastin along the thread tract. Combined results last 12–18 months. Complications: puckering/dimpling (most common), extrusion, infection, nerve injury. PDO is fully absorbable — no permanent foreign body.",
-      "source": "Cosmetology – Thread Lifts",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "In photodynamic therapy (PDT) for actinic keratoses, 5-ALA is applied then activated by light. The primary cytotoxic mediator generated is:",
-      "opts": [
-        "Direct phototoxic 5-ALA metabolite bypassing PpIX accumulation in rapidly proliferating cells",
-        "Singlet oxygen (¹O₂) generated from photoactivated protoporphyrin IX (PpIX) reacting with molecular oxygen — causing mitochondrial membrane destruction and apoptosis",
-        "Thermally generated hydroxyl radicals from water photolysis at the ALA absorption wavelength",
-        "Reactive nitrogen species from 5-ALA photoreduction in hypoxic dysplastic cells"
-      ],
-      "ans": 1,
-      "exp": "5-ALA (a haem precursor) is preferentially taken up by hyperproliferative dysplastic cells and converted to photosensitiser PpIX via the haem biosynthesis pathway. Upon activation with red light (630 nm) or blue light (405 nm), PpIX undergoes a Type II photochemical reaction: PpIX + hν + O₂ → singlet oxygen (¹O₂). Singlet oxygen causes lipid peroxidation, mitochondrial damage, and apoptosis of dysplastic cells while sparing lower-PpIX normal cells.",
-      "source": "Cosmetology – PDT",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Dermabrasion (with diamond fraise or wire brush) differs from microdermabrasion in that dermabrasion:",
-      "opts": [
-        "Penetrates through the full epidermis into the papillary-to-mid reticular dermis, equivalent to a deep peel, treating deep acne scars and rhinophyma",
-        "Is performed under topical anaesthesia and achieves results equivalent to a superficial TCA peel",
-        "Uses vacuum suction to remove abraded skin debris; microdermabrasion relies on saline irrigation",
-        "Only removes the stratum corneum (15 μm) while microdermabrasion reaches the papillary dermis"
+        "Anti-Jo-1",
+        "Anti-Mi-2",
+        "Anti-SRP",
+        "Anti-TIF1-gamma"
       ],
       "ans": 0,
-      "exp": "Dermabrasion reaches papillary-to-mid reticular dermis (depending on speed and pressure), equivalent to a deep chemical peel — appropriate for deep acne scars, rhinophyma, and post-traumatic scars. Re-epithelialization occurs from surviving adnexal structures. Microdermabrasion removes only stratum corneum (15–30 μm), providing superficial exfoliation for mild texture and dyspigmentation only. Dermabrasion requires regional/general anaesthesia and carries significant downtime (7–14 days).",
-      "source": "Cosmetology – Dermabrasion",
-      "topic": "Cosmetology"
+      "exp": "Dermatomyositis with anti-Jo-1 antibody (antisynthetase syndrome) is associated with interstitial lung disease, mechanic's hands, and Raynaud's phenomenon. Anti-Mi-2 is associated with classic DM with good prognosis. Anti-TIF1-gamma is associated with malignancy-associated DM.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
     },
     {
-      "q": "During the catagen phase of the hair cycle, the correct sequence of follicular events is:",
+      "q": "A 20-year-old male presents with a single painless genital ulcer followed by painful, fluctuant unilateral inguinal lymphadenopathy (bubo). Gram stain of pus shows 'school of fish' pattern. Causative organism?",
       "opts": [
-        "Matrix keratinocyte proliferation ceases, lower follicle involutes, dermal papilla retracts upward forming club hair, secondary germ encapsulates papilla for next anagen",
-        "Perifollicular lymphocyte infiltration increases, triggering immune-mediated shedding of the telogen hair",
-        "Melanocytes reactivate to begin pigmenting the incoming anagen shaft",
-        "Sebaceous gland hypertrophies transiently to produce protective sebum during follicular transition"
-      ],
-      "ans": 0,
-      "exp": "Catagen (2–3 weeks): matrix keratinocyte proliferation abruptly stops → lower follicle involutes (⅔ of follicle disappears by apoptosis) → melanocytes lose pigment production → dermal papilla retracts upward → club hair forms (keratinised proximal end held in follicle) → secondary hair germ (follicle epithelial remnant) encapsulates retracted papilla, forming the template for next anagen phase.",
-      "source": "Cosmetology – Hair Biology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Permanent hypopigmentation after ablative CO₂ laser resurfacing results from:",
-      "opts": [
-        "Post-laser fibrosis obliterating follicular structures from which re-epithelialization occurs",
-        "Laser-induced upregulation of TGF-β1 causing permanent tyrosinase suppression in surviving melanocytes",
-        "Thermal destruction of melanocyte progenitor stem cells in the hair follicle bulge region and basal layer, reducing the pool available for epidermal repigmentation",
-        "Selective photothermolysis of epidermal melanocytes at 10,600 nm wavelength"
-      ],
-      "ans": 2,
-      "exp": "Ablative laser resurfacing thermal injury can destroy melanocyte stem cells in the hair follicle bulge and epidermal basal layer — the reservoir for repigmentation after wounding. Loss of this pool prevents melanocyte repopulation, resulting in permanent hypopigmentation, particularly after repeated sessions, very deep passes, or in patients who develop post-laser scarring. This differs from transient PIH which occurs from retained but over-stimulated melanocytes.",
-      "source": "Cosmetology – Laser Complications",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The 1450 nm diode laser is used for acne treatment. Its target and mechanism of action are:",
-      "opts": [
-        "Melanin in sebaceous duct epithelium — selective follicular destruction via selective photothermolysis",
-        "Intracellular water within the sebaceous gland — selective thermal heating reduces gland size and sebum production without surface ablation",
-        "Cutibacterium acnes endogenous porphyrins at 1450 nm — photodynamic bactericidal effect",
-        "Dermal collagen — post-inflammatory collagen remodelling incidentally reduces post-acne scarring"
+        "Treponema pallidum",
+        "Haemophilus ducreyi",
+        "Chlamydia trachomatis L1-L3",
+        "Klebsiella granulomatis"
       ],
       "ans": 1,
-      "exp": "The 1450 nm diode laser targets water within the sebaceous gland. Glands have high water content relative to surrounding dermis, causing selective thermal injury, reducing gland size and sebum production — removing the substrate for C. acnes colonisation. Cryogen spray protects the epidermis. This is a non-ablative approach requiring 3–5 sessions. Efficacy is comparable to oral isotretinoin for inflammatory acne in some studies.",
-      "source": "Cosmetology – Acne Lasers",
-      "topic": "Cosmetology"
+      "exp": "Chancroid (caused by Haemophilus ducreyi) presents with painful genital ulcer and painful bubo. Gram stain shows Gram-negative coccobacilli in 'school of fish' or 'railroad track' pattern. Treatment: azithromycin 1g single dose or ceftriaxone 250mg IM.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "Foam sclerotherapy (e.g., polidocanol foam) is preferred over liquid sclerotherapy for larger varicose veins because:",
+      "q": "A patient presents with excessive scaling of the scalp, face, and trunk following a febrile illness. Histology of an elliptical biopsy shows parakeratosis with neutrophils in stratum corneum (Munro microabscesses). Diagnosis?",
       "opts": [
-        "Foam is less irritating to venous endothelium, reducing post-procedure phlebitis",
-        "Foam is more radiopaque than liquid, allowing fluoroscopic guidance for deep perforator veins",
-        "Foam penetrates the vessel wall adventitia, producing a more permanent perivenous fibrosis",
-        "Foam displaces blood from the vessel lumen, maximising undiluted sclerosant-endothelium contact at lower total sclerosant volumes"
-      ],
-      "ans": 3,
-      "exp": "Foam sclerotherapy (Tessari method: 1:4 liquid:air or CO₂ ratio) displaces blood from the vessel lumen so undiluted sclerosant contacts the full endothelial surface — producing superior endothelial injury at lower total sclerosant volumes than liquid (which is diluted by blood). Foam is echogenic on duplex ultrasound, enabling real-time guidance for truncal veins. Risks: microembolism, transient visual disturbance (via patent foramen ovale), thrombosis.",
-      "source": "Cosmetology – Sclerotherapy",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "1 unit of onabotulinumtoxinA (Botox) is NOT equivalent to 1 unit of abobotulinumtoxinA (Dysport). The correct conversion ratio when switching between products is approximately:",
-      "opts": [
-        "1:1 — all botulinum toxin type A products are standardised to the same biological activity per unit",
-        "1 Botox unit = 0.5 Dysport units — Dysport is twice as potent per unit",
-        "1 Botox unit = 10 Dysport units — Dysport is significantly more dilute per unit",
-        "1 Botox unit = 2.5–3 Dysport units, due to different mouse LD50 assay methodologies and protein concentrations"
-      ],
-      "ans": 3,
-      "exp": "Botulinum toxin products are NOT interchangeable unit-for-unit. Allergan's Botox units are defined by their mouse LD50 assay; Ipsen's Dysport uses a different assay method with different protein loading, yielding ~2.5–3 Dysport units = 1 Botox unit for equivalent clinical effect. Xeomin (incobotulinumtoxinA) uses a 1:1 conversion with Botox. Failure to convert when switching products causes significant under- or over-treatment.",
-      "source": "Cosmetology – Botulinum Toxin",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Repeated low-fluence Q-switched Nd:YAG 1064 nm 'laser toning' for melasma carries a specific long-term risk NOT seen with standard high-fluence single-pass Q-switched laser use. This complication is:",
-      "opts": [
-        "Ink-spot (confetti) leukoderma — permanent macular hypopigmentation from cumulative selective destruction of epidermal melanocytes without triggering melanocyte replacement",
-        "Permanent textural scarring from repeated subablative dermal microinjury",
-        "Post-inflammatory hyperpigmentation from each individual toning session",
-        "Paradoxical melasma deepening due to MSH stimulation from subthreshold thermal injury"
-      ],
-      "ans": 0,
-      "exp": "Low-fluence Q-switched Nd:YAG toning delivers melanin-specific energy insufficient for classical selective photothermolysis but sufficient for cumulative melanocyte injury over multiple sessions. This causes ink-spot leukoderma (confetti hypopigmentation) — permanent white macules from melanocyte destruction without sufficient stimulus for progenitor cell replacement. It is largely irreversible. Recognition of this risk has led to reduced enthusiasm for laser toning protocols exceeding 10 sessions.",
-      "source": "Cosmetology – Laser Complications",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Retinol, retinaldehyde, and tretinoin differ in potency and irritancy due to their conversion pathway in skin. The correct pathway is:",
-      "opts": [
-        "Retinol → retinyl palmitate → retinoic acid, each step requiring UV light activation",
-        "Retinol → 9-cis-retinoic acid (binds RXR exclusively); tretinoin → all-trans-retinoic acid (binds RAR exclusively) — entirely different receptor targets",
-        "Retinol → retinoic acid in a single irreversible oxidative step by retinol dehydrogenase",
-        "Retinol → retinaldehyde (by retinol dehydrogenases) → all-trans retinoic acid (by retinaldehyde dehydrogenases) — a rate-limited two-step process making retinol ~10–20× less potent than tretinoin"
-      ],
-      "ans": 3,
-      "exp": "Retinol (vitamin A alcohol) → retinaldehyde (retinal) via retinol dehydrogenases → all-trans-retinoic acid via retinaldehyde dehydrogenases (RALDH). Each conversion step is rate-limited, making retinol ~10–20× less potent and less irritating than topical tretinoin. Retinaldehyde is one conversion step closer — more potent than retinol and better tolerated than tretinoin, making it useful in cosmeceuticals for sensitive skin.",
-      "source": "Cosmetology – Retinoids",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "When injecting hyaluronidase to reverse an HA filler, which statement about mechanism and dosing is CORRECT?",
-      "opts": [
-        "Hyaluronidase also degrades CaHA and PLLA fillers via depolymerisation of their gel matrices",
-        "Hyaluronidase cleaves HA at β-1,3 glycosidic bonds between glucosamine residues",
-        "Hyaluronidase cleaves HA at β-1,4 glycosidic bonds; approximately 5–30 IU dissolves ~0.1–0.5 mL of standard HA filler — highly cross-linked products require higher doses",
-        "Hyaluronidase activity is inhibited by warmth — avoid warm compresses which reduce enzyme efficacy"
+        "Seborrhoeic dermatitis",
+        "Pityriasis rosea",
+        "Psoriasis",
+        "Pityriasis rubra pilaris"
       ],
       "ans": 2,
-      "exp": "Hyaluronidase cleaves β-1,4 glycosidic bonds between N-acetyl-D-glucosamine and D-glucuronate in HA chains. Approximate dosing: 5–30 IU per 0.1–0.5 mL of filler; highly cross-linked products (e.g., Juvederm Voluma) require higher doses than less cross-linked products (e.g., Restylane Silk). Warm compresses increase diffusion of hyaluronidase. It is completely ineffective against non-HA fillers (CaHA, PLLA, silicone, PMMA).",
-      "source": "Cosmetology – Fillers",
-      "topic": "Cosmetology"
+      "exp": "Munro microabscesses (neutrophils in stratum corneum) and spongiform pustules of Kogoj are hallmarks of psoriasis histology. These combined with parakeratosis, acanthosis, and elongated rete ridges are diagnostic.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
     },
     {
-      "q": "SPF (Sun Protection Factor) measures protection against which UV range, and what is the FDA standard for claiming 'broad-spectrum' UVA protection?",
+      "q": "A 12-year-old girl presents with scaly patches on the scalp with broken hair shafts. Wood's lamp shows bright green fluorescence. KOH mount shows ectothrix pattern. Which organism is responsible?",
       "opts": [
-        "SPF specifically measures UVB (280–320 nm) erythema protection; FDA broad-spectrum requires critical wavelength ≥370 nm (covering UVA range) on spectrophotometric testing",
-        "SPF measures UVB protection and automatically implies equivalent UVA protection above SPF 50",
-        "SPF measures UVA (320–400 nm) protection; UVB protection is rated by the PPD (persistent pigment darkening) ratio",
-        "SPF measures combined UVA + UVB protection on a single scale above SPF 15"
+        "Trichophyton tonsurans",
+        "Microsporum canis",
+        "Trichophyton violaceum",
+        "Trichophyton schoenleinii"
+      ],
+      "ans": 1,
+      "exp": "Microsporum canis causes tinea capitis with ectothrix infection (spores outside hair shaft) and bright green fluorescence on Wood's lamp. Trichophyton species cause endothrix infections and do not fluoresce. Treatment: oral griseofulvin or terbinafine.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A 70-year-old male presents with a pearly translucent nodule with rolled telangiectatic borders and central ulceration on the nose. Most likely diagnosis?",
+      "opts": [
+        "Squamous cell carcinoma",
+        "Basal cell carcinoma",
+        "Keratoacanthoma",
+        "Sebaceous carcinoma"
+      ],
+      "ans": 1,
+      "exp": "Noduloulcerative (rodent ulcer) basal cell carcinoma presents as a pearly nodule with rolled borders, telangiectasia, and central ulceration typically on sun-exposed areas of the face (nose is most common site). It is the most common skin cancer.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A 32-year-old male with HIV presents with multiple violaceous papules and plaques on the skin, oral cavity, and GIT. Biopsy shows proliferating spindle cells with slit-like vascular spaces and extravasated red blood cells. Diagnosis?",
+      "opts": [
+        "Bacillary angiomatosis",
+        "Kaposi sarcoma",
+        "Pyogenic granuloma",
+        "Angiosarcoma"
+      ],
+      "ans": 1,
+      "exp": "Kaposi sarcoma (AIDS-associated/epidemic type) presents with violaceous lesions in HIV patients with CD4 <200. Caused by HHV-8. Histology shows spindle cells, slit-like vascular spaces, and plasma cells. Treatment: HAART; advanced disease: liposomal doxorubicin.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A patient with severe atopic dermatitis is started on dupilumab. What is the mechanism of action?",
+      "opts": [
+        "Anti-IL-4 receptor alpha subunit monoclonal antibody blocking IL-4 and IL-13 signaling",
+        "Anti-IL-31 receptor antibody",
+        "JAK1/JAK2 inhibitor",
+        "Anti-IgE monoclonal antibody"
       ],
       "ans": 0,
-      "exp": "SPF is defined by the ratio of MED (minimal erythema dose) with vs. without sunscreen, measuring UVB protection only (280–320 nm). UVA (320–400 nm) causes tanning, immunosuppression, photoageing, and melanoma without visible erythema. FDA broad-spectrum claim requires critical wavelength ≥370 nm on in vitro spectrophotometric testing — meaning the product absorbs across the UVA spectrum. PA+/++/++/++++ ratings (Asia/Japan) quantify UVA protection via PPD.",
-      "source": "Cosmetology – Sunscreens",
-      "topic": "Cosmetology"
+      "exp": "Dupilumab is a fully human monoclonal antibody targeting the IL-4 receptor alpha subunit, blocking both IL-4 and IL-13 signaling — the key Th2 cytokines in atopic dermatitis pathogenesis. It is FDA/EMA approved for moderate-to-severe AD.",
+      "source": "Cloud fallback",
+      "topic": "Pharmacology"
     },
     {
-      "q": "Long-term (>6 months) continuous topical hydroquinone use carries a specific serious adverse effect particularly in darker skin types. This is:",
+      "q": "A 38-year-old woman presents with a firm, skin-coloured nodule on the shin that dimples inward on lateral compression (Fitzpatrick sign). Histology shows spindle cells in a storiform pattern with hemosiderin deposits. Diagnosis?",
       "opts": [
-        "Rebound hyperpigmentation only — permanent adverse pigmentary changes do not occur with topical use",
-        "Systemic toxicity — percutaneous absorption causes nephrotoxicity requiring serum creatinine monitoring",
-        "Exogenous ochronosis — paradoxical blue-black/slate-grey hyperpigmentation from dermal polymerisation of hydroquinone metabolites, largely irreversible",
-        "Tachyphylaxis — melanocytes upregulate tyrosinase expression, overcoming hydroquinone inhibition and causing treatment failure"
+        "Dermatofibrosarcoma protuberans",
+        "Dermatofibroma (benign fibrous histiocytoma)",
+        "Neurofibroma",
+        "Keloid"
+      ],
+      "ans": 1,
+      "exp": "Dermatofibroma (benign fibrous histiocytoma) dimples inward on lateral compression (Fitzpatrick sign) due to tethering to overlying epidermis. Histology shows spindle cells in storiform pattern with hemosiderin and foamy macrophages. IHC: Factor XIIIa positive.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A 50-year-old male presents with widespread erythroderma (>90% BSA involvement), pruritus, and exfoliation. CBC shows marked eosinophilia. Which of the following is NOT a common cause of erythroderma?",
+      "opts": [
+        "Psoriasis",
+        "Atopic dermatitis",
+        "Vitiligo",
+        "Cutaneous T-cell lymphoma"
       ],
       "ans": 2,
-      "exp": "Exogenous ochronosis is a paradoxical blue-black hyperpigmentation in HQ-treated areas, more common in darker skin types (FST IV–VI) with prolonged use. Mechanism: HQ metabolites (benzoquinone acetic acid) polymerise to ochre-coloured deposits that accumulate in the dermis when not fully excreted. Histology shows yellow-brown banana-shaped fibres replacing collagen. It is largely irreversible. Prevention: use HQ in cycles (max 8–12 weeks), stop if pigmentation worsens.",
-      "source": "Cosmetology – Depigmenting Agents",
-      "topic": "Cosmetology"
+      "exp": "Common causes of erythroderma (L-POEM mnemonic): Lymphoma/leukaemia, Psoriasis, Others (PRP, seborrhoeic dermatitis), Eczema, Medications. Vitiligo is a hypopigmentary disorder and does not cause erythroderma.",
+      "source": "Cloud fallback",
+      "topic": "Eczema/Dermatitis"
     },
     {
-      "q": "Microneedling for striae distensae (stretch marks) — the correct needle depth and mechanism of improvement are:",
+      "q": "A 25-year-old male is being treated for multibacillary leprosy. He develops sudden onset of icterus, dark urine, and pallor 3 weeks after starting treatment. Which drug is responsible?",
       "opts": [
-        "1.5–2.5 mm — reaches the atrophic dermal zone, stimulating fibroblast-mediated type I/III collagen and elastin synthesis",
-        "0.5–1.0 mm — papillary dermis stimulation is adequate for striae distensae alba (white striae)",
-        "0.25 mm — targets epidermis, improving striae surface texture by increasing epidermal thickness",
-        "3.0–3.5 mm — targets subcutaneous fat, stimulating adipogenesis to restore volume in deep striae distensae"
+        "Rifampicin",
+        "Clofazimine",
+        "Dapsone",
+        "Ofloxacin"
+      ],
+      "ans": 2,
+      "exp": "Dapsone causes dose-dependent haemolysis (especially in G6PD-deficient patients) and methaemoglobinaemia. Rifampicin causes hepatotoxicity and orange discolouration of body fluids. Clofazimine causes slate-grey skin pigmentation and GIT symptoms.",
+      "source": "Cloud fallback",
+      "topic": "Pharmacology"
+    },
+    {
+      "q": "A 28-year-old woman with a history of recurrent oral ulcers, genital ulcers, and hypopyon uveitis also develops pathergy. Which HLA type is strongly associated with this condition?",
+      "opts": [
+        "HLA-B27",
+        "HLA-B51",
+        "HLA-DR3",
+        "HLA-Cw6"
+      ],
+      "ans": 1,
+      "exp": "Behcet's disease is characterized by recurrent oral and genital ulcers, uveitis, and pathergy test positivity. It is strongly associated with HLA-B51, particularly in patients from the 'Silk Route' countries (Middle East, Asia). HLA-Cw6 is linked to psoriasis; HLA-B27 to spondyloarthropathies.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A neonate presents at birth with congenital ichthyosis — generalized erythema with large plate-like scales. Skin biopsy shows absent or markedly reduced cornified envelope. Mutations in which gene are responsible for lamellar ichthyosis?",
+      "opts": [
+        "KRT1/KRT10 (Keratins 1 and 10)",
+        "TGM1 (Transglutaminase 1)",
+        "FLG (Filaggrin)",
+        "ATP2A2 (SERCA2)"
+      ],
+      "ans": 1,
+      "exp": "Lamellar ichthyosis (autosomal recessive) is most commonly caused by mutations in TGM1 (transglutaminase 1), which is essential for cornified cell envelope formation. KRT1/KRT10 mutations cause epidermolytic ichthyosis. FLG mutations cause ichthyosis vulgaris and predispose to atopic dermatitis.",
+      "source": "Cloud fallback",
+      "topic": "Genodermatoses"
+    },
+    {
+      "q": "A 45-year-old female with long-standing rheumatoid arthritis develops calcinosis cutis, Raynaud's phenomenon, esophageal dysmotility, sclerodactyly, and telangiectasias. Which antibody is most specific for this subset?",
+      "opts": [
+        "Anti-Scl-70 (anti-topoisomerase I)",
+        "Anti-centromere antibody (ACA)",
+        "Anti-RNA polymerase III",
+        "Anti-U1RNP"
+      ],
+      "ans": 1,
+      "exp": "CREST syndrome (limited cutaneous systemic sclerosis) is associated with anti-centromere antibody (ACA) in 70-80% of cases. Anti-Scl-70 is associated with diffuse cutaneous SSc with ILD. Anti-RNA Pol III is associated with diffuse SSc and renal crisis.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 35-year-old male presents with grouped vesicles on the right thorax in a dermatomal distribution preceded by severe burning pain for 3 days. What is the most serious complication of this condition?",
+      "opts": [
+        "Post-herpetic neuralgia",
+        "Herpes encephalitis",
+        "Ramsay Hunt syndrome",
+        "Acute retinal necrosis"
       ],
       "ans": 0,
-      "exp": "Striae distensae involve mid-to-deep dermal atrophy with disrupted collagen and elastin fibres. Microneedling at 1.5–2.5 mm targets this atrophic zone, stimulating fibroblast activation via TGF-β and PDGF signalling to synthesise new type I and III collagen and elastin. Open channels also allow delivery of topical growth factors or PRP. Striae rubrae (active, pink) respond better than alba (mature, white). Typically 3–6 sessions required at 4–6 week intervals.",
-      "source": "Cosmetology – Microneedling",
-      "topic": "Cosmetology"
+      "exp": "Herpes zoster: post-herpetic neuralgia (PHN) is the most common serious complication, defined as pain persisting >3 months after rash healing. It increases with age (>50 years) and immunosuppression. Treatment: tricyclic antidepressants, gabapentin, pregabalin, topical lidocaine patch.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
     },
     {
-      "q": "Mesotherapy for androgenetic alopecia (AGA) involves mid-dermal microinjections. The most evidence-supported active component in mesotherapy cocktails is:",
+      "q": "A 14-year-old presents with multiple flesh-coloured papules with central dell (umbilication) on the face and trunk. He is immunocompetent. Which virus is responsible?",
       "opts": [
-        "Corticosteroids reducing perifollicular inflammation that causes miniaturisation in AGA",
-        "Minoxidil (0.5–1%) combined with biotin and peptide mixtures — improving local scalp vascularity and follicular microenvironment",
-        "Finasteride 0.1% for direct local DHT inhibition within the follicular unit",
-        "Platelet-poor plasma (PPP) providing baseline growth factor concentrations to the dermal papilla"
+        "Human papillomavirus (HPV)",
+        "Molluscum contagiosum virus (MCV)",
+        "Herpes simplex virus",
+        "Varicella-zoster virus"
       ],
       "ans": 1,
-      "exp": "Mesotherapy protocols are heterogeneous, but combinations of minoxidil (anagen-prolonging K+ channel opener) + biotin (keratin synthesis cofactor) + peptide mixtures (growth signal mimetics, e.g., copper peptides, biotinoyl tripeptide-1) have the most clinical evidence for AGA. Intradermal minoxidil bypasses the SULT1A1 conversion bottleneck and delivers higher follicular concentrations than topical diffusion. Evidence quality remains limited by absence of standardised RCT protocols.",
-      "source": "Cosmetology – Mesotherapy",
-      "topic": "Cosmetology"
+      "exp": "Molluscum contagiosum is caused by the poxvirus MCV (types 1-4). Characterised by umbilicated papules with a cheesy core (Henderson-Paterson bodies on histology). Self-limiting in immunocompetent individuals; extensive lesions suggest immunosuppression.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
     },
     {
-      "q": "The Jessner's solution + TCA 35% combination peel for melasma in Fitzpatrick skin type III. The role of Jessner's solution pre-treatment is:",
+      "q": "A 22-year-old woman undergoes Mohs micrographic surgery for a recurrent BCC on the nose. What is the key principle of Mohs surgery?",
       "opts": [
-        "To achieve a more superficial peel by buffering TCA penetration with its acidic components",
-        "To degrease and create uniform superficial epidermolysis, allowing more homogeneous and deeper TCA penetration at a lower (safer) TCA concentration than would otherwise be required",
-        "To provide antifungal prophylaxis for the post-peel period of skin barrier disruption",
-        "To stimulate Langerhans cell migration to the epidermis, priming the immune system for melanocyte suppression"
+        "Excision with 5 mm clinical margin and standard vertical sections",
+        "Complete circumferential and deep margin examination using horizontal frozen sections",
+        "Punch biopsy followed by curettage and electrodessication",
+        "Wide local excision under general anaesthesia"
       ],
       "ans": 1,
-      "exp": "Jessner's solution (resorcinol 14% + salicylic acid 14% + lactic acid 14% in ethanol) acts as a 'primer': it degreases skin and creates a controlled superficial epidermolysis, allowing TCA 35% to penetrate uniformly and more deeply than it would on intact skin — achieving consistent papillary dermal depth without needing higher (riskier) TCA concentrations. This combination is a classic medium-depth peel. Risk of PIH is increased in FST III+ patients requiring careful post-peel sun protection.",
-      "source": "Cosmetology – Chemical Peels",
-      "topic": "Cosmetology"
+      "exp": "Mohs micrographic surgery achieves the highest cure rates for BCC/SCC by examining 100% of margins using horizontal (en face) frozen sections, allowing precise mapping and re-excision only of involved margins — maximising tissue conservation at cosmetically sensitive sites.",
+      "source": "Cloud fallback",
+      "topic": "Procedures"
+    },
+    {
+      "q": "A 40-year-old male presents with ulceration and scarring of nasal septum, palate, and oropharynx. He is from a rural area. Serology is negative for syphilis and VDRL. Biopsy shows granulomatous inflammation. Leishman-Donovan bodies seen on smear. Diagnosis?",
+      "opts": [
+        "Tertiary syphilis (gumma)",
+        "Mucocutaneous leishmaniasis",
+        "Rhinoscleroma",
+        "Wegener's granulomatosis"
+      ],
+      "ans": 1,
+      "exp": "Mucocutaneous leishmaniasis (espundia, caused by L. braziliensis) causes destructive ulceration of nasal septum, palate, and pharynx. LD bodies (amastigotes) seen on smear/biopsy. Treatment: meglumine antimoniate or amphotericin B.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 30-year-old female presents with symmetrical hyperpigmentation on the cheeks, forehead, and upper lip that worsens with sun exposure. She is on oral contraceptives. Which layer of skin is predominantly affected when Wood's lamp accentuates the pigmentation?",
+      "opts": [
+        "Dermal melanin",
+        "Epidermal melanin",
+        "Both epidermal and dermal",
+        "Subcutaneous fat"
+      ],
+      "ans": 1,
+      "exp": "Melasma (chloasma): Wood's lamp accentuates epidermal (superficial) pigment but not dermal pigment. Epidermal type responds better to topical depigmenting agents. Mixed type is most common. Treatment: triple combination cream (hydroquinone + tretinoin + steroid), sunscreen.",
+      "source": "Cloud fallback",
+      "topic": "Photodermatology"
+    },
+    {
+      "q": "A 55-year-old male on methotrexate for psoriasis presents with nausea, oral ulcers, and pancytopenia. Which supplement prevents methotrexate-induced toxicity?",
+      "opts": [
+        "Folinic acid (leucovorin) rescue",
+        "Folic acid 1-5 mg/day",
+        "Vitamin B12 injections",
+        "Pyridoxine (Vitamin B6)"
+      ],
+      "ans": 1,
+      "exp": "Folic acid 1-5 mg/day (on non-methotrexate days) prevents methotrexate-induced mucosal toxicity, GIT side effects, and haematological toxicity without significantly reducing efficacy. Folinic acid (leucovorin) is used as rescue therapy for acute toxicity/overdose.",
+      "source": "Cloud fallback",
+      "topic": "Pharmacology"
+    },
+    {
+      "q": "A 16-year-old presents with recurrent painless blistering on hands and feet following minor trauma since infancy. Nails are dystrophic. Biopsy under EM shows cleavage within the lamina lucida. Absence of which protein is responsible?",
+      "opts": [
+        "Type VII collagen",
+        "Laminin-332 (laminin-5)",
+        "Integrin alpha-6beta-4",
+        "Collagen XVII (BP180)"
+      ],
+      "ans": 1,
+      "exp": "Junctional epidermolysis bullosa (JEB) shows cleavage within the lamina lucida on EM. Herlitz (lethal) JEB is caused by mutations in LAMA3, LAMB3, or LAMC2 genes encoding laminin-332. Dystrophic EB has cleavage below lamina densa with absent type VII collagen.",
+      "source": "Cloud fallback",
+      "topic": "Genodermatoses"
+    },
+    {
+      "q": "A 48-year-old male presents with a warty plaque on the lower lip with induration and regional lymphadenopathy. Biopsy shows well-differentiated squamous cells with keratin pearls invading the dermis. The most important prognostic factor is:",
+      "opts": [
+        "Tumour size",
+        "Histological grade (degree of differentiation)",
+        "Site (lip vs scalp)",
+        "Depth of invasion (Breslow thickness)"
+      ],
+      "ans": 2,
+      "exp": "In cutaneous squamous cell carcinoma (SCC), site is a key prognostic factor. Lip SCC has a higher risk of nodal metastasis (10-15%) compared to SCC at other sun-exposed sites. Other high-risk sites include ear, temple, scalp, and non-sun-exposed areas. Breslow thickness is used for melanoma staging.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
     }
   ]
 }
