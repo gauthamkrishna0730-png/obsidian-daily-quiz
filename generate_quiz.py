@@ -147,6 +147,68 @@ Rules:
 - Return ONLY valid JSON – no commentary, no markdown fences
 """).strip()
 
+COSMETOLOGY_DIRECT_PROMPT = textwrap.dedent("""
+You are an expert postgraduate cosmetology and aesthetic dermatology MCQ examiner
+(DNB/MD level). Generate {n} TOUGH, original cosmetology MCQs.
+
+Cover a MIX of these topics (vary each day based on the seed {seed}):
+lasers (wavelengths, chromophores, selective photothermolysis, ablative vs
+non-ablative, fractional, pulsed dye, Nd:YAG, alexandrite, CO2, Er:YAG,
+IPL, picosecond), chemical peels (TCA, phenol, glycolic, salicylic, Jessner's,
+depth, neutralisation, frosting), botulinum toxin (SNARE proteins, serotypes,
+muscles, dilution, complications, unit conversion), dermal fillers (HA, CaHA,
+PLLA, bioremodelling, Tyndall effect, vascular occlusion, hyaluronidase),
+hair loss (AGA, FPHL, alopecia areata, scarring alopecias, trichoscopy,
+telogen effluvium, anagen effluvium), hair transplant (FUE vs FUT, graft
+survival, trichorrhexis nodosa), hair pharmacology (minoxidil SULT1A1,
+finasteride/dutasteride 5-AR isoenzymes, spironolactone), PRP and LLLT,
+sclerotherapy, body contouring (cryolipolysis, RF, HIFU, deoxycholic acid),
+pigmentation (kojic acid, hydroquinone, azelaic acid, niacinamide, retinoids,
+Kligman's formula), sunscreens (SPF, UVA/UVB, ZnO vs TiO2), vitiligo
+treatment (NB-UVB vs PUVA, grafting), PDT, cosmeceuticals, laser safety.
+
+Rules:
+- 4 options per question, exactly ONE correct answer
+- Distribute correct answers across positions A/B/C/D roughly evenly
+- No "all of the above" / "none of the above"
+- Mechanisms, clinical scenarios, and drug actions preferred over pure recall
+- Brief explanation (2-3 sentences), factually accurate
+- Return ONLY a valid JSON array — no markdown, no commentary:
+[{{"q":"...","opts":["A","B","C","D"],"ans":<0-3>,"exp":"...","source":"Cosmetology","topic":"Cosmetology"}}]
+""").strip()
+
+
+def generate_cosmetology_direct(client: anthropic.Anthropic,
+                                 n: int, today: str) -> list[dict]:
+    """Generate cosmetology questions directly via API (no vault notes needed)."""
+    import hashlib
+    seed = int(hashlib.md5(today.encode()).hexdigest(), 16) % 10000
+    prompt = COSMETOLOGY_DIRECT_PROMPT.format(n=n, seed=seed)
+    print(f"\n  → No cosmetology vault notes found. Generating {n} questions via API...")
+    try:
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=8000,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        text = response.content[0].text.strip()
+        text = re.sub(r'^```(?:json)?\s*', '', text, flags=re.MULTILINE)
+        text = re.sub(r'\s*```$', '', text, flags=re.MULTILINE)
+        questions = json.loads(text)
+        valid = []
+        for q in questions:
+            if all(k in q for k in ("q", "opts", "ans", "exp")):
+                if isinstance(q["opts"], list) and len(q["opts"]) == 4:
+                    if isinstance(q["ans"], int) and 0 <= q["ans"] <= 3:
+                        q.setdefault("source", "Cosmetology")
+                        q.setdefault("topic", "Cosmetology")
+                        valid.append(q)
+        print(f"  → Generated {len(valid)} cosmetology questions via API")
+        return valid
+    except Exception as e:
+        print(f"  ⚠  Direct cosmetology generation failed: {e}")
+        return []
+
 def make_questions(client: anthropic.Anthropic,
                    note_content: str,
                    note_name: str,
@@ -307,18 +369,26 @@ def main():
     # ── generate AI text questions ────────────
     text_target = TOTAL_QUESTIONS - len(spotter_qs)
     all_questions: list[dict] = []
-    for i, (topic, path) in enumerate(sampled, 1):
-        if len(all_questions) >= text_target:
-            break
-        needed = min(QUESTIONS_PER_NOTE, text_target - len(all_questions))
-        print(f"   [{i:02d}/{len(sampled)}] {topic} / {path.stem[:45]:<45} ", end="", flush=True)
-        content = read_note(path)
-        if not content:
-            print("⚠  empty")
-            continue
-        qs = make_questions(client, content, path.stem, topic, needed)
-        print(f"→ +{len(qs)} question{'s' if len(qs)!=1 else ''}")
-        all_questions.extend(qs)
+
+    # If in exclusive cosmetology focus but vault has no cosmetology notes,
+    # generate cosmetology questions directly via API instead of falling back
+    # to general dermatology topics.
+    focus_topics_in_vault = focus and any(t in by_topic for t in focus.get("topics", []))
+    if focus and focus.get("exclusive") and not focus_topics_in_vault:
+        all_questions = generate_cosmetology_direct(client, text_target, today)
+    else:
+        for i, (topic, path) in enumerate(sampled, 1):
+            if len(all_questions) >= text_target:
+                break
+            needed = min(QUESTIONS_PER_NOTE, text_target - len(all_questions))
+            print(f"   [{i:02d}/{len(sampled)}] {topic} / {path.stem[:45]:<45} ", end="", flush=True)
+            content = read_note(path)
+            if not content:
+                print("⚠  empty")
+                continue
+            qs = make_questions(client, content, path.stem, topic, needed)
+            print(f"→ +{len(qs)} question{'s' if len(qs)!=1 else ''}")
+            all_questions.extend(qs)
 
     # ── merge spotters + AI text questions ───
     all_questions.extend(spotter_qs)
@@ -357,7 +427,8 @@ def main():
 
     # ── git push ──────────────────────────────
     print(f"\n🚀 Pushing to GitHub Pages…")
-    git_push(REPO_PATH, f"Daily quiz: {today} ({len(all_questions)} questions)",
+    focus_label = f" [{focus['label']}]" if focus else ""
+    git_push(REPO_PATH, f"Daily quiz: {today} ({len(all_questions)} questions){focus_label}",
              github_token, "gauthamkrishna0730-png")
 
     print(f"\n✅ Done! Visit your quiz at:")
