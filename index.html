@@ -237,17 +237,8 @@ async function loadQuestions() {
   const today = new Date().toISOString().slice(0,10);
   document.getElementById('streakCount').textContent = getStreak();
 
-  // try to load from cache first (same-day)
-  const cached = localStorage.getItem('derm_daily_questions');
-  if (cached) {
-    const obj = JSON.parse(cached);
-    if (obj.date === today && obj.questions && obj.questions.length > 0) {
-      initQuiz(obj);
-      return;
-    }
-  }
-
-  // fetch from server
+  // Always fetch fresh from server to catch same-day updates (bot overwrites, re-pushes)
+  // Use cached version only as fallback if fetch fails
   main.innerHTML = `<div class="screen"><div class="screen-icon">⏳</div>
     <h2>Loading Today's Questions</h2>
     <p>Fetching your personalised quiz generated from your Obsidian vault…</p></div>`;
@@ -257,7 +248,7 @@ async function loadQuestions() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
 
-    // cache it
+    // cache for offline fallback
     localStorage.setItem('derm_daily_questions', JSON.stringify(data));
 
     if (data.date !== today) {
@@ -266,6 +257,15 @@ async function loadQuestions() {
     }
     initQuiz(data);
   } catch(e) {
+    // network failure — try cache as fallback
+    const cached = localStorage.getItem('derm_daily_questions');
+    if (cached) {
+      const obj = JSON.parse(cached);
+      if (obj.date === today && obj.questions && obj.questions.length > 0) {
+        initQuiz(obj);
+        return;
+      }
+    }
     showErrorScreen(e.message);
   }
 }
