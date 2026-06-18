@@ -1,398 +1,421 @@
 {
-  "date": "2026-06-17",
-  "generated_at": "2026-06-17T06:00:00",
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T00:00:00",
   "count": 30,
-  "topics_covered": ["Cosmetology"],
+  "topics_covered": [
+    "Leprosy & Lepra Reactions",
+    "Pemphigus & Bullous Disorders",
+    "Melanoma & Skin Tumours",
+    "Dermatophytosis & Fungal Infections",
+    "Syphilis & STDs",
+    "Psoriasis & Biologics",
+    "Dermoscopy",
+    "Acne & Isotretinoin",
+    "Tinea Versicolor",
+    "Connective Tissue Disorders",
+    "Lichen Planus",
+    "Scabies",
+    "Dermatomyositis",
+    "Vitiligo",
+    "Gonorrhoea",
+    "Basal Cell Carcinoma",
+    "Onychomycosis",
+    "Lymphogranuloma Venereum",
+    "Drug Reactions & DRESS",
+    "Patch Testing",
+    "Erythema Multiforme",
+    "Hidradenitis Suppurativa"
+  ],
   "questions": [
     {
-      "q": "A 28-year-old patient presents with persistent pink-red macules at healed acne sites. Dermoscopy shows telangiectatic vessels (post-inflammatory erythema, PIE). The most appropriate laser to selectively target the chromophore in this lesion is:",
+      "q": "A 25-year-old male with multibacillary leprosy on WHO-MDT for 6 months presents with sudden painful erythematous swelling of existing skin lesions, fever of 38.8°C, and new nerve tenderness. No new lesions are present. What is the most appropriate management?",
       "opts": [
-        "585–595nm pulsed dye laser (PDL)",
-        "755nm alexandrite laser",
-        "1064nm Nd:YAG laser",
-        "2940nm Er:YAG laser"
-      ],
-      "ans": 0,
-      "exp": "PIE is caused by persistent dilated blood vessels; the chromophore is oxyhemoglobin (peak absorption ~542 and 577nm). The 585–595nm PDL selectively targets oxyhemoglobin via selective photothermolysis. Alexandrite targets melanin, long-pulsed Nd:YAG targets deeper vessels, and Er:YAG is an ablative resurfacing laser with no vascular selectivity.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "When reconstituting 100-unit vials of botulinum toxin type A with bacteriostatic 0.9% NaCl (containing benzyl alcohol) rather than non-preserved saline, which of the following is CORRECT?",
-      "opts": [
-        "Increases risk of neutralising antibody formation against the toxin",
-        "Reduces injection-associated pain due to benzyl alcohol's mild local anaesthetic properties",
-        "Shortens duration of effect by accelerating toxin degradation",
-        "Is contraindicated as benzyl alcohol irreversibly denatures the toxin protein"
+        "Stop MDT immediately and start prednisolone 40 mg/day",
+        "Continue MDT and add prednisolone 40 mg/day",
+        "Stop MDT and start thalidomide 100 mg/day",
+        "Switch to second-line MDT regimen and add clofazimine"
       ],
       "ans": 1,
-      "exp": "Benzyl alcohol, the preservative in bacteriostatic saline, acts as a mild local anaesthetic, reducing the sting on injection — a well-documented clinical advantage. Studies show no significant increase in antibody formation or meaningful reduction in efficacy duration. Bacteriostatic saline does not denature the toxin at standard dilution volumes.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Type 1 (reversal) lepra reaction requires continuation of MDT — stopping MDT is dangerous and incorrect. Prednisolone 40 mg/day (tapering over 12-24 weeks) is added to control immune-mediated inflammation and prevent nerve damage.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy & Lepra Reactions"
     },
     {
-      "q": "A 45-year-old woman develops firm, non-fluctuant subcutaneous nodules 18 months after hyaluronic acid filler injection. Aspiration yields no fluid. The MOST appropriate first-line treatment is:",
+      "q": "A 45-year-old woman presents with painful oral erosions for 3 months followed by flaccid blisters on the trunk that rupture easily, leaving raw areas. Nikolsky sign is positive. Which autoantibody is primarily responsible for mucosal involvement in this condition?",
       "opts": [
-        "Hyaluronidase injection into the nodules",
-        "Intralesional 5-fluorouracil (50 mg/mL) monotherapy",
-        "Intralesional triamcinolone acetonide combined with 5-fluorouracil",
-        "Surgical excision under local anaesthesia"
-      ],
-      "ans": 2,
-      "exp": "Late, non-fluctuant nodules appearing >6 months post-HA filler represent biofilm-associated or foreign body granulomas, not simple filler nodules. Hyaluronidase is ineffective against established granulomas. Intralesional triamcinolone (10–20 mg/mL) + 5-FU (50 mg/mL) combination is first-line, reducing fibrosis through complementary mechanisms (corticosteroid inhibits fibroblast activity; 5-FU inhibits fibroblast proliferation).",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Diphencyprone (DPCP) is used as a contact sensitiser in alopecia areata. Its mechanism of action promoting hair regrowth is BEST described as:",
-      "opts": [
-        "Direct cytotoxic effect on autoreactive CD8+ T cells within the peribulbar infiltrate",
-        "Upregulation of IL-10 secretion by regulatory T cells, globally suppressing autoimmunity",
-        "Competitive inhibition of NKG2D receptor on perifollicular NK cells",
-        "Hapten-induced antigenic competition diverting the immune response away from follicular antigens"
-      ],
-      "ans": 3,
-      "exp": "DPCP functions as a hapten creating contact hypersensitivity. The leading mechanistic hypothesis is 'antigenic competition' — the robust hapten-specific Th1 response diverts autoreactive T cells away from follicular MICA antigens (normally recognised by NKG2D+ NK/NKT cells). This immune privilege shift in the follicular microenvironment allows melanocyte and follicular stem cell recovery. DPCP does not act primarily via IL-10 or direct T-cell cytotoxicity.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "For L-ascorbic acid to penetrate the stratum corneum efficiently AND remain chemically stable in a topical formulation, the optimal formulation parameters are:",
-      "opts": [
-        "pH ≤3.5 and concentration ≥10%",
-        "pH 5.0–6.0 and concentration ≥5%",
-        "pH ≤3.5 and concentration <5%",
-        "pH 7.0 and concentration ≥20%"
-      ],
-      "ans": 0,
-      "exp": "L-ascorbic acid has a pKa of 4.2; at pH ≤3.5, it remains fully protonated (neutral charge), maximising lipid solubility and stratum corneum penetration. Concentrations below 10% produce minimal biological effect; therapeutic range is 10–20%. At neutral or alkaline pH, ascorbic acid rapidly oxidises to dehydroascorbic acid, losing both stability and efficacy.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A patient is concerned about oxybenzone in sunscreen during pregnancy. The primary evidence-based safety concern regarding oxybenzone relates to:",
-      "opts": [
-        "Direct UV-induced photoallergy causing systemic anaphylactic reactions",
-        "Endocrine-disrupting potential via oestrogen receptor agonism detected in animal and in vitro studies",
-        "Nephrotoxicity due to percutaneous accumulation in renal tubular cells",
-        "Photodegradation producing reactive oxygen species within the dermis"
+        "Anti-BP180 (type XVII collagen)",
+        "Anti-desmoglein 3 (Dsg3)",
+        "Anti-desmoglein 1 (Dsg1)",
+        "Anti-laminin 332"
       ],
       "ans": 1,
-      "exp": "Oxybenzone (benzophenone-3) is a chemical UVB/UVA-II filter with significant percutaneous absorption — detected in blood, urine, and breast milk. Animal and in vitro studies demonstrate weak oestrogenic activity via oestrogen receptor binding (endocrine disruption). This is the primary concern in pregnancy and in children. It does not cause nephrotoxicity or clinically significant photoallergy at sunscreen concentrations.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Pemphigus vulgaris with mucosal involvement is mediated primarily by anti-Dsg3 antibodies. Dsg3 is the predominant adhesion molecule in mucosae. Anti-Dsg1 alone causes pemphigus foliaceus (no mucosal involvement). Combined anti-Dsg1+Dsg3 causes mucocutaneous PV.",
+      "source": "Cloud fallback",
+      "topic": "Pemphigus & Bullous Disorders"
     },
     {
-      "q": "During a TCA peel, the endpoint observed is erythema with scattered streaks of white frosting but with the pink background still clearly visible (Level I frosting). This appearance indicates the peel has penetrated to the depth of:",
+      "q": "A 55-year-old male presents with a pigmented lesion on his back (asymmetry, irregular border, mixed colours, diameter 9 mm). Wide excision confirms melanoma. Which single factor most strongly determines his 5-year survival prognosis?",
       "opts": [
-        "Stratum granulosum only (very superficial)",
-        "Papillary dermis",
-        "Full-thickness epidermal penetration (epidermis only)",
-        "Mid-reticular dermis"
-      ],
-      "ans": 2,
-      "exp": "TCA frosting levels indicate depth: Level I (erythema with streaks of white frost, pink background visible) = full-thickness epidermis; Level II (white coating with erythema visible through frost) = papillary dermis; Level III (solid, opaque white frost with no erythema) = upper reticular dermis. Level I represents epidermal coagulation without dermal penetration, equivalent to a superficial-to-medium transition peel.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 32-year-old woman undergoes 810nm diode laser hair removal for facial hair. After 4 sessions, she notices increased, thicker dark hair in the treated area extending beyond the original treatment zone. The MOST likely explanation for this paradoxical hypertrichosis is:",
-      "opts": [
-        "Laser-induced heat-shock protein upregulation activating dormant telogen follicles throughout the scalp",
-        "Increased local DHT sensitivity in follicles that received subthreshold laser fluence",
-        "MSH surge post-laser causing melanogenesis and hypertrophy in surrounding follicles",
-        "Subthreshold photothermal energy at treatment margins stimulating rather than destroying follicles, activating stem cells"
-      ],
-      "ans": 3,
-      "exp": "Paradoxical hypertrichosis results from subthreshold (insufficient to destroy) laser energy stimulating the hair follicle — analogous to low-level laser therapy promoting growth. Follicles at the periphery of the treatment zone receive fluences below the destruction threshold but sufficient for thermal stimulation of stem cells in the bulge region. Risk is higher in Fitzpatrick types III–V, hormonal skin (upper lip, jaw), and in patients with polycystic ovarian syndrome.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "For PRP activation to achieve physiological release of growth factors from alpha granules, the activating combination that MOST closely mimics in vivo wound healing is:",
-      "opts": [
-        "Calcium chloride (CaCl₂) combined with autologous thrombin",
-        "Freeze-thaw cycling at −20°C for 30 minutes",
-        "Bovine collagen matrix added to the PRP prior to injection",
-        "Sonication at 40 kHz for 30 seconds"
-      ],
-      "ans": 0,
-      "exp": "In vivo platelet activation occurs through the coagulation cascade: thrombin cleaves fibrinogen to fibrin, and calcium reverses anticoagulation. Adding exogenous CaCl₂ (10%, 50–70 µL per mL PRP) to autologous thrombin most faithfully replicates this, triggering release of PDGF, TGF-β1, VEGF, and EGF from alpha granules. Bovine thrombin carries alloimmunisation risk; freeze-thaw and sonication are non-physiological and may denature growth factors.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Topical tacrolimus 0.1% is used as a steroid-sparing agent in vitiligo. Its principal mechanism enabling repigmentation is:",
-      "opts": [
-        "Direct stimulation of melanocyte proliferation via c-Kit/SCF receptor activation",
-        "Inhibition of T-cell apoptosis in the perifollicular region, preserving the melanocyte reservoir",
-        "Calcineurin inhibition preventing IL-2 transcription and suppressing CD8+ T-cell–mediated melanocyte destruction",
-        "Upregulation of stem cell factor (SCF) in keratinocytes adjacent to the depigmented zone"
-      ],
-      "ans": 2,
-      "exp": "Vitiligo pathogenesis involves CD8+ cytotoxic T-cell activation via the calcineurin-NFAT pathway, leading to IFN-γ and CXCL10 secretion and targeted melanocyte destruction. Tacrolimus (FK506) binds FKBP12, inhibiting calcineurin and blocking NFAT nuclear translocation, preventing IL-2 gene transcription and CD8+ T-cell activation. This immunosuppression allows melanocyte precursors in the hair follicle bulge to migrate and repopulate the epidermis.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Platelet-rich fibrin (PRF) is increasingly used in preference to PRP for hair restoration and skin rejuvenation. The MOST clinically relevant advantage of PRF over conventional PRP is:",
-      "opts": [
-        "Higher platelet concentration (5–7× baseline) compared to PRP (2–3× baseline)",
-        "Absence of leukocytes, producing a non-inflammatory, purely regenerative preparation",
-        "Compatibility with heterologous donor blood due to the universal fibrin scaffold",
-        "Slow, sustained release of growth factors over 7–14 days from the 3D fibrin scaffold"
-      ],
-      "ans": 3,
-      "exp": "PRF is prepared without anticoagulants, producing a fibrin matrix that traps platelets and leukocytes. This 3D scaffold releases PDGF, TGF-β1, VEGF, and IGF-1 slowly over 7–14 days — contrasting with PRP's rapid bolus release. PRF platelet concentration is not necessarily superior to PRP; it contains leukocytes (i-PRF is leukocyte-rich); and only autologous blood is used, making heterologous compatibility irrelevant.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 38-year-old woman presents with diffuse crown thinning with a preserved frontal hairline. Ludwig Grade II female pattern hair loss (FPHL) is characterised by:",
-      "opts": [
-        "Minimal widening of the central part line, detectable only on close clinical inspection",
-        "Pronounced widening of the central part line with appreciable diffuse thinning of the crown",
-        "Complete baldness of the crown with only a peripheral rim of hair remaining",
-        "Bitemporal recession with relative preservation of the mid-scalp"
+        "Tumour diameter greater than 6 mm",
+        "Breslow thickness",
+        "Clark level of invasion",
+        "Number of mitoses per mm²"
       ],
       "ans": 1,
-      "exp": "Ludwig classification: Grade I — minimal widening of the central part, visible only on close inspection; Grade II — pronounced widening with clearly appreciable diffuse thinning over the crown; Grade III — extensive diffuse thinning throughout the top of the scalp with only a narrow peripheral rim of hair. Bitemporal recession is a feature of Hamilton-Norwood classification (male pattern) and is not characteristic of Ludwig FPHL.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Breslow thickness (depth of invasion in mm) is the single most important prognostic factor in primary melanoma and directly determines T-staging in AJCC 8th edition. Clark level has been removed from current staging due to lesser prognostic weight.",
+      "source": "Cloud fallback",
+      "topic": "Melanoma & Skin Tumours"
     },
     {
-      "q": "Magnesium ascorbyl phosphate (MAP) and ascorbyl-2-glucoside (AA2G) are stable vitamin C derivatives at neutral pH. The key difference in their cutaneous bioconversion is:",
+      "q": "A 30-year-old farmer presents with circular erythematous scaly patches on the groin with central clearing and an active advancing border. KOH mount confirms dermatophyte infection. Which organism is most commonly responsible for tinea cruris in India?",
       "opts": [
-        "MAP is dephosphorylated by cutaneous phosphatases; AA2G is hydrolysed by α-glucosidase (glucoamylase) to release L-ascorbic acid",
-        "Both derivatives require cytochrome P450 enzymes in the stratum spinosum for bioconversion",
-        "AA2G requires no enzymatic conversion; MAP requires UV exposure to release active ascorbic acid",
-        "MAP is biologically active as-is and requires no enzymatic conversion in skin"
+        "Trichophyton rubrum",
+        "Trichophyton mentagrophytes var. interdigitale",
+        "Trichophyton violaceum",
+        "Microsporum canis"
       ],
       "ans": 0,
-      "exp": "Both MAP and AA2G are prodrug derivatives that require enzymatic hydrolysis in the skin to release free L-ascorbic acid. MAP is cleaved by cutaneous phosphatase enzymes (alkaline/acid phosphatases present in the epidermis). AA2G (ascorbyl-2-glucoside) is hydrolysed by α-glucosidase (glucoamylase) activity. Both offer superior stability over L-ascorbic acid in formulations but require different enzymatic pathways for activation.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Trichophyton rubrum is the most common dermatophyte causing tinea cruris, tinea pedis, and tinea unguium worldwide and in India. T. mentagrophytes is second most common. M. canis primarily causes tinea capitis and tinea corporis acquired from animals.",
+      "source": "Cloud fallback",
+      "topic": "Dermatophytosis & Fungal Infections"
     },
     {
-      "q": "Using the Kirby-Desai scale for predicting laser tattoo removal sessions, which colour of tattoo ink is MOST resistant to standard Q-switched Nd:YAG laser and would score the maximum on the colour parameter?",
+      "q": "A 28-year-old sexually active male presents with a single painless indurated ulcer on the glans penis for 10 days. Dark-field microscopy confirms motile spirochetes. VDRL is reactive at 1:4 and TPHA is positive. What is the drug of choice?",
       "opts": [
-        "Black — absorbs all wavelengths, making thermal diffusion unpredictable",
-        "Red — requires the 532nm wavelength, which is less commonly available",
-        "Green and yellow fluorescent — lacking an optimal wavelength in standard Q-switched device portfolios",
-        "Dark blue — poorly absorbed by 1064nm Nd:YAG due to spectral mismatch"
-      ],
-      "ans": 2,
-      "exp": "In the Kirby-Desai scale, ink colour significantly predicts required sessions. Black ink absorbs 1064nm efficiently and scores 1 (easiest). Red responds to 532nm (score 2). Green and yellow fluorescent pigments are the most resistant — standard Q-switched 1064nm and 532nm Nd:YAG devices have poor absorption spectra for these colours; they score highest (most sessions predicted). Picosecond lasers with 730nm and 785nm outputs improve efficacy for these pigments.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Injectable phosphatidylcholine (PC) preparations (e.g., Lipostabil) used for mesotherapy-based lipolysis exert their adipocytolytic effect primarily via:",
-      "opts": [
-        "Phosphatidylcholine itself by activating endogenous adipocyte lipase enzymes",
-        "Lysophosphatidylcholine formed after phospholipase A2 digestion of the injected PC",
-        "Choline released from PC metabolism activating β3-adrenoceptors on adipocytes",
-        "Sodium deoxycholate (a bile salt detergent co-formulated with PC) disrupting adipocyte cell membranes"
-      ],
-      "ans": 3,
-      "exp": "Commercial PC formulations contain sodium deoxycholate as a solubiliser. Research demonstrates that deoxycholate alone replicates the lipolytic and adipocytolytic effect of the PC formulation — it acts as a detergent, disrupting the adipocyte plasma membrane. Pure PC without deoxycholate has minimal in vivo lipolytic activity. ATX-101 (Kybella/Belkyra) — FDA-approved deoxycholic acid — confirmed this, with deoxycholate as the sole active ingredient.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Compared to monopolar radiofrequency (RF), bipolar RF in skin tightening:",
-      "opts": [
-        "Has shallower depth of penetration, as current flows between two closely spaced electrodes on the same handpiece",
-        "Requires a grounding pad placed on the patient's back to complete the electrical circuit",
-        "Achieves greater depth of penetration because the circuit closes through the patient's body",
-        "Produces identical depth to monopolar RF at equivalent frequency and power settings"
-      ],
-      "ans": 0,
-      "exp": "In bipolar RF, current flows between two electrodes positioned on the same handpiece. Penetration depth equals approximately half the inter-electrode distance (typically 2–4mm — targeting the dermis). Monopolar RF uses one active electrode with a remote grounding pad on the body, directing current through deeper tissues (4–6mm or beyond, reaching the SMAS). The grounding pad requirement distinguishes monopolar from bipolar; no pad = bipolar.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "High-intensity focused ultrasound (HIFU) for facial lifting is absolutely contraindicated in patients with:",
-      "opts": [
-        "Fitzpatrick skin types V–VI with significant baseline epidermal melanin",
-        "Active implanted electronic devices (pacemaker, neurostimulator) in or near the treatment field",
-        "Prior botulinum toxin injection within the preceding 3 months",
-        "Stable thyroid disease managed with levothyroxine monotherapy"
+        "Doxycycline 100 mg BD orally for 14 days",
+        "Benzathine penicillin G 2.4 million units IM single dose",
+        "Azithromycin 1 g orally single dose",
+        "Ceftriaxone 1 g IM daily for 10 days"
       ],
       "ans": 1,
-      "exp": "HIFU delivers focused mechanical and thermal energy deep in tissue. Active implanted electronic devices (cardiac pacemakers, neurostimulators, cochlear implants) within or near the treatment field are an absolute contraindication — HIFU energy can cause electromagnetic interference, device malfunction, or thermal injury at the device-tissue interface. Fitzpatrick type, recent Botox, and stable thyroid medication are not absolute contraindications; the thyroid area itself should be avoided as a treatment zone.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Benzathine penicillin G 2.4 MU IM single dose remains the drug of choice for primary syphilis. Doxycycline for 14 days is the preferred alternative in penicillin-allergic patients. Azithromycin has emerging resistance and is no longer recommended as primary therapy.",
+      "source": "Cloud fallback",
+      "topic": "Syphilis & STDs"
     },
     {
-      "q": "During FUE hair transplant harvesting from a patient with fine, straight hair and low donor density, the punch choice that MINIMISES transection rate is:",
+      "q": "A 70-year-old male presents with intensely pruritic tense blisters on an urticarial base on the trunk and flexures. Nikolsky sign is negative. Direct immunofluorescence shows linear IgG and C3 deposition at the dermal-epidermal junction. The target antigens are:",
       "opts": [
-        "Sharp straight-edged punch (0.9mm) with slow unidirectional drill rotation",
-        "Blunt punch (1.0mm) with oscillating motion to avoid follicular winding",
-        "Sharp serrated (flared/trumpet) punch (0.8mm) with oscillating or hybrid rotation",
-        "Motorised straight trumpet punch (1.2mm) at high speed for efficiency"
-      ],
-      "ans": 2,
-      "exp": "Fine hair follicles have delicate shafts, shallower angles, and tighter curl patterns requiring precision. A sharp serrated (trumpet/flared) punch at 0.8mm with oscillating or hybrid (oscillation + rotation) motion cuts cleanly through the epidermis while oscillation prevents follicular winding — reducing transection significantly compared to unidirectional rotation. Larger punches (1.0–1.2mm) increase donor scarring and reduce graft yield per cm².",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A researcher studying UV carcinogenesis compares the DNA damage mechanisms of UVA and UVB. Which statement CORRECTLY distinguishes their primary mechanisms?",
-      "opts": [
-        "UVB directly forms cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts; UVA primarily causes oxidative DNA damage via reactive oxygen species (ROS)",
-        "UVA directly forms CPDs via direct photon absorption; UVB causes indirect damage through hydrogen peroxide production",
-        "Both UVA and UVB form CPDs through identical direct photochemical mechanisms in epidermal DNA",
-        "UVB primarily causes DNA strand breaks; UVA exclusively induces point mutations via CPD formation"
-      ],
-      "ans": 0,
-      "exp": "UVB (280–315nm) is directly absorbed by DNA pyrimidine bases, producing covalent photoproducts — cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts between adjacent thymidines. UVA (315–400nm), though poorly absorbed by DNA directly, generates reactive oxygen species (singlet oxygen, superoxide, hydrogen peroxide) that cause indirect oxidative DNA damage, primarily 8-oxoguanine lesions — distinct from UVB's direct photoproducts and leading to different mutation signatures.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Palmitoyl pentapeptide-4 (Matrixyl) is a signal peptide used in anti-ageing cosmeceuticals. Its mechanism of action is:",
-      "opts": [
-        "Directly inhibiting MMP-1 by competitive chelation of the active site zinc ion",
-        "Acting as a retinoid receptor agonist, upregulating RAR-β to increase procollagen transcription",
-        "Mimicking laminin-5 to stimulate keratinocyte proliferation at the dermoepidermal junction",
-        "Mimicking a collagen type I breakdown fragment (KTTKS), signalling fibroblasts to upregulate procollagen I, III, and fibronectin synthesis"
-      ],
-      "ans": 3,
-      "exp": "Palmitoyl pentapeptide-4 consists of the sequence Lys-Thr-Thr-Lys-Ser (KTTKS) — a fragment generated during collagen type I degradation by MMPs — attached to palmitic acid for enhanced skin penetration. Fibroblasts 'interpret' this peptide as a signal of extracellular matrix breakdown and upregulate synthesis of procollagen I, III, and fibronectin. It does not directly inhibit MMPs, activate retinoid receptors, or stimulate keratinocytes.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Pyruvic acid is an alpha-keto acid used as a superficial-to-medium chemical peeling agent. Its key advantage over glycolic acid for acne-prone, oily skin is:",
-      "opts": [
-        "Greater keratolytic potency at lower concentrations due to its smaller molecular weight compared to glycolic acid",
-        "Triple action: keratolytic, antimicrobial (inhibits P. acnes metabolism), and sebostatic — ideal for acne-prone oily skin",
-        "Ability to penetrate to the reticular dermis at 50% concentration for deep collagen remodelling",
-        "Lower post-peel PIH risk due to a pH-independent, non-inflammatory mechanism of keratolysis"
+        "Desmoglein 1 and Desmoglein 3",
+        "BP180 (collagen XVII) and BP230",
+        "Type VII collagen (anchoring fibrils)",
+        "Laminin 332 (epiligrin)"
       ],
       "ans": 1,
-      "exp": "Pyruvic acid (an alpha-keto acid) has three distinct mechanisms: (1) keratolytic — disrupts corneocyte cohesion; (2) antimicrobial — inhibits bacterial metabolic enzymes (particularly P. acnes); (3) sebostatic — reduces sebaceous gland secretion. This triple action makes it superior to glycolic acid for inflammatory acne with oily skin. At 50% concentration, pyruvic acid achieves medium depth but does not reach the reticular dermis; phenol-croton oil combinations are required for deep peels.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Bullous pemphigoid is characterised by IgG autoantibodies against BP180 (NC16A domain of collagen XVII, the transmembrane hemidesmosomal protein) and BP230 (intracellular hemidesmosomal plaque protein). Linear IgG+C3 at DEJ is classic. Tense blisters (subepidermal) differ from flaccid (intraepidermal) pemphigus blisters.",
+      "source": "Cloud fallback",
+      "topic": "Pemphigus & Bullous Disorders"
     },
     {
-      "q": "Following foam sclerotherapy for great saphenous vein (GSV) reflux in a 42-year-old woman, the recommended post-procedure compression regimen per European guidelines is:",
+      "q": "A 35-year-old presents with 4 well-defined hypopigmented patches with clear-cut sensory loss. No peripheral nerve thickening is found. Slit skin smear is negative (BI = 0). According to WHO operational classification, this patient should be treated as:",
       "opts": [
-        "Class I compression stockings (15–21 mmHg) for 24 hours only, then none",
-        "Non-graded elastic bandage applied circumferentially for 48 hours",
-        "Class II medical compression stockings (23–32 mmHg) worn for 2–6 weeks",
-        "Class III compression (34–46 mmHg) for 1 week followed by Class II for 4 weeks"
-      ],
-      "ans": 2,
-      "exp": "European Sclerotherapy Guidelines recommend Class II medical graduated compression (23–32 mmHg) for 2–6 weeks following foam sclerotherapy of the GSV. This maintains vein wall coaptation, prevents recanalisation of thrombus, and improves fibrotic obliteration rates. Class I compression is insufficient for large-vessel sclerotherapy. Class III stockings are typically reserved for severe chronic venous disease or lymphoedema, not routine post-sclerotherapy use.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Acetyl hexapeptide-3 (Argireline) is marketed as a topical alternative to botulinum toxin. Its proposed mechanism of action is:",
-      "opts": [
-        "Competing with SNAP-25 for SNARE complex assembly, partially inhibiting acetylcholine vesicle docking and fusion",
-        "Blocking muscarinic acetylcholine receptors post-synaptically at the neuromuscular junction",
-        "Inhibiting choline acetyltransferase, reducing acetylcholine synthesis in presynaptic terminals",
-        "Cleaving VAMP (synaptobrevin) at the presynaptic membrane, mimicking the action of BoNT-B"
+        "Paucibacillary leprosy — 6-month MDT-PB regimen",
+        "Multibacillary leprosy — 12-month MDT-MB regimen",
+        "Indeterminate leprosy requiring observation only",
+        "Pure neuritic leprosy — ROM single-dose therapy"
       ],
       "ans": 0,
-      "exp": "Argireline (Ac-EEMQRR-NH₂) is a hexapeptide fragment based on the N-terminal domain of SNAP-25. It competitively interferes with SNARE complex formation (the tripartite interaction of SNAP-25, syntaxin-1, and VAMP), partially inhibiting acetylcholine vesicle docking and exocytosis. Unlike botulinum toxin, Argireline does not cleave SNARE proteins and produces reversible, milder effects. Significant topical penetration to the neuromuscular junction remains debated.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "WHO operational classification: PB leprosy = 1-5 skin lesions with negative SSS. MB leprosy = 6+ skin lesions OR positive SSS. This patient has 4 lesions and negative SSS — paucibacillary leprosy, treated with 6-month MDT-PB (rifampicin + dapsone).",
+      "source": "Cloud fallback",
+      "topic": "Leprosy & Lepra Reactions"
     },
     {
-      "q": "A paediatric dermatologist advises initiating pulsed dye laser (PDL) treatment for a port-wine stain (PWS) in a 2-year-old child rather than waiting for adulthood. The PRIMARY physiological rationale for early treatment is:",
+      "q": "A 25-year-old female on phenytoin for epilepsy develops fever, morbilliform rash, bilateral cervical lymphadenopathy, and hepatitis 6 weeks after starting the drug. CBC shows eosinophilia (1,800 cells/µL). What is the diagnosis?",
       "opts": [
-        "Neonatal skin has higher dermal collagen content, making laser-induced thermocoagulation more efficient",
-        "Fewer epidermal melanocytes in infancy reduce competitive melanin absorption of the PDL wavelength",
-        "Adult PWS vessels migrate below the effective PDL penetration depth of 1–2mm",
-        "Infant PWS vessels are smaller in diameter, requiring less energy for thermocoagulation before progressive vascular ectasia develops"
-      ],
-      "ans": 3,
-      "exp": "PWS vessels undergo progressive ectasia with age — childhood vessel diameters range from 10–50µm, expanding to 100–300µm in adult PWS. Smaller vessel diameters in infancy match the thermal relaxation time (TRT) for PDL settings more precisely, enabling efficient thermocoagulation with lower fluences. Early treatment prevents the progression to nodularity, tissue hypertrophy, and associated complications including Sturge-Weber syndrome involvement.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Terbinafine's antifungal mechanism in dermatophyte infections specifically involves:",
-      "opts": [
-        "Binding directly to ergosterol in the fungal membrane, forming ion channels causing cytoplasmic leakage",
-        "Inhibiting fungal squalene epoxidase (squalene monooxygenase), blocking ergosterol synthesis and causing toxic squalene accumulation",
-        "Inhibiting lanosterol 14α-demethylase (CYP51), preventing lanosterol-to-ergosterol conversion in the fungal cell",
-        "Inhibiting β-1,3-glucan synthase, disrupting polysaccharide synthesis in the fungal cell wall"
+        "Stevens-Johnson Syndrome",
+        "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+        "Serum sickness-like reaction",
+        "Fixed drug eruption"
       ],
       "ans": 1,
-      "exp": "Terbinafine is an allylamine that specifically and non-competitively inhibits fungal squalene epoxidase, blocking the conversion of squalene to squalene-2,3-epoxide — an early step in the ergosterol biosynthesis pathway. This causes dual fungal toxicity: ergosterol depletion AND intracellular squalene accumulation (directly toxic). Option A describes polyenes (amphotericin B, nystatin); option C describes azoles (fluconazole, itraconazole); option D describes echinocandins (caspofungin).",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "DRESS presents 2-8 weeks after drug initiation with fever, morbilliform eruption, lymphadenopathy, eosinophilia, and visceral organ involvement. Aromatic anticonvulsants (phenytoin, carbamazepine, phenobarbitone) are classic triggers. Mortality is ~10% without prompt management. RegiSCAR criteria used for diagnosis.",
+      "source": "Cloud fallback",
+      "topic": "Drug Reactions & DRESS"
     },
     {
-      "q": "During nail surgery, damage to which structure causes permanent nail dystrophy? The germinal matrix — responsible for 80–90% of nail plate production — is anatomically located:",
+      "q": "A patient with severe plaque psoriasis is started on a biologic that targets the shared p40 subunit of IL-12 and IL-23, thereby inhibiting both Th1 and Th17 pathways. Which drug is this?",
       "opts": [
-        "Visible as the lunula beneath the proximal nail fold — representing the distal extent of the germinal matrix",
-        "Distal to the lunula within the nail bed (sterile/distal matrix), producing the ventral nail plate layers",
-        "Proximal to the lunula, beneath the proximal nail fold — extending from the nail root to the proximal border of the lunula",
-        "In the hyponychium, distal to the free edge of the nail plate"
+        "Secukinumab",
+        "Ixekizumab",
+        "Ustekinumab",
+        "Guselkumab"
       ],
       "ans": 2,
-      "exp": "The germinal (proximal) matrix extends from the nail root deep beneath the proximal nail fold to the proximal border of the lunula. It is responsible for 80–90% of nail plate production. The lunula (the white crescent) is actually the visible distal portion of the germinal matrix. The sterile (distal) matrix — the nail bed distal to the lunula — contributes the remaining 10–20% of nail plate thickness. Damage during proximal nail fold surgery or avulsion causes permanent dystrophy.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Ustekinumab is a human monoclonal antibody targeting the p40 subunit shared by IL-12 and IL-23, inhibiting both Th1 (via IL-12) and Th17 (via IL-23) pathways. Secukinumab and ixekizumab target IL-17A. Guselkumab targets IL-23 p19 subunit specifically.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis & Biologics"
     },
     {
-      "q": "For treating post-acne hyperpigmentation (PIH) in Fitzpatrick skin types IV–V using a superficial chemical peel, salicylic acid (SA) is preferred over glycolic acid (GA) primarily because:",
+      "q": "During dermoscopy of a skin-coloured papule on an elderly patient's cheek, the dermatologist identifies leaf-like grey-brown areas, spoke-wheel pattern, and large blue-grey ovoid nests. The most likely diagnosis is:",
       "opts": [
-        "SA has a lower pKa than GA, conferring greater keratolytic potency at equivalent molar concentrations",
-        "SA penetrates to the reticular dermis at 30% concentration, enabling deeper pigment targeting",
-        "SA produces more uniform whitish frosting, providing a reliable depth endpoint in darker skin",
-        "SA is lipophilic with comedolytic activity and self-neutralises, reducing the risk of post-peel PIH in darker skin types"
+        "Seborrhoeic keratosis",
+        "Basal cell carcinoma",
+        "Dermatofibroma",
+        "Intradermal melanocytic naevus"
       ],
-      "ans": 3,
-      "exp": "Salicylic acid is a lipophilic beta-hydroxy acid that penetrates sebum-filled follicles (comedolytic), targeting follicular PIH. Crucially, SA self-neutralises — precipitating as a white pseudofrost when it reaches saturation, preventing uncontrolled penetration depth. This makes it significantly safer in Fitzpatrick types IV–VI compared to GA, which can trigger rebound PIH if depth is not precisely controlled. SA does not reach reticular dermis at clinical concentrations.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "ans": 1,
+      "exp": "Leaf-like areas, spoke-wheel structures, and blue-grey ovoid nests are specific dermoscopic criteria for pigmented basal cell carcinoma. Seborrhoeic keratosis shows milia-like cysts and comedo-like openings. Dermatofibroma shows central white scar-like patch with peripheral pigment network.",
+      "source": "Cloud fallback",
+      "topic": "Dermoscopy"
     },
     {
-      "q": "A 35-year-old patient has 1–3mm diameter reticular leg veins unresponsive to sclerotherapy attempts (needle phobia). The MOST appropriate laser modality for these vessels is:",
+      "q": "A 19-year-old female presents with moderate acne vulgaris showing numerous open and closed comedones, fewer than 20 inflammatory papules, and no nodules or cysts. The most appropriate first-line treatment is:",
       "opts": [
-        "Long-pulsed 1064nm Nd:YAG laser with dynamic cooling",
-        "595nm pulsed dye laser (PDL)",
-        "532nm KTP laser",
-        "810nm diode laser"
+        "Oral isotretinoin 0.5 mg/kg/day",
+        "Topical adapalene 0.1% + benzoyl peroxide 2.5% combination",
+        "Oral doxycycline 100 mg BD alone",
+        "Topical clindamycin 1% alone"
+      ],
+      "ans": 1,
+      "exp": "For moderate predominantly comedonal acne, combination of topical retinoid (adapalene normalises follicular keratinisation) plus benzoyl peroxide (antimicrobial, prevents antibiotic resistance) is the evidence-based first-line treatment. Oral antibiotics require a topical retinoid partner. Isotretinoin is reserved for severe/nodulocystic acne or failure of standard therapy.",
+      "source": "Cloud fallback",
+      "topic": "Acne & Isotretinoin"
+    },
+    {
+      "q": "A 22-year-old presents with multiple hypo- and hyperpigmented macules on the trunk with fine branny scaling. KOH preparation shows a 'spaghetti and meatballs' pattern. The primary causative species is:",
+      "opts": [
+        "Malassezia globosa",
+        "Trichophyton rubrum",
+        "Candida tropicalis",
+        "Piedraia hortae"
       ],
       "ans": 0,
-      "exp": "Long-pulsed 1064nm Nd:YAG is the laser of choice for 1–3mm leg reticular veins: it penetrates 3–5mm (sufficient for deeper leg vessels), and at long pulse durations (20–100ms) selectively coagulates these vessels. PDL (595nm) and KTP (532nm) are effective for smaller facial telangiectasias (<0.5mm) but lack adequate penetration depth for leg reticular veins. Additionally, 1064nm has lower melanin absorption, reducing epidermal damage in tanned skin.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Pityriasis (tinea) versicolor is caused by Malassezia species, predominantly M. globosa and M. furfur. KOH shows short hyphae and round yeast cells resembling 'spaghetti and meatballs'. Piedraia hortae causes black piedra; Trichophyton causes dermatophytosis.",
+      "source": "Cloud fallback",
+      "topic": "Tinea Versicolor"
     },
     {
-      "q": "Following a medium-depth TCA peel (35%) in a Fitzpatrick type III patient, the recommended duration of strict daily SPF ≥50+ broad-spectrum photoprotection is:",
+      "q": "A 25-year-old female presents with butterfly rash, photosensitivity, arthralgia, and alopecia. ANA titre is 1:640 (speckled), anti-dsDNA is elevated, and C3/C4 are low. Which autoantibody is considered most SPECIFIC for SLE?",
       "opts": [
-        "2 weeks — until complete re-epithelialisation restores the stratum corneum barrier",
-        "At least 3–6 months — as new melanocytes remain vulnerable to UV-induced upregulation throughout post-peel recovery",
-        "1 month — as the newly formed epidermis reaches full UV tolerance within 30 days",
-        "Lifelong photoprotection beginning 1 week post-peel, regardless of original indication"
-      ],
-      "ans": 1,
-      "exp": "Post medium-depth chemical peel, the new epidermis is thin and functionally immature for several months. UV exposure triggers rapid upregulation of tyrosinase in recovering melanocytes — the major risk factor for post-inflammatory hyperpigmentation (PIH), particularly in Fitzpatrick types III–VI. Guidelines uniformly recommend broad-spectrum SPF ≥50+ sunscreen for at least 3–6 months post-procedure, with physical sun avoidance during peak UV hours.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Which of the following CORRECTLY matches botulinum toxin serotypes to their SNARE protein cleavage targets?",
-      "opts": [
-        "BoNT-A cleaves VAMP (synaptobrevin); BoNT-B cleaves SNAP-25 at Gln197-Arg198",
-        "BoNT-E cleaves syntaxin 1A; BoNT-C cleaves SNAP-25 and VAMP simultaneously",
-        "BoNT-A and BoNT-E both cleave SNAP-25 (at different cleavage sites); BoNT-B cleaves VAMP (synaptobrevin)",
-        "BoNT-C cleaves VAMP exclusively; BoNT-D and BoNT-G cleave syntaxin at distinct sites"
+        "Anti-Ro (SSA)",
+        "Anti-dsDNA",
+        "Anti-Sm (Smith)",
+        "Anti-histone"
       ],
       "ans": 2,
-      "exp": "SNARE cleavage specificity: BoNT-A (Botox/Dysport/Xeomin) cleaves SNAP-25 between Gln197–Arg198; BoNT-E also cleaves SNAP-25 but between Arg180–Ile181, removing a longer C-terminal fragment (shorter clinical duration). BoNT-B (Myobloc/Neurobloc) cleaves VAMP (synaptobrevin) at Gln76–Phe77. BoNT-C is unique in cleaving both syntaxin-1 AND SNAP-25. BoNT-D, F, and G all cleave VAMP at different sites than BoNT-B.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Anti-Sm (Smith) antibodies are the most specific for SLE (>99% specificity) though sensitivity is only 25-30%. Anti-dsDNA is more sensitive and correlates with disease activity/nephritis but is less specific. Anti-histone antibodies are characteristic of drug-induced lupus. Anti-Ro/SSA is associated with neonatal lupus and Sjogren syndrome.",
+      "source": "Cloud fallback",
+      "topic": "Connective Tissue Disorders"
+    },
+    {
+      "q": "A 30-year-old with lepromatous leprosy on MDT presents with crops of painful, tender erythematous nodules on the face and extremities, fever of 39°C, arthralgia, and iridocyclitis. The drug of choice for this reaction is:",
+      "opts": [
+        "Prednisolone 40 mg/day alone",
+        "Thalidomide 100-300 mg/day",
+        "Clofazimine 300 mg/day as monotherapy",
+        "Colchicine 0.5 mg BD"
+      ],
+      "ans": 1,
+      "exp": "Erythema nodosum leprosum (Type 2 lepra reaction) in lepromatous leprosy is best treated with thalidomide (100-300 mg/day) — it is the most effective agent and drug of choice in males and post-menopausal women (teratogenic, contraindicated in women of reproductive age). MDT must always be continued. Steroids are used when thalidomide is contraindicated.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy & Lepra Reactions"
+    },
+    {
+      "q": "A 35-year-old man presents with pruritic violaceous flat-topped polygonal papules on the flexor wrists and ankles, with white lacy lines on buccal mucosa. Skin biopsy is performed. Which histopathological combination is pathognomonic of this condition?",
+      "opts": [
+        "Hypergranulosis, sawtooth rete ridges, and band-like lymphocytic infiltrate at DEJ",
+        "Intraepidermal acantholysis with suprabasal cleft",
+        "Subepidermal blister with numerous eosinophils",
+        "Psoriasiform hyperplasia with Munro microabscesses"
+      ],
+      "ans": 0,
+      "exp": "Lichen planus histology: wedge-shaped hypergranulosis, irregular acanthosis with sawtooth rete ridges, band-like lymphohistiocytic infiltrate hugging the DEJ (lichenoid infiltrate), squamatisation of basal layer, and Civatte (colloid/cytoid) bodies. This triad is pathognomonic.",
+      "source": "Cloud fallback",
+      "topic": "Lichen Planus"
+    },
+    {
+      "q": "A neonate born to an untreated VDRL-positive mother presents with snuffles, hepatosplenomegaly, and a maculopapular rash on palms and soles. X-ray of the tibia shows bilateral symmetrical destruction of the medial proximal tibial metaphyses. This radiological sign is called:",
+      "opts": [
+        "Parrot's pseudoparalysis sign",
+        "Wimberger sign",
+        "Caffey disease pattern",
+        "Corner fracture (bucket-handle) sign"
+      ],
+      "ans": 1,
+      "exp": "Wimberger sign refers to bilateral symmetrical destruction (lytic lesions) of the medial proximal tibial metaphyses, pathognomonic of congenital syphilis. Parrot's pseudoparalysis results from periostitis causing pain on movement. Both are features of early congenital syphilis.",
+      "source": "Cloud fallback",
+      "topic": "Syphilis & STDs"
+    },
+    {
+      "q": "A 10-year-old child with 3 weeks of intense nocturnal pruritus has several affected family members. Examination reveals linear burrows between fingers, papules on the scrotum, and excoriations. Scabies is confirmed on microscopy. The drug of choice for treatment is:",
+      "opts": [
+        "Permethrin 5% cream — single overnight application",
+        "Lindane 1% lotion — single overnight application",
+        "Benzyl benzoate 25% — applied for 3 consecutive nights",
+        "Oral ivermectin 200 µg/kg single dose"
+      ],
+      "ans": 0,
+      "exp": "Permethrin 5% cream is the drug of choice for scabies in children >2 months and adults. Applied overnight to the whole body below the neck and washed off after 8-12 hours. A second application 1 week later is recommended. Lindane is neurotoxic and contraindicated in children. Ivermectin is effective but not first-line in children <15 kg.",
+      "source": "Cloud fallback",
+      "topic": "Scabies"
+    },
+    {
+      "q": "A 45-year-old woman presents with proximal muscle weakness, heliotrope rash, Gottron's papules, V-sign, and shawl sign. CK is markedly elevated. After confirming dermatomyositis, what is the most important next investigation?",
+      "opts": [
+        "Nerve conduction studies and EMG",
+        "CT scan of chest, abdomen, and pelvis to screen for occult malignancy",
+        "Skin biopsy of Gottron's papules",
+        "MRI of affected muscles"
+      ],
+      "ans": 1,
+      "exp": "Adult dermatomyositis carries a 15-30% risk of underlying malignancy (ovarian, lung, gastric, colorectal, breast, nasopharyngeal — particularly in Asian patients). Screening with CT of chest/abdomen/pelvis (+ mammography, pelvic US, colonoscopy as indicated) is the most critical initial step after diagnosis confirmation.",
+      "source": "Cloud fallback",
+      "topic": "Dermatomyositis"
+    },
+    {
+      "q": "A 22-year-old female with severe nodulocystic acne is prescribed oral isotretinoin. She is counselled about teratogenicity. Which pattern of birth defects constitutes 'retinoid embryopathy'?",
+      "opts": [
+        "Neural tube defects (spina bifida, anencephaly)",
+        "CNS abnormalities, craniofacial defects, and conotruncal cardiac defects",
+        "Limb reduction defects and polydactyly",
+        "Renal agenesis and urogenital malformations"
+      ],
+      "ans": 1,
+      "exp": "Retinoid (isotretinoin) embryopathy affects structures derived from cephalic neural crest cells: CNS (hydrocephalus, cerebellar vermis agenesis), craniofacial (microtia/anotia, cleft palate, micrognathia), and cardiovascular (conotruncal defects — transposition of great arteries, VSD). Exposure is most dangerous in the first trimester. Two forms of contraception are mandatory (iPLEDGE protocol).",
+      "source": "Cloud fallback",
+      "topic": "Acne & Isotretinoin"
+    },
+    {
+      "q": "A 28-year-old presents with stable segmental vitiligo on the right cheek for 2 years with no new lesion activity. Surgical intervention is planned. Which procedure offers the best repigmentation for a large stable vitiligo lesion?",
+      "opts": [
+        "Split-thickness skin grafting",
+        "Suction blister epidermal grafting",
+        "Melanocyte-keratinocyte transplant procedure (MKTP)",
+        "Punch grafting"
+      ],
+      "ans": 2,
+      "exp": "MKTP (non-cultured epidermal suspension transplantation) provides the best cosmetic outcome for large areas of stable vitiligo, covering up to 10x the donor site area. Suction blister grafting is excellent for small areas with superior cosmetic results. Punch grafting is used for small focal areas but risks cobblestone scarring. All require disease stability for at least 1-2 years.",
+      "source": "Cloud fallback",
+      "topic": "Vitiligo"
+    },
+    {
+      "q": "A 55-year-old woman presents with superficial flaccid blisters that rupture easily, leaving crusted erosions on the scalp, face, and seborrhoeic areas of the chest and back. Mucous membranes are completely spared. The target autoantigen is:",
+      "opts": [
+        "Desmoglein 3 (Dsg3)",
+        "Desmoglein 1 (Dsg1)",
+        "BP180 (collagen XVII)",
+        "Envoplakin and periplakin"
+      ],
+      "ans": 1,
+      "exp": "Pemphigus foliaceus targets Dsg1, expressed predominantly in the superficial epidermis and absent in mucosae. Dsg3 (expressed in all mucosal epithelia) compensates in mucosae, explaining the absence of oral lesions. In PV with mucosal involvement, anti-Dsg3 predominates. Endemic form of PF (Fogo selvagem) is prevalent in Brazil.",
+      "source": "Cloud fallback",
+      "topic": "Pemphigus & Bullous Disorders"
+    },
+    {
+      "q": "A 24-year-old male presents with a 5-day history of profuse purulent urethral discharge and dysuria. Gram stain of urethral exudate shows gram-negative intracellular diplococci. As per current WHO 2023 guidelines, the recommended treatment is:",
+      "opts": [
+        "Benzylpenicillin 4.8 MU IM single dose",
+        "Oral ciprofloxacin 500 mg single dose",
+        "Ceftriaxone 500 mg IM single dose",
+        "Azithromycin 2 g oral single dose"
+      ],
+      "ans": 2,
+      "exp": "Due to widespread fluoroquinolone resistance, ciprofloxacin is no longer recommended. Ceftriaxone 500 mg (or 1 g if pharyngeal infection) IM single dose is now the monotherapy of choice for uncomplicated gonorrhoea per updated WHO/CDC guidelines. Co-administration of azithromycin is no longer routinely recommended due to emerging dual resistance.",
+      "source": "Cloud fallback",
+      "topic": "Gonorrhoea"
+    },
+    {
+      "q": "A 65-year-old male has a biopsy-confirmed BCC on the nose. Which histological subtype carries the highest recurrence rate and worst prognosis?",
+      "opts": [
+        "Nodular BCC",
+        "Superficial BCC",
+        "Morpheaform (sclerosing) BCC",
+        "Pigmented BCC"
+      ],
+      "ans": 2,
+      "exp": "Morpheaform (sclerosing/fibrosing) BCC is the most aggressive subtype with ill-defined clinical margins, deeply infiltrating fibrous stroma, and the highest recurrence rate (up to 50% with standard excision). It requires Mohs micrographic surgery. Nodular BCC is the most common (60-70%) but has a much better prognosis. Superficial BCC is the least aggressive.",
+      "source": "Cloud fallback",
+      "topic": "Basal Cell Carcinoma"
+    },
+    {
+      "q": "A 50-year-old diabetic male presents with yellowish, thickened, crumbling toenails with subungual debris, confirmed as dermatophyte onychomycosis on KOH and culture. The most effective systemic treatment regimen is:",
+      "opts": [
+        "Griseofulvin 500 mg daily for 12 months",
+        "Itraconazole pulse (400 mg/day for 1 week/month for 3 pulses)",
+        "Fluconazole 150 mg weekly for 6 months",
+        "Terbinafine 250 mg daily for 12 weeks"
+      ],
+      "ans": 3,
+      "exp": "Terbinafine 250 mg daily for 12 weeks (toenails) or 6 weeks (fingernails) is the most effective treatment for dermatophyte onychomycosis, with mycological cure rates of 70-80%. It is fungicidal against dermatophytes. Itraconazole pulse is fungistatic but preferred for non-dermatophyte moulds. Griseofulvin has low cure rates for onychomycosis.",
+      "source": "Cloud fallback",
+      "topic": "Onychomycosis"
+    },
+    {
+      "q": "A 28-year-old male presents with a painless genital ulcer that healed spontaneously 3 weeks ago, now followed by tender unilateral inguinal lymphadenopathy. Examination shows the lymphadenopathy is divided by the inguinal ligament (groove sign). What is the causative organism and drug of choice?",
+      "opts": [
+        "Haemophilus ducreyi — azithromycin 1 g single dose",
+        "Chlamydia trachomatis (serovars L1-L3) — doxycycline 100 mg BD for 21 days",
+        "Treponema pallidum — benzathine penicillin 2.4 MU IM",
+        "Klebsiella granulomatis — doxycycline 100 mg BD for 3 weeks"
+      ],
+      "ans": 1,
+      "exp": "Lymphogranuloma venereum (LGV) is caused by C. trachomatis serovars L1, L2, L2b, L3. The groove sign (inguinal adenopathy bisected by Poupart's ligament) is pathognomonic. Treatment: doxycycline 100 mg BD for 21 days. Azithromycin 1 g weekly x 3 is an alternative. Klebsiella granulomatis causes donovanosis (granuloma inguinale).",
+      "source": "Cloud fallback",
+      "topic": "Lymphogranuloma Venereum"
+    },
+    {
+      "q": "A 42-year-old male with plaque psoriasis of 10 years has nail changes. Dermoscopy reveals yellow-orange discolouration visible through the nail plate (oil-drop appearance). Which nail change in psoriasis is considered MOST SPECIFIC?",
+      "opts": [
+        "Onycholysis (distal nail separation)",
+        "Oil drop (salmon patch) sign",
+        "Pitting (geometric, regular)",
+        "Subungual hyperkeratosis"
+      ],
+      "ans": 1,
+      "exp": "The oil drop (salmon patch) sign — yellow-orange translucent discolouration under the nail plate representing dermal inflammation — is the most specific psoriatic nail change. Pitting is the most common but also occurs in alopecia areata and eczema. Onycholysis and subungual hyperkeratosis are frequent but non-specific.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis & Biologics"
+    },
+    {
+      "q": "A 45-year-old woman with rheumatoid arthritis on hydroxychloroquine for 3 years develops blue-black pigmentation of the face, shins, and hard palate. The pigmentation is primarily due to:",
+      "opts": [
+        "Increased melanin synthesis stimulated by the drug",
+        "Haemosiderin deposition from vascular damage",
+        "Drug-melanin complex deposition in the dermis",
+        "Lipofuscin accumulation in macrophages"
+      ],
+      "ans": 2,
+      "exp": "Antimalarial drugs (chloroquine, hydroxychloroquine) chelate melanin and form drug-melanin complexes that are phagocytosed by dermal macrophages, causing blue-black pigmentation in sun-exposed areas. This differs from minocycline pigmentation (iron-drug complexes and melanin) and amiodarone (lipofuscin-related).",
+      "source": "Cloud fallback",
+      "topic": "Drug Reactions & DRESS"
+    },
+    {
+      "q": "A 35-year-old nurse with chronic hand eczema that worsens at work undergoes patch testing with the European baseline series. Which statement about patch testing is most accurate?",
+      "opts": [
+        "Readings are taken only at 48 hours after patch removal",
+        "The standard baseline series contains the most prevalent contact allergens in the general population",
+        "A positive patch test reaction alone confirms clinically relevant allergic contact dermatitis",
+        "Patch testing is the gold standard for diagnosing irritant contact dermatitis"
+      ],
+      "ans": 1,
+      "exp": "The European baseline (standard) series is designed to detect the most common contact allergens in the general population. Readings must be performed at 48 h AND 96 h — late readings are essential for metals (gold, cobalt) and corticosteroids. A positive test confirms sensitisation but clinical relevance must be established by history. Patch testing cannot diagnose ICD (no immunological sensitisation).",
+      "source": "Cloud fallback",
+      "topic": "Patch Testing"
+    },
+    {
+      "q": "A 20-year-old male presents with symmetrically distributed target lesions on palms, soles, and dorsum of hands following a cold sore episode 2 weeks ago. There is mild lip crusting (one mucosal site). Skin detachment is absent. What is the diagnosis?",
+      "opts": [
+        "Erythema multiforme major",
+        "Erythema multiforme minor",
+        "Stevens-Johnson Syndrome",
+        "Urticarial vasculitis"
+      ],
+      "ans": 1,
+      "exp": "EM minor: typical/atypical target lesions in acral distribution, involvement of at most 1 mucosal site, triggered by HSV (90% of recurrent EM), no significant epidermal detachment. EM major: typical targets + 2 or more mucosal sites. SJS: drug-triggered, atypical flat targets/macules, 2 or more mucosae, <10% BSA epidermal detachment. EM is now classified separately from SJS/TEN.",
+      "source": "Cloud fallback",
+      "topic": "Erythema Multiforme"
+    },
+    {
+      "q": "A 28-year-old obese female presents with a 3-year history of recurrent painful nodules, abscesses, and sinus tracts in bilateral axillae and groin with scarring. Multiple antibiotic courses have given only partial relief. The primary pathophysiological mechanism of hidradenitis suppurativa is:",
+      "opts": [
+        "Primary eccrine sweat gland infection leading to abscess formation",
+        "Follicular occlusion with secondary apocrine gland rupture and inflammation",
+        "Primary apocrine gland infection with Staphylococcus aureus",
+        "Sebaceous gland hyperplasia causing ductal obstruction"
+      ],
+      "ans": 1,
+      "exp": "Hidradenitis suppurativa (acne inversa) is primarily a disease of follicular occlusion (keratin plug in the folliculopilosebaceous unit), not primary apocrine or eccrine infection. Occlusion leads to follicular dilatation, rupture, dermal inflammatory cascade, and secondary involvement of adjacent apocrine glands. Genetic factors (NCSTN, PSENEN mutations) and smoking/obesity are key risk factors.",
+      "source": "Cloud fallback",
+      "topic": "Hidradenitis Suppurativa"
     }
   ]
 }
