@@ -24,14 +24,26 @@ REPO_PATH   = r"C:\Users\ravin\Desktop\Obsidian_Daily_Quiz"
 QUESTIONS_FILE = "daily_questions.json"
 ARCHIVE_DIR = "archive"
 
-TOTAL_QUESTIONS   = 30
-NOTES_TO_SAMPLE   = 20          # notes picked per run (2–3 questions each)
+TOTAL_QUESTIONS   = 50
+NOTES_TO_SAMPLE   = 30          # notes picked per run (2–3 questions each)
 MAX_NOTE_CHARS    = 4000        # truncate long notes before sending
 MODEL             = "claude-opus-4-5"   # change to claude-sonnet-4-5 for cheaper/faster
 QUESTIONS_PER_NOTE = 2          # questions generated per note
 
 # Exclude Obsidian system folders
 EXCLUDE_DIRS = {".obsidian", ".trash", "templates", "Templates"}
+
+# Top-level vault folders that count as "cosmetology" content
+COSMETOLOGY_TOP_FOLDERS = {"cosmetology", "cosmetology review"}
+
+# Priority sub-folders get extra weight in sampling (case-insensitive match on folder name)
+# Higher weight = more notes sampled from that sub-folder = more questions
+PRIORITY_SUBFOLDERS: dict[str, int] = {
+    "recent advances":      4,   # 4× more likely to be sampled
+    "quiz prediction model": 4,
+    "stanley dermatosurgery": 3,
+    "cosmetology review":   2,   # top-level folder also weighted here
+}
 
 # ─────────────────────────────────────────────
 # TOPIC FOCUS PERIODS
@@ -113,6 +125,44 @@ def sample_notes(by_topic: dict[str, list[Path]], n: int,
 
     random.shuffle(pool)
     return pool[:n]
+
+
+def collect_cosmetology_files(vault: str) -> dict[str, list[Path]]:
+    """
+    Scan the vault and return {subfolder_name: [Path, ...]} for every .md
+    file whose top-level ancestor folder is in COSMETOLOGY_TOP_FOLDERS.
+    Includes files at any depth under those folders.
+    """
+    vault_root = Path(vault)
+    result: dict[str, list[Path]] = {}
+    for md in vault_root.rglob("*.md"):
+        if any(part in EXCLUDE_DIRS for part in md.parts):
+            continue
+        try:
+            rel = md.relative_to(vault_root)
+        except ValueError:
+            continue
+        if not rel.parts:
+            continue
+        top = rel.parts[0].lower()
+        if top in COSMETOLOGY_TOP_FOLDERS:
+            subtopic = md.parent.name if md.parent != vault_root else rel.parts[0]
+            result.setdefault(subtopic, []).append(md)
+    return result
+
+
+def build_weighted_pool(cosm_files: dict[str, list[Path]]) -> list[tuple[str, Path]]:
+    """
+    Build a flat sampling pool where each (subfolder, path) tuple is repeated
+    according to its weight in PRIORITY_SUBFOLDERS.
+    Priority folders appear proportionally more often in random sampling.
+    """
+    pool: list[tuple[str, Path]] = []
+    for subtopic, paths in cosm_files.items():
+        weight = PRIORITY_SUBFOLDERS.get(subtopic.lower(), 1)
+        for path in paths:
+            pool.extend([(subtopic, path)] * weight)
+    return pool
 
 
 # ─────────────────────────────────────────────
@@ -358,9 +408,6 @@ def main():
     print(f"   Found {total_notes} notes across {len(by_topic)} topics")
     print(f"   Topics: {', '.join(sorted(by_topic.keys()))}")
 
-    sampled = sample_notes(by_topic, NOTES_TO_SAMPLE, focus=focus)
-    print(f"\n📝 Sampled {len(sampled)} notes for today's quiz")
-
     # ── load image spotter questions first ───
     spotter_qs = load_spotter_questions(spotter_count) if spotter_count else []
     if spotter_qs:
@@ -370,13 +417,47 @@ def main():
     text_target = TOTAL_QUESTIONS - len(spotter_qs)
     all_questions: list[dict] = []
 
-    # If in exclusive cosmetology focus but vault has no cosmetology notes,
-    # generate cosmetology questions directly via API instead of falling back
-    # to general dermatology topics.
-    focus_topics_in_vault = focus and any(t in by_topic for t in focus.get("topics", []))
-    if focus and focus.get("exclusive") and not focus_topics_in_vault:
-        all_questions = generate_cosmetology_direct(client, text_target, today)
+    if focus and focus.get("exclusive"):
+        # ── Priority-weighted cosmetology sampling ───────────────────────────
+        # Collect ALL files under COSMETOLOGY_TOP_FOLDERS (any depth / subfolder)
+        cosm_files = collect_cosmetology_files(VAULT_PATH)
+
+        if cosm_files:
+            weighted_pool = build_weighted_pool(cosm_files)
+            random.shuffle(weighted_pool)
+            sampled = weighted_pool[:NOTES_TO_SAMPLE]
+
+            # Show subfolder breakdown
+            from collections import Counter as _Counter
+            sf_counts = _Counter(t for t, _ in sampled)
+            print(f"\n📝 Sampled {len(sampled)} cosmetology notes (priority-weighted):")
+            for sf, cnt in sorted(sf_counts.items(), key=lambda x: -x[1]):
+                wt = PRIORITY_SUBFOLDERS.get(sf.lower(), 1)
+                bar = "█" * cnt
+                print(f"   {sf:<40} {bar} {cnt}  (×{wt})")
+
+            for i, (topic, path) in enumerate(sampled, 1):
+                if len(all_questions) >= text_target:
+                    break
+                needed = min(QUESTIONS_PER_NOTE, text_target - len(all_questions))
+                print(f"   [{i:02d}/{len(sampled)}] {topic[:30]:<30} / {path.stem[:35]:<35} ", end="", flush=True)
+                content = read_note(path)
+                if not content:
+                    print("⚠  empty")
+                    continue
+                qs = make_questions(client, content, path.stem, topic, needed)
+                print(f"→ +{len(qs)}")
+                all_questions.extend(qs)
+        else:
+            # No cosmetology vault files found — fall back to direct API generation
+            print("\n  ⚠  No cosmetology notes found in vault — generating via API...")
+            all_questions = generate_cosmetology_direct(client, text_target, today)
+            sampled = []
     else:
+        # ── Balanced sampling across all topics ──────────────────────────────
+        sampled = sample_notes(by_topic, NOTES_TO_SAMPLE, focus=focus)
+        print(f"\n📝 Sampled {len(sampled)} notes for today's quiz")
+
         for i, (topic, path) in enumerate(sampled, 1):
             if len(all_questions) >= text_target:
                 break
@@ -427,8 +508,10 @@ def main():
 
     # ── git push ──────────────────────────────
     print(f"\n🚀 Pushing to GitHub Pages…")
+    run_time = datetime.now().strftime("%H:%M")
     focus_label = f" [{focus['label']}]" if focus else ""
-    git_push(REPO_PATH, f"Daily quiz: {today} ({len(all_questions)} questions){focus_label}",
+    git_push(REPO_PATH,
+             f"Quiz {today} {run_time} — {len(all_questions)} cosmetology Qs{focus_label}",
              github_token, "gauthamkrishna0730-png")
 
     print(f"\n✅ Done! Visit your quiz at:")
