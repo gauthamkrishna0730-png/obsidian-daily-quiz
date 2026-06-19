@@ -1,47 +1,36 @@
 {
   "date": "2026-06-19",
   "generated_at": "2026-06-19T06:30:00",
-  "count": 50,
+  "count": 60,
   "topics_covered": [
     "Cosmetology"
   ],
   "questions": [
     {
-      "q": "A 38-year-old woman wants laser treatment for melasma on her Fitzpatrick IV skin. Which laser parameter is MOST critical to avoid post-inflammatory hyperpigmentation (PIH) in this patient?",
+      "q": "The instrument shown is a small metal loop or spoon with a sharp annular blade at the tip used to extract blackheads and milia. What is the correct name, and which acne lesion is it CONTRAINDICATED for?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Comedone_extractor.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Using the shortest available pulse duration regardless of target TRT",
-        "Maximising fluence to ensure single-session clearance",
-        "Selecting the alexandrite 755nm laser for its superior skin penetration",
-        "Using a wavelength ≥1064nm and a long pulse duration to minimise melanin absorption"
+        "Microlancet — contraindicated for milia",
+        "Curette — contraindicated for open comedones",
+        "Comedone extractor (Unna extractor) — contraindicated for closed inflamed pustules/nodules",
+        "Steristrip — contraindicated for blackheads"
       ],
-      "ans": 3,
-      "exp": "In darker skin (Fitzpatrick III–VI), the key is minimising epidermal melanin absorption while still reaching the target. Long-pulsed Nd:YAG (1064nm) has lower melanin absorption than shorter wavelengths, and using longer pulse durations further reduces peak temperature in epidermal melanocytes. Excessive fluence or short pulses in dark skin greatly risk PIH. The alexandrite (755nm) carries significantly higher epidermal injury risk in type IV skin.",
-      "source": "Cosmetology",
+      "ans": 2,
+      "exp": "The comedone extractor (Unna's extractor) has a central hole that allows gentle pressure to express open comedones (blackheads) and milia. It is contraindicated for inflamed lesions (pustules, nodules) because pressure can rupture the follicular wall, spreading inflammation and causing scarring.\n🏰 Palace: UNNAttractive OPEN GATES (open comedones) get squeezed through the CASTLE LOOP — but INFLAMED RED KNIGHTS (pustules) must NOT be pressed or the wall explodes.",
+      "source": "Instrument Spotter",
       "topic": "Cosmetology"
     },
     {
-      "q": "The concept of 'thermal relaxation time' (TRT) is central to laser physics. For a target structure, TRT is proportional to:",
+      "q": "The 'rule of fives' in rhinoplasty aesthetics is relevant to non-surgical rhinoplasty (NSR) with fillers. Which measurement in the rule of fives is most often corrected by dorsal filler augmentation?",
       "opts": [
-        "The target's distance from the skin surface",
-        "The fluence (J/cm²) delivered per pulse",
-        "The inverse of the absorption coefficient at the treatment wavelength",
-        "The square of the target's diameter"
+        "The alar base width should match the intercanthal distance (one facial fifth)",
+        "The tip should be one-fifth of the total nasal length",
+        "Nasal width should be one-fifth of the face width",
+        "Dorsal augmentation changes the nasofrontal angle but not the rule of fives measurements"
       ],
-      "ans": 3,
-      "exp": "TRT is the time required for the target to lose 50% of its absorbed heat to surrounding tissue. It scales with the square of the target's minimum diameter: TRT ∝ d². A 10µm vessel has a TRT ~100× shorter than a 100µm vessel. This is why small targets (pigment granules, fine vessels) require ultrashort pulses, while larger targets (hair bulbs, large vessels) tolerate longer pulses. Pulse duration must be ≤ TRT for selective damage.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Photodynamic therapy (PDT) for actinic keratoses uses a photosensitiser and a light source. The photosensitiser 5-aminolaevulinic acid (5-ALA) or its methyl ester (MAL) accumulates in dysplastic keratinocytes and is converted to the actual phototoxic molecule, which is:",
-      "opts": [
-        "Indocyanine green, which absorbs at 800nm",
-        "Rose bengal, producing singlet oxygen via a type II mechanism at 540nm",
-        "Methylene blue, generating superoxide via type I photoreaction",
-        "Porphyrin IX (PpIX) — a haem biosynthesis intermediate that generates singlet oxygen on light activation"
-      ],
-      "ans": 3,
-      "exp": "5-ALA and MAL are prodrugs that enter the haem biosynthesis pathway. In rapidly proliferating dysplastic cells (which have upregulated enzymes but reduced ferrochelatase activity), 5-ALA is converted to protoporphyrin IX (PpIX), which accumulates selectively. On activation with red light (~630nm, matching PpIX's Soret/Q-band absorption), PpIX reacts with molecular oxygen to generate singlet oxygen (type II photoreaction), inducing apoptosis and necrosis in dysplastic keratinocytes.",
+      "ans": 2,
+      "exp": "The rule of fifths in facial aesthetics divides the face into five equal vertical units (each equalling one eye width/intercanthal distance). The middle fifth includes the nose; ideal nasal width at the alar base equals one-fifth of facial width (= intercanthal distance). In NSR, dorsal HA filler augmentation is most commonly used to: raise a flat/under-projected nasal dorsum (creating a smoother profile), correct dorsal humps optically (by augmenting above and below the hump), and improve the nasofrontal angle. The alar base width correction refers to the same one-fifth measurement.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
@@ -49,8 +38,8 @@
       "q": "During a phenol–croton oil peel the depth of penetration is controlled principally by the concentration of croton oil rather than phenol. Croton oil's role is to:",
       "opts": [
         "Act as a penetration enhancer — it is the keratinocyte protein coagulant and depth modulator, with higher concentrations producing deeper peels",
-        "Neutralise excess phenol to prevent systemic absorption",
         "Act as the primary keratolytic agent by disrupting intercellular lipids",
+        "Neutralise excess phenol to prevent systemic absorption",
         "Provide bacteriostatic activity, reducing post-peel infection risk"
       ],
       "ans": 0,
@@ -59,15 +48,201 @@
       "topic": "Cosmetology"
     },
     {
-      "q": "A 45-year-old woman undergoes botulinum toxin treatment for masseteric hypertrophy (jaw-slimming). The muscle to be injected is the masseter. To avoid paresis of the risorius and zygomaticus, injections should be placed:",
+      "q": "A 50-year-old woman desires upper-face lifting without surgery. HIFU (Ultherapy) is proposed. The correct sequence of tissue planes targeted at different depths during a HIFU procedure is:",
       "opts": [
-        "In the anterior masseter overlying the parotid duct",
-        "Superior to the zygomatic arch",
-        "Into the buccinator muscle medially",
-        "At the angle of the mandible, in the posterior–inferior masseter, at least 1cm below the zygoma and 1cm anterior to the mandibular angle"
+        "4.5mm (SMAS) → 3.0mm (deep dermis) → 1.5mm (superficial dermis) — conventional deep-to-superficial pass",
+        "The depth is fixed at 4.5mm for all facial areas",
+        "1.5mm (superficial dermis) → 3.0mm (deep dermis) → 4.5mm (SMAS) — from superficial to deep",
+        "3.0mm (deep dermis) → 4.5mm (SMAS) → 1.5mm (superficial dermis) — from deep to superficial"
+      ],
+      "ans": 0,
+      "exp": "Clinical HIFU protocols typically follow a deep-to-superficial sequence: 4.5mm (SMAS/platysma level) is treated first, then 3.0mm (deep reticular dermis), then optionally 1.5mm (superficial dermis/papillary). This order prevents superficial thermal injury from deeper passes and mirrors the surgical sequence. Different transducer frequencies are used for different depths: lower frequencies (3.5–4MHz) for deeper (4.5mm) penetration, higher (7MHz) for superficial (1.5mm). Depth selection also varies by facial zone (e.g., 4.5mm avoided over bony prominences and eyes).",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The 'Ogee curve' is an important aesthetic concept in facial rejuvenation. It describes:",
+      "opts": [
+        "The curve of the upper lip vermilion border",
+        "The angle between the nasal tip and the columella",
+        "The S-shaped curve from the malar eminence curving inward at the cheek hollow and outward again at the jaw, representing youthful facial topography",
+        "The angle between the lateral orbital rim and the temple"
+      ],
+      "ans": 2,
+      "exp": "The ogee (or ogival) curve describes the characteristic S-shaped contour seen in youthful faces: a convex curve over the malar eminence (high cheek), transitioning to a concave curve at the submalar region, then convex again at the mandible. Youthful faces maintain a defined, full malar projection and a clear cheek hollow. Age-related fat descent and volume loss flatten the ogee. Facial filler volumisation aims to restore this S-curve by lifting and projecting the malar eminence while maintaining the submalar concavity.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Microneedling (collagen induction therapy, CIT) stimulates dermal remodelling. The minimum needle depth that reliably triggers dermal wound healing (as opposed to only stratum corneum perforation) is approximately:",
+      "opts": [
+        "0.5mm (into the papillary dermis) — sufficient to trigger growth factor release and fibroblast activation",
+        "0.1–0.2mm (stratum corneum level only)",
+        "2.0mm (subcutaneous fat)",
+        "3.0mm (below the follicular bulb)"
+      ],
+      "ans": 0,
+      "exp": "Epidermal microneedling (0.1–0.2mm) primarily enhances transdermal drug delivery but does not significantly stimulate collagen. Penetrating to the papillary dermis (≥0.5mm) causes microtrauma that triggers the wound-healing cascade: platelet activation releases PDGF and TGF-β1, fibroblasts are recruited and activated, and new collagen/elastin synthesis begins. For acne scars and deeper remodelling, 1.0–2.5mm is used. For periocular fine lines, 0.5–1.0mm; for hair loss (scalp), 1.0–1.5mm.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Laser toning with low-fluence Q-switched Nd:YAG (1064nm) has been used for melasma. The controversial concern with repeated sessions is:",
+      "opts": [
+        "Paradoxical darkening due to UV-like stimulation of melanin synthesis",
+        "Permanent complete depigmentation (total leucoderma) occurring after 3 sessions",
+        "Confetti-like hypopigmentation (punctate leukoderma) from repeated sub-threshold melanocyte injury, and rebound hyperpigmentation on cessation",
+        "Scar formation from repeated microcoagulation"
+      ],
+      "ans": 2,
+      "exp": "Laser toning (multiple low-fluence 1064nm Q-switched sessions for melasma) can produce transient improvement but carries risk of confetti leucoderma — punctate, hypopigmented macules from repeated sub-threshold injury to melanocytes that damages them without complete destruction, leading to patchy non-uniform depigmentation. Additionally, on cessation of treatments, rapid rebound hyperpigmentation is common. These concerns, combined with inconsistent long-term efficacy, mean laser toning is not considered first-line for melasma.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "A 38-year-old woman wants laser treatment for melasma on her Fitzpatrick IV skin. Which laser parameter is MOST critical to avoid post-inflammatory hyperpigmentation (PIH) in this patient?",
+      "opts": [
+        "Using a wavelength ≥1064nm and a long pulse duration to minimise melanin absorption",
+        "Using the shortest available pulse duration regardless of target TRT",
+        "Maximising fluence to ensure single-session clearance",
+        "Selecting the alexandrite 755nm laser for its superior skin penetration"
+      ],
+      "ans": 0,
+      "exp": "In darker skin (Fitzpatrick III–VI), the key is minimising epidermal melanin absorption while still reaching the target. Long-pulsed Nd:YAG (1064nm) has lower melanin absorption than shorter wavelengths, and using longer pulse durations further reduces peak temperature in epidermal melanocytes. Excessive fluence or short pulses in dark skin greatly risk PIH. The alexandrite (755nm) carries significantly higher epidermal injury risk in type IV skin.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "PRP for hair loss is injected into the scalp to stimulate follicular stem cells. Studies suggest the most critical variable determining efficacy of PRP for androgenetic alopecia is:",
+      "opts": [
+        "The specific anticoagulant used (citrate vs heparin)",
+        "The final platelet concentration — higher concentration correlates with greater growth factor delivery and clinical response",
+        "The patient's blood group",
+        "The needle gauge for injection"
+      ],
+      "ans": 1,
+      "exp": "The principal determinant of PRP efficacy is the final platelet concentration achieved after centrifugation. A minimum of 3–5× baseline platelet concentration is generally considered therapeutic; most high-quality protocols aim for >1,000,000 platelets/µL. Higher platelet counts deliver proportionally more PDGF, TGF-β, VEGF, and EGF. Anticoagulant type, activation method, leukocyte content, and injection technique all influence outcomes but platelet concentration is the most studied variable.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Minoxidil oral low-dose (0.25–2.5mg/day) is increasingly used for androgenetic alopecia and telogen effluvium. The principal advantage of oral over topical minoxidil is:",
+      "opts": [
+        "Oral minoxidil does not require SULT1A1 sulfotransferase activation",
+        "Oral minoxidil is free from the hypertrichosis side-effect seen with topical formulations",
+        "Oral minoxidil targets the androgen receptor directly",
+        "Oral minoxidil bypasses the scalp SULT1A1 variability — systemic absorption produces minoxidil sulphate independently of scalp sulfotransferase activity, so poor topical responders may respond"
       ],
       "ans": 3,
-      "exp": "For masseteric botulinum toxin, the injection zone is the posterior-inferior quadrant of the masseter: at or just above the mandibular angle, at least 1cm below the lower border of the zygomatic arch and 1cm anterior to the posterior border of the mandible. This avoids the zygomaticus major/minor and risorius (which run superficially above the zygoma) and the parotid duct (which crosses the middle third of the masseter). Injecting too high or too anterior risks smile asymmetry.",
+      "exp": "Topical minoxidil requires sulfation by scalp SULT1A1 to form minoxidil sulphate (the active metabolite), and ~30–40% of patients have low scalp SULT1A1 activity and respond poorly. Oral minoxidil is absorbed systemically and converted to minoxidil sulphate by hepatic/erythrocyte sulfotransferases — independent of scalp SULT1A1 — explaining why some topical non-responders respond to oral formulations. Side-effects include hypertrichosis (facial/body hair), fluid retention, and postural hypotension.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The 'lawn-mowing' pattern refers to a specific injection technique for:",
+      "opts": [
+        "Sclerotherapy — multiple injections along a linear vessel",
+        "Botulinum toxin in the forehead — injections placed in a grid across the frontalis",
+        "Dermal filler in the nasolabial fold — threading technique along the fold",
+        "Mesotherapy/skinbooster injection — multiple microinjections in a grid/linear pattern across the entire face or target area"
+      ],
+      "ans": 3,
+      "exp": "The 'lawn-mowing' or 'grid' pattern in mesotherapy/skinboosters describes multiple small-volume microinjections (0.02–0.05mL each) spaced 1–2cm apart across a large treatment area (face, neck, décolletage, scalp). This delivers hydrating, biostimulating, or nutrient-rich products (hyaluronic acid, vitamins, peptides, growth factors) evenly throughout the zone. The pattern is distinct from point injections for dermal fillers or the 5-point glabellar pattern for botulinum toxin.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This handheld video camera with a polarised ring light attaches to a computer and is used to examine scalp and hair at ×20–×100 magnification to assess hair shaft defects and follicular density. What is this investigation called?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trichoscopy.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Scalp biopsy — invasive, shows follicular structure histologically",
+        "Phototrichogram — counts hairs in anagen vs telogen only",
+        "Dermoscopy of the scalp — only identifies lesional pigment patterns",
+        "Trichoscopy (videodermoscopy of the scalp) — assesses follicular units/cm², hair shaft calibre, and perifollicular signs"
+      ],
+      "ans": 3,
+      "exp": "Trichoscopy is videodermoscopy applied to the scalp, typically at ×20–×100. It non-invasively assesses hair shaft diameter variation (heterogeneity >20% = AGA hallmark), follicular unit density, yellow dots (alopecia areata), peripilar white halos (fibrosing alopecia), and 'black dots'/'broken hairs'. It is now preferred over phototrichogram for monitoring treatment response.\n🏰 Palace: A VIDEO SPY CAMERA (trichoscope, ×100) peeks through the CASTLE'S HAIR TOWER — spotting YELLOW DOT WINDOWS (AA), thin vs thick COLUMNS (calibre variation, AGA), and broken FLAGPOLES (trichorrhexis).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "In non-ablative fractional photothermolysis (NAFP, e.g., 1550nm Er:glass laser), healing is rapid because:",
+      "opts": [
+        "The epidermis remains structurally intact — MTZ columns of coagulation are formed within the dermis while the overlying stratum corneum is preserved as a biological dressing",
+        "NAFP uses infrared energy that only heats subcutaneous fat",
+        "Non-ablative devices operate at sub-therapeutic fluences that do not damage any tissue",
+        "The epidermis is fully ablated so re-epithelialisation happens from adjacent skin edges"
+      ],
+      "ans": 0,
+      "exp": "Non-ablative fractional photothermolysis creates micro-thermal zones (MTZs) of coagulative injury in the dermis without removing the epidermis. The intact overlying stratum corneum and epidermis act as a natural biological dressing, dramatically accelerating healing (mild swelling 24–48 hours; no open wound) compared to ablative resurfacing. The coagulated dermal columns are gradually replaced by new collagen through natural wound repair, producing progressive skin tightening and texture improvement.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Photodynamic therapy (PDT) for actinic keratoses uses a photosensitiser and a light source. The photosensitiser 5-aminolaevulinic acid (5-ALA) or its methyl ester (MAL) accumulates in dysplastic keratinocytes and is converted to the actual phototoxic molecule, which is:",
+      "opts": [
+        "Methylene blue, generating superoxide via type I photoreaction",
+        "Rose bengal, producing singlet oxygen via a type II mechanism at 540nm",
+        "Indocyanine green, which absorbs at 800nm",
+        "Porphyrin IX (PpIX) — a haem biosynthesis intermediate that generates singlet oxygen on light activation"
+      ],
+      "ans": 3,
+      "exp": "5-ALA and MAL are prodrugs that enter the haem biosynthesis pathway. In rapidly proliferating dysplastic cells (which have upregulated enzymes but reduced ferrochelatase activity), 5-ALA is converted to protoporphyrin IX (PpIX), which accumulates selectively. On activation with red light (~630nm, matching PpIX's Soret/Q-band absorption), PpIX reacts with molecular oxygen to generate singlet oxygen (type II photoreaction), inducing apoptosis and necrosis in dysplastic keratinocytes.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The pulsed dye laser (PDL) at 585/595nm is used not only for vascular lesions but also for hypertrophic scars and keloids. Its proposed mechanism in scar treatment is:",
+      "opts": [
+        "Cooling the scar through the cryogen spray system, reducing inflammation",
+        "Microvascular coagulation reducing scar vascularity, followed by decreased TGF-β1 and increased MMP-1/3 activity leading to collagen remodelling",
+        "Direct collagen ablation by the PDL beam",
+        "Stimulating melanocyte migration into the scar to restore pigmentation"
+      ],
+      "ans": 1,
+      "exp": "PDL for scar treatment works by targeting the microvascular supply of the hypertrophic scar/keloid (oxyhaemoglobin absorption). Vascular coagulation reduces blood flow and tissue hypoxia that drives fibroblast activation. It also downregulates TGF-β1 (a key profibrotic cytokine) and upregulates MMPs (collagenases), shifting the balance from collagen deposition to degradation. Multiple sessions (4–6, every 4–8 weeks) produce gradual flattening, softening, and improved colour of scars.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This Wood's lamp is being used to examine the scalp of a child with scaling and hair loss. Which dermatophyte fluoresces BRIGHT GREEN under Wood's lamp, and which common cause of tinea capitis does NOT fluoresce?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wood%27s_lamp.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Trichophyton violaceum = yellow-green; Microsporum gypseum = no fluorescence",
+        "Epidermophyton floccosum = blue-green; Microsporum canis = no fluorescence",
+        "Trichophyton schoenleinii = bright green; Trichophyton tonsurans = orange",
+        "Microsporum canis/audouinii = bright blue-green fluorescence; Trichophyton tonsurans = NO fluorescence (most common in USA/UK)"
+      ],
+      "ans": 3,
+      "exp": "Under Wood's lamp, Microsporum canis and M. audouinii produce bright blue-green fluorescence due to pteridine metabolites in infected hairs (ectothrix pattern). Trichophyton tonsurans — the most common cause in USA/UK/Caribbean populations — does NOT fluoresce (endothrix; no pteridines). This is why Wood's lamp is less useful for tinea capitis diagnosis in regions where T. tonsurans predominates.\n🏰 Palace: MICROSPORUM is a GREEN GLOWWORM in the castle hair towers (blue-green, ectothrix), while TRICHOPHYTON TONSURANS is the SILENT NIGHT THIEF — hiding INSIDE the hair shaft (endothrix) with NO glow.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "CROSS technique (chemical reconstruction of skin scars) uses high-concentration TCA (65–100%) applied focally to ice-pick scars. Its mechanism is:",
+      "opts": [
+        "Surface exfoliation of the epidermis around the scar, smoothing the transition",
+        "Inhibiting tyrosinase in scar tissue to reduce post-acne hyperpigmentation",
+        "Focal full-thickness chemical coagulation of the ice-pick track walls, triggering an inflammatory wound-healing response that fills the scar from the base upward",
+        "Controlled full-thickness ablation equivalent to surgical punch excision"
+      ],
+      "ans": 2,
+      "exp": "CROSS (chemical reconstruction of skin scars) applies high-concentration TCA (65–100%) using a sharpened wooden applicator or toothpick directly into the ice-pick scar lumen. This causes focal, full-thickness protein coagulation of the scar walls, stimulating a localised wound-healing cascade with inflammation, granulation tissue formation, and new collagen deposition from the base outward — gradually filling the pit. Multiple sessions (4–6, every 4–6 weeks) are typically needed. It is inexpensive, effective, and particularly useful in darker skin when ablative lasers carry PIH risk.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The principle underlying 'stacked pulses' or 'pulse stacking' in Q-switched laser treatment of tattoos is:",
+      "opts": [
+        "Delivering multiple low-energy pulses within a single TRT interval to accumulate sufficient total energy for destruction",
+        "Rapidly cooling the skin between pulses to prevent bulk heating",
+        "Deliberately heating the surrounding dermis above the TRT limit for deeper coagulation",
+        "Converting from nanosecond to millisecond pulses for gentler treatment"
+      ],
+      "ans": 0,
+      "exp": "Pulse stacking involves firing multiple Q-switched pulses at the same spot within a very short interval (before the tissue fully cools). Each pulse adds energy, and the cumulative effect can exceed what a single pulse achieves — improving ink fragmentation. However, it also risks accumulated thermal damage and textural side-effects if used incorrectly. Picosecond lasers largely reduce the need for stacking by achieving greater ink fragmentation with each pulse due to photoacoustic (not just photothermal) mechanisms.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
@@ -76,8 +251,8 @@
       "opts": [
         "Injecting high-dose hyaluronidase immediately, flooding the vascular territory — do not wait",
         "Applying topical nitroglycerin and then waiting 30 minutes before deciding further action",
-        "Massaging the area vigorously for 10 minutes as definitive management",
-        "Applying warm compresses and oral aspirin only"
+        "Applying warm compresses and oral aspirin only",
+        "Massaging the area vigorously for 10 minutes as definitive management"
       ],
       "ans": 0,
       "exp": "Vascular occlusion with HA filler is a dermatological emergency. Time to hyaluronidase is the single most important determinant of outcome — every minute of ischaemia increases necrosis risk. The first intervention is immediate hyaluronidase injection (150–1500 IU or more) into and around the entire vascular territory, not just the filler depot. Do not delay to try warm compresses, aspirin, or nitroglycerin alone. Subsequent measures (aspirin, nitroglycerin, sildenafil, LMWH, hyperbaric oxygen) are adjuncts.",
@@ -85,81 +260,323 @@
       "topic": "Cosmetology"
     },
     {
-      "q": "Radiofrequency microneedling (RF-MN) combines two technologies. The clinical rationale for combining RF energy delivery through insulated microneedles is:",
+      "q": "This device combines radiofrequency energy with a microneedling array where needles are INSULATED to deliver RF only at the tip, minimizing epidermal heating. What is its primary indication in cosmetology?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Microneedling_device.jpg",
+      "image_type": "instrument",
       "opts": [
-        "RF energy sterilises the needle track to reduce infection risk",
-        "Insulated needles confine RF energy deposition to the dermis at a precise depth without heating the epidermis, enabling dermal remodelling in all skin types",
-        "The needles mechanically destroy fat lobules while RF stimulates collagen in a second pass",
-        "The needles deliver topical agents transdermally while RF improves lymphatic drainage"
+        "Laser fractional — hair removal",
+        "Fractional RF microneedling — acne scars, skin laxity, and striae",
+        "Electrocautery — wart treatment",
+        "Simple microneedling — tattoo removal"
       ],
       "ans": 1,
-      "exp": "In RF microneedling, insulated microneedles (with only bare, active tips) penetrate to a set depth in the dermis. RF energy is discharged only from the uninsulated tip, creating localised thermal coagulation zones (bipolar or multipolar) at a defined dermal level while sparing the epidermis. This allows safe treatment in all Fitzpatrick types (no epidermal melanin heating), precise depth control, and combined mechanical (collagen induction from needling) and thermal (RF) dermal remodelling.",
+      "exp": "Fractional radiofrequency microneedling (e.g., Morpheus8, Profound) uses insulated microneedles that deliver RF energy at the dermis/subdermis level while protecting the epidermis. This stimulates collagen and elastin remodelling. Primary indications: acne scars (atrophic), facial laxity, enlarged pores, and striae distensae. Safe in all Fitzpatrick skin types.\n🏰 Palace: INSULATED LIGHTNING RODS (RF microneedles) plunge into the CASTLE DUNGEON (dermis) firing electricity only at the tip — the surface (epidermis) stays SAFE while the deep walls are remodelled.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Post-sclerotherapy hyperpigmentation (a common side-effect) results from:",
+      "opts": [
+        "Melanocyte activation by sclerosant chemicals",
+        "Inflammatory post-inflammatory hyperpigmentation from the injection needles only",
+        "Haemosiderin deposition in the dermis from extravasated red cells following vessel coagulation/rupture",
+        "Oxidation of sclerosant products in the epidermis"
+      ],
+      "ans": 2,
+      "exp": "Post-sclerotherapy hyperpigmentation occurs in 10–30% of patients and results from haemosiderin (iron from degraded haemoglobin) deposition in the dermis following erythrocyte extravasation — either from intraluminal clot breakdown or from microrupture of the treated vessel. Risk factors: larger injection volume, stronger sclerosant, inadequate compression, patient prone to hemosiderosis. Management: compression to minimise extravasation; if it develops — Q-switched Nd:YAG 1064nm, topical depigmenting agents; resolution is often slow (months to years).",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "Minoxidil oral low-dose (0.25–2.5mg/day) is increasingly used for androgenetic alopecia and telogen effluvium. The principal advantage of oral over topical minoxidil is:",
+      "q": "A patient undergoes fractional CO₂ resurfacing and develops delayed-onset milia (small white keratin cysts) at 2–4 weeks post-treatment. This occurs because:",
       "opts": [
-        "Oral minoxidil bypasses the scalp SULT1A1 variability — systemic absorption produces minoxidil sulphate independently of scalp sulfotransferase activity, so poor topical responders may respond",
-        "Oral minoxidil is free from the hypertrichosis side-effect seen with topical formulations",
-        "Oral minoxidil does not require SULT1A1 sulfotransferase activation",
-        "Oral minoxidil targets the androgen receptor directly"
+        "Bacterial colonisation of laser ablation tracks",
+        "Occlusive post-procedure topical products trap shed keratinocytes",
+        "Thermal stimulation of sebaceous glands increases sebum production",
+        "Disruption of the follicular infundibulum during ablation causes keratin trapping during re-epithelialisation, forming retention cysts"
+      ],
+      "ans": 3,
+      "exp": "Milia post-laser resurfacing are small keratin retention cysts forming during re-epithelialisation. Thermal injury to the follicular infundibulum/ostia disrupts the normal passage of keratinised cells upward, causing keratin plugging and cyst formation as the epidermis regenerates over the ablated columns. Risk is higher with more aggressive ablation, occlusive dressings, and in individuals prone to milia. Treatment: gentle exfoliation, topical retinoids, or careful evacuation with a fine needle.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Zinc oxide (ZnO) and titanium dioxide (TiO₂) are physical (inorganic) UV filters. The key difference between them is that ZnO, unlike TiO₂:",
+      "opts": [
+        "Is only effective as a sunscreen in concentrations above 25%",
+        "Is a chemical filter converted by UV to reactive oxygen species",
+        "Provides UVB protection only, while TiO₂ covers UVA",
+        "Provides broader UVA coverage — ZnO absorbs efficiently into the UVA1 range (340–400nm), whereas TiO₂ has weak UVA1 absorption"
+      ],
+      "ans": 3,
+      "exp": "Both ZnO and TiO₂ are physical blockers that reflect/scatter and absorb UV. TiO₂ absorbs well in the UVB and short-UVA2 range (280–340nm) but has poor absorption above 340nm (UVA1 range). ZnO has a broader absorption spectrum extending into the UVA1 range (340–400nm), providing significantly better long-wave UVA protection. This makes ZnO the preferred single physical filter for broad-spectrum sunscreens, or the two are combined for full coverage.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Neuromodulator injection to treat hyperhidrosis (e.g., palmar, axillary) targets a different structure than cosmetic facial use. The mechanism of anhidrosis after botulinum toxin injection is:",
+      "opts": [
+        "Blocking ACh release at sympathetic cholinergic postganglionic nerve terminals innervating eccrine sweat glands",
+        "Blocking NE release at sympathetic postganglionic fibres supplying the eccrine gland",
+        "Inhibiting ANP receptors in eccrine ducts",
+        "Blocking nicotinic ACh receptors at sweat gland myoepithelium"
       ],
       "ans": 0,
-      "exp": "Topical minoxidil requires sulfation by scalp SULT1A1 to form minoxidil sulphate (the active metabolite), and ~30–40% of patients have low scalp SULT1A1 activity and respond poorly. Oral minoxidil is absorbed systemically and converted to minoxidil sulphate by hepatic/erythrocyte sulfotransferases — independent of scalp SULT1A1 — explaining why some topical non-responders respond to oral formulations. Side-effects include hypertrichosis (facial/body hair), fluid retention, and postural hypotension.",
+      "exp": "Eccrine sweat glands are innervated by the sympathetic nervous system, but unusually, the postganglionic fibres are cholinergic (not adrenergic) — they release ACh. Botulinum toxin cleaves SNAP-25 at these sympathetic cholinergic nerve terminals, blocking ACh vesicle fusion and preventing secretory stimulation of eccrine gland cells. This produces localised anhidrosis lasting 4–9 months for axillary hyperhidrosis, and 3–6 months for palmar (where the pain of injection limits dose).",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "Spironolactone is used as an anti-androgen in female pattern hair loss (FPHL) and acne. Its mechanism of action relevant to hair and skin includes:",
+      "q": "In sclerotherapy for reticular veins (1–3mm, blue), the most appropriate sclerosant and its typical concentration is:",
       "opts": [
-        "Inhibiting 5-alpha-reductase type 2 in the dermal papilla",
-        "Competitive antagonism of the androgen receptor in target tissues (hair follicle, sebaceous gland), and reducing androgen synthesis by inhibiting CYP17A1 (17α-hydroxylase/lyase)",
-        "Competitive blockade of the androgen receptor AND partial inhibition of adrenal androgen synthesis by blocking CYP11B1",
-        "Directly destroying androgen-sensitive follicles"
+        "Polidocanol (POL) 3% foam — typically reserved for larger veins",
+        "Hypertonic saline 23.4% — the safest sclerosant for reticular veins",
+        "Polidocanol 0.5–1% liquid or STS 0.1–0.25% liquid — lower concentrations for smaller-diameter reticular veins",
+        "Sodium tetradecyl sulphate (STS) 3% liquid — full concentration for reticular veins"
+      ],
+      "ans": 2,
+      "exp": "Sclerosant concentration must be matched to vessel calibre. For reticular veins (1–3mm): polidocanol 0.5–1% or STS 0.25% liquid are appropriate. Higher concentrations risk hyperpigmentation, matting, and necrosis in smaller vessels. Foam (air:sclerosant 4:1 ratio) increases efficacy by displacing blood but is generally used for larger veins (truncal, reticular) while spider telangiectasias use very low-concentration liquid. Hypertonic saline is painful, carries tissue necrosis risk, and is rarely used outside the USA.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The concept of 'thermal relaxation time' (TRT) is central to laser physics. For a target structure, TRT is proportional to:",
+      "opts": [
+        "The inverse of the absorption coefficient at the treatment wavelength",
+        "The fluence (J/cm²) delivered per pulse",
+        "The target's distance from the skin surface",
+        "The square of the target's diameter"
+      ],
+      "ans": 3,
+      "exp": "TRT is the time required for the target to lose 50% of its absorbed heat to surrounding tissue. It scales with the square of the target's minimum diameter: TRT ∝ d². A 10µm vessel has a TRT ~100× shorter than a 100µm vessel. This is why small targets (pigment granules, fine vessels) require ultrashort pulses, while larger targets (hair bulbs, large vessels) tolerate longer pulses. Pulse duration must be ≤ TRT for selective damage.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Bioremodelling with high-concentration, uncross-linked HA (e.g., Profhilo) differs from traditional HA fillers because it:",
+      "opts": [
+        "Contains cross-linked HA for prolonged tissue integration over 18 months",
+        "Provides volume and projection like a high-G′ structural filler",
+        "Spreads diffusely through the dermis (BAP injection technique), stimulating adipocyte and fibroblast production and improving skin quality without volumising",
+        "Is a chemical peel applied topically"
+      ],
+      "ans": 2,
+      "exp": "Profhilo (and similar bioremodellers) contain very high-concentration (64mg/2mL) hybrid cooperative complexes of H-HA and L-HA but are NOT cross-linked with BDDE. Injected using BAP (bio-aesthetic points — 5 per side on face), the product spreads through the dermis via its high hygroscopic nature, stimulating fibroblasts, keratinocytes, and adipocytes — improving skin hydration, elasticity, and texture without adding volume. The lack of BDDE cross-linking means minimal granuloma risk and rapid tissue integration.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Which of the following best describes the 'SNARE hypothesis' as it applies to the development of cosmetic neurotoxin resistance?",
+      "opts": [
+        "SNARE resistance occurs when axonal sprouting forms new motor end-plates with uncleaved SNARE complexes, restoring neuromuscular transmission — this is why effect is temporary",
+        "High-dose treatment permanently destroys all SNARE proteins at the NMJ",
+        "Antibody formation against the toxin accessory proteins (hemagglutinin) sequesters the toxin before SNARE cleavage can occur",
+        "Repeated toxin exposure upregulates SNARE protein synthesis, compensating for cleavage"
+      ],
+      "ans": 0,
+      "exp": "The temporary duration of botulinum toxin effect is explained by SNARE regeneration via axonal sprouting. After SNAP-25 cleavage, the affected nerve terminal sprouts new axonal branches that form new functional NMJ contacts with intact, uncleaved SNARE machinery. This restores ACh release and muscle contraction over ~3–4 months. Meanwhile, the original nerve terminal eventually clears the cleaved SNAP-25 and regenerates its own functional SNA complex. True antibody-mediated resistance (to the neurotoxin protein core) is a separate phenomenon and less common with modern preparations.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Belotero Balance is an HA filler characterised by 'cohesive polydensified matrix' (CPM) technology. The clinical implication of its lower G′ and higher water affinity compared to Juvederm/Restylane is:",
+      "opts": [
+        "It degrades within 48 hours, making revision easier",
+        "It integrates more diffusely within the tissue with lower risk of Tyndall effect, making it suitable for very superficial lines and delicate areas",
+        "It requires hyaluronidase at double the standard dose for dissolution",
+        "It provides greater lifting force and structural support for cheekbone augmentation"
       ],
       "ans": 1,
-      "exp": "Spironolactone's anti-androgenic effects come from: (1) competitive antagonism at the androgen receptor (the dominant mechanism in skin/hair); and (2) partial inhibition of androgen biosynthesis by blocking CYP17A1 (a P450 enzyme in the adrenal cortex and gonads), reducing DHEA and androstenedione production. It does not inhibit 5-alpha-reductase directly. Clinically, it reduces sebum production, improves acne, and may stabilise/improve FPHL in females.",
+      "exp": "CPM technology produces a monophasic, non-particulate HA gel with low G′ (low firmness) and high water affinity. This allows it to integrate homogeneously within superficial dermal tissue planes rather than sitting as a discrete depot. The result: very low risk of Tyndall effect even in thin skin, making it particularly suitable for perioral fine lines, lip border definition, and tear trough in patients with thin skin. Its low lifting capacity makes it unsuitable for deep volumising.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "PRP for hair loss is injected into the scalp to stimulate follicular stem cells. Studies suggest the most critical variable determining efficacy of PRP for androgenetic alopecia is:",
+      "q": "This test system uses small aluminium chambers attached to a hypoallergenic tape placed on the upper back for 48 hours to identify delayed hypersensitivity to contact allergens. What type of immune reaction does it detect?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patch_test.jpg",
+      "image_type": "instrument",
       "opts": [
-        "The final platelet concentration — higher concentration correlates with greater growth factor delivery and clinical response",
-        "The patient's blood group",
-        "The specific anticoagulant used (citrate vs heparin)",
-        "The needle gauge for injection"
-      ],
-      "ans": 0,
-      "exp": "The principal determinant of PRP efficacy is the final platelet concentration achieved after centrifugation. A minimum of 3–5× baseline platelet concentration is generally considered therapeutic; most high-quality protocols aim for >1,000,000 platelets/µL. Higher platelet counts deliver proportionally more PDGF, TGF-β, VEGF, and EGF. Anticoagulant type, activation method, leukocyte content, and injection technique all influence outcomes but platelet concentration is the most studied variable.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Trichoscopy finding of 'yellow dots' in the scalp is classically associated with alopecia areata. However, yellow dots can also be seen in:",
-      "opts": [
-        "Alopecia areata, androgenetic alopecia, and trichotillomania — context and co-existing features distinguish these",
-        "Discoid lupus erythematosus (DLE) exclusively",
-        "Tinea capitis only",
-        "Androgenetic alopecia only"
-      ],
-      "ans": 0,
-      "exp": "Yellow dots (empty follicular openings plugged with keratin and sebum) are not pathognomonic for alopecia areata alone. They are also seen in androgenetic alopecia (reflecting follicular miniaturisation), trichotillomania, and less commonly in other conditions. In AA, yellow dots co-occur with black dots, exclamation-mark hairs, and broken hairs. In AGA they accompany hair-diameter diversity and peripilar signs (brown halos). Context, clinical history, and co-existing trichoscopy features are essential for interpretation.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The Sinclair scale is an alternative to Ludwig classification for staging female pattern hair loss. Ludwig Grade III (most severe) corresponds to:",
-      "opts": [
-        "Bitemporal recession and complete vertex baldness",
-        "Virtually complete baldness of the crown with preservation only of a frontal fringe",
-        "Pronounced widening of the central part with significant density loss",
-        "Minimal widening of the central part only"
+        "Finn chambers — detects Type III (immune complex) reactions",
+        "Finn chambers patch test — detects Type IV (delayed, T-cell mediated) hypersensitivity",
+        "Finn chambers — detects Type I (IgE-mediated) immediate hypersensitivity",
+        "Finn chambers — detects Type II (cytotoxic antibody) reactions"
       ],
       "ans": 1,
-      "exp": "Ludwig Grade III (most severe on the Ludwig scale) shows virtually complete thinning of the crown, preserving only a narrow rim of hair around the frontal hairline. This corresponds to Sinclair Grade 5 (most severe on the 5-point Sinclair scale). The Ludwig scale has three grades: I (minimal central widening, detectable on close inspection), II (pronounced widening, obvious thinning), III (near-complete crown baldness with frontal fringe preserved).",
+      "exp": "Patch testing with Finn chambers (Epitest Ltd) identifies contact allergens causing Type IV (delayed-type, T-cell mediated) hypersensitivity — allergic contact dermatitis. Chambers are applied for 48 hours; readings at 48 h and 96 h. A positive reaction shows erythema ± vesicles in the chamber footprint. The European baseline series covers 30 common allergens (nickel, fragrance mix, etc.).\n🏰 Palace: FINN CHAMBERS are TINY PRISON CELLS stuck on the castle back for 48 hours — T-CELL GUARDS rush in on day 2 to confront their ENEMY ALLERGEN, causing a RED RIOT (Type IV reaction).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Micro-focused ultrasound (HIFU) achieves long-term collagen remodelling. The two distinct biological effects at the focal point are:",
+      "opts": [
+        "Inducing electromagnetic field changes that rearrange collagen fibres without temperature elevation",
+        "Thermal coagulation (60–70°C) causing immediate collagen contraction, and subsequent neocollagenesis through wound-repair over 2–6 months",
+        "Selective photothermolysis and photo-acoustic pressure waves",
+        "Cryogenic cooling disrupting fat and heating the dermis simultaneously"
+      ],
+      "ans": 1,
+      "exp": "At the HIFU focal point, ultrasound energy is converted to heat (60–70°C), causing immediate coagulative necrosis/denaturation of collagen fibres — resulting in immediate contraction of collagen and tissue tightening visible acutely. Over the subsequent 2–6 months, the wound-repair response (macrophage activation → fibroblast recruitment → TGF-β signalling → neocollagenesis) deposits new type I and III collagen, producing progressive, cumulative lifting and tightening that peaks at ~3–6 months post-treatment.",
       "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The 'BAP technique' for Profhilo injection specifies 5 specific anatomical points on each side of the face. The reason for these exact injection points (rather than a grid) is:",
+      "opts": [
+        "To avoid 5 major facial arteries running at those precise locations",
+        "Standard mesotherapy grid injection points that happen to correspond to 5 per side",
+        "They are the 5 sites of maximum fat loss in facial ageing",
+        "To target 5 bio-aesthetic points that allow optimal diffusion of the product while avoiding major vessels and muscles"
+      ],
+      "ans": 3,
+      "exp": "The BAP (bio-aesthetic points) injection technique for Profhilo uses 5 specific anatomical points per face side — cheek, nasolabial, periorbital, submental area, and chin — chosen to: (1) allow optimal radial diffusion of the uncross-linked HA through the dermis; (2) avoid major vessels (angular artery, facial artery, zygomaticotemporal vessels) and facial muscles where possible; and (3) minimise the number of injection points (reducing bruising and discomfort) while achieving full facial coverage.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This wand-shaped device delivers focused ultrasound energy at 1.5 mm, 3 mm, and 4.5 mm depths to heat the superficial musculoaponeurotic system (SMAS). What tissue temperature is targeted and what thermal effect is produced?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HIFU_transducer.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Ultrasound imaging probe — maps SMAS without any thermal effect",
+        "HIFU transducer — cools SMAS to −5°C causing controlled cryoapoptosis",
+        "RF transducer — heats dermis to 42°C for mild collagen remodelling",
+        "HIFU (Ultherapy) transducer — creates discrete thermal coagulation zones at 65–70°C, triggering collagen contraction and neocollagenesis"
+      ],
+      "ans": 3,
+      "exp": "HIFU (High-Intensity Focused Ultrasound, e.g., Ultherapy) creates micro-thermal coagulation zones (MTZs) at precise tissue depths (1.5 mm = dermis, 3 mm = deep dermis, 4.5 mm = SMAS layer) at 65–70°C. This causes immediate collagen contraction and delayed neocollagenesis over 3–6 months. It is the only non-surgical device FDA-cleared to lift brow, chin, and neck.\n🏰 Palace: A FOCUSED SOUND GUN fires HOT BULLETS (65–70°C) into the CASTLE'S 3 UNDERGROUND FLOORS (1.5/3/4.5 mm) — each bullet fuses collagen fibres and triggers rebuilding over 3–6 months.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The SPF (sun protection factor) of a sunscreen is defined and measured specifically against:",
+      "opts": [
+        "UVB radiation (280–315nm) — specifically the erythemal dose (MED ratio with vs without sunscreen)",
+        "The full solar spectrum (UVA + UVB + visible light)",
+        "UVA radiation alone (315–400nm)",
+        "Infrared radiation causing thermal skin damage"
+      ],
+      "ans": 0,
+      "exp": "SPF is defined as the ratio of the minimum erythemal dose (MED) on protected skin to the MED on unprotected skin, measured specifically against UVB radiation (the primary erythemogenic spectrum). An SPF 50 product allows 50× more UVB exposure before erythema. SPF does NOT directly measure UVA protection — separate UVA-PF or PA rating systems (PPD test) are used. Broad-spectrum sunscreens must protect against both UVA and UVB, but SPF only quantifies UVB protection.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "In laser-assisted drug delivery (LADD), ablative fractional lasers create microchannels that dramatically enhance topical drug penetration. The drug most studied and clinically used via LADD is:",
+      "opts": [
+        "Topical anaesthetic lidocaine — fractional channels allow deep anaesthesia within 5 minutes",
+        "MAL (methyl aminolaevulinate) — fractional laser pretreatment dramatically reduces MAL incubation time for PDT while maintaining efficacy",
+        "Topical minoxidil 5% for enhanced hair regrowth beyond follicular delivery",
+        "Topical retinol — fractional channels bypass the need for tretinoin conversion"
+      ],
+      "ans": 1,
+      "exp": "The most clinically validated and widely used LADD application is fractional laser-assisted PDT (LAAD-PDT): ablative fractional laser (AFL) pretreatment creates microchannels that enhance penetration of MAL or ALA by 3–4 fold, reducing required incubation time from 3 hours to 30–45 minutes while maintaining or improving efficacy for actinic keratoses and non-melanoma skin cancer. AFL-PDT also achieves better cosmetic results than conventional PDT. Topical anaesthetic and minoxidil LADD are also studied but less clinically validated.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "For treatment of mature keloids, the first-line recommended modality in most dermatological guidelines is:",
+      "opts": [
+        "Immediate surgical excision without adjuvant therapy",
+        "Intralesional triamcinolone acetonide (IL-TAC) 10–40 mg/mL injections every 4–6 weeks",
+        "Oral doxycycline 100mg BD for 12 weeks",
+        "Topical retinoic acid 0.025% cream for 6 months"
+      ],
+      "ans": 1,
+      "exp": "IL triamcinolone acetonide (10–40 mg/mL, typically 10 mg/mL for face, up to 40 mg/mL for truncal keloids) is the first-line standard treatment for mature keloids. It reduces collagen synthesis, inhibits fibroblast proliferation, and reduces inflammatory cytokines. Injections are repeated every 4–6 weeks for 3–6 months. Surgical excision without adjuvant therapy has a recurrence rate of 45–100%; adjuvants (IL-TAC, radiotherapy, 5-FU) are required post-excision for true keloids.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Thread lifting (barbed suture lifting) uses absorbable or non-absorbable threads to mechanically lift lax facial tissue. The secondary long-term mechanism of absorbable PDO (polydioxanone) threads is:",
+      "opts": [
+        "Permanent mechanical anchoring of the SMAS to periosteum",
+        "Gradual hydrolytic degradation of PDO over 6–8 months stimulating a foreign-body response with fibroblast activation and collagen neogenesis along the thread track",
+        "Release of hyaluronic acid from the thread as it dissolves",
+        "Electrical conduction through the metal barbs stimulating galvanic skin responses"
+      ],
+      "ans": 1,
+      "exp": "PDO (polydioxanone) threads are absorbable, degrading via hydrolysis over approximately 6–8 months. During degradation, the polymer induces a mild foreign-body response that activates fibroblasts and drives collagen neogenesis along the thread track. This collagen cage persists even after the PDO has fully resorbed, providing some long-term tissue support beyond the mechanical lifting phase. PLLA threads (slower degradation, ~18 months) have a more pronounced and prolonged biostimulatory effect.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Avobenzone (butyl methoxydibenzoylmethane) is a widely used UVA1 chemical filter. Its main formulation challenge is:",
+      "opts": [
+        "It causes immediate contact urticaria in >50% of users",
+        "It absorbs strongly in the UVB range and produces erythema",
+        "It is insoluble in all cosmetic vehicles",
+        "Photodegradation — avobenzone breaks down on UV exposure, losing 50–90% of its UVA protection within 1–2 hours without photostabilisers"
+      ],
+      "ans": 3,
+      "exp": "Avobenzone is the benchmark long-wave UVA1 filter (absorption peak ~360nm) but is inherently photounstable — UV exposure causes it to undergo photodegradation (an enol-keto tautomerisation/decomposition), losing 40–90% of UVA protection within 1–2 hours of exposure. Photostabilisers (octocrylene, Tinosorb S, Tinosorb M, Mexoryl XL) are added to sunscreen formulations to prevent this degradation. 'Helioplex' technology (Neutrogena) uses octocrylene + diethylhexyl 2,6-naphthalate to stabilise avobenzone.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Narrowband UVB (NB-UVB, 311nm) is now preferred over broadband UVB for vitiligo treatment. The advantage of NB-UVB over PUVA for most patients is:",
+      "opts": [
+        "NB-UVB requires pre-treatment psoralen ingestion for maximum efficacy",
+        "NB-UVB achieves faster repigmentation than PUVA in all body sites",
+        "NB-UVB can be used in pregnancy and children, has no systemic drug side-effects (no psoralen needed), and has a favourable long-term safety profile vs PUVA's carcinogenesis risk",
+        "NB-UVB is effective only for acral/extremity vitiligo"
+      ],
+      "ans": 2,
+      "exp": "NB-UVB (311–313nm) is now first-line phototherapy for vitiligo. Key advantages over PUVA: no psoralen required (avoiding nausea, hepatotoxicity, photosensitivity, ocular risks, drug interactions); can be safely used in pregnant women and children; lower long-term photocarcinogenesis risk vs PUVA (which has clear dose-dependent squamous cell carcinoma risk). PUVA may still be preferred in very dark skin (better pigment activation) or resistant cases, particularly for palmoplantar vitiligo where oral PUVA or PUVA soaking is used.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "Rosacea with telangiectasia (subtype 1, ETR) responds best to which laser/light treatment?",
+      "opts": [
+        "1064nm Nd:YAG long-pulsed — best for all rosacea subtypes",
+        "585/595nm PDL or KTP 532nm — specifically target oxyhaemoglobin in superficial facial telangiectasia",
+        "Ablative CO₂ fractional laser — ablates the superficial telangiectasia",
+        "Q-switched 532nm — targets melanin in the telangiectatic vessels"
+      ],
+      "ans": 1,
+      "exp": "Subtype 1 rosacea (erythematotelangiectatic rosacea, ETR) is characterised by persistent central facial erythema, flushing, and superficial telangiectasia (<0.5–1mm). The PDL (585/595nm) and KTP (532nm) lasers both target oxyhaemoglobin in these superficial facial vessels with high selectivity. PDL in sub-purpuric mode (longer pulses, lower fluence) treats diffuse erythema and flushing by coagulating the microvasculature. IPL is also effective for ETR. 1064nm Nd:YAG is preferred for larger (>1mm) deeper vessels on the face or for leg telangiectasias.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "A 27-year-old presents with ice-pick, boxcar, and rolling acne scars on her cheeks. The most appropriate laser for ice-pick scars specifically is subcision combined with:",
+      "opts": [
+        "595nm PDL targeting the scar vascularity",
+        "755nm alexandrite for melanin in post-inflammatory hyperpigmentation",
+        "Ablative fractional CO₂ laser — which in combination with subcision addresses both ice-pick depth and superficial textural changes",
+        "Q-switched Nd:YAG 1064nm for selective pigment removal"
+      ],
+      "ans": 2,
+      "exp": "Ice-pick scars are narrow, deep (extending to the deep dermis/subcutis) and do not respond well to subcision alone (they lack the fibrous tethering of rolling scars) or non-ablative treatments. Ablative fractional CO₂ laser is the most effective laser modality, as it ablates and remodels the deep epithelial tunnels of ice-pick scars while simultaneously resurfacing boxcar and rolling scars. Subcision before laser loosens fibrotic bands under rolling scars. Chemical reconstruction of skin scars (CROSS technique with high-concentration TCA 80–100%) is also highly effective for ice-pick scars specifically.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The 'Tyndall effect' in dermal filler refers to visible blue discolouration. Hyaluronidase dissolves the offending filler. The recommended hyaluronidase dose for Tyndall effect correction is:",
+      "opts": [
+        "500+ units per session regardless of volume",
+        "10–30 units per mL of estimated filler volume, injected into and around the discoloured zone",
+        "1–5 units precisely — low dose to avoid overcorrection",
+        "Hyaluronidase is ineffective for Tyndall effect; surgical excision is required"
+      ],
+      "ans": 1,
+      "exp": "For Tyndall effect from superficially placed HA filler, hyaluronidase is highly effective. The recommended dose is typically 10–30 units per mL of estimated filler volume (some protocols use 150–300 units total for the tear trough). Injecting into and immediately around the visible blue discolouration dissolves the superficial HA depot, resolving the optical scattering phenomenon. Dose should be titrated conservatively to avoid overcorrection (hollowing) in areas like the tear trough where undercorrection after hyaluronidase may then need filler replacement.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This applicator with a large suction cup head is placed on the skin to cool subcutaneous fat cells to −11°C without damaging the overlying skin. What is the cellular mechanism of fat cell death?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cryolipolysis_applicator.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Laser lipolysis — photons rupture adipocyte mitochondria",
+        "Cryolipolysis applicator — selective apoptosis of lipocytes at −11°C (lipids crystallise before water); skin unharmed",
+        "Ultrasound cavitation — mechanical disruption of adipocyte membranes",
+        "Radiofrequency fat melting — heats fat to 42°C causing thermal necrosis"
+      ],
+      "ans": 1,
+      "exp": "Cryolipolysis (CoolSculpting) exploits the fact that lipids crystallise at higher temperatures than water (~−10 to −11°C vs −0°C for tissue water). At −11°C, adipocyte triglycerides solidify, triggering apoptosis while the overlying skin and dermis are protected. Dead adipocytes are cleared by macrophages over 4–12 weeks, reducing fat layer by 20–25%.\n🏰 Palace: FAT SOLDIERS (adipocytes) are marched into the FREEZING DUNGEON at −11°C — their OLIVE OIL (lipids) freezes BEFORE the castle water does, so only fat dies while the skin walls stay warm.",
+      "source": "Instrument Spotter",
       "topic": "Cosmetology"
     },
     {
@@ -176,301 +593,123 @@
       "topic": "Cosmetology"
     },
     {
-      "q": "In non-ablative fractional photothermolysis (NAFP, e.g., 1550nm Er:glass laser), healing is rapid because:",
+      "q": "A patient develops tender, firm nodules 8 months after PLLA (Sculptra) injection. The most likely cause and preferred management are:",
       "opts": [
-        "NAFP uses infrared energy that only heats subcutaneous fat",
-        "Non-ablative devices operate at sub-therapeutic fluences that do not damage any tissue",
-        "The epidermis remains structurally intact — MTZ columns of coagulation are formed within the dermis while the overlying stratum corneum is preserved as a biological dressing",
-        "The epidermis is fully ablated so re-epithelialisation happens from adjacent skin edges"
+        "Infection — oral doxycycline for 6 weeks",
+        "Delayed foreign-body granulomas from undiluted or inadequately diluted PLLA or insufficient massage — treat with IL triamcinolone ± 5-FU and consider hyaluronidase",
+        "Delayed foreign-body granulomas from PLLA clumping — treat with IL triamcinolone ± 5-FU; hyaluronidase has no role as PLLA is not HA",
+        "Seroma formation — drain with a large-bore needle"
       ],
       "ans": 2,
-      "exp": "Non-ablative fractional photothermolysis creates micro-thermal zones (MTZs) of coagulative injury in the dermis without removing the epidermis. The intact overlying stratum corneum and epidermis act as a natural biological dressing, dramatically accelerating healing (mild swelling 24–48 hours; no open wound) compared to ablative resurfacing. The coagulated dermal columns are gradually replaced by new collagen through natural wound repair, producing progressive skin tightening and texture improvement.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Intense pulsed light (IPL) machines use cut-off filters. A 560nm cut-off filter is selected over a 590nm cut-off filter for vascular lesions because:",
-      "opts": [
-        "560nm targets oxyhaemoglobin more selectively than 590nm",
-        "The 560nm filter passes all wavelengths above 560nm, delivering a broader spectrum including the oxyhaemoglobin absorption peaks at 542nm and 577nm",
-        "The 560nm filter blocks UV and the entire visible spectrum",
-        "The 560nm cut-off produces a narrower, more coherent beam than 590nm"
-      ],
-      "ans": 1,
-      "exp": "IPL cut-off filters block wavelengths BELOW their threshold and transmit wavelengths above it. A 560nm cut-off allows wavelengths from 560nm up to ~1200nm to reach the skin — a broad spectrum that includes the 542nm and 577nm oxyhaemoglobin absorption peaks (actually these are just below 560nm, so a 530nm cut-off is slightly better for small vessels). A 590nm cut-off excludes 560–590nm and shifts the spectrum redder. For vascular lesions, lower cut-offs (530–560nm) include more oxyhaemoglobin-targeted wavelengths; for hair/pigment in dark skin, higher cut-offs (640–695nm) are safer.",
+      "exp": "Late nodules after PLLA are foreign-body granulomas, most often caused by inadequate dilution (protocol now recommends ≥7–8 mL diluent per vial), failure to perform post-injection massage (5 minutes per day for 5 days), or superficial injection. Management: IL triamcinolone acetonide (10 mg/mL) ± 5-FU, repeated every 4–6 weeks. Hyaluronidase is NOT effective because PLLA is not HA. Surgical excision is reserved for refractory cases.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
       "q": "When performing lip augmentation with HA filler, the greatest risk of vascular compromise is from inadvertent injection into the:",
       "opts": [
-        "Mucous membrane of the labial sulcus",
-        "Orbicularis oris muscle",
         "Philtral columns dermis",
-        "Superior labial artery, running deep to the orbicularis at the wet–dry vermilion junction"
+        "Orbicularis oris muscle",
+        "Superior labial artery, running deep to the orbicularis at the wet–dry vermilion junction",
+        "Mucous membrane of the labial sulcus"
       ],
-      "ans": 3,
+      "ans": 2,
       "exp": "The superior labial artery (and inferior labial artery) run just below the wet–dry vermilion border, deep to (or within) the orbicularis oris muscle. Intravascular injection here can cause intravascular HA embolisation, leading to labial skin necrosis or, via anastomoses, to more distal areas. Aspiration, using a cannula rather than a needle, injecting slowly with small aliquots, and knowledge of vascular anatomy are the key precautions. The philtral columns are a lower-risk area but the columellar artery and angular vessels still require care.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "Belotero Balance is an HA filler characterised by 'cohesive polydensified matrix' (CPM) technology. The clinical implication of its lower G′ and higher water affinity compared to Juvederm/Restylane is:",
+      "q": "Intense pulsed light (IPL) machines use cut-off filters. A 560nm cut-off filter is selected over a 590nm cut-off filter for vascular lesions because:",
       "opts": [
-        "It integrates more diffusely within the tissue with lower risk of Tyndall effect, making it suitable for very superficial lines and delicate areas",
-        "It requires hyaluronidase at double the standard dose for dissolution",
-        "It degrades within 48 hours, making revision easier",
-        "It provides greater lifting force and structural support for cheekbone augmentation"
-      ],
-      "ans": 0,
-      "exp": "CPM technology produces a monophasic, non-particulate HA gel with low G′ (low firmness) and high water affinity. This allows it to integrate homogeneously within superficial dermal tissue planes rather than sitting as a discrete depot. The result: very low risk of Tyndall effect even in thin skin, making it particularly suitable for perioral fine lines, lip border definition, and tear trough in patients with thin skin. Its low lifting capacity makes it unsuitable for deep volumising.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A patient develops tender, firm nodules 8 months after PLLA (Sculptra) injection. The most likely cause and preferred management are:",
-      "opts": [
-        "Infection — oral doxycycline for 6 weeks",
-        "Delayed foreign-body granulomas from PLLA clumping — treat with IL triamcinolone ± 5-FU; hyaluronidase has no role as PLLA is not HA",
-        "Seroma formation — drain with a large-bore needle",
-        "Delayed foreign-body granulomas from undiluted or inadequately diluted PLLA or insufficient massage — treat with IL triamcinolone ± 5-FU and consider hyaluronidase"
-      ],
-      "ans": 1,
-      "exp": "Late nodules after PLLA are foreign-body granulomas, most often caused by inadequate dilution (protocol now recommends ≥7–8 mL diluent per vial), failure to perform post-injection massage (5 minutes per day for 5 days), or superficial injection. Management: IL triamcinolone acetonide (10 mg/mL) ± 5-FU, repeated every 4–6 weeks. Hyaluronidase is NOT effective because PLLA is not HA. Surgical excision is reserved for refractory cases.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Narrowband UVB (NB-UVB, 311nm) is now preferred over broadband UVB for vitiligo treatment. The advantage of NB-UVB over PUVA for most patients is:",
-      "opts": [
-        "NB-UVB is effective only for acral/extremity vitiligo",
-        "NB-UVB achieves faster repigmentation than PUVA in all body sites",
-        "NB-UVB can be used in pregnancy and children, has no systemic drug side-effects (no psoralen needed), and has a favourable long-term safety profile vs PUVA's carcinogenesis risk",
-        "NB-UVB requires pre-treatment psoralen ingestion for maximum efficacy"
-      ],
-      "ans": 2,
-      "exp": "NB-UVB (311–313nm) is now first-line phototherapy for vitiligo. Key advantages over PUVA: no psoralen required (avoiding nausea, hepatotoxicity, photosensitivity, ocular risks, drug interactions); can be safely used in pregnant women and children; lower long-term photocarcinogenesis risk vs PUVA (which has clear dose-dependent squamous cell carcinoma risk). PUVA may still be preferred in very dark skin (better pigment activation) or resistant cases, particularly for palmoplantar vitiligo where oral PUVA or PUVA soaking is used.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The SPF (sun protection factor) of a sunscreen is defined and measured specifically against:",
-      "opts": [
-        "The full solar spectrum (UVA + UVB + visible light)",
-        "UVA radiation alone (315–400nm)",
-        "UVB radiation (280–315nm) — specifically the erythemal dose (MED ratio with vs without sunscreen)",
-        "Infrared radiation causing thermal skin damage"
-      ],
-      "ans": 2,
-      "exp": "SPF is defined as the ratio of the minimum erythemal dose (MED) on protected skin to the MED on unprotected skin, measured specifically against UVB radiation (the primary erythemogenic spectrum). An SPF 50 product allows 50× more UVB exposure before erythema. SPF does NOT directly measure UVA protection — separate UVA-PF or PA rating systems (PPD test) are used. Broad-spectrum sunscreens must protect against both UVA and UVB, but SPF only quantifies UVB protection.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Zinc oxide (ZnO) and titanium dioxide (TiO₂) are physical (inorganic) UV filters. The key difference between them is that ZnO, unlike TiO₂:",
-      "opts": [
-        "Provides UVB protection only, while TiO₂ covers UVA",
-        "Provides broader UVA coverage — ZnO absorbs efficiently into the UVA1 range (340–400nm), whereas TiO₂ has weak UVA1 absorption",
-        "Is only effective as a sunscreen in concentrations above 25%",
-        "Is a chemical filter converted by UV to reactive oxygen species"
-      ],
-      "ans": 1,
-      "exp": "Both ZnO and TiO₂ are physical blockers that reflect/scatter and absorb UV. TiO₂ absorbs well in the UVB and short-UVA2 range (280–340nm) but has poor absorption above 340nm (UVA1 range). ZnO has a broader absorption spectrum extending into the UVA1 range (340–400nm), providing significantly better long-wave UVA protection. This makes ZnO the preferred single physical filter for broad-spectrum sunscreens, or the two are combined for full coverage.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Avobenzone (butyl methoxydibenzoylmethane) is a widely used UVA1 chemical filter. Its main formulation challenge is:",
-      "opts": [
-        "It absorbs strongly in the UVB range and produces erythema",
-        "It causes immediate contact urticaria in >50% of users",
-        "It is insoluble in all cosmetic vehicles",
-        "Photodegradation — avobenzone breaks down on UV exposure, losing 50–90% of its UVA protection within 1–2 hours without photostabilisers"
+        "The 560nm filter blocks UV and the entire visible spectrum",
+        "560nm targets oxyhaemoglobin more selectively than 590nm",
+        "The 560nm cut-off produces a narrower, more coherent beam than 590nm",
+        "The 560nm filter passes all wavelengths above 560nm, delivering a broader spectrum including the oxyhaemoglobin absorption peaks at 542nm and 577nm"
       ],
       "ans": 3,
-      "exp": "Avobenzone is the benchmark long-wave UVA1 filter (absorption peak ~360nm) but is inherently photounstable — UV exposure causes it to undergo photodegradation (an enol-keto tautomerisation/decomposition), losing 40–90% of UVA protection within 1–2 hours of exposure. Photostabilisers (octocrylene, Tinosorb S, Tinosorb M, Mexoryl XL) are added to sunscreen formulations to prevent this degradation. 'Helioplex' technology (Neutrogena) uses octocrylene + diethylhexyl 2,6-naphthalate to stabilise avobenzone.",
+      "exp": "IPL cut-off filters block wavelengths BELOW their threshold and transmit wavelengths above it. A 560nm cut-off allows wavelengths from 560nm up to ~1200nm to reach the skin — a broad spectrum that includes the 542nm and 577nm oxyhaemoglobin absorption peaks (actually these are just below 560nm, so a 530nm cut-off is slightly better for small vessels). A 590nm cut-off excludes 560–590nm and shifts the spectrum redder. For vascular lesions, lower cut-offs (530–560nm) include more oxyhaemoglobin-targeted wavelengths; for hair/pigment in dark skin, higher cut-offs (640–695nm) are safer.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "A 32-year-old woman with Fitzpatrick III skin presents with a 3cm erythematous, raised, firm scar that grew beyond the original wound boundary after a C-section. This is best classified as:",
+      "q": "The Sinclair scale is an alternative to Ludwig classification for staging female pattern hair loss. Ludwig Grade III (most severe) corresponds to:",
       "opts": [
-        "Atrophic scar — below the plane of surrounding skin",
-        "Scar contracture — results only from burn injuries",
-        "Keloid — extends beyond the original wound boundaries and does not spontaneously regress",
-        "Hypertrophic scar — confined to the original wound margins"
+        "Pronounced widening of the central part with significant density loss",
+        "Bitemporal recession and complete vertex baldness",
+        "Virtually complete baldness of the crown with preservation only of a frontal fringe",
+        "Minimal widening of the central part only"
       ],
       "ans": 2,
-      "exp": "A keloid is defined by extension beyond the original wound boundaries and the absence of spontaneous regression — distinguishing it from a hypertrophic scar (which stays within wound margins and may regress over months to years). Keloids are more common in darker skin (Fitzpatrick III–VI), certain locations (sternum, earlobes, deltoid, jaw), and after surgeries/piercings. Management options include IL triamcinolone, cryotherapy, pressure garments, silicone, pulsed dye laser, and surgical excision + adjuvant therapy.",
+      "exp": "Ludwig Grade III (most severe on the Ludwig scale) shows virtually complete thinning of the crown, preserving only a narrow rim of hair around the frontal hairline. This corresponds to Sinclair Grade 5 (most severe on the 5-point Sinclair scale). The Ludwig scale has three grades: I (minimal central widening, detectable on close inspection), II (pronounced widening, obvious thinning), III (near-complete crown baldness with frontal fringe preserved).",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "For treatment of mature keloids, the first-line recommended modality in most dermatological guidelines is:",
+      "q": "Spironolactone is used as an anti-androgen in female pattern hair loss (FPHL) and acne. Its mechanism of action relevant to hair and skin includes:",
       "opts": [
-        "Topical retinoic acid 0.025% cream for 6 months",
-        "Oral doxycycline 100mg BD for 12 weeks",
-        "Immediate surgical excision without adjuvant therapy",
-        "Intralesional triamcinolone acetonide (IL-TAC) 10–40 mg/mL injections every 4–6 weeks"
+        "Competitive antagonism of the androgen receptor in target tissues (hair follicle, sebaceous gland), and reducing androgen synthesis by inhibiting CYP17A1 (17α-hydroxylase/lyase)",
+        "Inhibiting 5-alpha-reductase type 2 in the dermal papilla",
+        "Directly destroying androgen-sensitive follicles",
+        "Competitive blockade of the androgen receptor AND partial inhibition of adrenal androgen synthesis by blocking CYP11B1"
+      ],
+      "ans": 0,
+      "exp": "Spironolactone's anti-androgenic effects come from: (1) competitive antagonism at the androgen receptor (the dominant mechanism in skin/hair); and (2) partial inhibition of androgen biosynthesis by blocking CYP17A1 (a P450 enzyme in the adrenal cortex and gonads), reducing DHEA and androstenedione production. It does not inhibit 5-alpha-reductase directly. Clinically, it reduces sebum production, improves acne, and may stabilise/improve FPHL in females.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This laser system emits 10,600 nm (mid-infrared) radiation that is absorbed by water in all tissue layers, enabling ablative skin resurfacing. What is its primary chromophore?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CO2_laser_machine.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Nd:YAG laser — haemoglobin",
+        "KTP laser — oxyhemoglobin",
+        "Alexandrite laser — melanin",
+        "CO2 laser — water (tissue chromophore, not melanin or haemoglobin)"
       ],
       "ans": 3,
-      "exp": "IL triamcinolone acetonide (10–40 mg/mL, typically 10 mg/mL for face, up to 40 mg/mL for truncal keloids) is the first-line standard treatment for mature keloids. It reduces collagen synthesis, inhibits fibroblast proliferation, and reduces inflammatory cytokines. Injections are repeated every 4–6 weeks for 3–6 months. Surgical excision without adjuvant therapy has a recurrence rate of 45–100%; adjuvants (IL-TAC, radiotherapy, 5-FU) are required post-excision for true keloids.",
-      "source": "Cosmetology",
+      "exp": "The CO2 laser at 10,600 nm is absorbed almost entirely by intracellular and extracellular water, which is the universal tissue chromophore at this wavelength. This allows precise vaporization of thin layers of skin regardless of pigmentation. It is the gold standard for ablative resurfacing, actinic cheilitis, and rhinophyma.\n🏰 Palace: CO2 CASTLE is surrounded by a WATER MOAT — every laser shot evaporates the moat (water chromophore, 10,600 nm), not the melanin knights.",
+      "source": "Instrument Spotter",
       "topic": "Cosmetology"
     },
     {
-      "q": "Intralesional 5-fluorouracil (5-FU) is increasingly used for hypertrophic scars and keloids. Its mechanism is:",
+      "q": "This helmet-shaped device incorporates hundreds of low-level laser (or LED) diodes emitting 650–670 nm red light to stimulate hair follicle activity. What cellular mechanism underlies its action?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LLLT_hair_cap.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Chelating collagen cross-links to soften the scar",
-        "Acting as a steroid analogue reducing inflammation",
-        "Inhibiting fibroblast proliferation by blocking thymidylate synthase (TS), reducing pyrimidine synthesis and DNA replication",
-        "Stimulating matrix metalloproteinase (MMP) expression through TNF-α signalling"
-      ],
-      "ans": 2,
-      "exp": "5-FU is a pyrimidine analogue that inhibits thymidylate synthase (TS), blocking the methylation of dUMP to dTMP and thereby depleting thymidine and inhibiting DNA synthesis. In hyperproliferative fibroblasts (as in keloids/hypertrophic scars), this arrests cell division and reduces excess collagen deposition. Combined IL 5-FU (50mg/mL) + triamcinolone achieves greater efficacy than either alone; the ratio is typically 9:1 (5-FU:TAC) by volume.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The pulsed dye laser (PDL) at 585/595nm is used not only for vascular lesions but also for hypertrophic scars and keloids. Its proposed mechanism in scar treatment is:",
-      "opts": [
-        "Microvascular coagulation reducing scar vascularity, followed by decreased TGF-β1 and increased MMP-1/3 activity leading to collagen remodelling",
-        "Cooling the scar through the cryogen spray system, reducing inflammation",
-        "Direct collagen ablation by the PDL beam",
-        "Stimulating melanocyte migration into the scar to restore pigmentation"
+        "LLLT hair growth cap — photobiomodulation increasing mitochondrial ATP via cytochrome c oxidase",
+        "LLLT cap — UV-induced melanocyte proliferation",
+        "LLLT cap — radiofrequency scalp stimulation",
+        "LLLT cap — heating follicles to 42°C to stimulate growth"
       ],
       "ans": 0,
-      "exp": "PDL for scar treatment works by targeting the microvascular supply of the hypertrophic scar/keloid (oxyhaemoglobin absorption). Vascular coagulation reduces blood flow and tissue hypoxia that drives fibroblast activation. It also downregulates TGF-β1 (a key profibrotic cytokine) and upregulates MMPs (collagenases), shifting the balance from collagen deposition to degradation. Multiple sessions (4–6, every 4–8 weeks) produce gradual flattening, softening, and improved colour of scars.",
-      "source": "Cosmetology",
+      "exp": "Low-Level Laser/Light Therapy (LLLT) at 650–670 nm uses photobiomodulation: photons are absorbed by cytochrome c oxidase in mitochondria, increasing ATP production and reducing oxidative stress in follicle cells. This shifts follicles from telogen to anagen. FDA-cleared for androgenetic alopecia in both males and females.\n🏰 Palace: RED LASER MONKS (650 nm) meditate in the MITOCHONDRIAL MONASTERY — charging up cytochrome c oxidase's ATP batteries to wake sleeping hair follicles from telogen.",
+      "source": "Instrument Spotter",
       "topic": "Cosmetology"
     },
     {
-      "q": "A 27-year-old presents with ice-pick, boxcar, and rolling acne scars on her cheeks. The most appropriate laser for ice-pick scars specifically is subcision combined with:",
+      "q": "A 40-year-old woman has persistent bilateral malar melasma refractory to topical triple combination (HQ + tretinoin + fluocinolone) for 6 months. The BEST next step combining efficacy and safety evidence is:",
       "opts": [
-        "755nm alexandrite for melanin in post-inflammatory hyperpigmentation",
-        "595nm PDL targeting the scar vascularity",
-        "Ablative fractional CO₂ laser — which in combination with subcision addresses both ice-pick depth and superficial textural changes",
-        "Q-switched Nd:YAG 1064nm for selective pigment removal"
-      ],
-      "ans": 2,
-      "exp": "Ice-pick scars are narrow, deep (extending to the deep dermis/subcutis) and do not respond well to subcision alone (they lack the fibrous tethering of rolling scars) or non-ablative treatments. Ablative fractional CO₂ laser is the most effective laser modality, as it ablates and remodels the deep epithelial tunnels of ice-pick scars while simultaneously resurfacing boxcar and rolling scars. Subcision before laser loosens fibrotic bands under rolling scars. Chemical reconstruction of skin scars (CROSS technique with high-concentration TCA 80–100%) is also highly effective for ice-pick scars specifically.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "CROSS technique (chemical reconstruction of skin scars) uses high-concentration TCA (65–100%) applied focally to ice-pick scars. Its mechanism is:",
-      "opts": [
-        "Focal full-thickness chemical coagulation of the ice-pick track walls, triggering an inflammatory wound-healing response that fills the scar from the base upward",
-        "Inhibiting tyrosinase in scar tissue to reduce post-acne hyperpigmentation",
-        "Controlled full-thickness ablation equivalent to surgical punch excision",
-        "Surface exfoliation of the epidermis around the scar, smoothing the transition"
-      ],
-      "ans": 0,
-      "exp": "CROSS (chemical reconstruction of skin scars) applies high-concentration TCA (65–100%) using a sharpened wooden applicator or toothpick directly into the ice-pick scar lumen. This causes focal, full-thickness protein coagulation of the scar walls, stimulating a localised wound-healing cascade with inflammation, granulation tissue formation, and new collagen deposition from the base outward — gradually filling the pit. Multiple sessions (4–6, every 4–6 weeks) are typically needed. It is inexpensive, effective, and particularly useful in darker skin when ablative lasers carry PIH risk.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 50-year-old woman desires upper-face lifting without surgery. HIFU (Ultherapy) is proposed. The correct sequence of tissue planes targeted at different depths during a HIFU procedure is:",
-      "opts": [
-        "The depth is fixed at 4.5mm for all facial areas",
-        "1.5mm (superficial dermis) → 3.0mm (deep dermis) → 4.5mm (SMAS) — from superficial to deep",
-        "3.0mm (deep dermis) → 4.5mm (SMAS) → 1.5mm (superficial dermis) — from deep to superficial",
-        "4.5mm (SMAS) → 3.0mm (deep dermis) → 1.5mm (superficial dermis) — conventional deep-to-superficial pass"
+        "Switching to topical hydroquinone 8% as monotherapy",
+        "Ablative CO₂ fractional laser resurfacing",
+        "Immediately proceeding to Q-switched Nd:YAG laser toning",
+        "Adding oral tranexamic acid 250mg BD and a chemical peel series (glycolic or salicylic) with strict photoprotection"
       ],
       "ans": 3,
-      "exp": "Clinical HIFU protocols typically follow a deep-to-superficial sequence: 4.5mm (SMAS/platysma level) is treated first, then 3.0mm (deep reticular dermis), then optionally 1.5mm (superficial dermis/papillary). This order prevents superficial thermal injury from deeper passes and mirrors the surgical sequence. Different transducer frequencies are used for different depths: lower frequencies (3.5–4MHz) for deeper (4.5mm) penetration, higher (7MHz) for superficial (1.5mm). Depth selection also varies by facial zone (e.g., 4.5mm avoided over bony prominences and eyes).",
+      "exp": "For topical-refractory melasma, the next recommended step is to add oral tranexamic acid (TXA 250mg BD or 500mg BD — strong level I evidence, safe if screened for thromboembolism risk) and a series of superficial chemical peels (glycolic 30–70% or salicylic 20–30%) to accelerate epidermal pigment turnover. Strict broad-spectrum photoprotection (SPF 50+, physical blockers, sun avoidance) is mandatory throughout. Q-switched laser toning carries PIH risk in Fitzpatrick III–V if used prematurely. Ablative CO₂ is high-risk for melasma exacerbation.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "Micro-focused ultrasound (HIFU) achieves long-term collagen remodelling. The two distinct biological effects at the focal point are:",
+      "q": "A 45-year-old woman undergoes botulinum toxin treatment for masseteric hypertrophy (jaw-slimming). The muscle to be injected is the masseter. To avoid paresis of the risorius and zygomaticus, injections should be placed:",
       "opts": [
-        "Selective photothermolysis and photo-acoustic pressure waves",
-        "Thermal coagulation (60–70°C) causing immediate collagen contraction, and subsequent neocollagenesis through wound-repair over 2–6 months",
-        "Cryogenic cooling disrupting fat and heating the dermis simultaneously",
-        "Inducing electromagnetic field changes that rearrange collagen fibres without temperature elevation"
-      ],
-      "ans": 1,
-      "exp": "At the HIFU focal point, ultrasound energy is converted to heat (60–70°C), causing immediate coagulative necrosis/denaturation of collagen fibres — resulting in immediate contraction of collagen and tissue tightening visible acutely. Over the subsequent 2–6 months, the wound-repair response (macrophage activation → fibroblast recruitment → TGF-β signalling → neocollagenesis) deposits new type I and III collagen, producing progressive, cumulative lifting and tightening that peaks at ~3–6 months post-treatment.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Microneedling (collagen induction therapy, CIT) stimulates dermal remodelling. The minimum needle depth that reliably triggers dermal wound healing (as opposed to only stratum corneum perforation) is approximately:",
-      "opts": [
-        "2.0mm (subcutaneous fat)",
-        "0.1–0.2mm (stratum corneum level only)",
-        "3.0mm (below the follicular bulb)",
-        "0.5mm (into the papillary dermis) — sufficient to trigger growth factor release and fibroblast activation"
-      ],
-      "ans": 3,
-      "exp": "Epidermal microneedling (0.1–0.2mm) primarily enhances transdermal drug delivery but does not significantly stimulate collagen. Penetrating to the papillary dermis (≥0.5mm) causes microtrauma that triggers the wound-healing cascade: platelet activation releases PDGF and TGF-β1, fibroblasts are recruited and activated, and new collagen/elastin synthesis begins. For acne scars and deeper remodelling, 1.0–2.5mm is used. For periocular fine lines, 0.5–1.0mm; for hair loss (scalp), 1.0–1.5mm.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The 'lawn-mowing' pattern refers to a specific injection technique for:",
-      "opts": [
-        "Botulinum toxin in the forehead — injections placed in a grid across the frontalis",
-        "Sclerotherapy — multiple injections along a linear vessel",
-        "Mesotherapy/skinbooster injection — multiple microinjections in a grid/linear pattern across the entire face or target area",
-        "Dermal filler in the nasolabial fold — threading technique along the fold"
-      ],
-      "ans": 2,
-      "exp": "The 'lawn-mowing' or 'grid' pattern in mesotherapy/skinboosters describes multiple small-volume microinjections (0.02–0.05mL each) spaced 1–2cm apart across a large treatment area (face, neck, décolletage, scalp). This delivers hydrating, biostimulating, or nutrient-rich products (hyaluronic acid, vitamins, peptides, growth factors) evenly throughout the zone. The pattern is distinct from point injections for dermal fillers or the 5-point glabellar pattern for botulinum toxin.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Bioremodelling with high-concentration, uncross-linked HA (e.g., Profhilo) differs from traditional HA fillers because it:",
-      "opts": [
-        "Provides volume and projection like a high-G′ structural filler",
-        "Contains cross-linked HA for prolonged tissue integration over 18 months",
-        "Spreads diffusely through the dermis (BAP injection technique), stimulating adipocyte and fibroblast production and improving skin quality without volumising",
-        "Is a chemical peel applied topically"
-      ],
-      "ans": 2,
-      "exp": "Profhilo (and similar bioremodellers) contain very high-concentration (64mg/2mL) hybrid cooperative complexes of H-HA and L-HA but are NOT cross-linked with BDDE. Injected using BAP (bio-aesthetic points — 5 per side on face), the product spreads through the dermis via its high hygroscopic nature, stimulating fibroblasts, keratinocytes, and adipocytes — improving skin hydration, elasticity, and texture without adding volume. The lack of BDDE cross-linking means minimal granuloma risk and rapid tissue integration.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The 'BAP technique' for Profhilo injection specifies 5 specific anatomical points on each side of the face. The reason for these exact injection points (rather than a grid) is:",
-      "opts": [
-        "To target 5 bio-aesthetic points that allow optimal diffusion of the product while avoiding major vessels and muscles",
-        "Standard mesotherapy grid injection points that happen to correspond to 5 per side",
-        "To avoid 5 major facial arteries running at those precise locations",
-        "They are the 5 sites of maximum fat loss in facial ageing"
+        "At the angle of the mandible, in the posterior–inferior masseter, at least 1cm below the zygoma and 1cm anterior to the mandibular angle",
+        "Into the buccinator muscle medially",
+        "Superior to the zygomatic arch",
+        "In the anterior masseter overlying the parotid duct"
       ],
       "ans": 0,
-      "exp": "The BAP (bio-aesthetic points) injection technique for Profhilo uses 5 specific anatomical points per face side — cheek, nasolabial, periorbital, submental area, and chin — chosen to: (1) allow optimal radial diffusion of the uncross-linked HA through the dermis; (2) avoid major vessels (angular artery, facial artery, zygomaticotemporal vessels) and facial muscles where possible; and (3) minimise the number of injection points (reducing bruising and discomfort) while achieving full facial coverage.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The 'Ogee curve' is an important aesthetic concept in facial rejuvenation. It describes:",
-      "opts": [
-        "The S-shaped curve from the malar eminence curving inward at the cheek hollow and outward again at the jaw, representing youthful facial topography",
-        "The curve of the upper lip vermilion border",
-        "The angle between the nasal tip and the columella",
-        "The angle between the lateral orbital rim and the temple"
-      ],
-      "ans": 0,
-      "exp": "The ogee (or ogival) curve describes the characteristic S-shaped contour seen in youthful faces: a convex curve over the malar eminence (high cheek), transitioning to a concave curve at the submalar region, then convex again at the mandible. Youthful faces maintain a defined, full malar projection and a clear cheek hollow. Age-related fat descent and volume loss flatten the ogee. Facial filler volumisation aims to restore this S-curve by lifting and projecting the malar eminence while maintaining the submalar concavity.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Thread lifting (barbed suture lifting) uses absorbable or non-absorbable threads to mechanically lift lax facial tissue. The secondary long-term mechanism of absorbable PDO (polydioxanone) threads is:",
-      "opts": [
-        "Gradual hydrolytic degradation of PDO over 6–8 months stimulating a foreign-body response with fibroblast activation and collagen neogenesis along the thread track",
-        "Release of hyaluronic acid from the thread as it dissolves",
-        "Electrical conduction through the metal barbs stimulating galvanic skin responses",
-        "Permanent mechanical anchoring of the SMAS to periosteum"
-      ],
-      "ans": 0,
-      "exp": "PDO (polydioxanone) threads are absorbable, degrading via hydrolysis over approximately 6–8 months. During degradation, the polymer induces a mild foreign-body response that activates fibroblasts and drives collagen neogenesis along the thread track. This collagen cage persists even after the PDO has fully resorbed, providing some long-term tissue support beyond the mechanical lifting phase. PLLA threads (slower degradation, ~18 months) have a more pronounced and prolonged biostimulatory effect.",
+      "exp": "For masseteric botulinum toxin, the injection zone is the posterior-inferior quadrant of the masseter: at or just above the mandibular angle, at least 1cm below the lower border of the zygomatic arch and 1cm anterior to the posterior border of the mandible. This avoids the zygomaticus major/minor and risorius (which run superficially above the zygoma) and the parotid duct (which crosses the middle third of the masseter). Injecting too high or too anterior risks smile asymmetry.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
@@ -479,8 +718,8 @@
       "opts": [
         "Platelet growth factors (PDGF, TGF-β, VEGF, EGF) stimulating fibroblast proliferation, collagen synthesis, and angiogenesis in the dermis",
         "Direct replacement of lost dermal collagen by the plasma proteins",
-        "The anticoagulant citrate acting as a mild chemical peel",
-        "Platelet-derived serotonin producing local vasoconstriction and erythema reduction"
+        "Platelet-derived serotonin producing local vasoconstriction and erythema reduction",
+        "The anticoagulant citrate acting as a mild chemical peel"
       ],
       "ans": 0,
       "exp": "Intradermal PRP delivers concentrated platelet alpha-granule contents (PDGF, TGF-β1/2/3, VEGF, EGF, IGF-1, FGF) directly to the dermis. These growth factors bind fibroblast surface receptors, activating downstream signalling cascades (RAS/MAPK, PI3K/Akt) that drive fibroblast proliferation, procollagen I and III synthesis, elastin production, and new vessel formation. This results in measurable increases in dermal thickness, improved hydration, reduced fine lines, and improved skin luminosity over 3–6 months after a course of treatments.",
@@ -488,101 +727,64 @@
       "topic": "Cosmetology"
     },
     {
-      "q": "In sclerotherapy for reticular veins (1–3mm, blue), the most appropriate sclerosant and its typical concentration is:",
+      "q": "Trichoscopy finding of 'yellow dots' in the scalp is classically associated with alopecia areata. However, yellow dots can also be seen in:",
       "opts": [
-        "Polidocanol (POL) 3% foam — typically reserved for larger veins",
-        "Polidocanol 0.5–1% liquid or STS 0.1–0.25% liquid — lower concentrations for smaller-diameter reticular veins",
-        "Sodium tetradecyl sulphate (STS) 3% liquid — full concentration for reticular veins",
-        "Hypertonic saline 23.4% — the safest sclerosant for reticular veins"
+        "Discoid lupus erythematosus (DLE) exclusively",
+        "Alopecia areata, androgenetic alopecia, and trichotillomania — context and co-existing features distinguish these",
+        "Androgenetic alopecia only",
+        "Tinea capitis only"
       ],
       "ans": 1,
-      "exp": "Sclerosant concentration must be matched to vessel calibre. For reticular veins (1–3mm): polidocanol 0.5–1% or STS 0.25% liquid are appropriate. Higher concentrations risk hyperpigmentation, matting, and necrosis in smaller vessels. Foam (air:sclerosant 4:1 ratio) increases efficacy by displacing blood but is generally used for larger veins (truncal, reticular) while spider telangiectasias use very low-concentration liquid. Hypertonic saline is painful, carries tissue necrosis risk, and is rarely used outside the USA.",
+      "exp": "Yellow dots (empty follicular openings plugged with keratin and sebum) are not pathognomonic for alopecia areata alone. They are also seen in androgenetic alopecia (reflecting follicular miniaturisation), trichotillomania, and less commonly in other conditions. In AA, yellow dots co-occur with black dots, exclamation-mark hairs, and broken hairs. In AGA they accompany hair-diameter diversity and peripilar signs (brown halos). Context, clinical history, and co-existing trichoscopy features are essential for interpretation.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
-      "q": "A 40-year-old woman has persistent bilateral malar melasma refractory to topical triple combination (HQ + tretinoin + fluocinolone) for 6 months. The BEST next step combining efficacy and safety evidence is:",
+      "q": "A 32-year-old woman with Fitzpatrick III skin presents with a 3cm erythematous, raised, firm scar that grew beyond the original wound boundary after a C-section. This is best classified as:",
       "opts": [
-        "Adding oral tranexamic acid 250mg BD and a chemical peel series (glycolic or salicylic) with strict photoprotection",
-        "Immediately proceeding to Q-switched Nd:YAG laser toning",
-        "Ablative CO₂ fractional laser resurfacing",
-        "Switching to topical hydroquinone 8% as monotherapy"
+        "Scar contracture — results only from burn injuries",
+        "Keloid — extends beyond the original wound boundaries and does not spontaneously regress",
+        "Hypertrophic scar — confined to the original wound margins",
+        "Atrophic scar — below the plane of surrounding skin"
+      ],
+      "ans": 1,
+      "exp": "A keloid is defined by extension beyond the original wound boundaries and the absence of spontaneous regression — distinguishing it from a hypertrophic scar (which stays within wound margins and may regress over months to years). Keloids are more common in darker skin (Fitzpatrick III–VI), certain locations (sternum, earlobes, deltoid, jaw), and after surgeries/piercings. Management options include IL triamcinolone, cryotherapy, pressure garments, silicone, pulsed dye laser, and surgical excision + adjuvant therapy.",
+      "source": "Cosmetology",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This electric pen with a fine oscillating needle tip creates multiple micro-channels in the skin at a depth of 0.25–2.5 mm, triggering collagen induction therapy. What is the recommended needle depth for periorbital fine lines?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dermapen_microneedling.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Dermapen (microneedling pen) — 0.25–0.5 mm for periorbital area (thin skin)",
+        "Dermapen — 2.0–2.5 mm for periorbital fine lines",
+        "Dermapen — 1.5 mm standard for all facial areas",
+        "Dermapen — only 3.0 mm effective for periorbital wrinkles"
       ],
       "ans": 0,
-      "exp": "For topical-refractory melasma, the next recommended step is to add oral tranexamic acid (TXA 250mg BD or 500mg BD — strong level I evidence, safe if screened for thromboembolism risk) and a series of superficial chemical peels (glycolic 30–70% or salicylic 20–30%) to accelerate epidermal pigment turnover. Strict broad-spectrum photoprotection (SPF 50+, physical blockers, sun avoidance) is mandatory throughout. Q-switched laser toning carries PIH risk in Fitzpatrick III–V if used prematurely. Ablative CO₂ is high-risk for melasma exacerbation.",
-      "source": "Cosmetology",
+      "exp": "Microneedling with a dermapen creates controlled micro-injuries stimulating TGF-β3-driven collagen synthesis. Needle depth is customised by area: 0.25–0.5 mm for delicate periorbital skin, 1.0–1.5 mm for cheeks/forehead, and up to 2.5 mm for acne scars on cheeks. Deeper needling in thin periorbital skin risks bruising and post-inflammatory pigmentation.\n🏰 Palace: The CASTLE ARCHER near the EYE WINDOW uses SHORT ARROWS (0.25–0.5 mm) — the periorbital wall is THIN; deep arrows risk breaking through and causing bruising.",
+      "source": "Instrument Spotter",
       "topic": "Cosmetology"
     },
     {
-      "q": "Laser toning with low-fluence Q-switched Nd:YAG (1064nm) has been used for melasma. The controversial concern with repeated sessions is:",
+      "q": "Radiofrequency microneedling (RF-MN) combines two technologies. The clinical rationale for combining RF energy delivery through insulated microneedles is:",
       "opts": [
-        "Scar formation from repeated microcoagulation",
-        "Confetti-like hypopigmentation (punctate leukoderma) from repeated sub-threshold melanocyte injury, and rebound hyperpigmentation on cessation",
-        "Paradoxical darkening due to UV-like stimulation of melanin synthesis",
-        "Permanent complete depigmentation (total leucoderma) occurring after 3 sessions"
+        "Insulated needles confine RF energy deposition to the dermis at a precise depth without heating the epidermis, enabling dermal remodelling in all skin types",
+        "The needles mechanically destroy fat lobules while RF stimulates collagen in a second pass",
+        "RF energy sterilises the needle track to reduce infection risk",
+        "The needles deliver topical agents transdermally while RF improves lymphatic drainage"
       ],
-      "ans": 1,
-      "exp": "Laser toning (multiple low-fluence 1064nm Q-switched sessions for melasma) can produce transient improvement but carries risk of confetti leucoderma — punctate, hypopigmented macules from repeated sub-threshold injury to melanocytes that damages them without complete destruction, leading to patchy non-uniform depigmentation. Additionally, on cessation of treatments, rapid rebound hyperpigmentation is common. These concerns, combined with inconsistent long-term efficacy, mean laser toning is not considered first-line for melasma.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Post-sclerotherapy hyperpigmentation (a common side-effect) results from:",
-      "opts": [
-        "Oxidation of sclerosant products in the epidermis",
-        "Melanocyte activation by sclerosant chemicals",
-        "Haemosiderin deposition in the dermis from extravasated red cells following vessel coagulation/rupture",
-        "Inflammatory post-inflammatory hyperpigmentation from the injection needles only"
-      ],
-      "ans": 2,
-      "exp": "Post-sclerotherapy hyperpigmentation occurs in 10–30% of patients and results from haemosiderin (iron from degraded haemoglobin) deposition in the dermis following erythrocyte extravasation — either from intraluminal clot breakdown or from microrupture of the treated vessel. Risk factors: larger injection volume, stronger sclerosant, inadequate compression, patient prone to hemosiderosis. Management: compression to minimise extravasation; if it develops — Q-switched Nd:YAG 1064nm, topical depigmenting agents; resolution is often slow (months to years).",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The principle underlying 'stacked pulses' or 'pulse stacking' in Q-switched laser treatment of tattoos is:",
-      "opts": [
-        "Rapidly cooling the skin between pulses to prevent bulk heating",
-        "Deliberately heating the surrounding dermis above the TRT limit for deeper coagulation",
-        "Delivering multiple low-energy pulses within a single TRT interval to accumulate sufficient total energy for destruction",
-        "Converting from nanosecond to millisecond pulses for gentler treatment"
-      ],
-      "ans": 2,
-      "exp": "Pulse stacking involves firing multiple Q-switched pulses at the same spot within a very short interval (before the tissue fully cools). Each pulse adds energy, and the cumulative effect can exceed what a single pulse achieves — improving ink fragmentation. However, it also risks accumulated thermal damage and textural side-effects if used incorrectly. Picosecond lasers largely reduce the need for stacking by achieving greater ink fragmentation with each pulse due to photoacoustic (not just photothermal) mechanisms.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "In laser-assisted drug delivery (LADD), ablative fractional lasers create microchannels that dramatically enhance topical drug penetration. The drug most studied and clinically used via LADD is:",
-      "opts": [
-        "Topical anaesthetic lidocaine — fractional channels allow deep anaesthesia within 5 minutes",
-        "MAL (methyl aminolaevulinate) — fractional laser pretreatment dramatically reduces MAL incubation time for PDT while maintaining efficacy",
-        "Topical retinol — fractional channels bypass the need for tretinoin conversion",
-        "Topical minoxidil 5% for enhanced hair regrowth beyond follicular delivery"
-      ],
-      "ans": 1,
-      "exp": "The most clinically validated and widely used LADD application is fractional laser-assisted PDT (LAAD-PDT): ablative fractional laser (AFL) pretreatment creates microchannels that enhance penetration of MAL or ALA by 3–4 fold, reducing required incubation time from 3 hours to 30–45 minutes while maintaining or improving efficacy for actinic keratoses and non-melanoma skin cancer. AFL-PDT also achieves better cosmetic results than conventional PDT. Topical anaesthetic and minoxidil LADD are also studied but less clinically validated.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Neuromodulator injection to treat hyperhidrosis (e.g., palmar, axillary) targets a different structure than cosmetic facial use. The mechanism of anhidrosis after botulinum toxin injection is:",
-      "opts": [
-        "Inhibiting ANP receptors in eccrine ducts",
-        "Blocking nicotinic ACh receptors at sweat gland myoepithelium",
-        "Blocking ACh release at sympathetic cholinergic postganglionic nerve terminals innervating eccrine sweat glands",
-        "Blocking NE release at sympathetic postganglionic fibres supplying the eccrine gland"
-      ],
-      "ans": 2,
-      "exp": "Eccrine sweat glands are innervated by the sympathetic nervous system, but unusually, the postganglionic fibres are cholinergic (not adrenergic) — they release ACh. Botulinum toxin cleaves SNAP-25 at these sympathetic cholinergic nerve terminals, blocking ACh vesicle fusion and preventing secretory stimulation of eccrine gland cells. This produces localised anhidrosis lasting 4–9 months for axillary hyperhidrosis, and 3–6 months for palmar (where the pain of injection limits dose).",
+      "ans": 0,
+      "exp": "In RF microneedling, insulated microneedles (with only bare, active tips) penetrate to a set depth in the dermis. RF energy is discharged only from the uninsulated tip, creating localised thermal coagulation zones (bipolar or multipolar) at a defined dermal level while sparing the epidermis. This allows safe treatment in all Fitzpatrick types (no epidermal melanin heating), precise depth control, and combined mechanical (collagen induction from needling) and thermal (RF) dermal remodelling.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     },
     {
       "q": "A patient on isotretinoin requests ablative laser resurfacing. The recommended minimum washout period after stopping isotretinoin before performing ablative procedures (laser, deep peels) is:",
       "opts": [
-        "6 weeks — sufficient time for sebaceous gland recovery",
         "2 weeks — isotretinoin clears rapidly after cessation",
+        "6 weeks — sufficient time for sebaceous gland recovery",
         "5 years — isotretinoin permanently alters wound healing",
         "6 months — the traditional recommendation, though recent evidence suggests 3–6 months may be acceptable"
       ],
@@ -592,67 +794,15 @@
       "topic": "Cosmetology"
     },
     {
-      "q": "The 'Tyndall effect' in dermal filler refers to visible blue discolouration. Hyaluronidase dissolves the offending filler. The recommended hyaluronidase dose for Tyndall effect correction is:",
+      "q": "Intralesional 5-fluorouracil (5-FU) is increasingly used for hypertrophic scars and keloids. Its mechanism is:",
       "opts": [
-        "500+ units per session regardless of volume",
-        "1–5 units precisely — low dose to avoid overcorrection",
-        "Hyaluronidase is ineffective for Tyndall effect; surgical excision is required",
-        "10–30 units per mL of estimated filler volume, injected into and around the discoloured zone"
+        "Acting as a steroid analogue reducing inflammation",
+        "Stimulating matrix metalloproteinase (MMP) expression through TNF-α signalling",
+        "Inhibiting fibroblast proliferation by blocking thymidylate synthase (TS), reducing pyrimidine synthesis and DNA replication",
+        "Chelating collagen cross-links to soften the scar"
       ],
-      "ans": 3,
-      "exp": "For Tyndall effect from superficially placed HA filler, hyaluronidase is highly effective. The recommended dose is typically 10–30 units per mL of estimated filler volume (some protocols use 150–300 units total for the tear trough). Injecting into and immediately around the visible blue discolouration dissolves the superficial HA depot, resolving the optical scattering phenomenon. Dose should be titrated conservatively to avoid overcorrection (hollowing) in areas like the tear trough where undercorrection after hyaluronidase may then need filler replacement.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Rosacea with telangiectasia (subtype 1, ETR) responds best to which laser/light treatment?",
-      "opts": [
-        "Q-switched 532nm — targets melanin in the telangiectatic vessels",
-        "585/595nm PDL or KTP 532nm — specifically target oxyhaemoglobin in superficial facial telangiectasia",
-        "Ablative CO₂ fractional laser — ablates the superficial telangiectasia",
-        "1064nm Nd:YAG long-pulsed — best for all rosacea subtypes"
-      ],
-      "ans": 1,
-      "exp": "Subtype 1 rosacea (erythematotelangiectatic rosacea, ETR) is characterised by persistent central facial erythema, flushing, and superficial telangiectasia (<0.5–1mm). The PDL (585/595nm) and KTP (532nm) lasers both target oxyhaemoglobin in these superficial facial vessels with high selectivity. PDL in sub-purpuric mode (longer pulses, lower fluence) treats diffuse erythema and flushing by coagulating the microvasculature. IPL is also effective for ETR. 1064nm Nd:YAG is preferred for larger (>1mm) deeper vessels on the face or for leg telangiectasias.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A patient undergoes fractional CO₂ resurfacing and develops delayed-onset milia (small white keratin cysts) at 2–4 weeks post-treatment. This occurs because:",
-      "opts": [
-        "Occlusive post-procedure topical products trap shed keratinocytes",
-        "Disruption of the follicular infundibulum during ablation causes keratin trapping during re-epithelialisation, forming retention cysts",
-        "Bacterial colonisation of laser ablation tracks",
-        "Thermal stimulation of sebaceous glands increases sebum production"
-      ],
-      "ans": 1,
-      "exp": "Milia post-laser resurfacing are small keratin retention cysts forming during re-epithelialisation. Thermal injury to the follicular infundibulum/ostia disrupts the normal passage of keratinised cells upward, causing keratin plugging and cyst formation as the epidermis regenerates over the ablated columns. Risk is higher with more aggressive ablation, occlusive dressings, and in individuals prone to milia. Treatment: gentle exfoliation, topical retinoids, or careful evacuation with a fine needle.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The 'rule of fives' in rhinoplasty aesthetics is relevant to non-surgical rhinoplasty (NSR) with fillers. Which measurement in the rule of fives is most often corrected by dorsal filler augmentation?",
-      "opts": [
-        "The alar base width should match the intercanthal distance (one facial fifth)",
-        "Nasal width should be one-fifth of the face width",
-        "The tip should be one-fifth of the total nasal length",
-        "Dorsal augmentation changes the nasofrontal angle but not the rule of fives measurements"
-      ],
-      "ans": 1,
-      "exp": "The rule of fifths in facial aesthetics divides the face into five equal vertical units (each equalling one eye width/intercanthal distance). The middle fifth includes the nose; ideal nasal width at the alar base equals one-fifth of facial width (= intercanthal distance). In NSR, dorsal HA filler augmentation is most commonly used to: raise a flat/under-projected nasal dorsum (creating a smoother profile), correct dorsal humps optically (by augmenting above and below the hump), and improve the nasofrontal angle. The alar base width correction refers to the same one-fifth measurement.",
-      "source": "Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Which of the following best describes the 'SNARE hypothesis' as it applies to the development of cosmetic neurotoxin resistance?",
-      "opts": [
-        "SNARE resistance occurs when axonal sprouting forms new motor end-plates with uncleaved SNARE complexes, restoring neuromuscular transmission — this is why effect is temporary",
-        "Antibody formation against the toxin accessory proteins (hemagglutinin) sequesters the toxin before SNARE cleavage can occur",
-        "High-dose treatment permanently destroys all SNARE proteins at the NMJ",
-        "Repeated toxin exposure upregulates SNARE protein synthesis, compensating for cleavage"
-      ],
-      "ans": 0,
-      "exp": "The temporary duration of botulinum toxin effect is explained by SNARE regeneration via axonal sprouting. After SNAP-25 cleavage, the affected nerve terminal sprouts new axonal branches that form new functional NMJ contacts with intact, uncleaved SNARE machinery. This restores ACh release and muscle contraction over ~3–4 months. Meanwhile, the original nerve terminal eventually clears the cleaved SNAP-25 and regenerates its own functional SNA complex. True antibody-mediated resistance (to the neurotoxin protein core) is a separate phenomenon and less common with modern preparations.",
+      "ans": 2,
+      "exp": "5-FU is a pyrimidine analogue that inhibits thymidylate synthase (TS), blocking the methylation of dUMP to dTMP and thereby depleting thymidine and inhibiting DNA synthesis. In hyperproliferative fibroblasts (as in keloids/hypertrophic scars), this arrests cell division and reduces excess collagen deposition. Combined IL 5-FU (50mg/mL) + triamcinolone achieves greater efficacy than either alone; the ratio is typically 9:1 (5-FU:TAC) by volume.",
       "source": "Cosmetology",
       "topic": "Cosmetology"
     }
