@@ -24,7 +24,7 @@ REPO_PATH   = r"C:\Users\ravin\Desktop\Obsidian_Daily_Quiz"
 QUESTIONS_FILE = "daily_questions.json"
 ARCHIVE_DIR = "archive"
 
-TOTAL_QUESTIONS   = 50
+TOTAL_QUESTIONS   = 60
 NOTES_TO_SAMPLE   = 30          # notes picked per run (2–3 questions each)
 MAX_NOTE_CHARS    = 4000        # truncate long notes before sending
 MODEL             = "claude-opus-4-5"   # change to claude-sonnet-4-5 for cheaper/faster
@@ -193,7 +193,10 @@ Rules:
 - 4 options (A–D), exactly one correct answer
 - No "all of the above" / "none of the above"
 - Vary question types: direct recall, mechanism, clinical scenario, investigation
-- Brief but complete explanation (2–3 sentences max)
+- Explanation: 2–3 factual sentences, then ONE vivid memory palace hook on a new
+  line starting with "🏰 Palace: " — a ridiculous/spatial/story mnemonic anchoring
+  the key fact (e.g. "🏰 Palace: Imagine a PURPLE VAMPIRE (PDL) biting BLOOD
+  VESSELS in the castle hallway at 595nm")
 - Return ONLY valid JSON – no commentary, no markdown fences
 """).strip()
 
@@ -222,7 +225,11 @@ Rules:
 - Distribute correct answers across positions A/B/C/D roughly evenly
 - No "all of the above" / "none of the above"
 - Mechanisms, clinical scenarios, and drug actions preferred over pure recall
-- Brief explanation (2-3 sentences), factually accurate
+- Explanation: 2–3 factual sentences, then ONE vivid memory palace hook on a new
+  line starting with "🏰 Palace: " — a ridiculous/spatial/story mnemonic anchoring
+  the single most important fact (e.g. "🏰 Palace: Imagine SULT1A1 as the CASTLE
+  GATE-KEEPER who must stamp MINOXIDIL'S passport to let it work — ~35% lack the
+  stamp and are non-responders")
 - Return ONLY a valid JSON array — no markdown, no commentary:
 [{{"q":"...","opts":["A","B","C","D"],"ans":<0-3>,"exp":"...","source":"Cosmetology","topic":"Cosmetology"}}]
 """).strip()

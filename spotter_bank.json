@@ -1,1672 +1,440 @@
 {
-  "total": 111,
   "instruments": [
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This lamp emits longwave ultraviolet radiation (365 nm) and is used to examine skin fluorescence patterns. Which instrument is shown, and what organism fluoresces coral-red under it?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wood%27s_lamp.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Iris Scissors",
-        "Adson's Tissue Forceps",
-        "Volkmann Double Ended Scoop",
-        "Freer Septum Elevator"
+        "UVB narrowband unit — Propionibacterium acnes",
+        "Dermatoscope — Malassezia furfur (tinea versicolor)",
+        "Wood's lamp — Corynebacterium minutissimum (erythrasma)",
+        "Slit-lamp — Candida albicans"
+      ],
+      "ans": 2,
+      "exp": "Wood's lamp emits 365 nm UVA; Corynebacterium minutissimum (erythrasma) produces porphyrins that fluoresce coral-red. Tinea capitis (Microsporum) shows blue-green; Pseudomonas shows blue-green; normal skin shows violet-blue.\n🏰 Palace: A CORAL REEF glows inside the WOOD CABIN under a BLACK LIGHT — that's Corynebacterium partying in the erythrasma castle at 365 nm.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This handheld optical device uses polarized or non-polarized light with magnification (×10) to visualize subsurface skin structures without skin-surface reflection. What is it used to assess in hair loss patients?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dermatoscope.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Dermoscope (dermatoscope) — follicular miniaturization and yellow dots in alopecia areata",
+        "Reflectance spectrometer — quantifies melanin index",
+        "Trichoscope — measures sebum production",
+        "Confocal microscope — maps dermal-epidermal junction"
+      ],
+      "ans": 0,
+      "exp": "Dermoscopy (dermatoscopy) allows non-invasive visualization of structures to the papillary dermis. In alopecia areata it shows yellow dots (follicular plugging), black dots (cadaverized hairs), and exclamation mark hairs. Follicular miniaturization (vellus-like hairs) is the hallmark of androgenetic alopecia.\n🏰 Palace: A DETECTIVE with a magnifying glass (×10 dermatoscope) finds YELLOW POLKA DOTS on the CASTLE FLOOR — each dot is a plugged follicle in alopecia areata.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This device delivers a controlled stream of liquid nitrogen spray in a focused cone pattern and is the standard cryosurgery instrument in dermatology. What is the optimal freeze-thaw cycle for basal cell carcinoma?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cryotherapy_unit.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Triple freeze-thaw cycle at −10°C",
+        "Single freeze-thaw cycle at −20°C for 5 seconds",
+        "Single cycle at −196°C without thaw",
+        "Double freeze-thaw cycle with tissue temperature reaching −50°C"
+      ],
+      "ans": 3,
+      "exp": "For BCC, a double freeze-thaw cycle (DFT) reaching −50°C in the tissue is required. Ice crystal formation and osmotic damage occur on freezing; thaw and refreezing with recrystallization produces maximal cytotoxicity. LN2 spray reaches −196°C at the nozzle but tissue thermocouple targets −50°C.\n🏰 Palace: The CASTLE GATEHOUSE FREEZES TWICE — once to knock down the BCC guards, once to finish them off — reaching −50°C both times (double freeze-thaw).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "The instrument shown is a small metal loop or spoon with a sharp annular blade at the tip used to extract blackheads and milia. What is the correct name, and which acne lesion is it CONTRAINDICATED for?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Comedone_extractor.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Comedone extractor (Unna extractor) — contraindicated for closed inflamed pustules/nodules",
+        "Curette — contraindicated for open comedones",
+        "Microlancet — contraindicated for milia",
+        "Steristrip — contraindicated for blackheads"
+      ],
+      "ans": 0,
+      "exp": "The comedone extractor (Unna's extractor) has a central hole that allows gentle pressure to express open comedones (blackheads) and milia. It is contraindicated for inflamed lesions (pustules, nodules) because pressure can rupture the follicular wall, spreading inflammation and causing scarring.\n🏰 Palace: UNNAttractive OPEN GATES (open comedones) get squeezed through the CASTLE LOOP — but INFLAMED RED KNIGHTS (pustules) must NOT be pressed or the wall explodes.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This cylindrical cutting instrument creates a full-thickness skin biopsy from epidermis to subcutaneous fat. What sizes (in mm) are recommended for routine diagnostic biopsy versus larger excision?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Punch_biopsy.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Shave biopsy — 2 mm for diagnosis, 4 mm for excision",
+        "Trephine — 10 mm minimum for diagnosis",
+        "Punch biopsy — 3–4 mm for diagnosis, 6–8 mm for complete excision of small lesions",
+        "Dermal curette — 5 mm standard for all lesions"
+      ],
+      "ans": 2,
+      "exp": "Punch biopsies range 2–10 mm. A 3–4 mm punch is standard for histological diagnosis; 6 mm is used for complete excision of dermatofibromas or small nevi. Punches >4 mm typically require a simple interrupted suture; ≤3 mm heals by second intention.\n🏰 Palace: A CYLINDRICAL CASTLE TOWER punches through all layers — 3–4 mm for a PEEK-A-BOO window (diagnosis), 6–8 mm to EVICT the whole lesion (excision).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This oval or ring-shaped cutting instrument with a handle is used to scrape superficial skin lesions including viral warts, molluscum, and seborrhoeic keratoses. The technique uses which motion?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Curette_dermatology.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Comedone extractor — used with direct vertical pressure",
+        "Dermal curette — used with a firm scooping/scraping motion at the cleavage plane",
+        "Laser handpiece — used with scanning motion",
+        "Punch — used with a rotating drilling motion"
       ],
       "ans": 1,
-      "exp": "A type of dissecting forceps with wider blade and better grip. Hold wound edges during exploration and suturing",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p003_389.jpg",
-      "image_type": "instrument"
+      "exp": "The dermal curette (Fox–Fordyce curette) is used with a firm scooping motion at the natural cleavage plane between the lesion and normal dermis. It is ideal for molluscum contagiosum, viral warts, and seborrhoeic keratoses. For BCC, curettage-electrodesiccation (C&E) combines scraping with electrocautery.\n🏰 Palace: A SPOON-SHAPED KNIGHT scoops out MOLLUSKS from the CASTLE MOAT with one firm scoop — that's the curette finding the cleavage plane.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This laser system emits 10,600 nm (mid-infrared) radiation that is absorbed by water in all tissue layers, enabling ablative skin resurfacing. What is its primary chromophore?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CO2_laser_machine.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Allis Forceps",
-        "Dressing Scissors/Nurses Scissors",
-        "Bard-Parker Handle",
-        "Kocher artery forceps"
+        "Alexandrite laser — melanin",
+        "Nd:YAG laser — haemoglobin",
+        "KTP laser — oxyhemoglobin",
+        "CO2 laser — water (tissue chromophore, not melanin or haemoglobin)"
       ],
-      "ans": 0,
-      "exp": "A surgical instrument with sharp teeth, used to hold or grasp heavy tissue. Two straight blades with interdigitating teeth at the tip",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p004_76.jpg",
-      "image_type": "instrument"
+      "ans": 3,
+      "exp": "The CO2 laser at 10,600 nm is absorbed almost entirely by intracellular and extracellular water, which is the universal tissue chromophore at this wavelength. This allows precise vaporization of thin layers of skin regardless of pigmentation. It is the gold standard for ablative resurfacing, actinic cheilitis, and rhinophyma.\n🏰 Palace: CO2 CASTLE is surrounded by a WATER MOAT — every laser shot evaporates the moat (water chromophore, 10,600 nm), not the melanin knights.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This pulsed laser handpiece emits yellow light at 585–595 nm and is the gold standard for treating vascular lesions including port wine stains. What physical principle governs its selectivity?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pulsed_dye_laser.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Punches",
-        "Siegel Handle",
-        "Cheatle Forceps",
-        "Haber Spreader"
+        "CO2 laser — targets haemosiderin at 10,600 nm",
+        "Nd:YAG — targets water at 1064 nm",
+        "Pulsed Dye Laser (PDL) — selective photothermolysis targeting oxyhaemoglobin at 577–595 nm",
+        "IPL — targets melanin at 560 nm only"
       ],
       "ans": 2,
-      "exp": "Forceps with long handles with complete ring at one end and partial at other. To pick up sterilized articles/gauze pieces from tray",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p004_431.jpg",
-      "image_type": "instrument"
+      "exp": "PDL at 585–595 nm targets the Soret/Q-band absorption peaks of oxyhaemoglobin (577 nm, 541 nm). Selective photothermolysis requires wavelength matching the chromophore, pulse duration ≤ thermal relaxation time (TRT) of the target (vessel TRT ∝ vessel diameter²), and sufficient fluence. PDL is the gold standard for port wine stains, haemangiomas, and telangiectasias.\n🏰 Palace: A PURPLE VAMPIRE (PDL, 595 nm purple light) bites BLOOD VESSELS in the castle corridor — it only feeds on OXYHAEMOGLOBIN and respects the TRT curfew (pulse shorter than vessel cool-down time).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This laser operates at 1064 nm (near-infrared) and has a Q-switched mode used for tattoo removal and a long-pulsed mode for hair removal in dark skin. Why is it preferred over 755 nm alexandrite for Fitzpatrick skin types V–VI?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nd_YAG_laser.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Epilation Forceps",
-        "Haber Spreader",
-        "Metzenbaum Scissors",
-        "Kerure clamp"
-      ],
-      "ans": 0,
-      "exp": "A kind of small spring forceps, used for removing unwanted hair. In electroepilation to pull out destroyed hair",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p005_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Dissecting Forceps (Toothed/Plain)",
-        "Epilation Forceps",
-        "Bard-Parker Handle",
-        "Suction machine canister"
-      ],
-      "ans": 0,
-      "exp": "Forceps with toothed or plain tips and variable types of grip. Plain forceps have horizontal serrations at the tip and toothed ones have two teeth on one jaw and interdigitating tooth on the other",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p005_378.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Sponge Holding Forceps",
-        "Iris Scissors",
-        "CoolSculpting (cryolipolysis)",
-        "MiraDry"
-      ],
-      "ans": 0,
-      "exp": "Large size hinge forceps with fenestrations/hole at the tip of the blades. The handles are ratcheted as well as looped",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p006_232.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Kerure clamp",
-        "Surgical blade sizes (No. 10/11/15/20)",
-        "Silver Knife",
-        "Hemostatic Forceps/Artery Forceps"
+        "Nd:YAG 1064 nm — shorter pulse duration required",
+        "Nd:YAG 1064 nm — targets water, not melanin",
+        "Nd:YAG 1064 nm — stronger melanin absorption than alexandrite",
+        "Nd:YAG 1064 nm — deeper penetration, less melanin absorption → safer in dark skin"
       ],
       "ans": 3,
-      "exp": "Forceps with gradually tapering blades towards the tip with serrations at the tip. Commonly referred to as \"Artery forceps\"",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p007_76.jpg",
-      "image_type": "instrument"
+      "exp": "Nd:YAG 1064 nm has lower melanin absorption compared to 755 nm (alexandrite) and 810 nm (diode), making it safer in darker skin types. Its 1064 nm wavelength penetrates deeper (to 5–6 mm) and is less competitive with epidermal melanin, reducing risk of post-inflammatory hyperpigmentation. It is preferred for hair removal and vascular lesions in Fitzpatrick IV–VI.\n🏰 Palace: The ND:YAG KNIGHT at 1064 nm wears DARK ARMOUR that IGNORES the dark castle walls (epidermal melanin) and goes DEEP into the dungeon (5–6 mm) — safe for dark-skinned patients.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This device emits broad-spectrum light (515–1200 nm) through a series of cut-off filters and is used for photorejuvenation, hair removal, and vascular/pigment lesions. How does it differ fundamentally from a laser?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IPL_device.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Iris Forceps",
-        "Castroviejo's Needle Holder",
-        "Undermining Scissors",
-        "Metzenbaum Scissors"
+        "IPL — uses radiofrequency energy, not light",
+        "IPL — emits UV-C radiation for sterilization",
+        "IPL — monochromatic and coherent like a laser but with a wider beam",
+        "Intense Pulsed Light (IPL) — non-coherent, non-collimated broad-spectrum light; laser is coherent monochromatic"
+      ],
+      "ans": 3,
+      "exp": "IPL (Intense Pulsed Light) is a non-laser phototherapy device emitting broad-spectrum polychromatic light (515–1200 nm). Unlike lasers, it is non-coherent and non-collimated. Filters are used to select specific wavelength bands targeting melanin, haemoglobin, or both. It is used for photorejuvenation, hair reduction, telangiectasias, and lentigines.\n🏰 Palace: IPL is a CASTLE SEARCHLIGHT shining ALL COLOURS at once — no single laser beam, just a broad floodlight with colour filters, hitting melanin and vessels together.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This device combines radiofrequency energy with a microneedling array where needles are INSULATED to deliver RF only at the tip, minimizing epidermal heating. What is its primary indication in cosmetology?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Microneedling_device.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Fractional RF microneedling — acne scars, skin laxity, and striae",
+        "Simple microneedling — tattoo removal",
+        "Laser fractional — hair removal",
+        "Electrocautery — wart treatment"
       ],
       "ans": 0,
-      "exp": "Iris Forceps",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p009_339.jpg",
-      "image_type": "instrument"
+      "exp": "Fractional radiofrequency microneedling (e.g., Morpheus8, Profound) uses insulated microneedles that deliver RF energy at the dermis/subdermis level while protecting the epidermis. This stimulates collagen and elastin remodelling. Primary indications: acne scars (atrophic), facial laxity, enlarged pores, and striae distensae. Safe in all Fitzpatrick skin types.\n🏰 Palace: INSULATED LIGHTNING RODS (RF microneedles) plunge into the CASTLE DUNGEON (dermis) firing electricity only at the tip — the surface (epidermis) stays SAFE while the deep walls are remodelled.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This helmet-shaped device incorporates hundreds of low-level laser (or LED) diodes emitting 650–670 nm red light to stimulate hair follicle activity. What cellular mechanism underlies its action?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LLLT_hair_cap.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Spencer Scissors",
-        "Dermablade/BiopBlade",
-        "Nanovibrinox",
-        "Jeweler Forceps"
-      ],
-      "ans": 3,
-      "exp": "A small thumb forceps with very fine pointed blades, used to grasp tissues in microsurgical procedures. Miniature punch grafting",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p009_456.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Gradle Scissors",
-        "Beaver Handle",
-        "Hemostatic Forceps/Artery Forceps",
-        "Kerure clamp"
-      ],
-      "ans": 3,
-      "exp": "Compression clamp that isolates and stabilises vascular lesions/soft-tissue masses for bloodless excision",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5539.jpeg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Beaver Handle",
-        "Adson-Brown forceps",
-        "Adson's forceps (plain)",
-        "Punches"
+        "LLLT cap — radiofrequency scalp stimulation",
+        "LLLT cap — heating follicles to 42°C to stimulate growth",
+        "LLLT hair growth cap — photobiomodulation increasing mitochondrial ATP via cytochrome c oxidase",
+        "LLLT cap — UV-induced melanocyte proliferation"
       ],
       "ans": 2,
-      "exp": "Fine non-toothed dressing forceps with serrated tips for atraumatic grip of skin edges",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0135_54_238.jpg",
-      "image_type": "instrument"
+      "exp": "Low-Level Laser/Light Therapy (LLLT) at 650–670 nm uses photobiomodulation: photons are absorbed by cytochrome c oxidase in mitochondria, increasing ATP production and reducing oxidative stress in follicle cells. This shifts follicles from telogen to anagen. FDA-cleared for androgenetic alopecia in both males and females.\n🏰 Palace: RED LASER MONKS (650 nm) meditate in the MITOCHONDRIAL MONASTERY — charging up cytochrome c oxidase's ATP batteries to wake sleeping hair follicles from telogen.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This kit containing a syringe with viscous detergent solution and a blunt-tipped cannula is used to treat leg telangiectasias and varicose veins by injecting foam. What is the standard foam preparation ratio (liquid:gas)?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sclerotherapy_foam.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Adson-Brown forceps",
-        "Bishop-Harmon tissue forceps",
-        "MiraDry",
-        "Gradle Scissors"
-      ],
-      "ans": 0,
-      "exp": "Multiple fine teeth (7x7) spread the grip — minimal crush; ideal for holding skin edges",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0135_314_238.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Cryogun / cryogen spray canister",
-        "Dermablade/BiopBlade",
-        "Razor Blade Holder",
-        "Bishop-Harmon forceps"
-      ],
-      "ans": 3,
-      "exp": "Fine forceps with THREE holes in the handle (lightweight); ophthalmic / periocular work. Available straight, curved or angled",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0135_54_435.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Crile-Wood Needle Holder",
-        "Electrocautery machine with electrodes",
-        "Iris Forceps",
-        "Bishop-Harmon tissue forceps"
-      ],
-      "ans": 3,
-      "exp": "Toothed Bishop-Harmon variant for secure grip of delicate tissue",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0135_314_435.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Volkmann Double Ended Scoop",
-        "Foster's tissue forceps",
-        "Iris Forceps",
-        "Guthrie Skin Hook"
+        "1 part liquid : 10 parts gas (1:10 ratio)",
+        "Foam sclerotherapy — 1 part liquid sclerosant : 4 parts gas (Tessari method, 1:4)",
+        "1 part liquid : 1 part gas (1:1 ratio)",
+        "2 parts liquid : 1 part gas (2:1 ratio)"
       ],
       "ans": 1,
-      "exp": "Tissue forceps for grasping skin and soft tissue during dissection",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0136_54_72.jpg",
-      "image_type": "instrument"
+      "exp": "Foam sclerotherapy (Tessari technique) uses two syringes connected by a three-way tap; the mixture is forced 20 times to create foam at a 1:4 ratio (1 part liquid sclerosant + 4 parts gas, usually CO2/O2 mix or room air). Foam displaces blood from the vessel, maximising sclerosant-endothelial contact. Used for varicose veins and reticular veins.\n🏰 Palace: In the FOAM KITCHEN, pour 1 POTION into 4 puffs of CASTLE AIR (Tessari 1:4) — shake 20 times and spray into the spider vein corridor.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This small cylindrical hollow punch (0.7–1.2 mm) is used in hair transplantation to extract individual follicular units from the donor scalp without a linear scar. What is the technique called?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/FUE_punch.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Adson's forceps (plain)",
-        "Castroviejo (tying) forceps",
-        "Kerure clamp",
-        "Adson's Tissue Forceps"
+        "DHI punch — Direct Hair Implantation using a Choi pen",
+        "ARTAS punch — Automated Robotic Transplant Absorption System",
+        "FUE punch — Follicular Unit Extraction; leaves punctate scars, no linear scar",
+        "FUT punch — Follicular Unit Transplantation; creates a linear scar"
+      ],
+      "ans": 2,
+      "exp": "FUE (Follicular Unit Extraction) uses a sharp hollow punch (0.7–1.2 mm) to score around each follicular unit and extract it directly from the donor area. This leaves only small circular scars (<1 mm) that are virtually invisible even with short hair. FUT (strip harvesting) leaves a linear scar. The Choi implanter pen is used in DHI to place grafts simultaneously without pre-made recipient sites.\n🏰 Palace: A COOKIE CUTTER (FUE punch, 0.7–1.2 mm) stamps tiny circles in the CASTLE GARDEN — each stamp takes one follicular family unit, leaving only dot-sized marks.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This glass vial contains botulinum toxin type A (onabotulinumtoxinA) and must be reconstituted with preservative-free normal saline before injection. What SNARE protein does it cleave, and what is its duration of action?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Botox_vial.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Botox (BoNT-B) — cleaves VAMP/synaptobrevin; lasts 12 months",
+        "Botox (BoNT-E) — cleaves SNAP-25; lasts 6–12 months",
+        "Botox (BoNT-A) — cleaves SNAP-25; effect lasts 3–6 months",
+        "Botox (BoNT-C) — cleaves syntaxin; lasts 1 month"
+      ],
+      "ans": 2,
+      "exp": "OnabotulinumtoxinA (Botox) is botulinum toxin type A, which cleaves SNAP-25 (synaptosomal-associated protein 25 kDa) at the NMJ, preventing ACh vesicle fusion and causing flaccid paralysis. Duration is 3–6 months for most cosmetic indications. BoNT-B (Myobloc) cleaves VAMP/synaptobrevin. BoNT-C cleaves both syntaxin and SNAP-25.\n🏰 Palace: SNAP-25 is the CASTLE DRAWBRIDGE ROPE — BoNT-A SCISSORS cut the rope (SNAP-25) so ACh supply boats can't dock for 3–6 months, paralysing the glabellar dragons.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This pre-filled syringe contains a cross-linked hyaluronic acid gel used as a soft tissue filler. What enzyme is used to dissolve it in case of vascular occlusion, and what is the recommended dose?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hyaluronic_acid_filler_syringe.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "HA filler — collagenase 200 IU to dissolve; inject within 72 hours",
+        "HA filler — hyaluronidase (150–1500 IU per area) to reverse; inject immediately for vascular occlusion",
+        "HA filler — DNase 100 IU dissolves HA cross-links",
+        "HA filler — cannot be reversed; requires surgical extraction"
       ],
       "ans": 1,
-      "exp": "Fine spring tying forceps for microsurgical and periocular suturing",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0136_314_72.jpg",
-      "image_type": "instrument"
+      "exp": "Hyaluronic acid fillers are the only reversible class of dermal fillers. Hyaluronidase (bovine or recombinant ovine) degrades HA by hydrolysis. For vascular occlusion, immediate injection of 150–1500 IU (some protocols up to 450 IU/mL) is recommended to restore perfusion and prevent necrosis. Test dose is advised to rule out hyaluronidase allergy.\n🏰 Palace: HA FILLER is the CASTLE'S ICE WALL — HYALURONIDASE FIRE BREATH melts it instantly (150–1500 IU) when the vascular gate is blocked by misplaced filler.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This red/blue lamp is used after application of a photosensitiser (5-aminolaevulinic acid or MAL cream) to activate protoporphyrin IX in the skin. What wavelength is optimal for superficial AKs versus deeper BCC?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PDT_lamp.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Ryder & Derf needle holders",
-        "Cryospray nozzles",
-        "Dr Ashique's modified chalazion clamp",
-        "Graefe's forceps"
-      ],
-      "ans": 3,
-      "exp": "Fine fixation forceps (ophthalmic origin) for delicate tissue handling",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0136_54_221.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Toomey syringes",
-        "Maneksha's Manual Dermabrader",
-        "Earlobe clamp",
-        "Halsey needle holder"
-      ],
-      "ans": 2,
-      "exp": "Clamp that stabilises the earlobe and gives a bloodless field for keloid/repair surgery",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0136_54_561.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Mosquito artery forceps (Halsted)",
-        "Iris Scissors",
-        "Castroviejo Spring Scissors",
-        "Dermablade/BiopBlade"
-      ],
-      "ans": 0,
-      "exp": "Small, fully-serrated fine haemostat (curved or straight) for clamping tiny bleeders",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/web/mosquito_forceps.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Kocher artery forceps",
-        "Allis Forceps",
-        "FUE punches (varying diameter)",
-        "Ryder & Derf needle holders"
-      ],
-      "ans": 0,
-      "exp": "Heavy haemostat with traumatic 1x2 teeth at the tip + transverse ridges; grips tough fascia/tissue",
-      "source": "ACSI Instruments – Forceps & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/web/kocher_forceps.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "ARTAS robotic system",
-        "Dressing Scissors/Nurses Scissors",
-        "Foster's tissue forceps",
-        "Adson's Tissue Forceps"
+        "PDT lamp — UV-A 365 nm activates PpIX optimally for all lesions",
+        "PDT lamp — 630–635 nm red light for deeper penetration (BCC/nodular lesions); 417 nm blue for superficial AKs",
+        "PDT lamp — 755 nm near-IR for deep lesions; 630 nm for superficial",
+        "PDT lamp — 532 nm green light for BCC; 405 nm violet for AKs"
       ],
       "ans": 1,
-      "exp": "The lower blade is blunted and the upper blade is sharp. To cut the dressing without injuring the skin",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p010_205.jpg",
-      "image_type": "instrument"
+      "exp": "Photodynamic therapy (PDT) activates PpIX at its Soret band (410 nm, blue) and Q-bands (630–635 nm, red). Blue light (417 nm BLU-U) is absorbed superficially and is preferred for actinic keratoses. Red light (630 nm) penetrates 5–6 mm and is used for superficial/nodular BCC and field cancerisation. MAL-PDT with red light is EMA-approved for BCC and AK.\n🏰 Palace: The PDT CASTLE has two LIGHT SWITCHES — BLUE (417 nm) lights only the FOYER (AKs, superficial), RED (630 nm) lights the DUNGEON FLOORS (BCC, 5–6 mm deep).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This applicator with a large suction cup head is placed on the skin to cool subcutaneous fat cells to −11°C without damaging the overlying skin. What is the cellular mechanism of fat cell death?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cryolipolysis_applicator.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Webster needle holder",
-        "Lister Bandage Scissors",
-        "Radiofrequency probes",
-        "Dermablade/BiopBlade"
+        "Radiofrequency fat melting — heats fat to 42°C causing thermal necrosis",
+        "Cryolipolysis applicator — selective apoptosis of lipocytes at −11°C (lipids crystallise before water); skin unharmed",
+        "Laser lipolysis — photons rupture adipocyte mitochondria",
+        "Ultrasound cavitation — mechanical disruption of adipocyte membranes"
       ],
       "ans": 1,
-      "exp": "Thick blunt plate at the tip of the lower blade to avoid injury. The blades are curved to an angle for ease of use",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p010_491.jpg",
-      "image_type": "instrument"
+      "exp": "Cryolipolysis (CoolSculpting) exploits the fact that lipids crystallise at higher temperatures than water (~−10 to −11°C vs −0°C for tissue water). At −11°C, adipocyte triglycerides solidify, triggering apoptosis while the overlying skin and dermis are protected. Dead adipocytes are cleared by macrophages over 4–12 weeks, reducing fat layer by 20–25%.\n🏰 Palace: FAT SOLDIERS (adipocytes) are marched into the FREEZING DUNGEON at −11°C — their OLIVE OIL (lipids) freezes BEFORE the castle water does, so only fat dies while the skin walls stay warm.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This electric pen with a fine oscillating needle tip creates multiple micro-channels in the skin at a depth of 0.25–2.5 mm, triggering collagen induction therapy. What is the recommended needle depth for periorbital fine lines?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dermapen_microneedling.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Toomey syringes",
-        "Mayo Scissors",
-        "Ryder Needle Holder",
-        "O'Brien Scissors"
+        "Dermapen — 1.5 mm standard for all facial areas",
+        "Dermapen — only 3.0 mm effective for periorbital wrinkles",
+        "Dermapen (microneedling pen) — 0.25–0.5 mm for periorbital area (thin skin)",
+        "Dermapen — 2.0–2.5 mm for periorbital fine lines"
+      ],
+      "ans": 2,
+      "exp": "Microneedling with a dermapen creates controlled micro-injuries stimulating TGF-β3-driven collagen synthesis. Needle depth is customised by area: 0.25–0.5 mm for delicate periorbital skin, 1.0–1.5 mm for cheeks/forehead, and up to 2.5 mm for acne scars on cheeks. Deeper needling in thin periorbital skin risks bruising and post-inflammatory pigmentation.\n🏰 Palace: The CASTLE ARCHER near the EYE WINDOW uses SHORT ARROWS (0.25–0.5 mm) — the periorbital wall is THIN; deep arrows risk breaking through and causing bruising.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
+    },
+    {
+      "q": "This package contains absorbable monofilament sutures coated with small barbed cogs used for non-surgical thread lifting of the face. What material are most threads composed of, and what is the approximate duration of effect?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PDO_threads.jpg",
+      "image_type": "instrument",
+      "opts": [
+        "Nylon threads — non-absorbable, permanent lifting effect",
+        "PDO (polydioxanone) threads — absorbed in 6 months; collagen stimulation lasts 12–18 months",
+        "PLLA threads — permanent scaffolding with 5-year effect",
+        "Silicone sutures — absorbed in 1 month, no collagen effect"
       ],
       "ans": 1,
-      "exp": "A type of surgical scissor with flattened blades. Blades may be straight or curved",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p011_76.jpg",
-      "image_type": "instrument"
+      "exp": "PDO (polydioxanone) threads are the most common type. They are fully absorbed within ~6 months via hydrolysis. The mechanical lift is immediate; thereafter, the foreign-body response stimulates neocollagenesis that maintains effect for 12–18 months. PLLA (poly-L-lactic acid) and PCL (polycaprolactone) threads last longer (18–24 months).\n🏰 Palace: PDO threads are TEMPORARY CASTLE SCAFFOLDING — the bamboo poles (threads) disappear in 6 months but the NEW STONE COLLAGEN WALL they helped build stands for 12–18 months.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This wand-shaped device delivers focused ultrasound energy at 1.5 mm, 3 mm, and 4.5 mm depths to heat the superficial musculoaponeurotic system (SMAS). What tissue temperature is targeted and what thermal effect is produced?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HIFU_transducer.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Spencer Scissors",
-        "Adson's Tissue Forceps",
-        "Metzenbaum Scissors",
-        "Surgical blade sizes (No. 10/11/15/20)"
+        "HIFU (Ultherapy) transducer — creates discrete thermal coagulation zones at 65–70°C, triggering collagen contraction and neocollagenesis",
+        "RF transducer — heats dermis to 42°C for mild collagen remodelling",
+        "Ultrasound imaging probe — maps SMAS without any thermal effect",
+        "HIFU transducer — cools SMAS to −5°C causing controlled cryoapoptosis"
       ],
-      "ans": 2,
-      "exp": "Surgical scissors designed for cutting delicate tissue and in blunt dissection. Have a relatively long shank-to-blade ratio",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p011_477.jpg",
-      "image_type": "instrument"
+      "ans": 0,
+      "exp": "HIFU (High-Intensity Focused Ultrasound, e.g., Ultherapy) creates micro-thermal coagulation zones (MTZs) at precise tissue depths (1.5 mm = dermis, 3 mm = deep dermis, 4.5 mm = SMAS layer) at 65–70°C. This causes immediate collagen contraction and delayed neocollagenesis over 3–6 months. It is the only non-surgical device FDA-cleared to lift brow, chin, and neck.\n🏰 Palace: A FOCUSED SOUND GUN fires HOT BULLETS (65–70°C) into the CASTLE'S 3 UNDERGROUND FLOORS (1.5/3/4.5 mm) — each bullet fuses collagen fibres and triggers rebuilding over 3–6 months.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This test system uses small aluminium chambers attached to a hypoallergenic tape placed on the upper back for 48 hours to identify delayed hypersensitivity to contact allergens. What type of immune reaction does it detect?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patch_test.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Powered Dermatomes",
-        "Implanters",
-        "Iris Scissors",
-        "Stitch cutting blade"
+        "Finn chambers patch test — detects Type IV (delayed, T-cell mediated) hypersensitivity",
+        "Finn chambers — detects Type II (cytotoxic antibody) reactions",
+        "Finn chambers — detects Type I (IgE-mediated) immediate hypersensitivity",
+        "Finn chambers — detects Type III (immune complex) reactions"
       ],
-      "ans": 2,
-      "exp": "Very small scissors with an extremely sharp and fine tip. The tip may be curved or straight",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p012_180.jpg",
-      "image_type": "instrument"
+      "ans": 0,
+      "exp": "Patch testing with Finn chambers (Epitest Ltd) identifies contact allergens causing Type IV (delayed-type, T-cell mediated) hypersensitivity — allergic contact dermatitis. Chambers are applied for 48 hours; readings at 48 h and 96 h. A positive reaction shows erythema ± vesicles in the chamber footprint. The European baseline series covers 30 common allergens (nickel, fragrance mix, etc.).\n🏰 Palace: FINN CHAMBERS are TINY PRISON CELLS stuck on the castle back for 48 hours — T-CELL GUARDS rush in on day 2 to confront their ENEMY ALLERGEN, causing a RED RIOT (Type IV reaction).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This handheld video camera with a polarised ring light attaches to a computer and is used to examine scalp and hair at ×20–×100 magnification to assess hair shaft defects and follicular density. What is this investigation called?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trichoscopy.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Siegel Handle",
-        "Comedone Extractor",
-        "Senn Retractor",
-        "Gradle Scissors"
+        "Phototrichogram — counts hairs in anagen vs telogen only",
+        "Scalp biopsy — invasive, shows follicular structure histologically",
+        "Dermoscopy of the scalp — only identifies lesional pigment patterns",
+        "Trichoscopy (videodermoscopy of the scalp) — assesses follicular units/cm², hair shaft calibre, and perifollicular signs"
       ],
       "ans": 3,
-      "exp": "Short blades with thin pointed ends. May be curved or straight",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p013_76.jpg",
-      "image_type": "instrument"
+      "exp": "Trichoscopy is videodermoscopy applied to the scalp, typically at ×20–×100. It non-invasively assesses hair shaft diameter variation (heterogeneity >20% = AGA hallmark), follicular unit density, yellow dots (alopecia areata), peripilar white halos (fibrosing alopecia), and 'black dots'/'broken hairs'. It is now preferred over phototrichogram for monitoring treatment response.\n🏰 Palace: A VIDEO SPY CAMERA (trichoscope, ×100) peeks through the CASTLE'S HAIR TOWER — spotting YELLOW DOT WINDOWS (AA), thin vs thick COLUMNS (calibre variation, AGA), and broken FLAGPOLES (trichorrhexis).",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This laser emits 755 nm wavelength and is considered the gold standard for laser hair removal in Fitzpatrick skin types I–III due to its high melanin selectivity. What is its primary chromophore in hair follicle targeting?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandrite_laser.jpg",
+      "image_type": "instrument",
       "opts": [
-        "O'Brien Scissors",
-        "Gradle Scissors",
-        "Mayo Scissors",
-        "Ryder Needle Holder"
-      ],
-      "ans": 0,
-      "exp": "Small scissors with angled short blades with pointed edges. Cut suture in delicate or tight areas",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p013_372.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Spencer Scissors",
-        "Tixel",
-        "Earlobe clamp",
-        "Freer Septum Elevator"
-      ],
-      "ans": 0,
-      "exp": "Small scissors with a small hook shaped tip on one blade. Suture removal",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p014_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Metzenbaum Scissors",
-        "Sponge Holding Forceps",
-        "Double S-Shaped Curved Scissors",
-        "Surgical blade sizes (No. 10/11/15/20)"
-      ],
-      "ans": 2,
-      "exp": "Small scissors with two curves which form the alphabet \"S\". Useful to operate at a depth",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p014_405.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Guthrie Skin Hook",
-        "Volkmann Double Ended Scoop",
-        "Dissecting Forceps (Toothed/Plain)",
-        "Undermining Scissors"
+        "Alexandrite laser — keratin in the hair shaft cortex",
+        "Alexandrite laser — water in the follicular shaft",
+        "Alexandrite laser — haemoglobin in follicular vasculature",
+        "Alexandrite laser (755 nm) — melanin in the bulge/bulb region of the hair follicle"
       ],
       "ans": 3,
-      "exp": "Small scissors with longer shanks. Distal part is flattened to provide thinner operating edge",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p015_76.jpg",
-      "image_type": "instrument"
+      "exp": "The alexandrite laser (755 nm) has very high melanin absorption compared to other hair removal lasers. It targets melanin in the matrix cells of the hair bulb and stem cells in the bulge, thermally destroying the follicle. Long-pulse mode with pulse durations equal to or less than the TRT of the hair follicle (~40–100 ms) achieves selective follicular destruction. Best for skin types I–III.\n🏰 Palace: ALEXANDRITE ARCHER (755 nm) fires melanin-seeking arrows deep into the HAIR BULGE CASTLE — only DARK-WALLED follicles get hit, leaving fair-skinned epidermal walls unscathed.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This fine wooden toothpick or sharpened applicator dipped in 100% TCA is used to treat ice pick acne scars by applying acid focally into the scar canal. What is the technique called, and what response indicates correct depth?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TCA_cross_peel.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Castroviejo Spring Scissors",
-        "ARTAS robotic system",
-        "MiraDry",
-        "Mayo Scissors"
+        "TCA CROSS — bleeding indicates that full-thickness penetration was achieved",
+        "TCA CROSS — light pink erythema indicates correct papillary dermis depth",
+        "TCA CROSS — no visible change is the target endpoint",
+        "TCA CROSS (Chemical Reconstruction of Skin Scars) — white frosting of the scar base indicates correct depth (papillary dermis)"
       ],
-      "ans": 0,
-      "exp": "Small scissors with thin short blades and spring action. The tip may be curved or straight",
-      "source": "ACSI Instruments – Scissors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p015_376.jpg",
-      "image_type": "instrument"
+      "ans": 3,
+      "exp": "TCA CROSS (Chemical Reconstruction of Skin Scars) uses 65–100% TCA applied focally inside individual ice-pick or boxcar scars with a sharpened wooden applicator. The endpoint is immediate white frosting within the scar, indicating protein coagulation to the papillary/upper reticular dermis. This stimulates fibroplasia and scar elevation. 3–6 sessions spaced 4–6 weeks apart are typically required.\n🏰 Palace: The TCA APPLICANT is a CASTLE CHIMNEY SWEEP — they dip their tiny brush into 100% TCA acid, poke it down the ICE-PICK CHIMNEY (scar), and watch the walls FROST WHITE, like a mini-ice storm sealing the scar canal.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This bottle contains a peeling solution composed of resorcinol 14%, salicylic acid 14%, and lactic acid 14% in an ethanol base. It is a superficial-to-medium peel. What is it called, and what condition is it classically used for?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jessner_solution.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Bard-Parker Handle",
-        "Castroviejo (tying) forceps",
-        "ARTAS robotic system",
-        "Dermablade/BiopBlade"
-      ],
-      "ans": 0,
-      "exp": "Flat blade holders of various sizes. Different sizes are suited for particular blade sizes",
-      "source": "ACSI Instruments – Blades, Handles & Knives",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p017_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Metzenbaum Scissors",
-        "Siegel Handle",
-        "Nail Splitter",
-        "Beaver Handle"
+        "Modified Kligman's formula — contains hydroquinone 4% for melasma only",
+        "Jessner's solution — melasma, acne, post-inflammatory hyperpigmentation; produces even superficial exfoliation",
+        "Glycolic acid 70% — alpha-hydroxy acid for superficial exfoliation",
+        "Phenol peel — deep chemical peel for severe photoaging"
       ],
       "ans": 1,
-      "exp": "Round bodied blade handle designed to hold standard surgical blades. The distal end has a prominence similar to that of Bard- Parker handle",
-      "source": "ACSI Instruments – Blades, Handles & Knives",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p017_436.jpg",
-      "image_type": "instrument"
+      "exp": "Jessner's solution (Combes-Jessner) contains equal parts (14%) resorcinol + salicylic acid + lactic acid in ethanol (95%). Resorcinol disrupts hydrogen bonds in keratin; salicylic acid is keratolytic; lactic acid is an AHA providing exfoliation and hydration. It is a reliable superficial peel used for acne vulgaris, melasma, PIH, and actinic damage. It can be layered for medium-depth peeling.\n🏰 Palace: JESSNER's CASTLE MIX has THREE GUARDS (resorcinol + SA + LA, each 14%) — they work in EQUAL SHIFTS breaking down the skin's KERATIN GATE for smooth exfoliation of PIH and acne.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This pre-filled syringe contains calcium hydroxylapatite (CaHA) microspheres suspended in carboxymethylcellulose gel. When used for facial volume restoration, what additional unique property distinguishes it from HA fillers?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Radiesse_filler.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Maneksha's Manual Dermabrader",
-        "Comedone Extractor",
-        "Beaver Handle",
-        "Volkmann Double Ended Scoop"
-      ],
-      "ans": 2,
-      "exp": "Round bodied blade handle shaped like a pen. The distal end has a slit into which the blade can be placed and fixed",
-      "source": "ACSI Instruments – Blades, Handles & Knives",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p018_242.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Surgical blade sizes (No. 10/11/15/20)",
-        "Baumgartner & Collier needle holders",
-        "Ryder & Derf needle holders",
-        "Cryospray nozzles"
+        "CaHA filler (Radiesse) — stimulates de novo collagen production (biostimulator) in addition to immediate volume; not reversible with hyaluronidase",
+        "CaHA filler — radioopaque and visible on X-ray with no soft-tissue effect",
+        "CaHA filler — biodegradable in 2 weeks with no collagen effect",
+        "CaHA filler — reversible with hyaluronidase like HA fillers"
       ],
       "ans": 0,
-      "exp": "No. 10 — large excisions/skin grafts; No. 11 — stab incisions & I&D; No. 15 — workhorse for elliptical excisions/biopsies; No. 20 — heavy scalp work. No. 15C is a smaller, more curved blade used for nail surgery",
-      "source": "ACSI Instruments – Blades, Handles & Knives",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/i_p016_90_438.jpg",
-      "image_type": "instrument"
+      "exp": "CaHA (Radiesse) consists of 25–45 µm calcium hydroxylapatite microspheres in a CMC carrier gel. The gel provides immediate volume; as it is absorbed over ~3 months, the CaHA particles stimulate fibroblasts to produce new collagen and elastin (biostimulator effect) lasting 12–18 months. Unlike HA fillers, CaHA cannot be dissolved with hyaluronidase. It is radiopaque and visible on plain X-rays.\n🏰 Palace: RADIESSE is a CASTLE WITH A TWIN PURPOSE — first the CEMENT (CMC gel) fills the walls immediately, then tiny CALCIUM BRICKS (CaHA microspheres) stay behind and BUILD NEW COLLAGEN STONE over 12–18 months — and NO HYALURONIDASE KEY can unlock it.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This portable device uses a fine electrode tip to deliver low-voltage high-frequency alternating current to electrocoagulate small vascular lesions, sebaceous hyperplasia, and skin tags. What is it called?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hyfrecator.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Powered Dermatomes",
-        "Stitch cutting blade",
-        "Mayo Scissors",
-        "Cryospray nozzles"
+        "Bipolar forceps — for surgical haemostasis of large vessels only",
+        "Hyfrecator (electrocautery / electrofulguration unit) — delivers monopolar high-frequency AC to desiccate or fulgurate superficial lesions",
+        "Iontophoresis device — drives ionic drugs transdermally",
+        "TENS unit — transcutaneous electrical nerve stimulation for pain"
       ],
       "ans": 1,
-      "exp": "Hooked blade designed to slip under and cut sutures (stitch cutter)",
-      "source": "ACSI Instruments – Blades, Handles & Knives",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0138_313_72.jpg",
-      "image_type": "instrument"
+      "exp": "The hyfrecator (from 'high frequency eradicator') delivers monopolar, low-voltage, high-frequency alternating current. In desiccation mode, the electrode touches the lesion to dehydrate and coagulate cells. In fulguration mode, the electrode is held slightly away to produce sparks. Used for telangiectasias, sebaceous hyperplasia, DPN (dermatosis papulosa nigra), and verrucae.\n🏰 Palace: The HYFRECATOR is a MAGIC WAND that ZAPS tiny lesions with SPARKS (fulguration) or TOUCH (desiccation) — the HIGH-FREQUENCY WIZARD evaporates spider veins and skin tags in the castle beauty salon.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     },
     {
-      "q": "Identify the surgical instrument shown in the image:",
+      "q": "This Wood's lamp is being used to examine the scalp of a child with scaling and hair loss. Which dermatophyte fluoresces BRIGHT GREEN under Wood's lamp, and which common cause of tinea capitis does NOT fluoresce?",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wood%27s_lamp.jpg",
+      "image_type": "instrument",
       "opts": [
-        "Haber Spreader",
-        "Cryogun / cryogen spray canister",
-        "Allis Forceps",
-        "Mayo-Hegar Needle Holder"
-      ],
-      "ans": 3,
-      "exp": "Larger size needle holder with long shanks. Serrated tips with central longitudinal depression",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p019_164.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Webster needle holder",
-        "Radiofrequency probes",
-        "Electrocautery machine with electrodes",
-        "Crile-Wood Needle Holder"
-      ],
-      "ans": 3,
-      "exp": "Smaller size needle holder than Mayo-Hegar with long shanks. Serrated tips with transverse groove to accommodate the needle",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p020_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Hemostatic Forceps/Artery Forceps",
-        "Castroviejo Spring Scissors",
-        "Kerure clamp",
-        "Ryder Needle Holder"
-      ],
-      "ans": 3,
-      "exp": "Smaller size needle holder with long shanks. Tips are thinner with cross-serrations",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p021_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Castroviejo's Needle Holder",
-        "Tixel",
-        "Radiofrequency probes",
-        "Toomey syringes"
+        "Microsporum canis/audouinii = bright blue-green fluorescence; Trichophyton tonsurans = NO fluorescence (most common in USA/UK)",
+        "Trichophyton violaceum = yellow-green; Microsporum gypseum = no fluorescence",
+        "Trichophyton schoenleinii = bright green; Trichophyton tonsurans = orange",
+        "Epidermophyton floccosum = blue-green; Microsporum canis = no fluorescence"
       ],
       "ans": 0,
-      "exp": "Small size needle holder with spring action. Very thin tips for fine work",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p022_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Iris Forceps",
-        "Kocher artery forceps",
-        "Ryder & Derf needle holders",
-        "Suction machine canister"
-      ],
-      "ans": 2,
-      "exp": "Fine needle holders for small sutures; Derf is short, for delicate periocular work",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0139_54_73.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Suction machine canister",
-        "Bard-Parker Handle",
-        "Implanters",
-        "Halsey needle holder"
-      ],
-      "ans": 3,
-      "exp": "General needle holder for 4-0 to 6-0 sutures; tungsten-carbide jaws (gold handle)",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0139_55_264.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Webster needle holder",
-        "Bishop-Harmon forceps",
-        "Adson's forceps (plain)",
-        "Castroviejo (tying) forceps"
-      ],
-      "ans": 0,
-      "exp": "Smooth fine-jaw needle holder for delicate 5-0/6-0 sutures — common in dermatosurgery",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0139_329_264.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Dermablade/BiopBlade",
-        "Mayo Scissors",
-        "Baumgartner & Collier needle holders",
-        "Cryospray nozzles"
-      ],
-      "ans": 2,
-      "exp": "Heavier needle holders for thicker sutures and general closure",
-      "source": "ACSI Instruments – Needle Holders",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr2/t_p0139_55_450.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Dermablade/BiopBlade",
-        "Guthrie Skin Hook",
-        "ARTAS robotic system",
-        "Dressing Scissors/Nurses Scissors"
-      ],
-      "ans": 1,
-      "exp": "Small skin hook with two, three or four prongs. The tip is flattened",
-      "source": "ACSI Instruments – Skin Hooks & Retractors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p023_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Dr Ashique's modified chalazion clamp",
-        "Joseph's Double Skin Hook",
-        "Kerure clamp",
-        "Lister Bandage Scissors"
-      ],
-      "ans": 1,
-      "exp": "Small skin hook with two prongs. The tip is \"U\" shaped",
-      "source": "ACSI Instruments – Skin Hooks & Retractors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p023_447.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Sponge Holding Forceps",
-        "Lister Bandage Scissors",
-        "Frazier Skin Hook",
-        "Electrocautery machine with electrodes"
-      ],
-      "ans": 2,
-      "exp": "Small skin hook with single prong. Also called Frazier Dura hook",
-      "source": "ACSI Instruments – Skin Hooks & Retractors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p024_233.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Humby Knife",
-        "Nokor Needle",
-        "Castroviejo Spring Scissors",
-        "Senn Retractor"
-      ],
-      "ans": 3,
-      "exp": "Handheld, double-ended retractor used to retract primarily surface tissue. It has one angled, blunt end and, at the opposite end, facing the opposite direction has a three prong, rake tip",
-      "source": "ACSI Instruments – Skin Hooks & Retractors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p024_494.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Haber Spreader",
-        "Jeweler Forceps",
-        "Mayo-Hegar Needle Holder",
-        "Foster's tissue forceps"
-      ],
-      "ans": 0,
-      "exp": "A set of straight handles connected to a set of curved front arms, and culminating in a set of jaws with four sharp staggered prongs. It is used separate a superficial incision along a natural tissue dissection plane",
-      "source": "ACSI Instruments – Skin Hooks & Retractors",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p025_172.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Curette",
-        "Earlobe clamp",
-        "Joseph's Double Skin Hook",
-        "Maneksha's Manual Dermabrader"
-      ],
-      "ans": 0,
-      "exp": "Rein Round curette",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p025_609.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Iris Forceps",
-        "Spencer Scissors",
-        "Volkmann Double Ended Scoop",
-        "Dr Ashique's modified chalazion clamp"
-      ],
-      "ans": 2,
-      "exp": "A modification of curette. Stout handle with spoon shaped extension at the ends",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p026_105.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Webster needle holder",
-        "Maneksha's Manual Dermabrader",
-        "Nokor Needle",
-        "Metzenbaum Scissors"
-      ],
-      "ans": 1,
-      "exp": "It has a handle with thumb rest and a rectangular plate at the distal end. The plate has horizontal and vertical sharp teeth",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p026_378.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Spencer Scissors",
-        "Razor Blade Holder",
-        "Comedone Extractor",
-        "Ryder Needle Holder"
-      ],
-      "ans": 2,
-      "exp": "Central handle with two perforated cups at the ends. Expression of comedones",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p027_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Chalazion Clamp",
-        "Halsey needle holder",
-        "Cryogun / cryogen spray canister",
-        "Castroviejo's Needle Holder"
-      ],
-      "ans": 0,
-      "exp": "It has a forceps-like handle with one distal tip with a flat solid oval plate and another distal tip with a ring-like aperture. The shaft has a thumbscrew",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p027_330.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Dr Ashique's modified chalazion clamp",
-        "Kerure clamp",
-        "Sponge Holding Forceps",
-        "Gradle Scissors"
-      ],
-      "ans": 0,
-      "exp": "Chalazion clamp modified for dermatosurgery — wide solid platform + locking screw for lips/eyelids/mucosa",
-      "source": "ACSI Instruments – Curettes, Scoops & Clamps",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5531.jpeg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "MiraDry",
-        "Suction machine canister",
-        "Humby Knife",
-        "Punches"
-      ],
-      "ans": 3,
-      "exp": "Disposable elliptical punches with fixed and moveable blades are available. Used for better closure of the wound and for better comsetic results especially on the face and exposed parts",
-      "source": "ACSI Instruments – Biopsy & Punches",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p035_138.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Curette",
-        "Dermablade/BiopBlade",
-        "Volkmann Double Ended Scoop",
-        "Comedone Extractor"
-      ],
-      "ans": 1,
-      "exp": "Small, flexible, sterile blade with plastic side grips. Shave biopsy",
-      "source": "ACSI Instruments – Biopsy & Punches",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p035_369.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Nokor Needle",
-        "Halsey needle holder",
-        "Allis Forceps",
-        "Punches"
-      ],
-      "ans": 0,
-      "exp": "It is a 1.5 inch, 18-gauge needle with a flat pointed end. Subcision",
-      "source": "ACSI Instruments – Biopsy & Punches",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p039_108.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Razor Blade Holder",
-        "Beaver Handle",
-        "Toomey syringes",
-        "Suction machine canister"
-      ],
-      "ans": 0,
-      "exp": "Stainless steel holder which can fit in standard razor blades. The blade is fixed by thumbscrew",
-      "source": "ACSI Instruments – Skin-Graft & Dermatome Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p028_373.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Curette",
-        "Dissecting Forceps (Toothed/Plain)",
-        "Volkmann Double Ended Scoop",
-        "Silver Knife"
-      ],
-      "ans": 3,
-      "exp": "Stainless steel knife which can fit regular razor blades. It has screws for adjusting the thickness of the graft to be harvested",
-      "source": "ACSI Instruments – Skin-Graft & Dermatome Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p028_628.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Powered Dermatomes",
-        "Castroviejo (tying) forceps",
-        "Graefe's forceps",
-        "Bishop-Harmon tissue forceps"
-      ],
-      "ans": 0,
-      "exp": "(1968 J Cobbett) Another modified Braithwaite design with oscillating guard to eliminate \"drag\". The guard is fixed to a \"D\" shaped hole to avoid rolling up of the graft harvested on to the guard",
-      "source": "ACSI Instruments – Skin-Graft & Dermatome Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p030_288.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Undermining Scissors",
-        "Maneksha's Manual Dermabrader",
-        "Bishop-Harmon tissue forceps",
-        "Humby Knife"
-      ],
-      "ans": 3,
-      "exp": "AC current operated dermatome",
-      "source": "ACSI Instruments – Skin-Graft & Dermatome Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p032_114.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Spencer Scissors",
-        "Cryogun / cryogen spray canister",
-        "Dermablade/BiopBlade",
-        "Nail Splitter"
-      ],
-      "ans": 3,
-      "exp": "Also referred to as English anvil pattern nail splitter. Has sharp triangular shaped anvil opposed by a sharp and flat edge at the distal end and double spring at the handle",
-      "source": "ACSI Instruments – Nail Surgery Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p033_116.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Suction machine canister",
-        "MiraDry",
-        "Liposuction & fat-transfer cannula kit",
-        "Nail Spatula"
-      ],
-      "ans": 3,
-      "exp": "Rod shaped/ flattened equipment with flat edges. The tip of the flat edges may be modified into different shapes",
-      "source": "ACSI Instruments – Nail Surgery Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p033_484.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Undermining Scissors",
-        "Freer Septum Elevator",
-        "Cheatle Forceps",
-        "Radiofrequency probes"
-      ],
-      "ans": 1,
-      "exp": "Rod shaped equipment with thin curved blades. To loosen distal nail plate from hyponychium, proximal nail fold and lateral nail folds",
-      "source": "ACSI Instruments – Nail Surgery Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p034_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Implanters",
-        "Bishop-Harmon tissue forceps",
-        "Kerure clamp",
-        "Webster needle holder"
-      ],
-      "ans": 0,
-      "exp": "(Spain) The device uses a clip, which is not found in previously used hair transplanters. This clip reduces the procedural time and makes the replacement of the needle easier",
-      "source": "ACSI Instruments – Hair Transplant Tools",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p038_76.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Stitch cutting blade",
-        "Webster needle holder",
-        "ARTAS robotic system",
-        "Silver Knife"
-      ],
-      "ans": 2,
-      "exp": "Physician-controlled, image-guided robotic FUE arm. AI selects optimal follicular units; best on straight, dark hair",
-      "source": "ACSI Instruments – Hair Transplant Tools",
-      "topic": "Cosmetology",
-      "image": "assets/img/extra/x_T_p1048_1.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Webster needle holder",
-        "Nokor Needle",
-        "Cryogun / cryogen spray canister",
-        "FUE punches (varying diameter)"
-      ],
-      "ans": 3,
-      "exp": "0.8-1.0 mm sharp/blunt punches core out individual follicular units. Leave scattered dot scars (no linear scar)",
-      "source": "ACSI Instruments – Hair Transplant Tools",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0645_88_414.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Plastibell Clamp",
-        "Haber Spreader",
-        "Jeweler Forceps",
-        "Adson's Tissue Forceps"
-      ],
-      "ans": 0,
-      "exp": "It is a plastic device designed for circumcising infant males. Circumcision",
-      "source": "ACSI Instruments – Circumcision Instruments",
-      "topic": "Cosmetology",
-      "image": "assets/img/instr/ci_p038_389.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Frazier Skin Hook",
-        "Dr Ashique's modified chalazion clamp",
-        "Nokor Needle",
-        "Liposuction & fat-transfer cannula kit"
-      ],
-      "ans": 3,
-      "exp": "Cannulas of varying diameter for aspiration and fat transfer",
-      "source": "ACSI Instruments – Liposuction & Fat Transfer",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0748_163_262.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Stitch cutting blade",
-        "Humby Knife",
-        "Spencer Scissors",
-        "Toomey syringes"
-      ],
-      "ans": 3,
-      "exp": "Large-volume syringes used for manual fat aspiration (Coleman technique)",
-      "source": "ACSI Instruments – Liposuction & Fat Transfer",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0749_163_441.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Finesse cannula",
-        "Nanovibrinox",
-        "Hemostatic Forceps/Artery Forceps",
-        "Liposuction & fat-transfer cannula kit"
-      ],
-      "ans": 0,
-      "exp": "Fine cannula with aspiration apertures on the underside for superficial refinement",
-      "source": "ACSI Instruments – Liposuction & Fat Transfer",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0750_163_37.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Tixel",
-        "Chalazion Clamp",
-        "Mayo-Hegar Needle Holder",
-        "Suction machine canister"
-      ],
-      "ans": 3,
-      "exp": "Vacuum canister collecting aspirate; fat separates in the upper layer",
-      "source": "ACSI Instruments – Liposuction & Fat Transfer",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0751_163_157.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Epilation Forceps",
-        "Allis Forceps",
-        "Electrocautery machine with electrodes",
-        "Foster's tissue forceps"
-      ],
-      "ans": 2,
-      "exp": "Rechargeable hot-tip cautery; heat is from the electrode, not the patient (true cautery)",
-      "source": "ACSI Instruments – Electrosurgery, RF & Cryo",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p1036_162_357.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Silver Knife",
-        "Comedone Extractor",
-        "Radiofrequency probes",
-        "Halsey needle holder"
-      ],
-      "ans": 2,
-      "exp": "Interchangeable RF electrodes (loop, ball, needle) for cutting, coagulation and ablation",
-      "source": "ACSI Instruments – Electrosurgery, RF & Cryo",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0983_88_421.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Jeweler Forceps",
-        "Cryogun / cryogen spray canister",
-        "Lister Bandage Scissors",
-        "Bishop-Harmon tissue forceps"
-      ],
-      "ans": 1,
-      "exp": "Handheld liquid-nitrogen spray device for open-spray cryotherapy",
-      "source": "ACSI Instruments – Electrosurgery, RF & Cryo",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0954_163_96.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Double S-Shaped Curved Scissors",
-        "O'Brien Scissors",
-        "Cryospray nozzles",
-        "Baumgartner & Collier needle holders"
-      ],
-      "ans": 2,
-      "exp": "Interchangeable nozzle tips that control spray aperture/area",
-      "source": "ACSI Instruments – Electrosurgery, RF & Cryo",
-      "topic": "Cosmetology",
-      "image": "assets/img/book/p0955_158_96.jpg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Beaver Handle",
-        "Bard-Parker Handle",
-        "MiraDry",
-        "Powered Dermatomes"
-      ],
-      "ans": 2,
-      "exp": "Microwave device targeting the dermal-subcutaneous interface to ablate axillary sweat glands (hyperhidrosis)",
-      "source": "ACSI Instruments – Energy & Body-Contouring Devices",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5532.jpeg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "O'Brien Scissors",
-        "Graefe's forceps",
-        "CoolSculpting (cryolipolysis)",
-        "MiraDry"
-      ],
-      "ans": 2,
-      "exp": "Controlled cooling triggers selective apoptosis of subcutaneous adipocytes",
-      "source": "ACSI Instruments – Energy & Body-Contouring Devices",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5533.jpeg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Comedone Extractor",
-        "Tixel",
-        "Finesse cannula",
-        "Joseph's Double Skin Hook"
-      ],
-      "ans": 1,
-      "exp": "Thermo-mechanical ablation device — a heated titanium tip transfers heat for fractional resurfacing",
-      "source": "ACSI Instruments – Energy & Body-Contouring Devices",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5545.jpeg",
-      "image_type": "instrument"
-    },
-    {
-      "q": "Identify the surgical instrument shown in the image:",
-      "opts": [
-        "Nanovibrinox",
-        "Razor Blade Holder",
-        "Kerure clamp",
-        "Chalazion Clamp"
-      ],
-      "ans": 0,
-      "exp": "Vibration-assisted anaesthesia delivery device to reduce injection pain",
-      "source": "ACSI Instruments – Energy & Body-Contouring Devices",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5534.png",
-      "image_type": "instrument"
+      "exp": "Under Wood's lamp, Microsporum canis and M. audouinii produce bright blue-green fluorescence due to pteridine metabolites in infected hairs (ectothrix pattern). Trichophyton tonsurans — the most common cause in USA/UK/Caribbean populations — does NOT fluoresce (endothrix; no pteridines). This is why Wood's lamp is less useful for tinea capitis diagnosis in regions where T. tonsurans predominates.\n🏰 Palace: MICROSPORUM is a GREEN GLOWWORM in the castle hair towers (blue-green, ectothrix), while TRICHOPHYTON TONSURANS is the SILENT NIGHT THIEF — hiding INSIDE the hair shaft (endothrix) with NO glow.",
+      "source": "Instrument Spotter",
+      "topic": "Cosmetology"
     }
   ],
-  "spotters": [
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Karl August Burow",
-        "Sir Harold Gillies",
-        "Lipoid proteinosis",
-        "Joseph Jadassohn"
-      ],
-      "ans": 1,
-      "exp": "Father of modern plastic surgery. Pioneered tube pedicle flaps and facial reconstruction of WWI soldiers",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5535.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Guintee khan",
-        "John Orlando Roe",
-        "Heliotrope rash",
-        "Hinderer's lines"
-      ],
-      "ans": 1,
-      "exp": "American otolaryngologist; performed the first documented endonasal (closed) rhinoplasty in 1887. Pioneer of aesthetic facial surgery and early nasal tip modification",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5537.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Dutcher bodies",
-        "Karl August Burow",
-        "Pohl-Pinkus constriction",
-        "Leon Goldman"
-      ],
-      "ans": 3,
-      "exp": "Father of laser medicine and surgery. First to apply laser beams (ruby and CO2) to human skin in the early 1960s",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5538.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Pran Nath Behl",
-        "Joseph Jadassohn",
-        "Pohl-Pinkus constriction",
-        "Gordon Gould"
-      ],
-      "ans": 1,
-      "exp": "Monumental 19th-century German dermatologist. Described nevus sebaceus of Jadassohn and Jadassohn-Lewandowsky syndrome",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6109.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Karl August Burow",
-        "Bannayan-Riley-Ruvalcaba syndrome",
-        "Frankfort line",
-        "Dutcher bodies"
-      ],
-      "ans": 0,
-      "exp": "German surgeon; eponym of the Burow's triangle used in dog-ear and advancement flap repair. Also lends his name to Burow's solution (aluminium acetate astringent)",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6335.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Gordon Gould",
-        "Norman Orentreich",
-        "Karl August Burow",
-        "Lipoid proteinosis"
-      ],
-      "ans": 1,
-      "exp": "Described the donor dominance principle (1959) — transplanted follicles retain DHT-resistance regardless of recipient site. Father of modern hair transplantation; also pioneered subcision for scars",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6853.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Groove sign (eosinophilic fasciitis)",
-        "Nazaroff sign",
-        "Menahem Hodara",
-        "Dr Shoji Okuda"
-      ],
-      "ans": 2,
-      "exp": "Turkish physician (1897). Eponym of Hodara disease — trichoclasis-type hair breakage he described",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6851.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Hinderer's lines",
-        "Frankfort line",
-        "Dr Shoji Okuda",
-        "Sir Harold Gillies"
-      ],
-      "ans": 2,
-      "exp": "Japanese physician credited with an early follicular punch hair transplantation technique (1930s). Restored hair in scarred/burned scalp decades before Orentreich",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6852.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Lucilia sericata (maggot debridement therapy)",
-        "Pran Nath Behl",
-        "Shimon Eckhouse",
-        "Lipoid proteinosis"
-      ],
-      "ans": 1,
-      "exp": "Pioneering Indian dermatologist, a founding figure of organised dermatology in India. Note: a second portrait (e5aad83c-23dc-403f-ae1b-ff4e4816818a.jpeg) also appears in the source",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/721643a2-e548-4cd9-86c0-4aeb0eebd818.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Bannayan-Riley-Ruvalcaba syndrome",
-        "Dr Shoji Okuda",
-        "Gordon Gould",
-        "Joseph Jadassohn"
-      ],
-      "ans": 2,
-      "exp": "One of the inventors of the laser; coined the acronym LASER. Won a long-running patent battle for key laser patents",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/4c0dd381-460e-4b1a-93a5-c59ac83dc024.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Mace hair",
-        "C. Kumar N. Patel",
-        "Dr Shoji Okuda",
-        "Rope sign"
-      ],
-      "ans": 1,
-      "exp": "Indian-American physicist who invented the CO2 laser (1964). The CO2 laser is a workhorse for ablative resurfacing and cutaneous surgery",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/1bbecb4d-c77e-445b-bf68-739e1e0223ac.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Shimon Eckhouse",
-        "John Orlando Roe",
-        "Theodore Maiman",
-        "C. Kumar N. Patel"
-      ],
-      "ans": 2,
-      "exp": "Built the first working laser — a ruby laser — in 1960. Ruby laser later used for tattoo and pigment removal",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/6e3cc704-eefb-4539-b9c4-1348f56ed791.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the eminent figure shown:",
-      "opts": [
-        "Guintee khan",
-        "Menahem Hodara",
-        "Gordon Gould",
-        "Shimon Eckhouse"
-      ],
-      "ans": 3,
-      "exp": "Developed Intense Pulsed Light (IPL) technology. IPL is a broadband (non-laser) source for pigment, vascular lesions and photorejuvenation",
-      "source": "ACSI Spotters – Eminent Figures",
-      "topic": "Cosmetology",
-      "image": "assets/img/1a30a780-3542-473a-b14c-c81fa4618125.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Joseph Jadassohn",
-        "Dutcher bodies",
-        "Lipoid proteinosis",
-        "Leon Goldman"
-      ],
-      "ans": 1,
-      "exp": "Eosinophilic intranuclear pseudoinclusions in atypical plasma cells. Not true nuclear inclusions — invaginations of immunoglobulin-rich cytoplasm into the nucleus",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5991.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Pohl-Pinkus constriction",
-        "C. Kumar N. Patel",
-        "Menahem Hodara",
-        "Groove sign (eosinophilic fasciitis)"
-      ],
-      "ans": 3,
-      "exp": "Linear depression along the course of superficial veins when the limb is elevated. Classic sign of eosinophilic fasciitis (Shulman syndrome)",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6436.png",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Lipoid proteinosis",
-        "Sir Harold Gillies",
-        "Shimon Eckhouse",
-        "Bannayan-Riley-Ruvalcaba syndrome"
-      ],
-      "ans": 3,
-      "exp": "PTEN hamartoma tumor syndrome (PTEN mutation). Triad: macrocephaly, intestinal hamartomatous polyps, and pigmented penile macules",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6441.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Sir Harold Gillies",
-        "Lucilia sericata (maggot debridement therapy)",
-        "Heliotrope rash",
-        "Groove sign (eosinophilic fasciitis)"
-      ],
-      "ans": 2,
-      "exp": "Violaceous (lilac) periorbital erythema with eyelid edema. Pathognomonic cutaneous sign of dermatomyositis",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6443.webp",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Hinderer's lines",
-        "Lipoid proteinosis",
-        "Bannayan-Riley-Ruvalcaba syndrome",
-        "Norman Orentreich"
-      ],
-      "ans": 1,
-      "exp": "Urbach-Wiethe disease — autosomal recessive, ECM1 gene mutation. Hoarse cry from infancy, beaded eyelid papules (moniliform blepharosis), waxy skin infiltration",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6445.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Heliotrope rash",
-        "Nazaroff sign",
-        "Dr Shoji Okuda",
-        "Theodore Maiman"
-      ],
-      "ans": 1,
-      "exp": "Eponymous clinical spotter (labelled Nazaroo in the source). Identify by the depicted morphology",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6583.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Rope sign",
-        "Frankfort line",
-        "Rogaine (minoxidil)",
-        "Nazaroff sign"
-      ],
-      "ans": 0,
-      "exp": "Linear, cord-like rope-like indurated band, typically on the trunk/flanks. Associated with interstitial granulomatous dermatitis (seen in Ackerman syndrome)",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6585.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "C. Kumar N. Patel",
-        "Karl August Burow",
-        "Mace hair",
-        "Marionette line"
-      ],
-      "ans": 2,
-      "exp": "Hair shaft showing a club / mace-shaped swollen tip. A trichoscopic spotter of abnormal hair-shaft morphology",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6591.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the clinical sign / pathological finding shown:",
-      "opts": [
-        "Karl August Burow",
-        "Joseph Jadassohn",
-        "Pohl-Pinkus constriction",
-        "Lucilia sericata (maggot debridement therapy)"
-      ],
-      "ans": 2,
-      "exp": "Segmental narrowing of the hair shaft (a Beau's-line equivalent for hair). Reflects a transient matrix insult — chemotherapy, severe illness, or stress",
-      "source": "ACSI Spotters – Clinical Signs & Pathology",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6592.webp",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the anatomical line or landmark shown:",
-      "opts": [
-        "Fat pads of face",
-        "Pohl-Pinkus constriction",
-        "Shimon Eckhouse",
-        "Marionette line"
-      ],
-      "ans": 3,
-      "exp": "Down-turned furrows from the labial commissures to the lateral chin. Caused by mandibular bone resorption, fat-pad atrophy, and pull of the depressor anguli oris (DAO)",
-      "source": "ACSI Spotters – Lines & Landmarks",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_5546.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the anatomical line or landmark shown:",
-      "opts": [
-        "Lucilia sericata (maggot debridement therapy)",
-        "Frankfort line",
-        "Pohl-Pinkus constriction",
-        "Fat pads of face"
-      ],
-      "ans": 1,
-      "exp": "The Frankfort horizontal plane — from the infraorbital rim to the superior margin of the external auditory meatus (porion). Standard reference plane for cephalometry and aesthetic facial analysis",
-      "source": "ACSI Spotters – Lines & Landmarks",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6856.png",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the anatomical line or landmark shown:",
-      "opts": [
-        "Mace hair",
-        "Shimon Eckhouse",
-        "Colour wheel for cosmetic camouflage",
-        "Hinderer's lines"
-      ],
-      "ans": 3,
-      "exp": "Reference lines used to locate the ideal malar (cheekbone) prominence. Their intersection marks the point of maximal malar projection for augmentation",
-      "source": "ACSI Spotters – Lines & Landmarks",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6857.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the anatomical line or landmark shown:",
-      "opts": [
-        "Fat pads of face",
-        "John Orlando Roe",
-        "Pohl-Pinkus constriction",
-        "Colour wheel for cosmetic camouflage"
-      ],
-      "ans": 0,
-      "exp": "Facial fat is compartmentalized into discrete superficial and deep fat pads. Includes malar (medial/middle/lateral), nasolabial, and deep medial cheek compartments",
-      "source": "ACSI Spotters – Lines & Landmarks",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6861.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the item shown:",
-      "opts": [
-        "Bannayan-Riley-Ruvalcaba syndrome",
-        "Guintee khan",
-        "Frankfort line",
-        "Marionette line"
-      ],
-      "ans": 1,
-      "exp": "Spotter retained as labelled in the source (spelling uncertain). Identify by the depicted image",
-      "source": "ACSI Spotters – Misc",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6468.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the item shown:",
-      "opts": [
-        "Theodore Maiman",
-        "Karl August Burow",
-        "Rogaine (minoxidil)",
-        "Pran Nath Behl"
-      ],
-      "ans": 2,
-      "exp": "Topical minoxidil, brand name Rogaine. Vasodilator that prolongs the anagen phase; first-line for androgenetic alopecia",
-      "source": "ACSI Spotters – Misc",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6469.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the item shown:",
-      "opts": [
-        "Colour wheel for cosmetic camouflage",
-        "Pohl-Pinkus constriction",
-        "Pran Nath Behl",
-        "Lucilia sericata (maggot debridement therapy)"
-      ],
-      "ans": 0,
-      "exp": "Complementary-colour correction chart for camouflage make-up. Green neutralises red (erythema/telangiectasia); orange/peach neutralises blue-brown dyschromia",
-      "source": "ACSI Spotters – Misc",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6472 1.jpeg",
-      "image_type": "spotter"
-    },
-    {
-      "q": "Identify the item shown:",
-      "opts": [
-        "Karl August Burow",
-        "Groove sign (eosinophilic fasciitis)",
-        "Nazaroff sign",
-        "Lucilia sericata (maggot debridement therapy)"
-      ],
-      "ans": 3,
-      "exp": "Green bottle fly — larvae used for maggot debridement therapy (MDT). Sterile larvae selectively digest necrotic tissue; ~1000 maggots applied for 1-3 days",
-      "source": "ACSI Spotters – Misc",
-      "topic": "Cosmetology",
-      "image": "assets/img/IMG_6863.jpeg",
-      "image_type": "spotter"
-    }
-  ]
+  "spotters": []
 }
