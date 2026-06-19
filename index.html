@@ -92,6 +92,14 @@ main { max-width:820px; margin:0 auto; padding:28px 20px 60px; }
   text-align:center; font-size:.78em; color:var(--muted);
   margin-top:6px; margin-bottom:8px; font-style:italic;
 }
+.q-img-placeholder {
+  display:none; flex-direction:column; align-items:center; justify-content:center;
+  min-height:110px; width:100%; border:2px dashed var(--border);
+  border-radius:10px; color:var(--muted); font-size:0.88em;
+  text-align:center; padding:18px; margin:16px 0 4px; gap:6px;
+}
+.q-img-placeholder .ph-icon { font-size:2em; }
+.q-img-placeholder .ph-label { color:var(--accent); font-weight:600; }
 
 /* ── OPTIONS ── */
 .options { display:grid; gap:10px; margin-top:22px; }
@@ -360,12 +368,19 @@ function renderQuestion() {
   const q = questions[qIndex];
   answered = false;
 
+  const imgLabel = q.image_type === 'instrument' ? '🔬 Identify this instrument'
+                 : q.image_type === 'spotter'    ? '🖼 Identify this figure / finding' : '';
   const imgHtml = q.image ? `
-    <div class="q-image-wrap">
+    <div class="q-image-wrap" id="img-wrap-${qIndex}">
       <img class="q-image" src="${q.image}" alt="Question image" loading="lazy"
-           onerror="this.parentElement.style.display='none'">
+           onerror="document.getElementById('img-wrap-${qIndex}').style.display='none';document.getElementById('img-ph-${qIndex}').style.display='flex'">
     </div>
-    <div class="q-image-caption">${q.image_type === 'instrument' ? 'Identify this instrument' : q.image_type === 'spotter' ? 'Identify this figure / finding' : ''}</div>
+    <div class="q-img-placeholder" id="img-ph-${qIndex}">
+      <span class="ph-icon">🔬</span>
+      <span class="ph-label">${q.image_type === 'instrument' ? 'Instrument Spotter' : 'Visual Spotter'}</span>
+      <span>Image unavailable — answer from the question description above</span>
+    </div>
+    <div class="q-image-caption">${imgLabel}</div>
   ` : '';
 
   main.innerHTML = `
