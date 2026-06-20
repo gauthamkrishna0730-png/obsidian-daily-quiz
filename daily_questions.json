@@ -1,661 +1,427 @@
 {
-  "date": "2026-06-19",
-  "generated_at": "2026-06-19T00:00:00",
-  "count": 50,
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T00:00:00",
+  "count": 30,
   "topics_covered": [
-    "Cosmetology"
+    "Bacterial Infections",
+    "Fungal Infections",
+    "Viral Infections",
+    "STDs",
+    "Leprosy",
+    "Connective Tissue Disorders",
+    "Bullous Disorders",
+    "Tumours",
+    "Procedures",
+    "Drugs",
+    "Basic Science",
+    "Psoriasis",
+    "Eczema",
+    "Pigmentary Disorders",
+    "Hair Disorders"
   ],
-  "source_note": "Quiz Prediction Model + Reference Tables",
   "questions": [
     {
-      "q": "Reference table — LASER WAVELENGTHS. Which laser/wavelength pairing is INCORRECT?",
+      "q": "A 28-year-old man presents with a painless ulcer on the glans penis for 2 weeks. The ulcer has a clean base with indurated edges. Dark-field microscopy of the ulcer exudate shows motile spiral organisms. Which is the causative organism?",
       "opts": [
-        "Nd:YAG — 1064 nm",
-        "Alexandrite — 755 nm",
-        "Ruby laser — 532 nm",
-        "KTP laser — 532 nm"
-      ],
-      "ans": 2,
-      "exp": "Ruby laser is 694 nm, NOT 532 nm. Correct table: KTP 532, PDL 585/595, Ruby 694, Alexandrite 755, Diode 810, Nd:YAG 1064, Er:YAG 2940, CO2 10600 nm.\n🏰 Palace: RUBY GEM glows DEEP RED at 694 nm — anyone claiming a 532 nm ruby is a castle IMPOSTER (532 is the GREEN KTP twins).",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — CHROMOPHORE PEAKS. Oxyhaemoglobin has absorption peaks best matched by which laser group?",
-      "opts": [
-        "Nd:YAG 1064 nm alone",
-        "CO2 10600 nm and Er:YAG 2940 nm",
-        "Ruby 694 nm and alexandrite 755 nm",
-        "PDL 585/595 nm and KTP 532 nm"
-      ],
-      "ans": 3,
-      "exp": "Oxyhaemoglobin peaks: 418 (Soret), 542, 577 nm. Vascular lasers KTP 532 and PDL 585/595 sit on these peaks. CO2/Er:YAG target water; ruby/alexandrite target melanin.\n🏰 Palace: BLOOD VESSELS love GREEN (532) and YELLOW (595) light — the PDL VAMPIRE and KTP SNIPER feast on oxyhaemoglobin peaks.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — TCA FROSTING LEVELS. Level II frosting corresponds to which histological depth?",
-      "opts": [
-        "White frosting with erythema showing through — papillary dermis",
-        "Solid dense white-grey — upper reticular dermis",
-        "Speckled white on erythema — epidermis only",
-        "No frosting — stratum corneum only"
+        "Treponema pallidum",
+        "Haemophilus ducreyi",
+        "Klebsiella granulomatis",
+        "Calymmatobacterium granulomatis"
       ],
       "ans": 0,
-      "exp": "Frosting: Level I = speckled white on pink (epidermis); Level II = white with erythema showing through (papillary dermis); Level III = solid white-grey, no erythema (upper reticular dermis). CROSS targets Level II–III within scars.\n🏰 Palace: FROST LEVELS climb the castle: L1 SPECKLED PINK (top), L2 WHITE-WITH-PINK-BLEED (papillary), L3 SOLID GREY ICE (reticular).",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Treponema pallidum causes primary syphilis. The classic chancre is painless with indurated edges, and dark-field microscopy demonstrates the motile spirochetes. Haemophilus ducreyi causes painful chancroid with soft edges.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "Reference table — FITZPATRICK SKIN TYPES. Type IV is characterised by:",
+      "q": "A 35-year-old woman develops erythema, scaling, and fissuring of the web spaces between toes along with onychomycosis. KOH examination shows septate hyphae. The most common causative organism is:",
       "opts": [
-        "Always tans, rarely burns — light brown/Mediterranean skin",
-        "Never burns, deeply pigmented — black skin",
-        "Always burns, never tans — pale white",
-        "Burns minimally, tans well — darker white"
+        "Candida albicans",
+        "Trichophyton rubrum",
+        "Microsporum canis",
+        "Epidermophyton floccosum"
+      ],
+      "ans": 1,
+      "exp": "Trichophyton rubrum is the most common dermatophyte worldwide and the predominant cause of tinea pedis and onychomycosis. It produces septate hyphae on KOH examination.",
+      "source": "Cloud fallback",
+      "topic": "Fungal Infections"
+    },
+    {
+      "q": "A leprosy patient on MDT develops sudden onset facial erythema, fever, and multiple tender erythematous nodules over the body. Nerve function is intact. This reaction is classified as:",
+      "opts": [
+        "Type 1 lepra reaction (reversal reaction)",
+        "Type 2 lepra reaction (ENL)",
+        "Lucio phenomenon",
+        "Downgrading reaction"
+      ],
+      "ans": 1,
+      "exp": "Erythema Nodosum Leprosum (ENL) is a Type 2 lepra reaction seen in lepromatous and borderline lepromatous leprosy. It presents with tender erythematous nodules, fever, and systemic features. It is an immune complex (Type III hypersensitivity) mediated reaction.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
+    },
+    {
+      "q": "A 45-year-old woman presents with tense bullae on normal and erythematous skin, predominantly on flexural areas. Direct immunofluorescence shows linear IgG and C3 deposition at the dermoepidermal junction. The diagnosis is:",
+      "opts": [
+        "Pemphigus vulgaris",
+        "Bullous pemphigoid",
+        "Dermatitis herpetiformis",
+        "Linear IgA bullous dermatosis"
+      ],
+      "ans": 1,
+      "exp": "Bullous pemphigoid shows tense bullae on erythematous skin with linear IgG and C3 at the BMZ on DIF. The target antigens are BPAG2 (BP180/type XVII collagen) and BPAG1 (BP230). Pemphigus shows intercellular IgG in a chicken-wire pattern.",
+      "source": "Cloud fallback",
+      "topic": "Bullous Disorders"
+    },
+    {
+      "q": "A 22-year-old presents with grouped vesicles on an erythematous base at the elbows and scalp. Skin biopsy shows subepidermal vesicles with neutrophilic infiltrate at the tips of dermal papillae. IgA deposits are found at dermal papillae on DIF. The most appropriate treatment is:",
+      "opts": [
+        "Prednisone",
+        "Dapsone",
+        "Rituximab",
+        "Mycophenolate mofetil"
+      ],
+      "ans": 1,
+      "exp": "Dermatitis herpetiformis (Duhring's disease) is characterised by IgA deposits at dermal papillae and is associated with gluten-sensitive enteropathy. Dapsone provides rapid relief of itch and blistering. A gluten-free diet is the definitive long-term treatment.",
+      "source": "Cloud fallback",
+      "topic": "Bullous Disorders"
+    },
+    {
+      "q": "A 30-year-old man presents with hypopigmented anaesthetic patches on the trunk. Slit-skin smear is negative. Biopsy shows epithelioid cell granulomas with Langhans giant cells involving the neurovascular bundles. The nerve twigs within the granuloma show:",
+      "opts": [
+        "Caseous necrosis",
+        "Destruction — nerve twigs not identifiable",
+        "Perineural fibrosis only",
+        "Normal nerve architecture preserved"
+      ],
+      "ans": 1,
+      "exp": "In tuberculoid leprosy (TT), the granuloma extends into and destroys the nerve twigs — nerve fibres are not identifiable within the granuloma. This nerve destruction accounts for the anaesthesia seen clinically.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
+    },
+    {
+      "q": "A 50-year-old man presents with a solitary pearly nodule on the nose with telangiectasia and central ulceration. The most common histological subtype of this tumour is:",
+      "opts": [
+        "Morphoeic (sclerosing) BCC",
+        "Superficial BCC",
+        "Nodular BCC",
+        "Pigmented BCC"
+      ],
+      "ans": 2,
+      "exp": "Nodular basal cell carcinoma is the most common subtype (~60-80%), presenting as a pearly/translucent nodule with telangiectasia that may ulcerate centrally (rodent ulcer). Morphoeic BCC carries the worst prognosis due to aggressive infiltration.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A 65-year-old woman develops tightening of facial skin, Raynaud's phenomenon, and dysphagia. ANA is positive with an anticentromere antibody pattern. The diagnosis is:",
+      "opts": [
+        "Diffuse systemic sclerosis",
+        "Limited systemic sclerosis (CREST syndrome)",
+        "Morphoea",
+        "Mixed connective tissue disease"
+      ],
+      "ans": 1,
+      "exp": "Anticentromere antibody (ACA) is strongly associated with limited systemic sclerosis/CREST syndrome (Calcinosis, Raynaud's, Oesophageal dysmotility, Sclerodactyly, Telangiectasia). Anti-Scl-70 (anti-topoisomerase I) is associated with diffuse SSc.",
+      "source": "Cloud fallback",
+      "topic": "Connective Tissue Disorders"
+    },
+    {
+      "q": "A 25-year-old woman presents with a butterfly-shaped erythema on the face, photosensitivity, and oral ulcers. ANA is positive at 1:640 and anti-dsDNA antibody is positive. Which complement pathway is primarily activated in SLE?",
+      "opts": [
+        "Alternative pathway",
+        "Lectin pathway",
+        "Classical pathway",
+        "Terminal complement pathway alone"
+      ],
+      "ans": 2,
+      "exp": "In SLE, immune complexes activate complement predominantly via the classical pathway (C1q binds immune complexes). Low C3 and C4 reflect complement consumption. C4 levels are particularly informative for disease activity.",
+      "source": "Cloud fallback",
+      "topic": "Connective Tissue Disorders"
+    },
+    {
+      "q": "A 40-year-old man presents with well-demarcated silvery-white scaly plaques on the elbows, scalp, and knees with nail pitting and onycholysis. The pathological hallmark on histology is:",
+      "opts": [
+        "Spongiosis with lymphocytic exocytosis",
+        "Parakeratosis with Munro's microabscesses",
+        "Acantholysis in the suprabasal layer",
+        "Subepidermal blister with eosinophils"
+      ],
+      "ans": 1,
+      "exp": "Psoriasis classically shows regular acanthosis, elongated rete ridges, parakeratosis (with loss of granular layer), dilated tortuous papillary capillaries, Munro's microabscesses (neutrophils in parakeratotic stratum corneum), and Kogoj's spongiform pustules.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
+    },
+    {
+      "q": "A 19-year-old develops severe photosensitivity, vesicles on sun-exposed areas, hypertrichosis, and port-wine–coloured urine. Urine fluorescence under Wood's lamp is pink-red. The most likely diagnosis is:",
+      "opts": [
+        "Porphyria cutanea tarda",
+        "Erythropoietic protoporphyria",
+        "Congenital erythropoietic porphyria",
+        "Acute intermittent porphyria"
       ],
       "ans": 0,
-      "exp": "Fitzpatrick: I always burns/never tans; II usually burns/tans minimally; III sometimes burns/tans uniformly; IV rarely burns/tans easily (Mediterranean); V very rarely burns (brown); VI never burns (black).\n🏰 Palace: TYPE IV is the MEDITERRANEAN KNIGHT — RARELY BURNS, ALWAYS TANS olive-brown under the castle sun.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Porphyria cutanea tarda (PCT) is the most common porphyria, caused by uroporphyrinogen decarboxylase deficiency. It presents with skin fragility, blisters on sun-exposed areas, hypertrichosis, and urine shows pink-red fluorescence due to excess uroporphyrin.",
+      "source": "Cloud fallback",
+      "topic": "Basic Science"
     },
     {
-      "q": "Reference table — PEEL DEPTHS. Which agent is classified as a MEDIUM-depth peel?",
+      "q": "A patient on dapsone for dermatitis herpetiformis develops haemolytic anaemia with Heinz bodies on peripheral smear. The patient is most likely deficient in:",
       "opts": [
-        "Glycolic acid 20–30%",
-        "TCA 35–50% (or Jessner + TCA 35%)",
-        "Phenol 88% (Baker-Gordon)",
-        "Salicylic acid 20–30%"
+        "Pyruvate kinase",
+        "Glucose-6-phosphate dehydrogenase (G6PD)",
+        "Spectrin",
+        "Hexokinase"
       ],
       "ans": 1,
-      "exp": "Superficial: glycolic 20–70% (brief), SA 20–30%, Jessner's, TCA 10–30%. Medium: TCA 35–50%, Jessner+TCA 35%, glycolic 70%+TCA 35%. Deep: phenol-croton oil (Baker-Gordon).\n🏰 Palace: MEDIUM PEEL = TCA 35–50% in the middle floor of the peel castle — superficial below (glycolic/SA), deep PHENOL dungeon above no — below.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Dapsone causes methaemoglobinaemia and haemolytic anaemia, which is particularly severe in G6PD-deficient patients. G6PD is critical for the hexose monophosphate shunt that generates NADPH to protect RBCs from oxidative stress. Heinz bodies represent denatured haemoglobin precipitates.",
+      "source": "Cloud fallback",
+      "topic": "Drugs"
     },
     {
-      "q": "Reference table — BOTOX DOSING (onabotulinumtoxinA). Standard total dose for the glabellar complex is:",
+      "q": "A 32-year-old HIV-positive man presents with multiple violaceous papules and plaques on skin, hard palate, and lower extremities. CD4 count is 120 cells/μL. Biopsy shows spindle cells with slit-like vascular spaces and extravasated RBCs. The causative virus is:",
       "opts": [
-        "10 units (2U × 5 points)",
-        "100 units (one vial)",
-        "50 units (10U × 5 points)",
-        "20 units (4U × 5 points)"
+        "HPV type 8",
+        "HHV-8 (KSHV)",
+        "EBV",
+        "HHV-6"
       ],
-      "ans": 3,
-      "exp": "FDA-approved glabellar dose: 20U = 4U at each of 5 points (procerus ×1, corrugators ×4). Crow's feet 12U/side, forehead 10–20U, masseter 20–30U/side.\n🏰 Palace: GLABELLA = 4×5 = 20 UNITS, the FIVE-POINT FROWN STAR each loaded with 4 toxin arrows.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "ans": 1,
+      "exp": "Kaposi's sarcoma in HIV patients is caused by Human Herpesvirus 8 (HHV-8/KSHV). It typically occurs with CD4 <200 cells/μL. Histology shows spindle cells, slit-like vascular spaces, and PAS-positive hyaline globules.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
     },
     {
-      "q": "Reference table — FILLER G-PRIME (G'). A HIGH G' (high elastic modulus) filler is best suited for:",
+      "q": "A 5-year-old child presents with honey-coloured crusted lesions around the nose and mouth. Culture grows Staphylococcus aureus. The most appropriate topical antibiotic for localised disease is:",
       "opts": [
-        "Skin bioremodelling in the superficial dermis",
-        "Fine superficial lines — tear trough, lips",
-        "Deep structural support — chin, cheekbone, jawline projection",
-        "Hydration boosting in the mid-dermis"
+        "Clindamycin",
+        "Erythromycin",
+        "Mupirocin",
+        "Gentamicin"
       ],
       "ans": 2,
-      "exp": "High G' (firm, high lift) fillers resist deformation → deep supraperiosteal structural augmentation (chin, malar, jaw). Low G' (soft) fillers → fine lines, lips, tear trough. G' = elastic/storage modulus.\n🏰 Palace: HIGH G-PRIME = STIFF STONE BLOCKS for building castle PILLARS (chin, cheekbone); LOW G-PRIME = SOFT CLAY for delicate LIP carving.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Mupirocin (pseudomonic acid) is the first-line topical antibiotic for localised impetigo. It inhibits bacterial isoleucyl-tRNA synthetase and is effective against MRSA. For widespread disease, oral antibiotics (cefalexin or amoxicillin-clavulanate) are used.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial Infections"
     },
     {
-      "q": "Reference table — 5-ALPHA REDUCTASE. Finasteride selectively inhibits which isoenzyme, and where is it predominant?",
+      "q": "A 28-year-old presents with well-defined hypopigmented macules on the trunk. Wood's lamp examination shows chalky-white fluorescence. KOH preparation shows a 'spaghetti and meatballs' appearance. The treatment of choice is:",
       "opts": [
-        "Type 2 — predominant in hair follicle dermal papilla, prostate, genital skin",
-        "Type 1 — predominant in sebaceous glands and skin",
-        "Both types equally",
-        "Type 3 — predominant in the CNS"
+        "Terbinafine oral",
+        "Fluconazole oral",
+        "Selenium sulphide shampoo or ketoconazole",
+        "Griseofulvin oral"
+      ],
+      "ans": 2,
+      "exp": "Pityriasis versicolor is caused by Malassezia furfur. KOH shows short hyphae and spores ('spaghetti and meatballs'). Topical selenium sulphide, ketoconazole, or zinc pyrithione are first-line. Oral itraconazole is used for extensive disease. Griseofulvin is NOT effective against Malassezia.",
+      "source": "Cloud fallback",
+      "topic": "Fungal Infections"
+    },
+    {
+      "q": "A 3-year-old child develops scattered umbilicated pearly papules on the trunk and face. The child attends a swimming class. The lesions are caused by a poxvirus. The preferred management in an immunocompetent child is:",
+      "opts": [
+        "Oral acyclovir",
+        "Topical imiquimod",
+        "Cryotherapy",
+        "Watchful waiting or curettage"
+      ],
+      "ans": 3,
+      "exp": "Molluscum contagiosum in immunocompetent children is self-limiting and often resolves spontaneously. Watchful waiting is preferred; curettage is used if treatment is needed. Acyclovir is ineffective against poxviruses.",
+      "source": "Cloud fallback",
+      "topic": "Viral Infections"
+    },
+    {
+      "q": "A 60-year-old man has an asymmetric, irregularly pigmented lesion with variegated colours on the back. Excision biopsy confirms melanoma with Breslow thickness 0.6 mm. The recommended surgical excision margin is:",
+      "opts": [
+        "0.5 cm",
+        "1 cm",
+        "2 cm",
+        "3 cm"
+      ],
+      "ans": 1,
+      "exp": "For melanoma with Breslow thickness ≤1.0 mm, the recommended surgical excision margin is 1 cm. For 1.01–2 mm the margin is 1–2 cm; for >2 mm it is 2 cm. Sentinel lymph node biopsy is considered for lesions >0.8 mm.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A 22-year-old woman develops diffuse non-scarring hair loss 3 months after typhoid fever. Pull test is positive. The diagnosis is:",
+      "opts": [
+        "Alopecia areata",
+        "Telogen effluvium",
+        "Anagen effluvium",
+        "Trichotillomania"
+      ],
+      "ans": 1,
+      "exp": "Telogen effluvium presents as diffuse non-scarring hair loss 2–4 months after a triggering event (fever, surgery, childbirth, stress). Follicles prematurely enter telogen phase. Pull test is positive (>6 telogen hairs per pull). It is usually self-limiting.",
+      "source": "Cloud fallback",
+      "topic": "Hair Disorders"
+    },
+    {
+      "q": "A 35-year-old woman has bilateral malar hyperpigmentation worsening in summer and aggravated by OCP use. Wood's lamp shows enhancement of the pigmentation. The pigment is located in the:",
+      "opts": [
+        "Superficial epidermis",
+        "Deep epidermis and upper dermis",
+        "Predominantly the dermis",
+        "Subcutis"
       ],
       "ans": 0,
-      "exp": "5-AR Type 1: sebaceous glands, non-genital skin, scalp. Type 2: hair follicle dermal papilla, prostate, genital skin, liver. Finasteride blocks Type 2; dutasteride blocks both 1 and 2.\n🏰 Palace: FINASTERIDE targets TYPE 2 (the HAIR FOLLICLE + PROSTATE guard); DUTASTERIDE is the DOUBLE agent hitting BOTH types.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Wood's lamp (365 nm UV) enhances epidermal pigmentation (greater contrast) but does not enhance dermal pigmentation. Epidermal melasma responds better to treatment. The mixed type shows partial enhancement.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentary Disorders"
     },
     {
-      "q": "Reference table — SUNSCREEN FILTERS. Which is a PHYSICAL (inorganic) UV filter?",
+      "q": "A 45-year-old presents with chronic eczematous dermatitis on hands and feet since childhood, associated with asthma and allergic rhinitis. Serum IgE is markedly elevated. The skin barrier defect is due to mutation in:",
       "opts": [
-        "Avobenzone",
-        "Octocrylene",
-        "Oxybenzone",
-        "Zinc oxide"
-      ],
-      "ans": 3,
-      "exp": "Physical/inorganic filters: zinc oxide (broad UVA+UVB), titanium dioxide (UVB+UVA2). Chemical/organic: avobenzone (UVA1), oxybenzone, octocrylene, octinoxate, homosalate.\n🏰 Palace: ZINC OXIDE is the MINERAL SHIELD WALL (physical) reflecting sun; AVOBENZONE & friends are CHEMICAL SPONGES that absorb.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — HAIR CYCLE. The approximate duration of the ANAGEN phase of scalp hair is:",
-      "opts": [
-        "2–3 weeks",
-        "2–6 days",
-        "2–6 years",
-        "2–3 months"
-      ],
-      "ans": 2,
-      "exp": "Anagen (growth) 2–6 years (determines hair length); catagen (regression) 2–3 weeks; telogen (rest) 2–3 months. ~85–90% of scalp hairs in anagen at any time.\n🏰 Palace: ANAGEN is the LONG REIGN — 2–6 YEARS on the throne; CATAGEN a 2–3 WEEK abdication; TELOGEN a 2–3 MONTH retirement.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — MELANIN-TARGETING LASERS for hair removal by skin type. Which is SAFEST for Fitzpatrick VI?",
-      "opts": [
-        "KTP 532 nm",
-        "Nd:YAG 1064 nm",
-        "Alexandrite 755 nm",
-        "Ruby 694 nm"
+        "Desmoglein 1",
+        "Filaggrin",
+        "Keratin 5/14",
+        "Collagen XVII"
       ],
       "ans": 1,
-      "exp": "Lower melanin absorption + deeper penetration = safer in dark skin. Nd:YAG 1064 nm is the gold standard for types V–VI. Alexandrite/ruby/diode have higher epidermal melanin absorption (risk of burns/PIH in dark skin).\n🏰 Palace: ND:YAG 1064 = the DARK-SKIN-SAFE DEEP DIVER, ignoring epidermal melanin walls; ALEXANDRITE/RUBY are too MELANIN-GREEDY for type VI.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Loss-of-function mutations in the filaggrin (FLG) gene are the strongest known genetic risk factor for atopic dermatitis. Filaggrin is essential for skin barrier function and natural moisturising factor production. Its deficiency leads to increased transepidermal water loss and allergen penetration.",
+      "source": "Cloud fallback",
+      "topic": "Eczema"
     },
     {
-      "q": "Reference table — VITAMIN C. L-ascorbic acid requires which formulation pH for skin penetration?",
+      "q": "A 28-year-old man with HIV has painless genital warts (condylomata acuminata). The HPV types most commonly responsible are:",
       "opts": [
-        "Above 8.0",
-        "Below 3.5",
-        "Exactly 7.0",
-        "5.5–6.5"
+        "HPV 16 and 18",
+        "HPV 6 and 11",
+        "HPV 31 and 33",
+        "HPV 1 and 2"
       ],
       "ans": 1,
-      "exp": "L-ascorbic acid (pKa 4.2) penetrates only at pH <3.5 (uncharged form). Minimum 10% concentration; plateaus at 20%. Higher pH → ionised → no penetration. Derivatives (MAP, ascorbyl glucoside) work at higher pH.\n🏰 Palace: VITAMIN C the ACID DIVA performs only in the pH <3.5 ACIDIC ARENA — raise the pH and she ionises, locked out of the skin gate.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Condylomata acuminata are caused predominantly by low-risk HPV types 6 and 11 (~90% of cases). HPV 16 and 18 are high-risk types associated with cervical and anal carcinoma. HPV 1 and 2 cause common warts.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "Reference table — THERMAL RELAXATION TIME (TRT). The TRT of a typical terminal hair follicle (~200–300 µm) is approximately:",
+      "q": "A 40-year-old man has recurrent painful grouped vesicles on the glans penis recurring every 6–8 weeks. PCR confirms HSV-2. The appropriate suppressive therapy is:",
       "opts": [
-        "1–5 ns",
-        "2–5 seconds",
-        "40–100 ms",
-        "1 µs"
-      ],
-      "ans": 2,
-      "exp": "TRT ∝ diameter². Melanosome (~1µm) ≈ 1µs; tattoo ink (~0.1µm) ≈ ns–ps; hair follicle (~200–300µm) ≈ 40–100 ms; leg vein (~1mm) ≈ seconds. Pulse duration ≤ TRT for selectivity.\n🏰 Palace: HAIR FOLLICLE TRT = 40–100 ms milliseconds (medium target); TINY MELANOSOMES cool in MICROSECONDS, BIG VEINS take SECONDS.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — PHENOL-CROTON OIL PEEL. The agent in the Baker-Gordon formula responsible for the DEPTH of penetration (epidermolysis intensity) is:",
-      "opts": [
-        "Distilled water volume",
-        "Septisol (soap surfactant)",
-        "Croton oil",
-        "Phenol concentration"
-      ],
-      "ans": 2,
-      "exp": "Modern Hetter/Stone studies showed CROTON OIL concentration — not phenol % — is the key determinant of peel depth. Higher croton oil = deeper peel. Phenol alone is keratocoagulant; croton oil is the vesicant driving depth.\n🏰 Palace: CROTON OIL is the SECRET DEPTH CHARGE in the phenol peel — more croton drops = DEEPER DETONATION; phenol just sets the stage.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — IPL CUT-OFF FILTERS. A 560 nm cut-off filter on an IPL device transmits wavelengths:",
-      "opts": [
-        "Exactly 560 nm monochromatic — like a laser",
-        "400–560 nm band only — for superficial pigment",
-        "≥560 nm (blocks shorter wavelengths) — used for pigment and vascular lesions",
-        "≤560 nm only — used for deep hair removal"
-      ],
-      "ans": 2,
-      "exp": "IPL cut-off filters block wavelengths SHORTER than the stated number, transmitting longer ones. A 560nm filter passes 560–1200nm. Higher cut-offs (640, 695nm) spare more epidermal melanin → safer in darker skin/hair removal.\n🏰 Palace: 560 CUT-OFF = a CASTLE GATE that only lets in LONG-WAVELENGTH guests (≥560), turning away the short blue-UV crowd.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — LUDWIG vs NORWOOD-HAMILTON. The Norwood-Hamilton scale classifies:",
-      "opts": [
-        "Female pattern hair loss (3 grades)",
-        "Male androgenetic alopecia pattern (7 stages)",
-        "Scarring alopecia subtypes",
-        "Alopecia areata severity"
+        "Acyclovir 200 mg five times daily for 5 days",
+        "Valacyclovir 500 mg once daily long-term",
+        "Famciclovir 750 mg single dose",
+        "Acyclovir cream topically twice daily"
       ],
       "ans": 1,
-      "exp": "Norwood-Hamilton: male AGA, 7 stages (bitemporal recession → vertex → confluent). Ludwig: female AGA, 3 grades (crown thinning, frontal line preserved). Sinclair: 5-stage female scale. SALT: alopecia areata.\n🏰 Palace: NORWOOD = MALE 7-STAGE BALD MAP (receding crown kingdom); LUDWIG = FEMALE 3-GRADE crown thinning.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "For frequent recurrences of genital herpes (≥6 per year), daily suppressive therapy with valacyclovir 500 mg OD (or acyclovir 400 mg BD) is recommended. This reduces recurrence frequency by ~70–80% and decreases transmission risk.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "Reference table — INJECTABLE FILLER REVERSAL. Which filler is REVERSIBLE with hyaluronidase?",
+      "q": "A 55-year-old farmer develops a painless black eschar surrounded by marked oedema on the forearm after handling animal hides. Gram stain of exudate shows large gram-positive bacilli in chains. The treatment of choice is:",
       "opts": [
-        "Hyaluronic acid (Juvederm, Restylane)",
-        "Calcium hydroxylapatite (Radiesse)",
-        "Poly-L-lactic acid (Sculptra)",
-        "PMMA (Bellafill)"
-      ],
-      "ans": 0,
-      "exp": "Only HA fillers are dissolvable with hyaluronidase. CaHA, PLLA, and PMMA are NOT reversible enzymatically. This is why HA is preferred in high-risk vascular zones (nose, glabella).\n🏰 Palace: ONLY HA melts under the HYALURONIDASE FIRE KEY; CaHA/PLLA/PMMA are PERMANENT STONE with no enzymatic unlock.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — MINOXIDIL. Minoxidil is a prodrug activated in the scalp by which enzyme?",
-      "opts": [
-        "Sulfotransferase (SULT1A1) — converts minoxidil to minoxidil sulfate",
-        "5-alpha reductase",
-        "Catechol-O-methyltransferase (COMT)",
-        "Aromatase"
-      ],
-      "ans": 0,
-      "exp": "Minoxidil is activated to minoxidil sulfate by follicular sulfotransferase SULT1A1. Low SULT1A1 activity (~30–40% of people) explains topical minoxidil non-response. It opens K+ channels → vasodilation + anagen prolongation.\n🏰 Palace: SULT1A1 is the SCALP GATE-KEEPER stamping MINOXIDIL'S passport (to sulfate) — ~35% lack the stamp = NON-RESPONDERS.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — BOTULINUM SEROTYPES & TARGETS. BoNT type B (rimabotulinumtoxinB) cleaves which SNARE protein?",
-      "opts": [
-        "VAMP / synaptobrevin",
-        "Syntaxin only",
-        "Both SNAP-25 and syntaxin",
-        "SNAP-25"
-      ],
-      "ans": 0,
-      "exp": "SNARE cleavage: A & E → SNAP-25; B, D, F, G → VAMP/synaptobrevin; C → syntaxin + SNAP-25. Type A (Botox) and Type B (Myobloc) are the clinically used serotypes.\n🏰 Palace: BoNT-B cuts the VAMP rope (synaptobrevin); BoNT-A cuts SNAP-25 — different scissors for different SNARE cables.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — HYPERHIDROSIS BOTOX. The standard botulinum toxin A dose per axilla for axillary hyperhidrosis is:",
-      "opts": [
-        "10 units per axilla",
-        "50 units per axilla",
-        "500 units per axilla",
-        "200 units per axilla"
+        "Vancomycin IV",
+        "Ciprofloxacin or penicillin",
+        "Metronidazole",
+        "Doxycycline alone"
       ],
       "ans": 1,
-      "exp": "Axillary hyperhidrosis: 50U onabotulinumtoxinA per axilla (100U total), injected as 10–15 intradermal points mapped by Minor's starch-iodine test. Palms need higher doses (~100U/palm) but risk hand weakness.\n🏰 Palace: AXILLA = 50 UNITS each pit (100 total) sprinkled in a GRID over the sweaty starch-iodine map.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Cutaneous anthrax (caused by Bacillus anthracis) is treated with ciprofloxacin 500 mg BD for 7–10 days (first-line), or oral penicillin if susceptible. IV antibiotics are used for systemic disease. Oedema management is supportive.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial Infections"
     },
     {
-      "q": "Reference table — WOOD'S LAMP FLUORESCENCE. Which condition fluoresces CORAL-RED?",
+      "q": "During PUVA therapy a 38-year-old psoriasis patient develops phototoxic erythema. The mechanism of action of psoralen in PUVA is:",
       "opts": [
-        "Pseudomonas — green",
-        "Erythrasma (Corynebacterium minutissimum)",
-        "Vitiligo — bright blue-white",
-        "Tinea capitis (Microsporum) — blue-green"
+        "Inhibition of dihydrofolate reductase",
+        "Formation of cyclobutane photoadducts with DNA",
+        "Activation of melanocyte-stimulating hormone receptors",
+        "Inhibition of leukotriene synthesis"
       ],
       "ans": 1,
-      "exp": "Coral-red = erythrasma (porphyrins). Blue-green = Microsporum tinea capitis + Pseudomonas. Pale yellow = tinea versicolor. Bright blue-white enhancement = vitiligo/depigmentation. Ash-leaf macules = blue-white.\n🏰 Palace: CORAL REEF RED glow = ERYTHRASMA (Corynebacterium porphyrin party); GREEN glow = MICROSPORUM/Pseudomonas.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Psoralens (8-MOP, 5-MOP) intercalate into DNA and, upon UVA (320–400 nm) activation, form covalent cyclobutane monoadducts and cross-links (diadducts) with thymine residues. This inhibits DNA replication and exerts anti-proliferative and immunomodulatory effects.",
+      "source": "Cloud fallback",
+      "topic": "Procedures"
     },
     {
-      "q": "Reference table — PDL SETTINGS. The classic pulsed dye laser wavelength(s) for vascular lesions is/are:",
+      "q": "A 25-year-old man with donovanosis (granuloma inguinale) has a biopsy showing large mononuclear cells with intracytoplasmic bacteria. The characteristic histological finding is called:",
       "opts": [
-        "694 nm",
-        "1064 nm",
-        "585 nm or 595 nm",
-        "532 nm"
+        "Schaumann bodies",
+        "Donovan bodies",
+        "Rushton bodies",
+        "Michaelis-Gutmann bodies"
+      ],
+      "ans": 1,
+      "exp": "Donovanosis (caused by Klebsiella granulomatis) is diagnosed by demonstrating Donovan bodies — intracytoplasmic clusters of organisms (coccobacilli with bipolar 'safety pin' staining) within large mononuclear cells on Giemsa or Warthin-Starry silver stain.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A neonate develops epidermolysis bullosa with scarring and milia formation. Electron microscopy shows blister formation beneath the lamina densa. The protein most likely deficient is:",
+      "opts": [
+        "Keratin 5",
+        "Laminin-332 (laminin-5)",
+        "Type VII collagen",
+        "Plectin"
       ],
       "ans": 2,
-      "exp": "PDL operates at 585nm (original) or 595nm (longer, deeper penetration for larger vessels). Both sit near the oxyhaemoglobin 577nm peak. Used for port-wine stains, telangiectasia, haemangioma, rosacea, warts, scars.\n🏰 Palace: PDL = 585/595 nm YELLOW VAMPIRE light feasting on oxyhaemoglobin at the 577 peak.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Dystrophic epidermolysis bullosa (DEB) is caused by mutations in COL7A1 encoding type VII collagen, the major component of anchoring fibrils below the lamina densa. EM shows blister below the lamina densa with absent/reduced anchoring fibrils. Scarring and milia are hallmarks of DEB.",
+      "source": "Cloud fallback",
+      "topic": "Basic Science"
     },
     {
-      "q": "Reference table — KELOID FIRST-LINE. The first-line treatment for most keloids is:",
+      "q": "A 30-year-old woman started on methotrexate for severe psoriasis. Which investigation is most important to monitor during long-term therapy?",
       "opts": [
-        "Intralesional triamcinolone acetonide (10–40 mg/mL)",
-        "Cryotherapy alone",
-        "Surgical excision alone",
-        "Ablative CO2 laser"
-      ],
-      "ans": 0,
-      "exp": "Intralesional triamcinolone (ILT, 10–40mg/mL q4–6wk) is first-line — inhibits fibroblasts, reduces collagen. Often combined with 5-FU or cryotherapy. Surgery ALONE has 45–100% recurrence; must combine with adjuvant (ILT/radiation/pressure).\n🏰 Palace: KELOID first move = TRIAMCINOLONE FLOOD (10–40 mg/mL) to crumble the overbuilt scar wall — NEVER cut alone (recurrence dragon).",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — GLOGAU PHOTOAGING. Glogau Type II is characterised by:",
-      "opts": [
-        "Early wrinkles, 'wrinkles in motion', age 30s–40s, early actinic keratoses",
-        "Persistent wrinkles, 'wrinkles at rest', 50s+",
-        "No wrinkles, minimal photoaging, 20s–30s",
-        "Severe wrinkling, only wrinkles, yellow-grey skin, 60s+"
-      ],
-      "ans": 0,
-      "exp": "Glogau: I = no wrinkles (mild, 20–30s); II = wrinkles in motion (moderate, 30–40s, early AKs); III = wrinkles at rest (advanced, 50s, telangiectasia, dyschromia); IV = only wrinkles (severe, 60–70s, yellow-grey, prior skin cancers).\n🏰 Palace: GLOGAU II = 'WRINKLES IN MOTION' — lines show only when the 30–40s face MOVES; by III they're carved at REST.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — CRYOLIPOLYSIS. Adipocyte apoptosis during cryolipolysis occurs at a target temperature of approximately:",
-      "opts": [
-        "0°C",
-        "−11°C (lipids crystallise above water's freezing point)",
-        "−50°C",
-        "−196°C (liquid nitrogen)"
+        "Echocardiogram",
+        "LFTs and hepatic fibrosis markers (PIIINP/ELF score)",
+        "Renal biopsy",
+        "Pulmonary function tests"
       ],
       "ans": 1,
-      "exp": "Cryolipolysis cools fat to ~−11°C: triglycerides crystallise at higher temperatures than water, so adipocytes undergo apoptosis while overlying skin/water-rich tissue is spared. Fat cleared by macrophages over 4–12 weeks (~20–25% reduction).\n🏰 Palace: −11°C is the FAT-FREEZE SWEET SPOT — OLIVE-OIL adipocytes crystallise while the WATERY skin walls stay liquid and safe.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Methotrexate is hepatotoxic with cumulative dose-related risk of fibrosis and cirrhosis. Current guidelines recommend LFTs every 4–8 weeks, PIIINP/ELF score monitoring, and liver biopsy when cumulative dose exceeds 1.5 g or with abnormal fibrosis markers.",
+      "source": "Cloud fallback",
+      "topic": "Drugs"
     },
     {
-      "q": "Reference table — HA FILLER VASCULAR EMERGENCY. The immediate hyaluronidase dose for impending skin necrosis from vascular occlusion is:",
+      "q": "A 20-year-old man presents with tinea capitis showing black dots (broken hair stubs) and patchy alopecia. There is no fluorescence under Wood's lamp. The most likely causative organism is:",
       "opts": [
-        "5 IU intradermal test dose only",
-        "Do not use hyaluronidase; warm compress only",
-        "High dose 300–1500 IU into the affected zone immediately",
-        "15 IU after 48-hour observation"
+        "Microsporum audouinii",
+        "Microsporum canis",
+        "Trichophyton tonsurans",
+        "Trichophyton schoenleinii"
       ],
       "ans": 2,
-      "exp": "Vascular occlusion = emergency. Inject hyaluronidase 300–1500 IU immediately into/around the ischaemic area, repeat hourly. Adjuncts: warmth, massage, topical GTN, aspirin. Ocular involvement → urgent ophthalmology + retrobulbar hyaluronidase.\n🏰 Palace: OCCLUSION FIRE = 300–1500 IU HYALURONIDASE HOSE blasted IMMEDIATELY — every minute of delay spreads the NECROSIS BLAZE.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Trichophyton tonsurans causes endothrix tinea capitis (spores inside hair shaft), presenting with the black dot pattern (hair breaks at scalp level). It does NOT fluoresce under Wood's lamp. Microsporum species cause ectothrix infection and show green fluorescence. T. schoenleinii causes favus.",
+      "source": "Cloud fallback",
+      "topic": "Fungal Infections"
     },
     {
-      "q": "Reference table — SPF MATH. An SPF 30 sunscreen blocks approximately what percentage of UVB?",
+      "q": "A 50-year-old man develops a painful vesicular eruption along the right T5 dermatome. He subsequently develops severe burning pain persisting for 4 months after the rash resolves. The mechanism underlying this complication is:",
       "opts": [
-        "~30%",
-        "~99.9%",
-        "~50%",
-        "~97%"
-      ],
-      "ans": 3,
-      "exp": "SPF blocks: SPF15 ≈ 93%, SPF30 ≈ 97%, SPF50 ≈ 98%. Diminishing returns above SPF50. SPF measures UVB protection (erythema); UVA protection shown by PA+ system or broad-spectrum label.\n🏰 Palace: SPF 30 = 97% UVB BLOCKED; SPF 15 = 93%, SPF 50 = 98% — after 30 it's DIMINISHING castle-wall returns.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — TRETINOIN POTENCY. Rank topical retinoids from LEAST to MOST irritating/potent (per equivalent %):",
-      "opts": [
-        "Tretinoin < retinol < retinaldehyde < retinyl ester",
-        "Retinol < tretinoin < retinyl ester < retinaldehyde",
-        "All equally potent",
-        "Retinyl ester < retinol < retinaldehyde < tretinoin"
-      ],
-      "ans": 3,
-      "exp": "Conversion chain (least→most active): retinyl ester → retinol → retinaldehyde → retinoic acid (tretinoin, the receptor-active form). Each step = an oxidation. Retinol ~20× weaker than tretinoin but better tolerated.\n🏰 Palace: RETINOID LADDER: ESTER (basement) → RETINOL → RETINAL → TRETINOIN (throne) — each rung climbs in POTENCY and IRRITATION.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — NAIL/CUTICLE ANATOMY. The eponychium refers to:",
-      "opts": [
-        "The thickened skin under the free edge",
-        "The white half-moon at the nail base",
-        "The lateral nail folds",
-        "The proximal nail fold's thin epidermal cuticle covering the nail base"
-      ],
-      "ans": 3,
-      "exp": "Eponychium = cuticle, the proximal nail fold's keratin seal over the nail plate. Lunula = white half-moon (visible distal matrix). Hyponychium = under the free edge. Paronychium = lateral folds.\n🏰 Palace: EPONYCHIUM = the CUTICLE CASTLE-GATE SEAL at the nail base; LUNULA = the WHITE MOON window; HYPONYCHIUM = the under-edge dungeon.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — ABO/ER:YAG ABLATION. Compared to CO2, the Er:YAG (2940 nm) water absorption coefficient is approximately:",
-      "opts": [
-        "~100× lower → no ablation possible",
-        "~10× lower → deeper coagulation",
-        "Identical to CO2",
-        "~10–16× higher → more precise ablation, less thermal coagulation"
-      ],
-      "ans": 3,
-      "exp": "Er:YAG 2940nm sits at the water absorption peak (~16× higher than CO2 10600nm). Result: precise micro-ablation (5–20µm/pass), minimal residual thermal damage (less coagulation/haemostasis), faster healing, but less collagen tightening than CO2.\n🏰 Palace: ER:YAG is 16× THIRSTIER for water than CO2 — it ablates with SURGICAL PRECISION and minimal CHAR, but less COLLAGEN-SHRINK heat.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — DEPIGMENTING MECHANISMS. Hydroquinone reduces melanin by:",
-      "opts": [
-        "Inhibiting tyrosinase (competing with tyrosine) + melanocyte cytotoxicity",
-        "Blocking melanosome transfer only",
-        "Chelating copper at tyrosinase active site (kojic-like)",
-        "Inhibiting 5-AR in melanocytes"
-      ],
-      "ans": 0,
-      "exp": "Hydroquinone competitively inhibits tyrosinase and is cytotoxic to melanocytes (inhibits DNA/RNA synthesis). Kojic acid = copper chelation; niacinamide = blocks melanosome transfer; arbutin = HQ derivative; azelaic acid = tyrosinase inhibition + cytotoxic to abnormal melanocytes.\n🏰 Palace: HYDROQUINONE both JAMS tyrosinase AND POISONS the melanocyte factory; KOJIC steals copper; NIACINAMIDE blocks the delivery van.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — AZELAIC ACID. Azelaic acid's dual cosmetic indications are:",
-      "opts": [
-        "Psoriasis and vitiligo",
-        "Acne and melasma/PIH (antibacterial + tyrosinase inhibition)",
-        "Androgenetic alopecia and hyperhidrosis",
-        "Rosacea telangiectasia and warts"
+        "Ongoing viral replication in skin",
+        "Peripheral and central sensitisation after neuronal injury and Wallerian degeneration",
+        "Autoimmune antibodies against myelin",
+        "Secondary bacterial infection of the nerve"
       ],
       "ans": 1,
-      "exp": "Azelaic acid (15–20%): antibacterial against C. acnes, anti-comedonal, anti-inflammatory (acne/rosacea papulopustular), AND tyrosinase inhibition + selective cytotoxicity to hyperactive melanocytes (melasma, PIH). Safe in pregnancy.\n🏰 Palace: AZELAIC ACID is the DOUBLE-DUTY KNIGHT — fights ACNE bacteria AND bleaches MELASMA by jamming tyrosinase, safe even for pregnant queens.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Postherpetic neuralgia (PHN) — pain persisting >3 months after herpes zoster — results from VZV-induced damage to sensory neurons, Wallerian degeneration, and subsequent peripheral and central sensitisation. It occurs in ~30% of patients over 60 years.",
+      "source": "Cloud fallback",
+      "topic": "Viral Infections"
     },
     {
-      "q": "Reference table — MICRONEEDLING DEPTHS. The recommended needle depth for ATROPHIC ACNE SCARS on the cheek is:",
+      "q": "A 28-year-old man with borderline tuberculoid (BT) leprosy on MDT develops sudden wrist drop and clawing of the ring and little fingers. The most important immediate management is:",
       "opts": [
-        "0.25–0.5 mm",
-        "3.0–4.0 mm",
-        "1.5–2.5 mm",
-        "0.5–1.0 mm"
+        "Increase dapsone dose",
+        "Add clofazimine to the regimen",
+        "Start prednisolone 1 mg/kg/day immediately",
+        "Surgical decompression of the ulnar nerve"
       ],
       "ans": 2,
-      "exp": "Microneedling depth by indication: 0.25–0.5mm periorbital/fine lines; 0.5–1.0mm general rejuvenation/pigment; 1.5–2.5mm acne scars/stretch marks (cheek thickness allows deeper). Deeper than skin thickness risks bruising/PIH.\n🏰 Palace: ACNE SCARS on the CHEEK = DEEP 1.5–2.5mm needles; delicate EYE area = SHORT 0.25–0.5mm arrows.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Sudden nerve function impairment in leprosy (Type 1 reaction or silent neuropathy) requires urgent corticosteroid therapy — prednisolone starting at 40–60 mg/day (approximately 1 mg/kg/day) — to reduce inflammation and prevent permanent nerve damage. Early treatment within 6 months gives best recovery.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "Reference table — THREAD MATERIALS. Among absorbable lifting threads, rank longevity (shortest → longest):",
+      "q": "A 45-year-old woman develops recurrent oral ulcers, genital ulcers, and hypopyon uveitis. Pathergy test is positive. HLA typing shows HLA-B51. The diagnosis is:",
       "opts": [
-        "All identical (~6 months)",
-        "PLLA < PDO < PCL",
-        "PDO < PLLA < PCL",
-        "PCL < PLLA < PDO"
-      ],
-      "ans": 2,
-      "exp": "Absorption/effect duration: PDO (polydioxanone) ~6mo absorb, 12–18mo effect; PLLA (poly-L-lactic) ~12–18mo, longer collagen effect; PCL (polycaprolactone) ~18–24mo, longest. Longer absorption = longer neocollagenesis.\n🏰 Palace: THREAD LIFESPAN ladder: PDO (shortest) → PLLA → PCL (longest) — the SLOWER it dissolves, the LONGER the collagen castle stands.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — SCLEROSANTS. The recommended sclerosant for small reticular/spider leg veins (1–3 mm) is:",
-      "opts": [
-        "Glycerin 100% undiluted",
-        "Polidocanol 0.5–1% (or low-concentration STS)",
-        "Polidocanol 3% for spider veins",
-        "Hypertonic saline 23.4% first-line"
+        "Stevens-Johnson syndrome",
+        "Behcet's disease",
+        "Pemphigus vulgaris",
+        "Reactive arthritis (Reiter's syndrome)"
       ],
       "ans": 1,
-      "exp": "Concentration scales with vein size. Spider/reticular (1–3mm): polidocanol 0.25–1% or STS 0.1–0.3%. Larger varicose veins need higher concentrations or foam. Too-high concentration in tiny veins → telangiectatic matting + PSH.\n🏰 Palace: SMALL SPIDER VEINS need WEAK 0.5–1% polidocanol — overdose the tiny vessels and you breed MATTING + RUST STAINS.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — ALEXANDRITE INDICATION. Alexandrite 755 nm is the gold-standard hair-removal laser for which skin types?",
-      "opts": [
-        "Fitzpatrick V–VI exclusively",
-        "All skin types equally",
-        "Fitzpatrick I–III (light skin, dark hair)",
-        "Type IV only"
-      ],
-      "ans": 2,
-      "exp": "Alexandrite 755nm has high melanin absorption → excellent for light skin/dark hair (types I–III). Too risky for V–VI (epidermal melanin competition → burns/PIH); use Nd:YAG 1064 for dark skin. Diode 810 spans III–IV.\n🏰 Palace: ALEXANDRITE 755 = the LIGHT-SKIN/DARK-HAIR specialist (I–III); hand DARK skin to the ND:YAG deep diver.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — BOTOX ONSET & DURATION. Typical onset and duration of cosmetic botulinum toxin A effect:",
-      "opts": [
-        "Onset 1 hour, duration 6 months",
-        "Onset 4 weeks, duration 6 weeks",
-        "Onset 2–7 days, peak ~2 weeks, duration 3–4 months",
-        "Onset immediate, duration 12 months"
-      ],
-      "ans": 2,
-      "exp": "BoNT-A: onset 2–7 days, peak effect ~10–14 days, duration 3–4 months (cosmetic). Duration extends with repeated use (muscle atrophy). Reconstituted toxin should be used within 24h (some data up to 4 weeks refrigerated).\n🏰 Palace: BOTOX wakes in 2–7 DAYS, PEAKS at 2 WEEKS, reigns 3–4 MONTHS before the wrinkles return.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — PIGMENT DISORDERS DEPTH. The Wood's lamp ENHANCES (sharpens border of) which type of melasma?",
-      "opts": [
-        "Indeterminate type only",
-        "Epidermal melasma",
-        "Mixed melasma at the dermal component",
-        "Dermal melasma"
-      ],
-      "ans": 1,
-      "exp": "Wood's lamp: epidermal melasma is ENHANCED (margins sharpen, contrast increases — pigment is superficial). Dermal melasma shows NO enhancement (deeper pigment). Mixed = some areas enhance. This guides prognosis: epidermal responds best to topicals.\n🏰 Palace: WOOD'S LAMP SHARPENS EPIDERMAL melasma (surface pigment lights up the border); DERMAL melasma stays BLURRY (pigment hides deep).",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — COLLAGEN TYPES. The predominant collagen type in normal adult DERMIS is:",
-      "opts": [
-        "Type I (~80–85%)",
-        "Type VII",
-        "Type III (~80%)",
-        "Type IV"
-      ],
-      "ans": 0,
-      "exp": "Adult dermis: ~80–85% type I, ~15% type III. Fetal/early-wound/scar dermis is type III-rich (reverses with maturation). Type IV = basement membrane; Type VII = anchoring fibrils (target in EB/lichen planus pemphigoides).\n🏰 Palace: ADULT DERMIS = TYPE I COLLAGEN castle (80%+); BABY/SCAR skin is TYPE III-heavy; TYPE IV is the BASEMENT membrane floor.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — RF MICRONEEDLING. The advantage of INSULATED vs non-insulated RF microneedles is:",
-      "opts": [
-        "Non-insulated needles spare the dermis",
-        "Insulated needles penetrate deeper than non-insulated",
-        "Insulated needles deliver RF only at the tip, sparing the epidermis → safer in dark skin",
-        "Insulation increases epidermal heating for better resurfacing"
-      ],
-      "ans": 2,
-      "exp": "Insulated RF microneedles have a non-conductive coating along the shaft, releasing energy only at the exposed tip in the deep dermis — epidermis is protected → lower PIH risk in darker skin. Non-insulated deliver energy along the full needle (more epidermal effect).\n🏰 Palace: INSULATED NEEDLES = LIGHTNING RODS firing ONLY at the deep TIP, the EPIDERMIS roof stays cool and safe (great for dark skin).",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — ACNE SCAR SUBTYPES. The acne scar type LEAST responsive to resurfacing and best treated with TCA CROSS/punch techniques is:",
-      "opts": [
-        "Hypertrophic scars",
-        "Rolling scars",
-        "Superficial boxcar scars",
-        "Ice-pick scars"
-      ],
-      "ans": 3,
-      "exp": "Ice-pick scars (narrow, deep, V-shaped) extend deep into dermis → poorly responsive to surface resurfacing; best treated with TCA CROSS or punch excision/elevation. Rolling → subcision. Boxcar → fractional laser/punch. Hypertrophic → steroids/5-FU.\n🏰 Palace: ICE-PICK SCARS are deep NARROW WELLS — resurfacing skims the top uselessly; you need TCA CROSS down the chimney or a PUNCH to evict them.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — PHOTODYNAMIC THERAPY. The photosensitiser converted to protoporphyrin IX in PDT is:",
-      "opts": [
-        "5-aminolaevulinic acid (ALA) or its methyl ester (MAL)",
-        "Indocyanine green",
-        "Methylene blue",
-        "Riboflavin"
-      ],
-      "ans": 0,
-      "exp": "ALA/MAL is taken up by abnormal cells and metabolised via the haem pathway to protoporphyrin IX (PpIX), which accumulates and is photoactivated (blue 417nm or red 630nm) generating singlet oxygen. Used for actinic keratoses, superficial BCC, acne, field cancerisation.\n🏰 Palace: ALA/MAL CREAM becomes PpIX (the glowing photosensitiser bomb) inside abnormal cells — RED or BLUE light detonates it into singlet-oxygen shrapnel.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — TXA FOR MELASMA. The mechanism of oral tranexamic acid in melasma is:",
-      "opts": [
-        "Blocks melanosome transfer like niacinamide",
-        "5-AR inhibition in melanocytes",
-        "Direct tyrosinase inhibition",
-        "Inhibits plasminogen→plasmin, reducing UV-induced prostaglandins/arachidonic acid that stimulate melanocytes"
-      ],
-      "ans": 3,
-      "exp": "Tranexamic acid (antifibrinolytic) blocks plasminogen activation on keratinocytes/melanocytes, reducing arachidonic acid and prostaglandins (and α-MSH), thereby decreasing UV-driven melanocyte activation and neovascularisation. Dose 250mg BD; caution re: thrombosis.\n🏰 Palace: TXA cuts the PLASMIN SUPPLY LINE that feeds the UV→prostaglandin→melanocyte SIGNAL CHAIN — starving melasma at its trigger.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — LIP DANGER. The highest-risk vessel for occlusion during lip/perioral filler is:",
-      "opts": [
-        "Angular artery at the nasal tip",
-        "Superior/inferior labial arteries (branches of the facial artery)",
-        "Infraorbital artery",
-        "Supratrochlear artery"
-      ],
-      "ans": 1,
-      "exp": "Lip filler vascular risk: superior and inferior labial arteries (facial artery branches) run in the wet-dry border/submucosal plane ~at the vermilion. Inject superficially in the body, avoid deep submucosal boluses. (Glabella/nose risk = supratrochlear/dorsal nasal → blindness.)\n🏰 Palace: LIP DANGER = LABIAL ARTERIES hiding at the wet-dry border; inject too deep and you spear the facial-artery branch.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — SALICYLIC ACID. Salicylic acid is classified as which type of agent and is especially useful for:",
-      "opts": [
-        "A retinoid — for photoaging",
-        "Alpha-hydroxy acid — hydrophilic, for dry skin",
-        "A physical sunscreen agent",
-        "Beta-hydroxy acid (BHA) — lipophilic, penetrates sebum → comedonal/oily acne"
-      ],
-      "ans": 3,
-      "exp": "Salicylic acid is a lipophilic beta-hydroxy acid (BHA) that penetrates sebaceous follicles → keratolytic and comedolytic, ideal for oily/comedonal acne. AHAs (glycolic, lactic) are hydrophilic, working on the surface for dryness/photoaging. SA also anti-inflammatory.\n🏰 Palace: SALICYLIC ACID the OILY-LOVING BHA dives into SEBUM-FILLED PORES (lipophilic) to unplug comedones; AHAs stay on the WATERY surface.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — ND:YAG TATTOO. For BLACK tattoo ink, the best Q-switched wavelength is:",
-      "opts": [
-        "532 nm",
-        "694 nm",
-        "755 nm",
-        "1064 nm"
-      ],
-      "ans": 3,
-      "exp": "Tattoo ink targeting: black/dark blue → 1064nm (deepest, carbon-absorbing); red → 532nm; green → 694 ruby/755 alexandrite; yellow/orange → 532nm (most resistant). Picosecond pulses improve clearance of resistant colours.\n🏰 Palace: BLACK INK = 1064 nm DARK HUNTER; RED INK = 532 green light; GREEN INK = 694/755 — match the laser to the ink colour wheel.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — HEDGEHOG/BCC AESTHETIC OVERLAP. Curettage-and-electrodessication endpoint for superficial BCC is:",
-      "opts": [
-        "Cryo double freeze to −20°C",
-        "Single pass curettage only",
-        "Frost to Level III with TCA",
-        "Repeat curettage until firm normal dermis is felt (3 cycles typical)"
-      ],
-      "ans": 3,
-      "exp": "C&E for low-risk superficial BCC: curette the friable tumour (softer than dermis) then electrodessicate; repeat ×3 cycles until only firm normal dermis remains. ~5-year cure ~90% for well-selected lesions. Not for high-risk sites/aggressive subtypes.\n🏰 Palace: C&E = SCRAPE the SOFT TUMOUR MUSH, ZAP, repeat ×3 until you feel FIRM NORMAL DERMIS bedrock under the curette.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — POROKERATOSIS/UV INDEX. The UV index threshold above which sun protection is universally recommended is:",
-      "opts": [
-        "3 or above (moderate)",
-        "11 (extreme) only",
-        "1 (low)",
-        "8 or above (very high)"
-      ],
-      "ans": 0,
-      "exp": "UV Index: 1–2 low, 3–5 moderate, 6–7 high, 8–10 very high, 11+ extreme. Protection (broad-spectrum SPF30+, shade, clothing) is recommended at UVI ≥3. Cosmetic photoprotection counselling uses this scale.\n🏰 Palace: UV INDEX 3 = the SUN-PROTECTION ALARM line; below 3 relax, at 3+ raise the SUNSCREEN SHIELD.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — HORI'S vs OTA vs MELASMA. Acquired bilateral naevus of Ota-like macules (Hori's naevus) differ from melasma in that the pigment is:",
-      "opts": [
-        "Mixed and hormone-driven like melasma",
-        "Post-inflammatory only",
-        "Epidermal — responds to hydroquinone",
-        "Dermal (blue-grey dermal melanocytes) — responds to Q-switched lasers, not topicals"
-      ],
-      "ans": 3,
-      "exp": "Hori's naevus (ABNOM): bilateral blue-grey-brown macules over malar area from DERMAL melanocytes → responds to Q-switched 1064/694 lasers (like naevus of Ota), NOT to topical bleaching. Melasma is epidermal/mixed and hormone/UV-driven, treated with topicals/TXA.\n🏰 Palace: HORI'S = DERMAL blue-grey melanocytes needing Q-SWITCHED LASER; MELASMA = surface pigment for HYDROQUINONE — don't confuse the two malar masqueraders.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Reference table — FRACTIONAL PHOTOTHERMOLYSIS. In fractional lasers, each microthermal/treatment zone (MTZ) is surrounded by spared tissue, which:",
-      "opts": [
-        "Eliminates any need for collagen remodelling",
-        "Acts as a reservoir of viable cells enabling rapid re-epithelialisation and lower downtime than fully ablative",
-        "Prevents all thermal effect on the dermis",
-        "Increases scarring risk compared to fully ablative resurfacing"
-      ],
-      "ans": 1,
-      "exp": "Fractional lasers create columns of injury (MTZs) separated by untreated skin. The spared bridges supply keratinocytes/melanocytes for rapid healing → far less downtime and lower complication risk than fully ablative resurfacing, while still driving dermal collagen remodelling. Density (% coverage) is adjustable.\n🏰 Palace: FRACTIONAL = AERATING THE LAWN — punch tiny holes (MTZs) leaving GREEN BRIDGES of healthy turf between, so it heals FAST while still renewing.",
-      "source": "Quiz Prediction Model + Reference Tables",
-      "topic": "Cosmetology"
+      "exp": "Behcet's disease is a systemic vasculitis characterised by the triad of recurrent oral aphthae, genital ulcers, and ocular inflammation (hypopyon uveitis). Positive pathergy test and HLA-B51 association are characteristic. It is most prevalent along the ancient Silk Road.",
+      "source": "Cloud fallback",
+      "topic": "Connective Tissue Disorders"
     }
   ]
 }
