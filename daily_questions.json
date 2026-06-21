@@ -1,206 +1,272 @@
 {
-  "date": "2026-06-19",
-  "generated_at": "2026-06-19T00:00:00",
-  "count": 15,
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T00:00:00",
+  "count": 30,
   "topics_covered": [
-    "Cosmetology"
+    "Bacterial infections",
+    "Fungal infections",
+    "Viral infections",
+    "Leprosy",
+    "STDs",
+    "Connective tissue disorders",
+    "Bullous disorders",
+    "Skin tumours",
+    "Dermatology drugs",
+    "Basic science",
+    "Psoriasis",
+    "Eczema",
+    "Pigmentary disorders",
+    "Hair disorders",
+    "Procedures"
   ],
-  "source_note": "Hair Transplant",
   "questions": [
     {
-      "q": "'Donor dominance' (Orentreich, 1959) — the principle underlying all hair transplantation — means:",
-      "opts": [
-        "The recipient site re-programmes transplanted follicles to local characteristics",
-        "DHT-sensitive follicles become DHT-resistant after transplantation due to improved vascularity",
-        "Donor zone hair density always exceeds recipient zone density genetically",
-        "Transplanted follicles retain the genetic DHT-resistance of the donor zone regardless of the new scalp environment"
-      ],
-      "ans": 3,
-      "exp": "Orentreich's donor dominance (1959): follicles harvested from the permanent occipital/parietal zone (DHT-resistant) continue to behave genetically as they did at the donor site — they do NOT miniaturise at the DHT-rich vertex. This is the biological rationale for hair transplantation.\n🏰 Palace: DONOR FOLLICLES are FOREIGN AMBASSADORS carrying their OWN COUNTRY'S PASSPORT (DHT-resistant genes) — they refuse to obey the RECIPIENT SCALP'S DHT laws, growing forever in their new territory.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The 'safe donor zone' in androgenetic alopecia is located:",
-      "opts": [
-        "Any scalp area with visible hair regardless of AGA progression",
-        "The temporal region bilaterally only",
-        "Permanent occipital and parietal scalp bounded by the Mayer-Paul line — DHT-resistant follicles",
-        "The entire posterior scalp below the external occipital protuberance"
-      ],
+      "q": "A 30-year-old male presents with a well-defined hypopigmented patch on his forearm with loss of sensation and a thickened ulnar nerve. Slit skin smear shows no bacilli. Which type of leprosy does this represent?",
+      "opts": ["Lepromatous leprosy", "Borderline tuberculoid leprosy", "Tuberculoid leprosy", "Mid-borderline leprosy"],
       "ans": 2,
-      "exp": "The safe donor zone (SDZ) is the permanent fringe of hair at the posterior and lateral scalp, bounded superiorly by the Mayer-Paul line. These follicles are genetically programmed to resist DHT-driven miniaturisation. Harvesting outside this zone risks using impermanent follicles that will eventually miniaturise.\n🏰 Palace: SAFE DONOR ZONE = the PERMANENT FRINGE CASTLE — the MAYER-PAUL LINE is its northern wall; follicles inside survive forever, those outside eventually surrender to DHT.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
+      "exp": "Tuberculoid leprosy (TT) presents with a single or few well-defined hypopigmented patches with complete loss of sensation and a thickened peripheral nerve. Slit skin smear is negative (paucibacillary). Granulomas extend right up to the basal layer of epidermis.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "Follicular unit transplantation (FUT) differs from FUE in that:",
-      "opts": [
-        "FUT uses smaller (0.7mm) punches than FUE",
-        "FUT harvests a strip of scalp under direct vision (lower transection rate, higher single-session yield) leaving a linear scar; FUE extracts individual units leaving only punctate scars",
-        "FUT avoids all scarring, unlike FUE which leaves a linear scar",
-        "FUT is preferred for beard-hair transplantation"
-      ],
+      "q": "A 25-year-old woman presents with a painful genital ulcer with a soft base, undermined edges, and inguinal lymphadenopathy. The causative organism grows on chocolate agar supplemented with vancomycin. What is the diagnosis?",
+      "opts": ["Syphilis", "Lymphogranuloma venereum", "Chancroid", "Granuloma inguinale"],
+      "ans": 2,
+      "exp": "Chancroid is caused by Haemophilus ducreyi, which grows on chocolate agar with vancomycin. It presents with a soft, painful ulcer with ragged undermined edges — contrasting with the painless indurated ulcer of syphilis.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 45-year-old diabetic male presents with a rapidly spreading erythematous plaque on the lower leg with fever and chills. The margin is raised and well-defined. Which condition is most likely?",
+      "opts": ["Cellulitis", "Erysipelas", "Necrotizing fasciitis", "Erythema chronicum migrans"],
       "ans": 1,
-      "exp": "FUT (strip harvest): excise 1–2cm wide strip → stereomicroscope dissection of FUs → 3000–6000+ grafts/session, transection <5%, linear scar. FUE: 0.7–1.2mm punch extraction of individual FUs → punctate scars (<1mm), no linear scar, slower, higher transection 5–20%, lower graft yield per session.\n🏰 Palace: FUT = STRIP MINING (one linear trench, low transection, thousands of gems); FUE = INDIVIDUAL COIN-DIGGING (no scar, slower, chip more gems per dig).",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
+      "exp": "Erysipelas is a superficial infection involving the dermis and upper subcutaneous tissue, characterized by a well-defined, raised, advancing border — a key distinguishing feature from cellulitis. It is most commonly caused by Group A Streptococcus.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
     },
     {
-      "q": "In FUE, which punch type produces the LOWEST follicular transection rate?",
-      "opts": [
-        "Blunt Harris punch used with oscillation",
-        "Motorised drill punch at maximum RPM",
-        "Serrated punch for fibrotic donor areas",
-        "Sharp-edged trumpet/trumpet punch used with controlled rotation depth"
-      ],
-      "ans": 3,
-      "exp": "Punch types: sharp (low transection, ideal for straight fine hair), blunt (Harris punch for coily/curly hair where follicle angle changes mid-dermis), serrated (for fibrotic scalp). Robotic FUE (ARTAS) uses image-guided sharp punch reducing transection to <5%. Transection rate is the key quality metric in FUE.\n🏰 Palace: SHARP TRUMPET PUNCH is the PRECISION SURGEON — quick clean cut around the follicle; BLUNT HARRIS is the RUGBY PLAYER — pushes through curly-hair curves without slicing.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "DUPA (Diffuse Unpatterned Alopecia) is a contraindication to hair transplantation because:",
-      "opts": [
-        "Miniaturisation affects the 'safe donor zone' too, so transplanted follicles will also eventually miniaturise",
-        "These patients have insufficient scalp laxity for FUT strip harvesting",
-        "DUPA patients cannot tolerate local anaesthesia",
-        "The recipient area has too much fibrosis for graft placement"
-      ],
-      "ans": 0,
-      "exp": "In DUPA, the miniaturisation process does not follow the typical AGA pattern and invades the 'permanent' occipital zone. Trichoscopy reveals miniaturised hairs throughout the safe donor zone. Transplanting these follicles guarantees eventual miniaturisation and loss of transplanted hair. DUPA must be excluded before surgery by careful trichoscopic donor zone assessment.\n🏰 Palace: DUPA = the SAFE DONOR ZONE HAS BEEN INVADED — miniaturised follicles are TRAITORS wearing DHT-resistant DISGUISE; transplant them and they eventually MINIATURISE in the new castle too.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The maximum recommended 'out-of-body' time for follicular unit grafts to maintain viability above 90% is:",
-      "opts": [
-        "4–6 hours in chilled (4°C) normal saline or Ringer's lactate",
-        "30 minutes at room temperature",
-        "12 hours in warmed (37°C) saline",
-        "24 hours in HypoThermosol FRS at room temperature"
-      ],
-      "ans": 0,
-      "exp": "Grafts must be kept in chilled isotonic solution (4°C saline, Ringer's lactate, or ATP-supplemented solutions). At 4°C, metabolic demand drops and ischaemic tolerance extends to 4–6 hours. Beyond 6h, viability falls. Room temperature accelerates necrosis. Grafts must never dry out — they should remain fully submerged.\n🏰 Palace: GRAFTS in a 4°C ICE BOX survive 4–6 HOURS like orchids in a chilled delivery van — take them out of the ice and they WILT within the hour.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The DHI (Direct Hair Implantation) technique uses the Choi implanter pen. Its key advantage over conventional slit-and-place FUE is:",
-      "opts": [
-        "Larger grafts (3–4 FU) can be placed with higher density",
-        "DHI allows deeper graft placement reaching the subcutaneous fat",
-        "Simultaneous channel creation and graft implantation reduces graft out-of-body exposure time and desiccation",
-        "DHI does not require any recipient site shaving"
-      ],
-      "ans": 2,
-      "exp": "Choi pen: a hollow needle (0.6–1.5mm diameter) into which the graft is loaded; the pen simultaneously penetrates the scalp and deposits the graft — no pre-made slits required. Benefits: minimal graft handling, shorter desiccation time, precise angle/depth control. Higher implanter cost and slower process than pre-made slits.\n🏰 Palace: CHOI PEN = a SYRINGE + PLANTER IN ONE — load the graft, stab the scalp, push the plunger — no pre-cut slit needed, graft goes directly from cold storage into the crown castle.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The standard hairline design for a male with Norwood III vertex pattern should place the midpoint of the anterior hairline at approximately:",
-      "opts": [
-        "7–9 cm above the nasion (glabellar midpoint), with appropriate temporal recession",
-        "Exactly at the same level as the patient's original adolescent hairline",
-        "5 cm above nasion — the classic female hairline height",
-        "10–12 cm above nasion for a mature male appearance"
-      ],
-      "ans": 0,
-      "exp": "Male hairline design: 7–9 cm above the nasion at the midpoint (average 8–8.5 cm in adult males). Positioning too low creates a feminised or adolescent look; too high looks unnatural. Temporal recession (widow's peak) must be respected. The hairline should be irregular (irregular, not a straight line) with single-follicle units at the front.\n🏰 Palace: MALE HAIRLINE at 7–9 cm above the NOSE CASTLE BRIDGE — 5cm is FEMININE, 10–12cm is MONK-BALD; the GOLDILOCKS zone is 7–9 cm.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Shock loss (effluvium) after hair transplantation refers to:",
-      "opts": [
-        "Scarring alopecia at FUT donor site linear scar",
-        "Temporary shedding of pre-existing native hair near graft sites due to operative trauma, usually reversible within 3–4 months",
-        "Permanent loss of all transplanted grafts due to poor vascularisation",
-        "Post-operative folliculitis causing permanent hair loss"
-      ],
+      "q": "A 19-year-old male presents with annular plaques with central clearing on the trunk. KOH mount shows hyphae with arthrospores arranged in a 'spaghetti and meatballs' pattern. What is the causative organism?",
+      "opts": ["Trichophyton rubrum", "Malassezia furfur", "Candida albicans", "Microsporum gypseum"],
       "ans": 1,
-      "exp": "Shock loss (traumatic effluvium): miniaturised or telogen-prone native hairs adjacent to graft sites shed transiently due to physical trauma (anaesthetic infiltration, needle passes, oedema). Usually reversible within 3–6 months as follicles re-enter anagen. More common in thinning areas with advanced miniaturisation. Cannot occur in areas of complete baldness.\n🏰 Palace: SHOCK LOSS = the native hair SOLDIERS faint from trauma (anaesthesia, needle trauma) and go AWOL (shed) temporarily — most return from LEAVE in 3–4 months.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
+      "exp": "Malassezia furfur causes pityriasis versicolor. KOH mount shows short hyphae and rounded yeast cells in a 'spaghetti and meatballs' pattern. It thrives in lipid-rich environments.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
     },
     {
-      "q": "When using platelet-rich plasma (PRP) adjuvant during hair transplantation, it is most typically applied at which stage?",
-      "opts": [
-        "Taken orally as pre-operative supplementation",
-        "Injected into the donor site after strip excision only",
-        "Injected into recipient sites or used as graft storage medium — to improve graft survival and wound healing",
-        "Applied topically to the scalp pre-operatively only"
-      ],
-      "ans": 2,
-      "exp": "Intraoperative PRP use in HT: (1) grafts soaked in PRP solution during storage; (2) injected into recipient sites before/after graft placement; (3) injected into donor wound for healing. Growth factors (PDGF, VEGF, TGF-β) improve graft survival, accelerate healing, and may reduce shock loss. Evidence level is moderate but growing.\n🏰 Palace: PRP is the PLATELET FERTILISER BATH soaking grafts in GROWTH FACTOR SOUP — the transplanted seeds get a HEAD START in the new castle soil.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Body hair transplantation (BHT) using beard or chest hair as donor source has which limitation compared to scalp FUE?",
-      "opts": [
-        "Beard hair must be transplanted only to the beard area due to anatomical programming",
-        "Body hair grafts always produce permanent results identical to scalp hair",
-        "Body hair FUE is faster than scalp FUE and has lower transection rates",
-        "Body/beard hairs have shorter anagen cycles, smaller calibre, and curved follicles → lower yield and different texture at recipient site"
-      ],
-      "ans": 3,
-      "exp": "Body/beard hair as donor: shorter anagen (1–2y vs 3–6y scalp = shorter terminal hair), different calibre (beard often coarser), curved follicles (higher transection), single-follicle units (not 2–4 FU like scalp). Used when scalp donor exhausted. Beard hair for scalp gives reasonable density; chest/back hair gives short, fine cover. Match texture expectations carefully.\n🏰 Palace: BODY HAIR is the BACKUP DONOR from foreign provinces — shorter anagen PASSPORT (only 1–2 year reign), curvy FOLLICLE PATH (harder to extract), different TEXTURE than the native scalp hair.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The Norwood-Hamilton scale for male AGA has how many stages and what pattern defines Stage VI?",
-      "opts": [
-        "7 stages; Stage VI = isolated mid-scalp island of hair",
-        "10 stages; Stage VI is moderate vertex involvement",
-        "7 stages; Stage VI = large bald area joining bitemporal recession and vertex, only a horseshoe fringe remains",
-        "5 stages; Stage VI is the most severe with complete baldness"
-      ],
-      "ans": 2,
-      "exp": "Norwood-Hamilton: 7 stages (I–VII). Stage VI = advanced balding with the bald area at front/top connecting to the crown; only a permanent horseshoe fringe of hair remains. Stage VII = most severe, the fringe is very narrow. Planning a transplant at Stage VI requires accepting limited density across a large area.\n🏰 Palace: NORWOOD 7-FLOOR CASTLE: by FLOOR VI the ROOF IS NEARLY GONE — only the HORSESHOE FRINGE CASTLE WALL stands around the sides; by FLOOR VII even that's thin.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "For the ideal FUE graft, the harvested follicular unit should include which anatomical components?",
-      "opts": [
-        "Hair shaft + follicle bulb + dermal papilla + peribulbar connective tissue + a small ring of epidermis (the bulge region for stem cells)",
-        "Dermis and hypodermis with no bulge region needed",
-        "The arrector pili muscle must be included for survival",
-        "Hair shaft and cortex only"
-      ],
-      "ans": 0,
-      "exp": "A complete, viable FU graft includes: the hair shaft(s), the infundibulum (upper follicle), the isthmus containing the bulge region (hair follicle stem cells — critical for regeneration), the follicle bulb and matrix cells, and the dermal papilla. The peribulbar fat (adipose cushion) should be preserved. The arrector pili is not critical.\n🏰 Palace: PERFECT GRAFT = HAIR SHAFT + BULGE STEM CELL KEEP + DERMAL PAPILLA THRONE at the base — lose the BULGE and the stem cells are gone; lose the PAPILLA and no new hair is possible.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Trichophytic closure of the FUT donor strip wound helps conceal the scar by:",
-      "opts": [
-        "Bevelling one wound edge so hair follicles grow through the scar, camouflaging the linear mark",
-        "Applying fibrin glue to eliminate any visible line",
-        "Laser resurfacing of the donor scar immediately at wound closure",
-        "Using absorbable sutures that dissolve without leaving a line"
-      ],
-      "ans": 0,
-      "exp": "Trichophytic closure: the superior (or inferior) wound edge is bevelled/trimmed by 2–3mm to expose follicle tips, then the edges are closed so follicular stumps at the trimmed margin grow up through the scar. Hairs emerging through the scar visually disguise the linear line. Requires good tension-free closure and multi-layer (galea + skin) suturing.\n🏰 Palace: TRICHOPHYTIC CLOSURE = GRASS GROWING THROUGH the CASTLE WALL CRACK — by bevelling the wound edge, HAIR SPROUTS through the scar itself, making it INVISIBLE from above.",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "A 32-year-old with Norwood III vertex asks about hair transplant planning. Which assessment is MOST CRITICAL before designing the transplant?",
-      "opts": [
-        "Patch test with local anaesthetic 48 hours pre-operatively",
-        "Trichoscopic assessment of donor zone miniaturisation to confirm follicles are truly permanent and rule out DUPA",
-        "Blood group typing for potential allogenic graft compatibility",
-        "Hormone assay to check DHT levels on the day of surgery"
-      ],
+      "q": "A 55-year-old woman on hydroxychloroquine for discoid lupus erythematosus complains of difficulty reading. Which investigation is essential for monitoring this complication?",
+      "opts": ["Slit lamp examination", "Optical coherence tomography (OCT)", "Intraocular pressure measurement", "Visual field perimetry"],
       "ans": 1,
-      "exp": "Pre-HT trichoscopy is critical: (1) assess donor zone miniaturisation ratio — if >20% miniaturised hairs in the safe donor zone, the patient may have DUPA or diffuse AGA extending into the permanent zone, making transplant inadvisable; (2) assess recipient zone density to plan graft count; (3) identify hair calibre, angle, direction for harvesting. DHT levels do not guide surgical planning.\n🏰 Palace: TRICHOSCOPY is the PRE-BATTLE INTELLIGENCE REPORT — before transplanting ONE SOLDIER, check if the SAFE DONOR BARRACKS is infiltrated by MINIATURISED TRAITORS (>20% = DUPA risk = abort mission).",
-      "source": "Hair Transplant",
-      "topic": "Cosmetology"
+      "exp": "Hydroxychloroquine can cause irreversible bull's-eye maculopathy. OCT is the most sensitive investigation for early detection of hydroxychloroquine retinal toxicity and is recommended for annual screening.",
+      "source": "Cloud fallback",
+      "topic": "Dermatology drugs"
+    },
+    {
+      "q": "A 40-year-old woman presents with tense blisters on normal-appearing skin and mucous membrane involvement. Nikolsky sign is negative. Immunofluorescence shows linear IgG and C3 at the basement membrane zone. What is the diagnosis?",
+      "opts": ["Pemphigus vulgaris", "Bullous pemphigoid", "Dermatitis herpetiformis", "Linear IgA disease"],
+      "ans": 1,
+      "exp": "Bullous pemphigoid features tense blisters on normal or erythematous skin with negative Nikolsky sign. Direct immunofluorescence shows linear IgG and C3 at the BMZ. Autoantibodies target BP180 (collagen XVII) and BP230.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
+    },
+    {
+      "q": "A 28-year-old HIV-positive male presents with multiple hyperpigmented nodular lesions on the face and trunk that do not blanch on pressure. Biopsy shows vascular proliferation with extravasated red blood cells and spindle cells. What is the diagnosis?",
+      "opts": ["Bacillary angiomatosis", "Kaposi's sarcoma", "Dermatofibrosarcoma protuberans", "Angiosarcoma"],
+      "ans": 1,
+      "exp": "Kaposi's sarcoma, associated with HHV-8 infection and immunosuppression (especially HIV), presents with violaceous non-blanching nodules. Histology shows vascular proliferation, spindle cells, and extravasated RBCs with hemosiderin deposits.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
+    },
+    {
+      "q": "A 35-year-old woman presents with a butterfly-shaped erythema on her face, joint pains, and oral ulcers. ANA is positive (1:320). Which skin finding on direct immunofluorescence is most specific for systemic lupus erythematosus?",
+      "opts": ["IgG at DEJ in lesional skin only", "IgG at DEJ in non-lesional sun-protected skin", "IgA at DEJ in lesional skin", "C3 at DEJ only"],
+      "ans": 1,
+      "exp": "The lupus band test (LBT) showing immunoglobulin/complement deposits at the DEJ in both lesional AND non-lesional sun-protected skin is most specific for systemic SLE, distinguishing it from discoid LE where only lesional skin is positive.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 22-year-old male presents with pruritic papulovesicles on the elbows, knees, and buttocks. Biopsy shows neutrophilic microabscesses at dermal papillae tips. IgA deposits are found at the BMZ. This patient most likely has which associated condition?",
+      "opts": ["Crohn's disease", "Celiac disease", "Ulcerative colitis", "Autoimmune hepatitis"],
+      "ans": 1,
+      "exp": "Dermatitis herpetiformis (DH) is the cutaneous manifestation of gluten-sensitive enteropathy (celiac disease). IgA deposits at dermal papillae tips and neutrophilic microabscesses are pathognomonic. Dapsone provides rapid relief; gluten-free diet is the definitive treatment.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
+    },
+    {
+      "q": "A 50-year-old male presents with scaly silvery plaques on the extensor surfaces and nail pitting. He now experiences DIP joint pain with pencil-in-cup deformity on X-ray. What is the treatment of choice for this arthropathy?",
+      "opts": ["NSAIDs alone", "Methotrexate", "Colchicine", "Allopurinol"],
+      "ans": 1,
+      "exp": "Psoriatic arthritis with destructive DIP involvement (pencil-in-cup deformity) requires disease-modifying therapy. Methotrexate is the first-line DMARD for psoriatic arthritis and also addresses the skin disease. Anti-TNF biologics are used in refractory cases.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
+    },
+    {
+      "q": "A 3-year-old child presents with honey-colored crusted lesions around the mouth and nose following an upper respiratory tract infection. Tzanck smear is negative. Which is the most appropriate topical treatment?",
+      "opts": ["Topical acyclovir", "Topical mupirocin", "Topical clotrimazole", "Topical betamethasone"],
+      "ans": 1,
+      "exp": "Non-bullous impetigo caused by Staphylococcus aureus or Streptococcus pyogenes presents with honey-colored crusts. Topical mupirocin is first-line for localized non-bullous impetigo. Retapamulin is an alternative. Systemic antibiotics are reserved for extensive disease.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 65-year-old man presents with a slowly enlarging, pearly, translucent nodule with telangiectasias on the nasolabial fold. Dermoscopy shows arborizing vessels. What is the most appropriate treatment?",
+      "opts": ["Cryotherapy", "Imiquimod cream", "Mohs micrographic surgery", "Radiotherapy"],
+      "ans": 2,
+      "exp": "BCC on the nasolabial fold — a high-risk H-zone site — is best treated with Mohs micrographic surgery, which provides the highest cure rate and maximum tissue conservation due to real-time margin examination.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
+    },
+    {
+      "q": "A 30-year-old woman presents with painful grouped vesicles on an erythematous base on her vulva at 36 weeks gestation. Primary genital herpes is confirmed. What is the preferred management?",
+      "opts": ["Valacyclovir 1g BD for 10 days, then expectant management", "Cesarean section at 38 weeks regardless of lesion status", "Oral acyclovir 400mg TDS for 10 days, then suppressive acyclovir from 36 weeks", "IV acyclovir and immediate cesarean delivery"],
+      "ans": 2,
+      "exp": "For primary genital herpes in late pregnancy, oral acyclovir (400mg TDS) treats the acute episode, followed by suppressive acyclovir from 36 weeks to reduce lesion recurrence and neonatal transmission risk. Cesarean delivery is recommended if active lesions are present at onset of labor.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
+    },
+    {
+      "q": "A 20-year-old male presents with hypopigmented macules on the trunk with fine scaling. Wood's lamp shows golden-yellow fluorescence. What is the first-line systemic treatment for extensive disease?",
+      "opts": ["Oral terbinafine 250mg for 4 weeks", "Oral itraconazole 200mg for 5-7 days", "Topical ketoconazole 2% shampoo", "Griseofulvin 500mg for 6 weeks"],
+      "ans": 1,
+      "exp": "Pityriasis versicolor shows golden-yellow fluorescence under Wood's lamp. For extensive disease, oral itraconazole 200mg/day for 5–7 days is preferred. Terbinafine is less effective as Malassezia lacks squalene epoxidase — the target of allylamines.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A 45-year-old male presents with sclerotic skin changes, Raynaud's phenomenon, and dysphagia. Matted telangiectasias are noted on the face. Anti-Scl-70 antibody is positive. Which internal organ complication is most common?",
+      "opts": ["Heart", "Kidneys", "Lungs", "Liver"],
+      "ans": 2,
+      "exp": "In diffuse systemic sclerosis (anti-Scl-70/anti-topoisomerase I positive), interstitial lung disease (ILD) is the most common internal organ complication and leading cause of death. Anti-centromere antibodies are associated with limited SSc (CREST syndrome) and pulmonary arterial hypertension.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 35-year-old woman started on dapsone for leprosy develops pallor, jaundice, and hemoglobinuria two weeks later. Which enzyme deficiency makes patients most susceptible to this complication?",
+      "opts": ["Pyruvate kinase deficiency", "G6PD deficiency", "Methemoglobin reductase deficiency", "Catalase deficiency"],
+      "ans": 1,
+      "exp": "Dapsone causes dose-dependent hemolysis and methemoglobinemia. G6PD-deficient individuals are especially vulnerable because they cannot regenerate NADPH to neutralize oxidative stress. G6PD screening before dapsone initiation is recommended.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
+    },
+    {
+      "q": "A 60-year-old smoker presents with a firm, indurated ulcer on the lower lip present for 3 months. Biopsy shows islands of squamous cells with keratin pearls invading the dermis. What is the most likely diagnosis?",
+      "opts": ["Basal cell carcinoma", "Keratoacanthoma", "Squamous cell carcinoma", "Amelanotic melanoma"],
+      "ans": 2,
+      "exp": "SCC of the lip is associated with smoking, UV exposure, and HPV. It presents as an indurated ulcer or nodule. Histology shows invasive squamous cell nests with keratin pearl formation. Lip SCC carries higher metastatic risk than cutaneous SCC.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
+    },
+    {
+      "q": "A 28-year-old male with IV drug use history presents with painful papules on the palms and soles, arthralgia, and a painless genital ulcer 3 weeks ago. RPR is reactive at 1:32. What is the stage of syphilis?",
+      "opts": ["Primary syphilis", "Secondary syphilis", "Tertiary syphilis", "Latent syphilis"],
+      "ans": 1,
+      "exp": "Secondary syphilis occurs 4–10 weeks after the primary chancre, featuring a diffuse rash (classically on palms and soles), condylomata lata, mucous patches, and systemic symptoms. High RPR titers (≥1:8) are characteristic. Treatment: Benzathine penicillin G 2.4 MU IM single dose.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 25-year-old atopic woman presents with intensely pruritic lichenified patches in the antecubital and popliteal fossae since childhood. She also has asthma. Serum IgE is markedly elevated. Which cytokines are primarily responsible for the Th2 skewing in atopic dermatitis?",
+      "opts": ["IL-4 and IL-13", "IL-12 and IFN-γ", "IL-17 and IL-23", "TNF-α and IL-6"],
+      "ans": 0,
+      "exp": "Atopic dermatitis is driven by Th2 cytokines — IL-4 (promotes IgE class switching and Th2 differentiation) and IL-13 (causes barrier dysfunction and pruritus). Dupilumab targets the IL-4Rα subunit shared by both receptors and is an approved biologic for moderate-to-severe AD.",
+      "source": "Cloud fallback",
+      "topic": "Eczema"
+    },
+    {
+      "q": "A 40-year-old male presents with a painless black eschar on the forearm after visiting a farm, with high fever. Gram stain shows large Gram-positive bacilli in bamboo-stick arrangement. What is the treatment of choice?",
+      "opts": ["Penicillin G IV", "Ciprofloxacin", "Doxycycline 100mg BD for 60 days", "Ceftriaxone"],
+      "ans": 2,
+      "exp": "Cutaneous anthrax presents with a painless ulcer with black eschar after animal contact. Bacillus anthracis appears as large boxcar-shaped Gram-positive bacilli in chains. Ciprofloxacin or doxycycline for 60 days is the treatment for cutaneous anthrax (longer course covers potential inhalational spore co-exposure).",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 70-year-old immunocompetent woman presents with grouped vesicles in a dermatomal distribution on the right trunk with severe burning pain. What is the drug of choice and treatment window?",
+      "opts": ["Topical acyclovir within 72 hours of rash onset", "Oral valacyclovir 1g TDS within 72 hours of rash onset", "IV acyclovir 10mg/kg every 8 hours regardless of timing", "Oral famciclovir 750mg OD for 7 days"],
+      "ans": 1,
+      "exp": "Herpes zoster is best treated with valacyclovir 1g TDS for 7 days, initiated within 72 hours of rash onset (or any time if new lesions are still appearing). It reduces acute neuritis duration and risk of post-herpetic neuralgia. Famciclovir 500mg TDS is an alternative.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
+    },
+    {
+      "q": "A 10-year-old boy presents with diffuse hair loss with grey scales and broken-off hair stumps. Wood's lamp examination shows green fluorescence of the affected area. Which organism is responsible?",
+      "opts": ["Trichophyton tonsurans", "Microsporum canis", "Trichophyton violaceum", "Epidermophyton floccosum"],
+      "ans": 1,
+      "exp": "Microsporum canis causes tinea capitis (ectothrix infection) with grey scaling and broken hair. Wood's lamp reveals bright green fluorescence (due to pteridine production). Trichophyton species do NOT fluoresce. Treatment: oral griseofulvin is first-line for tinea capitis in children.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A 50-year-old male presents with a dark brown-black irregularly pigmented macule with asymmetric borders measuring 8mm on his back. Dermoscopy shows regression structures and an atypical pigment network. A biopsy is planned. Which biopsy technique is most appropriate?",
+      "opts": ["Shave biopsy", "Punch biopsy at the darkest area only", "Narrow-margin excisional biopsy with 1-3mm margins", "Incisional biopsy at the border"],
+      "ans": 2,
+      "exp": "For suspected melanoma, narrow-margin excisional biopsy (1–3mm margins) encompassing the entire lesion is the standard. This allows accurate Breslow thickness measurement (the most important prognostic factor), guiding subsequent wide local excision margins and sentinel lymph node biopsy decisions.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
+    },
+    {
+      "q": "A 35-year-old woman presents with malar hyperpigmentation worsening in summer, present since her last pregnancy. Wood's lamp accentuates the pigmentation. What is the first-line treatment?",
+      "opts": ["Azelaic acid 20% cream monotherapy", "Triple combination cream (hydroquinone + tretinoin + mild corticosteroid) with sunscreen", "Chemical peeling with TCA 30%", "Q-switched Nd:YAG laser"],
+      "ans": 1,
+      "exp": "Epidermal melasma (Wood's lamp accentuated) is treated with triple combination cream (Kligman's formula: hydroquinone + tretinoin + mild corticosteroid) along with strict broad-spectrum sunscreen. This remains the most evidence-based first-line regimen.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentary disorders"
+    },
+    {
+      "q": "A 45-year-old male with lepromatous leprosy on MDT develops painful nodular swellings on the face and limbs with fever. Slit skin smear shows fragmented and granular bacilli with a low morphological index. What reaction is this?",
+      "opts": ["Type 1 lepra reaction (reversal reaction)", "Type 2 lepra reaction (ENL)", "Lucio's phenomenon", "Jarisch-Herxheimer reaction"],
+      "ans": 1,
+      "exp": "Erythema nodosum leprosum (ENL/Type 2 reaction) occurs in LL and BL leprosy. It is an immune complex-mediated reaction presenting with tender erythematous nodules, fever, and systemic features. Treatment: thalidomide (drug of choice in non-pregnant adults) or prednisolone. Clofazimine has anti-ENL properties.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
+    },
+    {
+      "q": "A 22-year-old male presents with crops of clear vesicles on the trunk, face, and scalp in different stages, some umbilicated, with low-grade fever. Tzanck smear shows multinucleate giant cells. What is the causative virus?",
+      "opts": ["Herpes simplex virus type 1", "Varicella-zoster virus", "Molluscum contagiosum virus", "Orf virus"],
+      "ans": 1,
+      "exp": "Chickenpox (primary VZV infection) presents with crops of vesicles in different stages (polymorphic) in a centripetal distribution (trunk > face > extremities). Umbilicated vesicles on an erythematous base ('dew drops on rose petals'). Tzanck smear shows multinucleate giant cells (Tzanck cells).",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
+    },
+    {
+      "q": "A patient on isotretinoin for acne has a serum triglyceride of 750 mg/dL at a 6-week follow-up. She is asymptomatic. What is the most appropriate management?",
+      "opts": ["Continue isotretinoin and recheck in 4 weeks", "Reduce isotretinoin dose by half and add fenofibrate", "Stop isotretinoin immediately", "Switch to doxycycline and continue monitoring"],
+      "ans": 2,
+      "exp": "Isotretinoin causes hypertriglyceridemia in up to 25% of patients. Triglycerides >500 mg/dL carry risk of acute pancreatitis. At 750 mg/dL, isotretinoin must be stopped immediately. Resumption may be considered at a lower dose after normalization, with dietary modification and lipid-lowering therapy.",
+      "source": "Cloud fallback",
+      "topic": "Dermatology drugs"
+    },
+    {
+      "q": "A 28-year-old male presents with painless inguinal lymphadenopathy with a 'groove sign' — a groove between two groups of nodes. He recalls a transient genital papule 3 weeks ago. Which organism is responsible?",
+      "opts": ["Treponema pallidum", "Haemophilus ducreyi", "Chlamydia trachomatis serovars L1-L3", "Klebsiella granulomatis"],
+      "ans": 2,
+      "exp": "Lymphogranuloma venereum (LGV) is caused by Chlamydia trachomatis serovars L1, L2, L3. The 'groove sign' (inguinal groove between femoral and inguinal node groups) is pathognomonic. The primary genital papule/ulcer heals rapidly. Treatment: doxycycline 100mg BD for 21 days.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 55-year-old male presents with a firm, flesh-colored dermal plaque on the trunk with a positive 'dimple sign' on lateral compression. Histology shows a storiform pattern of spindle cells with low mitotic rate. What is the diagnosis?",
+      "opts": ["Dermatofibroma", "Dermatofibrosarcoma protuberans", "Fibrosarcoma", "Neurofibroma"],
+      "ans": 0,
+      "exp": "Dermatofibroma shows a positive dimple/Fitzpatrick sign — central dimpling on lateral compression. Histology shows a storiform spindle-cell pattern in the dermis. It is CD34-negative and factor XIIIa-positive, distinguishing it from DFSP (CD34-positive, locally aggressive).",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
+    },
+    {
+      "q": "A patient with extensive alopecia areata (>50% scalp involvement) has failed topical minoxidil and intralesional steroids. Which is the most appropriate next step?",
+      "opts": ["Oral methotrexate", "PUVA therapy", "Oral JAK inhibitor (baricitinib)", "Systemic corticosteroid pulse therapy"],
+      "ans": 2,
+      "exp": "Baricitinib (JAK1/2 inhibitor) is FDA-approved for severe alopecia areata (≥50% scalp hair loss). JAK inhibitors block the IFN-γ and IL-15 signaling pathway driving CD8+ T-cell-mediated hair follicle destruction. Ritlecitinib (JAK3/TEC inhibitor) is another approved option.",
+      "source": "Cloud fallback",
+      "topic": "Hair disorders"
+    },
+    {
+      "q": "During a punch biopsy, a vessel is cut and bleeding does not stop with direct pressure. The patient is on aspirin. Which topical hemostatic agent is most appropriate in this outpatient setting?",
+      "opts": ["Topical epinephrine 1:1000 soaked gauze", "Aluminum chloride 20% solution", "Ferric subsulfate (Monsel's solution)", "Gelatin foam (Gelfoam) packing"],
+      "ans": 1,
+      "exp": "Aluminum chloride 20–35% in isopropyl alcohol is the most commonly used chemical hemostatic agent in dermatology. It acts by protein precipitation and vasoconstriction. It is preferred over Monsel's solution for punch biopsy hemostasis as Monsel's can cause tattoo-like pigmentation and histologic artifact if the specimen is already retrieved.",
+      "source": "Cloud fallback",
+      "topic": "Procedures"
     }
   ]
 }
