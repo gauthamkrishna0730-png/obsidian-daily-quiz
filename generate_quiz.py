@@ -24,8 +24,8 @@ REPO_PATH   = r"C:\Users\ravin\Desktop\Obsidian_Daily_Quiz"
 QUESTIONS_FILE = "daily_questions.json"
 ARCHIVE_DIR = "archive"
 
-TOTAL_QUESTIONS   = 60
-NOTES_TO_SAMPLE   = 30          # notes picked per run (2–3 questions each)
+TOTAL_QUESTIONS   = 30
+NOTES_TO_SAMPLE   = 15          # notes picked per run (2–3 questions each)
 MAX_NOTE_CHARS    = 4000        # truncate long notes before sending
 MODEL             = "claude-opus-4-5"   # change to claude-sonnet-4-5 for cheaper/faster
 QUESTIONS_PER_NOTE = 2          # questions generated per note
