@@ -1,400 +1,428 @@
 {
-  "date": "2026-06-21",
-  "generated_at": "2026-06-21T00:00:00",
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T00:00:00",
   "count": 30,
   "topics_covered": [
-    "Cosmetology"
+    "Leprosy",
+    "Bullous Disorders",
+    "Fungal Infections",
+    "Connective Tissue Disorders",
+    "Bacterial Infections",
+    "Viral Infections",
+    "STDs",
+    "Tumours",
+    "Psoriasis",
+    "Acne and Rosacea",
+    "Pigmentary Disorders",
+    "Drug Reactions",
+    "Basic Science",
+    "Procedures",
+    "Eczema",
+    "Infestations"
   ],
   "questions": [
     {
-      "q": "A Q-switched ruby laser (694 nm) is LEAST effective for which tattoo ink colour?",
+      "q": "A 28-year-old man presents with a painless hypopigmented patch on his left forearm with decreased sensation to light touch. Slit-skin smear is negative. Skin biopsy shows non-caseating granulomas around dermal nerves with lymphocytic infiltrate. Which type of leprosy does this most likely represent?",
       "opts": [
-        "Green ink — best addressed by 694 nm",
-        "Yellow and orange — chromophores absorb poorly at 694 nm",
-        "Blue-black ink — responds well to 694 nm",
-        "Black ink — poor 694 nm absorption"
+        "Tuberculoid leprosy (TT)",
+        "Borderline tuberculoid leprosy (BT)",
+        "Mid-borderline leprosy (BB)",
+        "Lepromatous leprosy (LL)"
+      ],
+      "ans": 0,
+      "exp": "Tuberculoid leprosy (TT) presents with a single or few well-defined hypopigmented patches with clear-cut borders, marked sensory loss, and negative slit-skin smear. Biopsy shows well-formed non-caseating granulomas with epithelioid cells and lymphocytes around neurovascular bundles.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
+    },
+    {
+      "q": "A 35-year-old leprosy patient on multidrug therapy (MDT) develops sudden onset erythema nodosum leprosum (ENL). Which of the following drugs is the treatment of choice for recurrent, steroid-dependent ENL?",
+      "opts": [
+        "Clofazimine",
+        "Thalidomide",
+        "Methotrexate",
+        "Azathioprine"
       ],
       "ans": 1,
-      "exp": "QS ruby 694 nm targets green, blue-black, and dark inks. Yellow and orange inks absorb poorly at 694 nm (absorb around 500–560 nm, better addressed by 532 nm KTP or picosecond 532 nm). Yellow is the most treatment-resistant colour across all Q-switched lasers.\n🏰 Palace: YELLOW INK is the CASTLE INVISIBLE MAN — 694 nm ruby can't see it; only 532 nm KTP gets close, and yellow STILL escapes.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Thalidomide is the treatment of choice for recurrent and steroid-dependent ENL. It inhibits TNF-alpha production. Clofazimine is used for long-term ENL suppression but thalidomide is preferred for acute recurrent cases. It is teratogenic and contraindicated in women of childbearing age.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "Intense pulsed light (IPL) differs from laser in all of the following EXCEPT:",
+      "q": "A 45-year-old woman presents with a tense blistering eruption predominantly on the flexural areas and lower abdomen. Nikolsky sign is negative. Direct immunofluorescence shows linear IgG and C3 deposits at the dermoepidermal junction. What is the most likely diagnosis?",
       "opts": [
-        "IPL has lower peak power than pulsed dye laser for equivalent spot size",
-        "Both can target melanin and haemoglobin chromophores with appropriate settings",
-        "IPL is polychromatic and non-coherent; laser is monochromatic and coherent",
-        "IPL uses cut-off filters; lasers emit a single fixed wavelength"
+        "Pemphigus vulgaris",
+        "Bullous pemphigoid",
+        "Linear IgA bullous dermatosis",
+        "Epidermolysis bullosa acquisita"
       ],
       "ans": 1,
-      "exp": "Both IPL (with appropriate cut-off filter) and vascular/pigment lasers target melanin and oxyhaemoglobin — this is NOT a difference. All other options highlight true distinctions: coherence, monochromaticity, filter vs fixed wavelength.\n🏰 Palace: IPL and LASER are COUSINS who both hunt MELANIN and HAEMOGLOBIN — laser with a SINGLE-BARREL RIFLE (monochromatic), IPL with a SHOTGUN + FILTER (polychromatic).",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Bullous pemphigoid (BP) presents with tense blisters on flexural areas, negative Nikolsky sign, and linear IgG/C3 at the BMZ on DIF. The autoantibodies target BP180 (type XVII collagen) and BP230. It is the most common autoimmune blistering disorder in the elderly.",
+      "source": "Cloud fallback",
+      "topic": "Bullous Disorders"
     },
     {
-      "q": "Non-ablative fractional laser (1550 nm Er:glass) spares the stratum corneum. The primary clinical consequence is:",
+      "q": "A 50-year-old woman presents with flaccid blisters and erosions involving the oral mucosa and scalp for 3 months. Nikolsky sign is positive. DIF of perilesional skin shows intercellular IgG deposits in the epidermis in a 'fishnet' pattern. The target antigen is most likely:",
       "opts": [
-        "Rapid re-epithelialisation within 24h with minimal social downtime despite deep collagen remodelling",
-        "No collagen remodelling occurs since the epidermis is intact",
-        "The 1550 nm wavelength targets melanin exclusively",
-        "Infection risk equals fully ablative CO2 resurfacing"
+        "BP180",
+        "Desmoglein 1",
+        "Desmoglein 3",
+        "Collagen VII"
       ],
-      "ans": 0,
-      "exp": "Non-ablative fractional: coagulates deep dermal columns (MTZs) without disrupting the SC. The intact epidermis acts as a biological dressing → rapid healing, minimal downtime (1–3 days erythema). Contrast with ablative fractional CO2 (5–10 days downtime).\n🏰 Palace: NON-ABLATIVE FRACTIONAL = UNDERGROUND TUNNELLING — surface road intact (SC preserved) while CASTLE UNDERGROUND (dermis) is renovated; workers emerge and repair within 24 hours.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "ans": 2,
+      "exp": "Pemphigus vulgaris primarily targets desmoglein 3 (Dsg3), which is predominant in the mucous membranes. Mucosal-dominant pemphigus is associated with anti-Dsg3 antibodies alone, whereas mucocutaneous pemphigus has both anti-Dsg3 and anti-Dsg1 antibodies.",
+      "source": "Cloud fallback",
+      "topic": "Bullous Disorders"
     },
     {
-      "q": "Which chemical peel is CONTRAINDICATED in a patient with aspirin (salicylate) hypersensitivity?",
+      "q": "A 22-year-old athlete presents with scaling and erythema in the groin area sparing the scrotum. KOH preparation shows septate hyphae. The most likely causative organism is:",
       "opts": [
-        "TCA 25% peel",
-        "Salicylic acid 30% peel",
-        "Glycolic acid 50% peel",
-        "Lactic acid 50% peel"
+        "Candida albicans",
+        "Trichophyton rubrum",
+        "Malassezia furfur",
+        "Epidermophyton floccosum"
+      ],
+      "ans": 3,
+      "exp": "Tinea cruris (jock itch) classically spares the scrotum, differentiating it from candidal intertrigo which involves the scrotum. Epidermophyton floccosum is a common cause of tinea cruris and does not infect hair. Trichophyton rubrum is also common but E. floccosum is the classic teaching point for scrotal sparing.",
+      "source": "Cloud fallback",
+      "topic": "Fungal Infections"
+    },
+    {
+      "q": "A 25-year-old man presents with asymptomatic hypopigmented and hyperpigmented macules on the trunk. Under Wood's lamp, the lesions show golden-yellow fluorescence. KOH shows 'spaghetti and meatballs' pattern. What is the treatment of choice?",
+      "opts": [
+        "Topical terbinafine",
+        "Oral fluconazole",
+        "Selenium sulfide 2.5% or ketoconazole shampoo",
+        "Griseofulvin"
+      ],
+      "ans": 2,
+      "exp": "Pityriasis versicolor is caused by Malassezia furfur (now M. globosa). The characteristic KOH finding is 'spaghetti and meatballs' (short hyphae and spores). First-line treatment is topical antifungals like selenium sulfide or ketoconazole. Oral itraconazole is used for extensive or recurrent cases.",
+      "source": "Cloud fallback",
+      "topic": "Fungal Infections"
+    },
+    {
+      "q": "A 32-year-old woman with photosensitivity presents with a malar rash, oral ulcers, and arthritis. ANA is positive with anti-dsDNA antibodies. Skin biopsy of both involved and uninvolved sun-exposed skin shows immunoglobulin deposits at the dermoepidermal junction. This finding is called:",
+      "opts": [
+        "Nikolsky sign",
+        "Lupus band test",
+        "Koebner phenomenon",
+        "Auspitz sign"
       ],
       "ans": 1,
-      "exp": "Salicylic acid is a salicylate derivative. Patients with aspirin/salicylate hypersensitivity may react to SA peels. Glycolic, TCA, and lactic acids are not salicylate derivatives and are safe in this context.\n🏰 Palace: SALICYLIC ACID is ASPIRIN'S COUSIN — same salicylate family; give it to an ASPIRIN-ALLERGIC patient and the IMMUNE CASTLE GATE slams shut.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "The lupus band test (LBT) refers to the finding of immunoglobulin (IgG, IgM, IgA) and complement deposits at the dermoepidermal junction on DIF. In SLE, the LBT is positive in both lesional AND non-lesional sun-exposed skin, unlike DLE where it is positive only in lesional skin.",
+      "source": "Cloud fallback",
+      "topic": "Connective Tissue Disorders"
     },
     {
-      "q": "Baker-Gordon phenol peel is performed in segments with 10–15 minute gaps between zones. The PRIMARY reason is:",
+      "q": "A 45-year-old woman presents with proximal muscle weakness, heliotrope rash, Gottron's papules over the knuckles, and periungual telangiectasias. Which malignancy is most commonly associated with this condition in adult female patients?",
       "opts": [
-        "Prevent systemic phenol cardiotoxicity — rapid absorption from large areas causes ventricular arrhythmias",
-        "Prevent oxidative browning of the phenol solution",
-        "Allow TCA frosting assessment between segments",
-        "Reduce total anaesthetic dose"
-      ],
-      "ans": 0,
-      "exp": "Phenol is hepatically metabolised but rapid large-area absorption causes dose-dependent cardiac toxicity (PVCs, VF). Treating one unit at a time with 10–15 min gaps allows hepatic conjugation between segments. Mandatory: IV access, cardiac monitoring, anaesthesia standby.\n🏰 Palace: PHENOL PEEL = TIME-BOMB CHEMISTRY — rush it over the whole face and phenol FLOODS the blood, triggering CARDIAC ARRHYTHMIA ALARMS; stagger the segments to let the liver DEFUSE each batch.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Belotero Balance (CPM technology) is uniquely suited for very superficial intradermal placement because:",
-      "opts": [
-        "It contains anaesthetic preventing injection discomfort",
-        "It has the highest G' of all HA fillers, resisting displacement",
-        "Its homogeneous integration into dermal tissue eliminates Tyndall blue discolouration even at intradermal depths",
-        "It is the only HA filler reversible with hyaluronidase"
+        "Breast carcinoma",
+        "Lung carcinoma",
+        "Ovarian carcinoma",
+        "Gastric carcinoma"
       ],
       "ans": 2,
-      "exp": "Belotero Balance (CPM = cohesive polydensified matrix) spreads homogeneously through dermal collagen fibres, eliminating the light-scattering particle effect that causes Tyndall. Ideal for fine perioral lines, tear trough. Other HA fillers produce Tyndall blue when placed intradermally.\n🏰 Palace: BELOTERO CPM is the GHOST FILLER — so homogeneous it DISAPPEARS into dermis without any BLUE TYNDALL HAUNTING.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Dermatomyositis in adults carries a significant risk of underlying malignancy (~15-25%). In women, ovarian carcinoma is the most commonly associated malignancy. In men, gastric and nasopharyngeal carcinomas are more common. Lung and breast cancers are also associated but ovarian is the classic teaching point for female DM.",
+      "source": "Cloud fallback",
+      "topic": "Connective Tissue Disorders"
     },
     {
-      "q": "CaHA (Radiesse) injected superficially/intradermally produces which characteristic complication NOT seen with HA fillers?",
+      "q": "A 14-year-old boy presents with honey-colored crusted lesions around the nose and mouth after an upper respiratory tract infection. The lesions began as vesicles that rapidly ruptured. The most likely causative organism is:",
       "opts": [
-        "Anaphylaxis due to bovine collagen",
-        "Visible white nodules/papules — CaHA is opaque white mineral appearing through thin skin",
-        "Blue Tyndall discolouration",
-        "Immediate reversal with hyaluronidase"
+        "Staphylococcus aureus only",
+        "Streptococcus pyogenes only",
+        "Both Staphylococcus aureus and Streptococcus pyogenes",
+        "Pseudomonas aeruginosa"
+      ],
+      "ans": 2,
+      "exp": "Impetigo contagiosa is most commonly caused by Staphylococcus aureus, Streptococcus pyogenes, or both. The classic non-bullous impetigo with honey-colored crusts is frequently caused by S. pyogenes alone or mixed infection. Bullous impetigo is caused exclusively by S. aureus (phage type 71) producing exfoliative toxins.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial Infections"
+    },
+    {
+      "q": "A 3-year-old child develops widespread erythema, skin tenderness, and superficial exfoliation giving a 'scalded skin' appearance. There is no mucous membrane involvement. Nikolsky sign is positive. The causative staphylococcal toxin acts by cleaving:",
+      "opts": [
+        "Desmoglein 1",
+        "Desmoglein 3",
+        "E-cadherin",
+        "Collagen IV"
+      ],
+      "ans": 0,
+      "exp": "Staphylococcal scalded skin syndrome (SSSS) is caused by exfoliative toxins A and B produced by S. aureus phage group II. These toxins are serine proteases that specifically cleave desmoglein 1 in the superficial epidermis, causing subcorneal blistering. Mucous membranes are spared as Dsg1 is absent there.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial Infections"
+    },
+    {
+      "q": "A 28-year-old sexually active man presents with a painless indurated ulcer on the glans penis with clean edges and a serous exudate. Inguinal lymph nodes are enlarged, firm, and non-tender. Dark-field microscopy would likely demonstrate:",
+      "opts": [
+        "Gram-negative intracellular diplococci",
+        "Spirochetes with corkscrew motility",
+        "Donovan bodies",
+        "Chlamydia elementary bodies"
       ],
       "ans": 1,
-      "exp": "CaHA is white mineral (calcium phosphate) — intradermal placement creates visible white papules through thin skin. HA placed superficially → blue Tyndall. CaHA is not reversible enzymatically and requires no allergy testing (not animal-derived).\n🏰 Palace: CaHA placed TOO SHALLOW = WHITE CASTLE STONES poking through thin skin; HA placed shallow = BLUE TYNDALL GHOST — opposite colours, same mistake.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "The painless, indurated ulcer with non-tender lymphadenopathy is classic for primary syphilis (chancre). Dark-field microscopy of the serous exudate demonstrates Treponema pallidum with characteristic corkscrew morphology and motility. This is the most sensitive direct method for diagnosing primary syphilis.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "Alopecia areata trichoscopy finding of 'exclamation mark hairs' refers to:",
+      "q": "A 25-year-old woman presents with multiple painful genital ulcers with undermined, ragged edges and soft consistency. There is tender inguinal lymphadenopathy with fluctuant nodes (buboes). Gram stain shows 'school of fish' appearance of gram-negative rods. What is the most likely diagnosis?",
       "opts": [
-        "Miniaturised vellus-like hairs at the patch centre",
-        "Hairs with alternating light-dark banding (flag sign)",
-        "Corkscrew hairs from fungal endothrix",
-        "Broken hairs tapered proximally (at scalp level) and wider distally — pathognomonic of active AA at patch margins"
-      ],
-      "ans": 3,
-      "exp": "Exclamation mark hairs: tapered/thin at the proximal (scalp-level) end, wider at the distal shaft — resembling '!'. They represent dystrophic anagen hairs that were immune-attacked at their base. Found at the active margin of AA patches; pathognomonic for active disease.\n🏰 Palace: EXCLAMATION MARK HAIRS = ! shape — THIN at the scalp root, WIDE up top — the autoimmune ARMY pinches each hair base until it tapers and breaks.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "JAK inhibitors (baricitinib, ruxolitinib) for severe alopecia areata work by:",
-      "opts": [
-        "Inhibiting 5-alpha reductase to reduce DHT-driven miniaturisation",
-        "Increasing VEGF and follicular vascularity",
-        "Blocking JAK1/JAK2 in the IFN-γ/STAT signalling pathway, restoring immune privilege of the hair follicle",
-        "Blocking androgen receptors on dermal papilla cells"
-      ],
-      "ans": 2,
-      "exp": "AA pathophysiology: IFN-γ produced by CD8+ T cells activates JAK1/2-STAT1/3, collapsing immune privilege of the hair follicle. JAK inhibitors block this pathway, restoring the immune privileged state and allowing anagen recovery. Baricitinib FDA-approved 2022 for severe AA.\n🏰 Palace: JAK INHIBITORS = IMMUNE PRIVILEGE RESTORERS — they BLOCK the IFN-γ SIGNAL (JAK-STAT) that was unmasking the HAIR FOLLICLE CASTLE to T-cell attackers.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Frontal fibrosing alopecia (FFA) distinguishes from general lichen planopilaris (LPP) by:",
-      "opts": [
-        "FFA responds to 5-AR inhibitors exclusively; LPP to steroids only",
-        "FFA is non-scarring; LPP is scarring",
-        "Band-like frontotemporal recession + eyebrow and eyelash loss preferentially (vs any scalp zone in LPP)",
-        "FFA is caused by dermatophyte infection; LPP is autoimmune"
-      ],
-      "ans": 2,
-      "exp": "FFA (a LPP variant): attacks frontotemporal hairline creating a distinctive band of recession + facial hair (eyebrows ×66–83%, eyelashes, vellus face). LPP causes patchy/diffuse scarring anywhere on scalp. Both: lymphocytic cicatricial alopecia, perifollicular white halos on trichoscopy.\n🏰 Palace: FFA = FRONTLINE TRENCH ALOPECIA scarring the BORDER HAIRLINE and stealing EYEBROWS; LPP = INLAND RAIDER hitting any scalp territory.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "In melasma management, the single most critical intervention that must accompany all treatments is:",
-      "opts": [
-        "Broad-spectrum daily photoprotection (SPF50+, UVA blocking) — without this all treatment fails",
-        "Oral isotretinoin to reduce epidermal turnover",
-        "Immediate chemical peel — topicals are secondary",
-        "Discontinuing OCP immediately in all patients"
-      ],
-      "ans": 0,
-      "exp": "UV re-triggers melanocyte activation daily. Without rigorous photoprotection (SPF50+ broad-spectrum, reapplication every 2h, UV-protective clothing, physical shade), every depigmenting treatment is reversed by ongoing sun exposure. This applies to all melasma subtypes.\n🏰 Palace: SPF50+ is the MELASMA FIREWALL — without it, UV attacks daily and REPIGMENTS every morning, erasing all treatment gains overnight.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "QS Nd:YAG 1064 nm 'laser toning' for melasma uses which parameter modification?",
-      "opts": [
-        "Maximum power to achieve level III frosting",
-        "High fluence (10–15 J/cm²) to ablate dermal melanophages",
-        "Very low fluence (1.5–3 J/cm²), large spot, multiple passes — sub-cytotoxic melanosome fragmentation",
-        "Ultra-short ns pulses targeting dermal melanocytes only"
-      ],
-      "ans": 2,
-      "exp": "Laser toning: low fluence (1.5–3 J/cm²) QS-Nd:YAG 1064nm reduces melanosome size and number WITHOUT melanocyte cytotoxicity. Sub-threshold energy fragments melanosomes gradually without PIH. High-fluence QS-Nd:YAG causes PIH and paradoxical darkening in melasma.\n🏰 Palace: LASER TONING is WHISPERING at melanosomes (1.5–3 J/cm²) — not shouting; chips away PIGMENT gradually without EXPLODING the melanocyte and causing post-inflammatory darkening.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The strongest predictor of NB-UVB response in vitiligo is:",
-      "opts": [
-        "Lesion site — face/neck best (rich follicular reservoir), acral/distal sites worst",
-        "Patient age — children always respond better",
-        "Serum anti-melanocyte antibody titre",
-        "Duration <1 year always predicts response"
-      ],
-      "ans": 0,
-      "exp": "Site matters most in vitiligo phototherapy response: face/neck (abundant hair follicles = melanocyte reservoir) achieves 70–80% repigmentation with NB-UVB; hands/feet/distal digits are poorly responsive (few follicles = minimal melanocyte supply for migration).\n🏰 Palace: VITILIGO RESPONSE SCHOOL: FACE = top student (follicle-rich reservoir), HANDS AND FEET = failing grade (follicle-poor, melanocyte desert).",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Rosacea pathophysiology: kallikrein 5 (KLK5) serine protease generates which abnormal peptide that drives vascular and inflammatory features?",
-      "opts": [
-        "Bradykinin activating B2 receptors",
-        "IL-31 directly causing mast cell degranulation",
-        "LL-37 (abnormal cathelicidin fragment) activating TLR2 → innate inflammation, vascular reactivity, VEGF",
-        "Substance P triggering neurogenic inflammation only"
-      ],
-      "ans": 2,
-      "exp": "KLK5 (overexpressed in rosacea) hypercleaves pro-cathelicidin into LL-37 peptide fragments. These activate TLR2 on keratinocytes → NF-κB, VEGF, IL-1β, IL-6 → vasodilation, angiogenesis, neutrophil recruitment. Ivermectin targets Demodex (another rosacea trigger). Azelaic acid reduces KLK5 activity.\n🏰 Palace: KLK5 SCISSORS over-cut cathelicidin into ABNORMAL LL-37 SHARDS → activate TLR2 CASTLE ALARM → VASCULAR FLAMES and NEUTROPHIL FLOOD.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Isotretinoin causes pyogenic granuloma-like lesions at nail folds due to:",
-      "opts": [
-        "Acne fulminans extension to periungual skin",
-        "Subungual haemorrhage from retinoid-induced vessel fragility",
-        "Secondary Candida infection from isotretinoin immunosuppression",
-        "Altered keratinocyte differentiation and mucocutaneous barrier disruption leading to exuberant granulation tissue at nail edges"
-      ],
-      "ans": 3,
-      "exp": "Isotretinoin paronychia: altered keratinocyte differentiation + compromised nail fold barrier → chronic irritation → exuberant granulation tissue (pyogenic granuloma-like). Dose-related, most common at toes. Not true infection. Managed with dose reduction, topical silver nitrate, steroid.\n🏰 Palace: ISOTRETINOIN NAIL TRAP: retinoid DISRUPTS the nail fold GATE → GRANULATION TISSUE SPROUTS like a RED CASTLE TURRET at the nail border.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "PUVA is superior to NB-UVB for which indication?",
-      "opts": [
-        "Vitiligo in children",
-        "Superficial mycosis fungoides",
-        "Polymorphous light eruption — PUVA is first-line",
-        "Thick plaque psoriasis — psoralen enhances UVA penetration through hyperkeratotic scale"
-      ],
-      "ans": 3,
-      "exp": "PUVA advantages: deeper UVA penetration (UVB absorbed by thick psoriatic plaque), superior for palmoplantar psoriasis. NB-UVB preferred for: vitiligo (safer), children, MF (early stages), atopic dermatitis. PUVA has higher long-term SCC risk from cumulative doses.\n🏰 Palace: PUVA'S LONG ARM (UVA) punches through THICK PSORIASIS PLAQUE WALLS; UVB is blocked at the gate. NB-UVB is safer for VITILIGO and CHILDREN (no psoralen toxicity).",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Wound tensile strength at day 7 (typical facial suture removal) is approximately:",
-      "opts": [
-        "~50% of normal skin",
-        "~100% — fully healed",
-        "~80% of normal skin",
-        "~5–10% of normal skin"
-      ],
-      "ans": 3,
-      "exp": "Tensile strength: day 7 = 5–10%; 3 weeks ≈ 20%; 6 weeks ≈ 50%; 3 months ≈ 80% (maximum never exceeds ~80%). Sutures removed at day 7 (face) are still critical — patients must protect the wound from tension and UV for months.\n🏰 Palace: DAY 7 WOUND = TODDLER (5–10% strength) — still held up by STITCH SCAFFOLDING; it takes 3 MONTHS to become an ADULT STRENGTH castle wall.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "TGF-β3 isoform is exploited therapeutically (avotermin) because:",
-      "opts": [
-        "TGF-β3 is a VEGF antagonist reducing scar vascularity",
-        "TGF-β3 stimulates epidermal proliferation for faster wound closure",
-        "TGF-β3 inhibits collagen cross-linking by blocking LOX enzyme",
-        "TGF-β3 promotes scar-free/reduced scarring healing (as in fetal wounds) unlike TGF-β1/β2 which promote fibrosis"
-      ],
-      "ans": 3,
-      "exp": "TGF-β isoforms: TGF-β1/β2 → fibrosis/scarring; TGF-β3 → scar-free healing (dominates fetal wound healing). Avotermin (recombinant TGF-β3) injected intradermally around incisions reduced scar severity in phase II trials.\n🏰 Palace: TGF-β3 is the FETAL HEALING GENE — makes wounds heal INVISIBLY like in the womb; avotermin tries to GIVE ADULTS this fetal superpower.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Body-contouring HIFU targets subcutaneous fat at approximately which depth?",
-      "opts": [
-        "~1.5 mm (dermis) — same as facial Ultherapy skin tightening",
-        "~25 mm reaching visceral fat",
-        "~13 mm (subcutaneous fat layer) — thermal ablation of adipocytes at 56–65°C",
-        "~4.5 mm (SMAS) — same as facial HIFU lifting"
-      ],
-      "ans": 2,
-      "exp": "Body HIFU (Liposonix): focal depth ~13mm (subcutaneous fat), heating to 56–65°C → thermal necrosis → macrophage clearance over 8–12 weeks. Facial Ultherapy uses 1.5/3/4.5mm transducers for skin/SMAS. Body HIFU does NOT reach visceral fat.\n🏰 Palace: BODY HIFU bullet targets 13mm FAT DUNGEON — beams converge at 13mm depth at 56°C FRYING fat cells; the surface skin sits safely 12mm above the blast.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Tinosorb M (bisoctrizole) is considered a 'next-generation' sunscreen filter because:",
-      "opts": [
-        "It is photostable, broad-spectrum (UVA+UVB), and photostabilises avobenzone — partially physical mechanism",
-        "It only absorbs UVA1 (340–400 nm)",
-        "It is a pure mineral filter like zinc oxide",
-        "It degrades rapidly on sun exposure, releasing antioxidants"
-      ],
-      "ans": 0,
-      "exp": "Tinosorb M: organic filter with partially physical (scattering) mechanism; absorbs 290–380nm (UVA+UVB); photostable; acts as triplet quencher photostabilising avobenzone. EMA-approved, not yet FDA-approved (pending). Superior to first-generation organic UVA filters (avobenzone) in stability.\n🏰 Palace: TINOSORB M is PHOTOSTABLE GUARDIAN + BODYGUARD — shields UVA+UVB, doesn't degrade, AND PROTECTS fragile avobenzone next to it.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Retinaldehyde (retinal) topical advantage over tretinoin is:",
-      "opts": [
-        "Similar anti-ageing efficacy with lower irritation — requires only one oxidation step to reach active retinoic acid",
-        "More potent than tretinoin at equivalent concentrations",
-        "Directly activates RAR without conversion",
-        "Penetrates deeper due to smaller molecular weight"
-      ],
-      "ans": 0,
-      "exp": "Retinaldehyde is one enzymatic oxidation away from retinoic acid (retinaldehyde dehydrogenase). Less irritating than applying tretinoin directly because less total retinoic acid is generated in skin. At 0.05–0.1%, shows comparable anti-ageing/anti-acne results to tretinoin with better tolerability.\n🏰 Palace: RETINALDEHYDE lives on FLOOR 2 of the retinoid castle — ONE STEP from the throne (retinoic acid), gentler than tretinoin which FLOODS the throne room directly.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Mohs micrographic surgery achieves the highest cure rate for BCC because:",
-      "opts": [
-        "Mohs removes 2cm safety margins like conventional excision",
-        "100% of the surgical margin is examined intraoperatively versus <5% in conventional breadloaf sections",
-        "Mohs uses laser to ablate residual tumour cells",
-        "General anaesthesia prevents tumour spread"
+        "Herpes genitalis",
+        "Chancroid",
+        "Lymphogranuloma venereum",
+        "Donovanosis"
       ],
       "ans": 1,
-      "exp": "Conventional excision pathology: breadloaf sections sample 1–5% of margin. MMS: 100% of deep and peripheral margin mapped and examined via horizontal frozen sections. MMS 5-year cure: 99% primary BCC, 94% recurrent. Also tissue-sparing.\n🏰 Palace: MOHS = 100% MARGIN WALL INSPECTION — every stone of the CASTLE PERIMETER is checked; conventional pathology checks 1–5% and MISSES hidden tumour soldiers in the corners.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Chancroid (soft chancre) caused by Haemophilus ducreyi presents with painful soft ulcers with undermined edges. Gram stain shows gram-negative coccobacilli in 'school of fish' or 'railroad track' pattern. Painful suppurative buboes are characteristic. Treatment is azithromycin 1g single dose or ceftriaxone 250mg IM.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "Horizontal (en face) frozen sections in Mohs allow what unique advantage?",
+      "q": "A 55-year-old man presents with a pearly, translucent papule with rolled borders and telangiectasias on the nose. The lesion has been slowly growing over 2 years. The most common histological subtype of this tumour is:",
       "opts": [
-        "Larger tissue volumes per stage",
-        "Faster H&E staining than conventional pathology",
-        "Deeper subcutaneous examination only",
-        "Visualisation of the entire peripheral and deep margin simultaneously in a single tissue section"
-      ],
-      "ans": 3,
-      "exp": "Horizontal Mohs sections: tissue flattened and cut parallel to skin surface → entire margin (peripheral + deep) visible in one plane — like viewing the underside of a bowl. Vertical breadloaf sections only sample mid-cuts, missing lateral margin tumour nests at the edges.\n🏰 Palace: MOHS HORIZONTAL CUT = viewing the entire CASTLE FOUNDATION FROM BELOW — the complete footprint at once; vertical breadloaf = slicing down the MIDDLE and MISSING the corner tumours.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Polymorphous light eruption (PMLE) pathophysiology involves:",
-      "opts": [
-        "Fixed urticarial plaques on photoprotected skin",
-        "Type IV delayed hypersensitivity to UV-induced cutaneous neoantigen — pruritic papules/vesicles appearing hours after UV exposure",
-        "Type I IgE-mediated immediate urticaria within minutes of UV",
-        "Lichenified eczema equally on covered and uncovered skin"
-      ],
-      "ans": 1,
-      "exp": "PMLE: most common photodermatosis. Type IV (delayed) hypersensitivity to a UV-induced neoantigenic skin protein. Pruritic papules/vesicles on sun-exposed sites, appearing hours after UV, lasting days. Seasonal 'hardening' with repeated exposure. Treatment: NB-UVB or PUVA for desensitisation.\n🏰 Palace: PMLE = SUN ALLERGY LATE SHIFT — UV makes a NEW ANTIGEN in the skin, and T-CELLS arrive HOURS LATER to cause ITCHY WELTS on exposed battlements.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "Spironolactone for female AGA is CONTRAINDICATED concurrently with:",
-      "opts": [
-        "Iron supplementation",
-        "Topical minoxidil — pharmacological antagonism",
-        "ACE inhibitors or potassium-sparing diuretics — life-threatening hyperkalaemia risk",
-        "Post-menopausal oestrogen replacement — reduces efficacy"
+        "Morpheaform (sclerosing)",
+        "Superficial",
+        "Nodular",
+        "Micronodular"
       ],
       "ans": 2,
-      "exp": "Spironolactone = K+-sparing diuretic + aldosterone antagonist. Combined with ACE inhibitors, ARBs, or other K+-sparing diuretics → severe hyperkalaemia. Also avoid in renal failure. Combination with minoxidil is safe and complementary.\n🏰 Palace: SPIRONOLACTONE + ACE INHIBITOR = TWO POTASSIUM HOARDERS in one vault — combined they cause HYPERKALAEMIA EXPLOSION.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Basal cell carcinoma (BCC) is the most common skin cancer. The nodular subtype is the most common, presenting as a pearly, translucent papule or nodule with rolled borders and telangiectasias, most often on the nose and central face. The morpheaform subtype is the most aggressive and most likely to recur.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
     },
     {
-      "q": "Periorbital oedema and erythema appearing 3 days after HA filler injection most likely represents:",
+      "q": "A 60-year-old chronic sun-exposed farmer presents with a rapidly growing keratotic nodule on the lower lip. Biopsy confirms well-differentiated invasive squamous cell carcinoma. Which histological feature is the strongest predictor of poor prognosis?",
       "opts": [
-        "Acute type I IgE-mediated anaphylaxis",
-        "Delayed hypersensitivity/biofilm-associated immune reaction",
-        "Tyndall effect inflammatory cascade",
-        "Vascular occlusion of the inferior orbital artery"
-      ],
-      "ans": 1,
-      "exp": "Late inflammatory nodules/reactions (days to months post-filler): most commonly delayed hypersensitivity or biofilm (low-grade bacterial) immune response. True IgE allergy to HA is rare. Management: hyaluronidase ± oral steroids ± antibiotics (if biofilm suspected). Distinguished by timing — Type I allergy is within minutes.\n🏰 Palace: FILLER DAY 3 SWELLING = DELAYED IMMUNE INSPECTION — T-cells and macrophages arrive LATE to investigate the new castle material; anaphylaxis is MINUTES not days.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "The aesthetic unit principle states that scars crossing aesthetic unit borders are more conspicuous because:",
-      "opts": [
-        "The brain perceives each aesthetic unit holistically — a discontinuity crossing unit borders disrupts normal perceptual pattern recognition",
-        "Each unit has distinct vascular supply creating colour changes at borders",
-        "Skin thickness changes at aesthetic unit borders cause differential healing",
-        "Sebaceous gland density differences at borders affect scar quality"
-      ],
-      "ans": 0,
-      "exp": "Burget-Menick aesthetic unit principle (1985): the brain processes each aesthetic facial unit (forehead, nose, eyelid, cheek, lip, chin) as a whole — scars within a unit 'disappear' into the unit's pattern, while scars crossing borders disrupt the visual boundary and draw the eye.\n🏰 Palace: AESTHETIC UNIT RULE = stay inside the CASTLE ROOMS — a scar crossing from the COURTYARD to the TOWER WALL is noticed by the brain's PATTERN GUARD; one staying in one ROOM blends in.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
-    },
-    {
-      "q": "iPLEDGE programme for isotretinoin in females of childbearing potential requires minimum:",
-      "opts": [
-        "One negative test on the day of prescribing",
-        "No test if using two forms of contraception",
-        "Three tests over 3 months before starting",
-        "Two negative pregnancy tests 30 days apart before the first prescription, then monthly"
+        "Location on the lower lip",
+        "Rapid growth over 6 weeks",
+        "Arising on background actinic keratosis",
+        "Perineural invasion"
       ],
       "ans": 3,
-      "exp": "iPLEDGE: two negative pregnancy tests ≥30 days apart before first Rx, then monthly negative tests throughout treatment. Two concurrent contraception forms required. Isotretinoin = Category X (retinoic acid embryopathy: ear/CNS/cardiac/thymus defects).\n🏰 Palace: iPLEDGE DOUBLE-LOCK: TWO negative tests 30 DAYS APART open the castle gate — one test is never enough for the Category X teratogen.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Perineural invasion is the most important poor prognostic factor for cutaneous SCC, associated with higher rates of local recurrence, regional metastasis, and disease-specific mortality. Other poor prognostic features include depth >2mm, poor differentiation, immunosuppression, and location on the lip or ear.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
     },
     {
-      "q": "Avobenzone's photostability problem is solved by which agent, and what is the mechanism?",
+      "q": "A 45-year-old woman presents with well-demarcated erythematous plaques with silvery scales on the elbows, knees, and scalp. She has associated nail pitting and onycholysis. Which drug is most likely to exacerbate her condition?",
       "opts": [
-        "Octocrylene — absorbs excess energy from excited avobenzone via triplet-triplet energy transfer, preventing photodegradation",
-        "Octinoxate — directly reduces avobenzone back to its active form",
-        "Zinc oxide — reflects UV before it reaches avobenzone",
-        "Titanium dioxide — acts as a radical scavenger"
+        "Metformin",
+        "Lithium",
+        "Amlodipine",
+        "Omeprazole"
       ],
-      "ans": 0,
-      "exp": "Avobenzone photodegrades (enol→keto isomerisation) within 15–20 min of UV. Octocrylene quenches excited-state avobenzone via triplet-triplet energy transfer — absorbing the energy that would otherwise degrade avobenzone. Also stabilised by Helioplex technology (proprietary avobenzone+octocrylene formulation) and Tinosorb M.\n🏰 Palace: OCTOCRYLENE is AVOBENZONE'S ENERGY SPONGE — whenever UV excites avobenzone to its EXCITED STATE, octocrylene SUCKS UP the excess energy before it DEGRADES the molecule.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "ans": 1,
+      "exp": "Lithium is a well-known trigger and exacerbator of psoriasis. Other drugs that worsen psoriasis include beta-blockers, antimalarials (chloroquine), NSAIDs, ACE inhibitors, and systemic corticosteroid withdrawal. Lithium acts by inhibiting inositol monophosphatase and affects keratinocyte proliferation.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
     },
     {
-      "q": "The 'Ogee curve' in facial aesthetics describes:",
+      "q": "A 20-year-old woman presents with comedones, inflammatory papules, and nodules on the face and back that have not responded adequately to 6 months of topical benzoyl peroxide and topical antibiotics. Which oral medication is indicated for severe nodulocystic acne?",
       "opts": [
-        "An S-shaped curved line running from the malar eminence downward creating the ideal youthful cheek-to-lower face contour",
-        "A straight angular jawline typical of masculine aesthetics",
-        "The C-shaped curve of the earlobe in rhinoplasty planning",
-        "The orbital rim curve used in blepharoplasty planning"
+        "Oral tetracycline",
+        "Oral isotretinoin",
+        "Oral fluconazole",
+        "Oral metronidazole"
+      ],
+      "ans": 1,
+      "exp": "Oral isotretinoin (13-cis-retinoic acid) is indicated for severe nodulocystic/conglobate acne or acne unresponsive to conventional therapy. It is the only treatment that targets all four pathogenic factors: sebum production, follicular hyperkeratinization, P. acnes colonization, and inflammation. Mandatory pregnancy prevention is required due to teratogenicity.",
+      "source": "Cloud fallback",
+      "topic": "Acne and Rosacea"
+    },
+    {
+      "q": "A 30-year-old woman presents with persistent facial flushing, erythema, and papulopustules over the central face without comedones. She reports worsening with hot beverages and sun exposure. The first-line topical treatment for the papulopustular component is:",
+      "opts": [
+        "Topical tretinoin",
+        "Topical metronidazole",
+        "Topical hydroquinone",
+        "Topical mupirocin"
+      ],
+      "ans": 1,
+      "exp": "Rosacea (papulopustular subtype) is characterized by facial erythema with papulopustules but without comedones (distinguishing it from acne). First-line topical agents include metronidazole 0.75-1% gel/cream and azelaic acid 15% gel. Topical ivermectin 1% cream targeting Demodex is also effective. Tretinoin is for acne, not rosacea.",
+      "source": "Cloud fallback",
+      "topic": "Acne and Rosacea"
+    },
+    {
+      "q": "A 25-year-old woman of skin type IV presents with bilateral symmetrical brown patches on the cheeks and upper lip that darken in summer. Wood's lamp examination enhances the pigmentation. The most effective topical treatment combination is:",
+      "opts": [
+        "Topical hydroquinone 4% alone",
+        "Triple combination cream (hydroquinone 4% + tretinoin 0.05% + fluocinolone acetonide 0.01%)",
+        "Oral tranexamic acid alone",
+        "Q-switched Nd:YAG laser alone"
+      ],
+      "ans": 1,
+      "exp": "Melasma treatment requires a multimodal approach. The triple combination cream (modified Kligman's formula: hydroquinone + retinoid + mild corticosteroid) is the most effective first-line topical treatment. Hydroquinone inhibits tyrosinase, tretinoin increases epidermal turnover, and the corticosteroid reduces irritation. Strict photoprotection is mandatory.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentary Disorders"
+    },
+    {
+      "q": "A 35-year-old man presents with depigmented macules on the dorsum of hands and around the mouth. His thyroid function tests reveal hypothyroidism. Which autoimmune condition is most commonly associated with vitiligo?",
+      "opts": [
+        "Rheumatoid arthritis",
+        "Type 1 diabetes mellitus",
+        "Autoimmune thyroid disease",
+        "Pernicious anemia"
+      ],
+      "ans": 2,
+      "exp": "Autoimmune thyroid diseases (Hashimoto's thyroiditis and Graves' disease) are the most common autoimmune associations with vitiligo, occurring in 15-30% of patients. Routine thyroid function testing is recommended in all vitiligo patients. Other associations include Type 1 DM, Addison's disease, and pernicious anemia.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentary Disorders"
+    },
+    {
+      "q": "A 28-year-old man on dapsone for dermatitis herpetiformis develops pallor, jaundice, and haemoglobin drops to 7g/dL. Blood smear shows Heinz bodies. He is most likely deficient in:",
+      "opts": [
+        "Glucose-6-phosphate dehydrogenase (G6PD)",
+        "Methemoglobin reductase",
+        "Pyruvate kinase",
+        "Glutathione synthetase"
       ],
       "ans": 0,
-      "exp": "The Ogee curve (S-curve) runs from the malar eminence/lateral cheek downward through the submalar region to the lower face — the convex-to-concave-to-convex shape characteristic of a youthful, full cheek. Volume loss with ageing flattens this curve. Fillers restore the Ogee curve by volumising the malar region and addressing the submalar hollow.\n🏰 Palace: OGEE CURVE = the S-BEND RIVER flowing from the CHEEKBONE PEAK, dipping into the SUBMALAR VALLEY, and rising again — youthful faces have a FLOWING S; aged faces have a FLAT STRAIGHT ROAD.",
-      "source": "Mixed Cosmetology",
-      "topic": "Cosmetology"
+      "exp": "Dapsone can cause dose-dependent hemolytic anemia and methemoglobinemia in all patients, but these are severe in G6PD-deficient patients. G6PD deficiency impairs the cell's ability to neutralize oxidative stress from dapsone metabolites, leading to Heinz body hemolytic anemia. G6PD screening before initiating dapsone is recommended.",
+      "source": "Cloud fallback",
+      "topic": "Drug Reactions"
+    },
+    {
+      "q": "A 42-year-old woman on carbamazepine for trigeminal neuralgia develops high fever, widespread confluent erythema, and epidermal detachment involving >30% BSA with severe mucosal erosions. The epidermal detachment in this condition is at which histological level?",
+      "opts": [
+        "Subcorneal",
+        "Mid-epidermal",
+        "Full-thickness epidermal necrosis at the DEJ",
+        "Subepidermal"
+      ],
+      "ans": 2,
+      "exp": "Toxic Epidermal Necrolysis (TEN) involves full-thickness epidermal necrosis and detachment at the dermo-epidermal junction. The mechanism involves keratinocyte apoptosis mediated by cytotoxic T lymphocytes and granulysin. Mucosal involvement distinguishes it from SSSS (which is subcorneal/superficial). Mortality can reach 30-40%.",
+      "source": "Cloud fallback",
+      "topic": "Drug Reactions"
+    },
+    {
+      "q": "A 19-year-old man presents with grouped vesicles on an erythematous base over the right forehead and tip of nose with intense pain. The involvement of the tip of nose in herpes zoster is significant because it predicts:",
+      "opts": [
+        "Ramsay Hunt syndrome",
+        "Post-herpetic neuralgia",
+        "Meningeal involvement",
+        "Ocular involvement (Hutchinson's sign)"
+      ],
+      "ans": 3,
+      "exp": "Hutchinson's sign — vesicles at the tip and side of the nose — indicates involvement of the nasociliary branch of V1, which also innervates the globe. This sign predicts a 76% risk of ocular complications (keratitis, uveitis, scleritis). Urgent ophthalmology referral is mandatory. Ramsay Hunt syndrome involves the geniculate ganglion causing facial palsy and ear vesicles.",
+      "source": "Cloud fallback",
+      "topic": "Viral Infections"
+    },
+    {
+      "q": "A 35-year-old immunocompetent woman presents with a painless 3mm umbilicated pearly papule on the inner thigh. Similar lesions are on her 6-year-old child's face. Histology of the papule's core would show:",
+      "opts": [
+        "Negri bodies",
+        "Henderson-Patterson (molluscum) bodies",
+        "Cowdry type A inclusions",
+        "Guarnieri bodies"
+      ],
+      "ans": 1,
+      "exp": "Molluscum contagiosum is caused by a poxvirus. Histology shows large intracytoplasmic inclusion bodies (Henderson-Patterson bodies or molluscum bodies) that displace the nucleus to the periphery. Cowdry type A inclusions are seen in herpesvirus infections. Guarnieri bodies are in smallpox/vaccinia. Negri bodies are in rabies.",
+      "source": "Cloud fallback",
+      "topic": "Viral Infections"
+    },
+    {
+      "q": "A 26-year-old woman presents with pruritic papules and burrows in the interdigital web spaces, wrists, and areolae. Her partner has similar symptoms. Dermoscopy reveals a 'jet with contrail' sign. The recommended treatment is:",
+      "opts": [
+        "Topical lindane 1%",
+        "Topical permethrin 5% cream",
+        "Oral ivermectin 200 mcg/kg single dose",
+        "Topical malathion 0.5%"
+      ],
+      "ans": 1,
+      "exp": "Topical permethrin 5% cream is the first-line treatment for scabies, applied from neck to toe and washed off after 8-14 hours, repeated after 1 week. Oral ivermectin is used for crusted (Norwegian) scabies or when topical therapy fails. All household and close contacts should be treated simultaneously to prevent reinfestation.",
+      "source": "Cloud fallback",
+      "topic": "Infestations"
+    },
+    {
+      "q": "A 40-year-old man with chronic plaque psoriasis involving 30% BSA fails multiple systemic therapies. He is started on a biologic specifically targeting IL-17A. Which agent is this?",
+      "opts": [
+        "Adalimumab",
+        "Secukinumab",
+        "Ustekinumab",
+        "Guselkumab"
+      ],
+      "ans": 1,
+      "exp": "Secukinumab (Cosentyx) is a fully human monoclonal antibody that specifically targets IL-17A. Other IL-17 pathway inhibitors include ixekizumab (anti-IL-17A) and bimekizumab (anti-IL-17A and F). Ustekinumab targets IL-12/23 (p40 subunit). Guselkumab targets IL-23 (p19 subunit). Adalimumab targets TNF-alpha.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
+    },
+    {
+      "q": "A 55-year-old man presents with a verrucous plaque on the right leg slowly enlarging over 15 years. He is a farmer. Biopsy shows pseudoepitheliomatous hyperplasia and thick-walled, dark-brown fungal cells dividing in multiple planes (Medlar/sclerotic bodies). The most common causative organism worldwide is:",
+      "opts": [
+        "Sporothrix schenckii",
+        "Fonsecaea pedrosoi",
+        "Exophiala jeanselmei",
+        "Phialophora verrucosa"
+      ],
+      "ans": 1,
+      "exp": "Chromoblastomycosis is a chronic deep fungal infection caused by dematiaceous (black) fungi. Fonsecaea pedrosoi is the most common causative organism worldwide. Medlar bodies (sclerotic cells/copper pennies) are the diagnostic hallmark: brown, thick-walled cells with septation in multiple planes. Treatment is oral itraconazole, often combined with cryotherapy.",
+      "source": "Cloud fallback",
+      "topic": "Fungal Infections"
+    },
+    {
+      "q": "A 30-year-old man with HIV (CD4 count 45 cells/mm3) develops painless violaceous papules and plaques on the hard palate and legs. Biopsy shows spindle cells with slit-like vascular spaces and extravasated red blood cells. HHV-8 serology is positive. First-line systemic treatment for disseminated disease is:",
+      "opts": [
+        "Topical imiquimod",
+        "Intralesional vinblastine",
+        "Liposomal doxorubicin IV",
+        "Cryotherapy"
+      ],
+      "ans": 2,
+      "exp": "Kaposi's sarcoma in advanced HIV (epidemic KS) associated with HHV-8 requires systemic therapy when disseminated. Liposomal doxorubicin (pegylated, e.g., Doxil) is the first-line systemic chemotherapy. Antiretroviral therapy (ART) should also be initiated/optimized. Localized lesions can be treated with radiation, cryotherapy, or intralesional agents.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "A 55-year-old woman presents with superficial scaly patches and plaques on the lower trunk and buttocks for 10 years. Biopsy shows epidermotropism of atypical lymphocytes with Pautrier's microabscesses. IHC is CD3+, CD4+, CD8-. The next step in staging is:",
+      "opts": [
+        "PET-CT scan",
+        "Peripheral blood flow cytometry for CD4:CD8 ratio and Sezary cell count",
+        "Bone marrow biopsy",
+        "T-cell receptor gene rearrangement study on blood"
+      ],
+      "ans": 1,
+      "exp": "Mycosis fungoides (MF) is the most common primary cutaneous T-cell lymphoma. After skin biopsy confirms MF, staging includes peripheral blood evaluation for Sezary cells by flow cytometry (CD4:CD8 ratio >10, or Sezary cells >1000/mm3 indicates blood involvement, stage B2). Early-stage MF is treated with skin-directed therapies.",
+      "source": "Cloud fallback",
+      "topic": "Tumours"
+    },
+    {
+      "q": "During Mohs micrographic surgery (MMS), what unique advantage does this technique have over conventional excision with standard margins?",
+      "opts": [
+        "It does not require local anesthesia",
+        "It allows examination of 100% of the surgical margin using horizontal frozen sections",
+        "It stimulates faster wound healing by secondary intention",
+        "It eliminates the need for histopathological assessment"
+      ],
+      "ans": 1,
+      "exp": "Mohs micrographic surgery allows real-time histologic examination of 100% of the peripheral and deep surgical margin using horizontal (en face) frozen sections, unlike conventional excision which samples <1% of margins using vertical bread-loaf sections. This allows precise tumor mapping, maximal tissue conservation, and the lowest reported recurrence rates for high-risk tumours.",
+      "source": "Cloud fallback",
+      "topic": "Procedures"
+    },
+    {
+      "q": "A 32-year-old woman with severe atopic dermatitis fails topical corticosteroids and topical calcineurin inhibitors. She is started on dupilumab. What is dupilumab's mechanism of action?",
+      "opts": [
+        "Inhibits TNF-alpha",
+        "Blocks IL-4Rα subunit, thereby inhibiting both IL-4 and IL-13 signaling",
+        "Selectively inhibits JAK1 and JAK3",
+        "Blocks IL-31 receptor to reduce itch"
+      ],
+      "ans": 1,
+      "exp": "Dupilumab is a fully human monoclonal antibody targeting the IL-4 receptor alpha (IL-4Rα) subunit, which is shared by the type I receptor (IL-4Rα/γc) and type II receptor (IL-4Rα/IL-13Rα1). Blocking IL-4Rα simultaneously inhibits both IL-4 and IL-13 signaling — the key Th2 cytokines driving atopic dermatitis. JAK inhibitors (abrocitinib, upadacitinib) are also approved for moderate-severe AD.",
+      "source": "Cloud fallback",
+      "topic": "Eczema"
+    },
+    {
+      "q": "A 40-year-old man presents with pruritic grouped vesicles on extensor surfaces of elbows and knees, and buttocks. Skin biopsy shows subepidermal blisters with neutrophil microabscesses at the dermal papillae tips. DIF shows granular IgA deposits in dermal papillae. This condition is most strongly associated with:",
+      "opts": [
+        "Crohn's disease",
+        "Gluten-sensitive enteropathy (coeliac disease)",
+        "Ulcerative colitis",
+        "Primary biliary cholangitis"
+      ],
+      "ans": 1,
+      "exp": "Dermatitis herpetiformis (DH) is the cutaneous manifestation of coeliac disease (gluten-sensitive enteropathy). Virtually all DH patients have subclinical or clinical coeliac disease. Granular IgA deposits in the dermal papillae on DIF is pathognomonic. Treatment is a strict gluten-free diet and dapsone for symptomatic relief.",
+      "source": "Cloud fallback",
+      "topic": "Bullous Disorders"
     }
   ]
 }
