@@ -1,12 +1,12 @@
 # ─────────────────────────────────────────────────────────────
 # setup_scheduler.ps1
 # Run once (as Admin) to register the daily quiz task in
-# Windows Task Scheduler — fires at 6:30 AM every day
+# Windows Task Scheduler — fires at 5:30 AM every day
 # ─────────────────────────────────────────────────────────────
 
 $taskName   = "ObsidianDailyQuiz"
 $scriptPath = "C:\Users\gauth\Downloads\obsidian-daily-quiz-main\obsidian-daily-quiz-main\run_daily.bat"
-$triggerTime = "06:30"
+$triggerTime = "05:30"
 
 $action  = New-ScheduledTaskAction -Execute "cmd.exe" -Argument "/c `"$scriptPath`""
 $trigger = New-ScheduledTaskTrigger -Daily -At $triggerTime
