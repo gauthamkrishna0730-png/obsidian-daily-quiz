@@ -1,379 +1,387 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T19:29:08",
-  "count": 27,
+  "generated_at": "2026-06-28T21:12:10",
+  "count": 28,
   "topics_covered": [
-    "Basic things",
     "Benign tumours",
+    "C pediatric dermatology",
     "Cosmetology",
     "Dermatology",
-    "Leprosy – Linder's Scoring System",
-    "Leprosy – Relapse Diagnosis",
-    "Malignant tumours",
-    "Neurofibromatosis",
-    "Parasite",
-    "STD infections",
-    "Tuberous sclerosis",
-    "Vasculitis",
-    "cosmetology review"
+    "Drugs",
+    "Leprosy",
+    "STD infections"
   ],
   "questions": [
     {
-      "q": "A 45-year-old patient presents with a pigmented lesion on the back that is clinically suspicious for melanoma. Which biopsy modality is contraindicated and why?",
+      "q": "A 28-year-old uncircumcised male presents with a painful genital ulcer and suppurative inguinal lymphadenopathy. The ulcer has a soft, purulent base. Which organism is the most likely causative agent?",
       "opts": [
-        "Punch biopsy, because it risks sampling error and cannot assess full Breslow depth",
-        "Shave biopsy, because it compromises Breslow depth assessment and cannot evaluate subcutaneous involvement",
-        "Incisional biopsy, because it leaves tumor behind requiring a second procedure",
-        "Excisional biopsy, because it produces cosmetically unacceptable scarring"
+        "Treponema pallidum",
+        "Haemophilus ducreyi",
+        "Klebsiella granulomatis",
+        "Chlamydia trachomatis L1-L3"
       ],
       "ans": 1,
-      "exp": "Shave and punch biopsies are both contraindicated in suspected melanoma because they fail to provide adequate depth assessment (Breslow thickness) which is critical for staging and prognosis. Excisional biopsy is the gold standard for melanoma as it provides simultaneous diagnosis and definitive treatment with complete margin assessment.",
-      "source": "Review",
-      "topic": "cosmetology review"
+      "exp": "Chancroid is caused by Haemophilus ducreyi, a Gram-negative bacillus that produces soft, painful ulcers with suppurative regional lymphadenitis. The clinical presentation of painful ulcers with purulent material is classic for H. ducreyi, in contrast to the indurated chancre of syphilis caused by T. pallidum. Uncircumcised men have higher risk due to the occlusive prepucial environment.",
+      "palace": "🏰 Palace: Picture a SOFT, PAINFUL DUCREY dancing in the castle dungeon while TREPONEMA (hard syphilis) watches rigidly from the stone walls—soft vs. hard is the KEY difference.",
+      "source": "Chancroid",
+      "topic": "STD infections"
     },
     {
-      "q": "A 35-year-old patient with psoriasis presents with elevated antimicrobial peptides in their skin scales. Which of the following AMPs was historically the first to be identified in psoriatic scales and is primarily produced by keratinocytes and sebocytes?",
+      "q": "A 55-year-old man receiving diltiazem 120 mg three times daily for Raynaud phenomenon develops violet-brown discoloration in sun-exposed areas over several months. Histopathologic examination reveals brownish granular pigment accumulated within dermal macrophages. What accounts for the blue-violet surface appearance of this drug-induced hyperpigmentation?",
       "opts": [
-        "LL-37 (cathelicidin)",
-        "Human β-defensin-2 (hBD-2)",
-        "Dermcidin (DCD-1)",
-        "Calprotectin (S100 protein)"
+        "Accumulation of lipofuscin within dermal macrophages",
+        "Red hue from diltiazem deposition in subcutaneous adipose tissue",
+        "Melanin overproduction triggered by photosensitivity",
+        "Hemosiderin deposition from extravasated red blood cells"
+      ],
+      "ans": 0,
+      "exp": "The blue-violet surface color of diltiazem-induced photodistributed hyperpigmentation results from the accumulation of brownish granular pigment (lipofuscin) inside dermal macrophages, while the underlying red hue in adipose tissue is due to the drug's high lipophilicity. The discoloration typically fades gradually after discontinuation of the medication.",
+      "source": "Diltiazem",
+      "topic": "Drugs"
+    },
+    {
+      "q": "A 2-day-old premature neonate presents with lethargy, hepatosplenomegaly, and meconium-stained amniotic fluid at birth. Physical examination reveals discrete 1–2 mm grey-white papules and pustules with red margins scattered across the back, with similar lesions noted on the conjunctivae. A skin biopsy shows focal tissue necrosis, marked neutrophilic infiltrates, and monocytes clustered around dermal blood vessels. Which of the following BEST identifies the causative organism's key virulence mechanism?",
+      "opts": [
+        "Expression of internalin A to bind host receptors and induce bacterial uptake into non-phagocytic cells",
+        "Production of lipoteichoic acid to evade the maternal immune response",
+        "Secretion of Shiga toxin to damage the cutaneous microvasculature",
+        "Formation of biofilms on fetal membranes to resist antimicrobial peptides"
+      ],
+      "ans": 0,
+      "exp": "Listeria monocytogenes utilizes the bacterial surface protein internalin A as its primary virulence factor, which binds to host receptors and induces the bacterium's own uptake into non-phagocytic cells. This mechanism is essential for transplacental transmission and dissemination in early-onset neonatal listeriosis. The other options describe virulence strategies of different pathogens or are not relevant to L. monocytogenes pathogenesis.",
+      "source": "[Paeds Day 5] Listeria",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 6-year-old child with Gorlin syndrome presents with a suspicious lesion on the scalp. The parents ask about radiotherapy options. What is the critical contraindication in Gorlin syndrome management?",
+      "opts": [
+        "Radiotherapy is safe but requires dose reduction",
+        "Radiotherapy and X-rays must be strictly avoided due to germline PTCH1 mutation increasing explosive BCC growth",
+        "Radiotherapy is contraindicated only if combined with vismodegib",
+        "Radiotherapy can be used if preceded by preventive vismodegib therapy"
       ],
       "ans": 1,
-      "exp": "Human β-defensin-2 (hBD-2) was the first AMP discovered in psoriatic scales and remains an important marker of skin immunity. It is produced by keratinocytes and exhibits broad-spectrum antimicrobial activity against bacteria, fungi, and viruses.",
-      "source": "Antimicrobial peptides",
-      "topic": "Basic things"
+      "exp": "Patients with Gorlin syndrome carry germline PTCH1 mutations (or rarely PTCH2/SUFU), making them exquisitely radiosensitive. Ionizing radiation triggers uncontrolled proliferation of thousands of BCCs in the irradiated field and must be absolutely avoided. This is a cornerstone principle in Gorlin syndrome management that supersedes other treatment considerations.",
+      "source": "Basal cell carcinoma 1 1",
+      "topic": "Benign tumours",
+      "memory": "🏰 Palace: Picture a GORLIN KNIGHT shielding his castle from RADIOACTIVE RAYS—the walls collapse into THOUSANDS OF TINY BCCs. The X-ray machine in the courtyard is chained and forbidden, guarded by a grimacing PTCH1 sentinel."
     },
     {
-      "q": "A 45-year-old man with a long-standing history of multiple schwannomas affecting the spinal cord and peripheral nerves is found to have normal bilateral vestibular systems on audiometric testing and imaging. Genetic testing reveals a mutation in the SMARCB1 gene. Which of the following best distinguishes this patient's condition from classic NF2?",
+      "q": "Augusto Ducrey's landmark 1889 experiments involved serial autoinoculations on forearms using purulent material from genital ulcers. What was the primary scientific advantage of this autoinoculation technique?",
       "opts": [
-        "This patient has mosaic NF2 restricted to the spinal and peripheral nervous system",
-        "This patient has schwannomatosis, characterized by multiple schwannomas but strictly lacking bilateral vestibular schwannomas",
-        "This patient has Gardner-type NF2 with unusually late onset and minimal vestibular involvement",
-        "This patient has a postzygotic somatic mutation that will be inherited in an autosomal recessive pattern"
+        "It allowed direct visualization of bacteria under light microscopy",
+        "It allowed contaminants to die out and isolated the pure causative organism",
+        "It proved that chancroid was sexually transmitted rather than congenital",
+        "It demonstrated immunity development after primary infection"
       ],
       "ans": 1,
-      "exp": "Schwannomatosis is a distinct genetic disorder caused by mutations in SMARCB1/INI1 or LZTR1 genes and is defined by multiple painful cranial, spinal, and peripheral schwannomas while strictly lacking bilateral vestibular schwannomas—the hallmark of NF2. Unlike classic NF2, patients with schwannomatosis typically have a normal lifespan but suffer from intractable neuropathic pain rather than hearing loss and neurologic morbidity. The absence of bilateral vestibular involvement and the SMARCB1 mutation confirm schwannomatosis rather than any NF2 subtype.",
-      "source": "Neurofibromatosis Type 2 (NF2 Gene, Merlin Protein, Bilateral Vestibular Schwannomas)",
-      "topic": "Neurofibromatosis"
+      "exp": "Ducrey's serial autoinoculation technique on forearms allowed pathogenic organisms to survive while contaminants died, thereby isolating the short rod with rounded ends now recognized as Haemophilus ducreyi. This method was the standard technique for organism identification before modern culture methods became available. The infected material transferred through successive inoculations contained increasingly pure populations of the pathogen.",
+      "palace": "🏰 Palace: Imagine DUCREY as a BOUNCER at the castle gate, letting only SHORT ROUNDED RODS (H. ducreyi) pass through NINE times (serial inoculations), while CONTAMINANTS collapse on the stone steps outside.",
+      "source": "Chancroid",
+      "topic": "STD infections"
     },
     {
-      "q": "In the context of soft-tissue filler injections in high-risk zones (glabella, nasolabial folds, nose), what is the primary medicolegal consequence of inadvertent intra-arterial injection that must be explicitly discussed in informed consent?",
+      "q": "A 2-day-old neonate presents with bluish-red infiltrative papules and nodules over the trunk and extremities. Histopathology reveals plaque-like aggregates of nucleated cells and non-nucleated erythrocytes within the reticular dermis. What is the pathophysiological mechanism underlying these lesions?",
       "opts": [
-        "Temporary erythema and edema lasting 2–3 weeks",
-        "Reversible tissue necrosis with full recovery after hyaluronidase administration",
-        "Irreversible blindness due to retrograde embolization into the central retinal artery",
-        "Mild nodule formation requiring manual massage"
+        "Autoimmune destruction of dermal fibroblasts mediated by circulating IgG autoantibodies",
+        "Dermal extramedullary erythropoiesis representing the fetal hematopoietic system's response to severe systemic infectious stress",
+        "Direct bacterial invasion of sebaceous glands with subsequent purulent inflammation",
+        "Melanin incontinence and dermal pigment deposition secondary to post-inflammatory hyperpigmentation"
       ],
-      "ans": 2,
-      "exp": "Inadvertent intra-arterial injection of fillers causes immediate ischemia and necrosis; when it involves retrograde embolization into the central retinal artery, it results in irreversible blindness—the most devastating and litigious complication of filler injection. This catastrophic risk must be explicitly discussed during informed consent, particularly in anatomically high-risk zones. The other options represent minor, reversible, or non-vision-threatening complications.",
-      "source": "Medicolegal aspects 2",
+      "ans": 1,
+      "exp": "Blueberry muffin lesions are a characteristic sign of TORCH and other severe congenital infections, manifesting as bluish-red infiltrative papules and nodules at birth. The histology reveals dermal extramedullary erythropoiesis—aggregates of nucleated cells and non-nucleated erythrocytes in the reticular dermis—not inflammatory infiltrates. This represents compensatory hematopoiesis triggered by severe systemic infection-induced stress on the fetus.",
+      "source": "[Paeds Day 5] TORCH overview",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 3-month-old premature female infant (birth weight 800 g) presents with a red nodule on the cheek that has been enlarging since age 6 weeks. Which immunohistochemical marker would definitively confirm the diagnosis of infantile haemangioma and distinguish it from a congenital haemangioma or vascular malformation?",
+      "opts": [
+        "VEGFR1 positivity throughout all phases of the lesion",
+        "GLUT1 positivity expressed consistently in proliferating, involuting and involuted phases",
+        "CD34 positivity limited to the proliferative phase only",
+        "Erythrocyte membrane antigen expression solely in the endothelial cells"
+      ],
+      "ans": 1,
+      "exp": "Infantile haemangiomas are defined by universal GLUT1 (glucose transporter-1) expression on tumour endothelial cells throughout all lifecycle phases—proliferating, involuting, and involuted—which is the definitive hallmark distinguishing them from congenital haemangiomas and vascular malformations. GLUT1 is an erythrocyte-type glucose transporter whose consistent presence confirms the proliferative neoplastic nature of IH.",
+      "source": "[Paeds Day 3] Infantile Haemangioma",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 45-year-old woman presents with smile lines that are visible only during facial animation and early solar lentigines. According to the Glogau photoaging classification, what is her photoaging type, and what is the most appropriate first-line treatment?",
+      "opts": [
+        "Type I photoaging; preventative care with sunscreen and topical cosmeceuticals",
+        "Type II photoaging; medium-depth chemical peels plus topical retinoids and alpha-hydroxy acids",
+        "Type III photoaging; laser resurfacing and injectable fillers",
+        "Type IV photoaging; ablative fractional laser and surgical lift procedures"
+      ],
+      "ans": 1,
+      "exp": "Glogau Type II photoaging presents in patients aged late 30s–40s with wrinkles that appear only during facial animation (smile lines), early brown age spots (solar lentigines), and palpable keratoses. The recommended treatment combines medium-depth chemical peels with long-term topical retinoids and alpha-hydroxy acids. 🏰 Palace: Picture a 40-year-old woman SMILING in a MEDIUM-DEPTH POOL (Type II = medium depth peels), her face animating as RETINOID RAYS shine on her LENTIGINOUS SPOTS like golden coins at the pool bottom.",
+      "source": "x niche 1",
       "topic": "Cosmetology"
     },
     {
-      "q": "A 32-year-old woman presents with bilaterally symmetrical, irregular brown patches over her cheeks, nose, forehead, and upper lip that worsened after starting oral contraceptives 6 months ago. Which of the following best describes the most likely distribution pattern of her condition?",
+      "q": "A pregnant woman in her first trimester with untreated primary syphilis delivers an infant with hepatosplenomegaly, jaundice, and a characteristic maculopapular rash sparing the palms and soles. Histological examination of fetal umbilical cord tissue reveals necrotizing funisitis with plasma cell infiltration around blood vessels. Which pathological mechanism is responsible for tissue damage in this condition?",
       "opts": [
-        "Malar pattern",
-        "Centrofacial pattern",
-        "Mandibular pattern",
-        "Extrafacial pattern"
+        "Obliterative endarteritis with plasma cell and mononuclear infiltration and hyperplastic endothelial cells",
+        "Granulomatous vasculitis with central caseous necrosis and langhans giant cells",
+        "Cytotoxic T lymphocyte-mediated destruction of infected hepatocytes with viral inclusion bodies",
+        "Direct intracellular replication of spirochetes within keratinocytes leading to cell lysis and epidermal necrosis"
+      ],
+      "ans": 0,
+      "exp": "Congenital syphilis is caused by transplacental transmission of Treponema pallidum with a 70–100% transmission rate during primary maternal infection. The hallmark pathological mechanism is obliterative endarteritis, characterized by plasma cell and mononuclear infiltration surrounding blood vessels with hyperplastic endothelial cells, leading to vascular occlusion and tissue ischemia. Necrotizing funisitis of the umbilical cord is a classic finding.",
+      "source": "[Paeds Day 5] TORCH overview",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 4-week-old full-term infant born vaginally presents with fever, irritability, and signs of acute meningitis on lumbar puncture. The parents report no skin lesions or rash at the time of symptom onset. The cerebrospinal fluid culture is pending, but based on the clinical presentation and epidemiology, which of the following statements regarding late-onset neonatal listeriosis is CORRECT?",
+      "opts": [
+        "The infection results from in utero transplacental transmission and typically manifests within the first 48 hours of life",
+        "Cutaneous involvement with petechiae and pustules is a characteristic early sign that distinguishes this form from other bacterial meningitides",
+        "The infection is acquired either during passage through an infected birth canal or through postpartum environmental exposure, with the CNS as the primary target organ",
+        "Affected infants are predominantly premature or growth-restricted with a documented history of maternal immunocompromise"
+      ],
+      "ans": 2,
+      "exp": "Late-onset neonatal listeriosis is acquired either during vaginal delivery through an infected birth canal or postnatally through environmental exposure, and it characteristically targets the central nervous system, presenting as meningitis or meningoencephalitis. Unlike early-onset disease, the skin is generally not involved in the initial presentation of late-onset listeriosis. Late-onset disease affects healthy full-term infants with symptom onset several weeks after birth, distinguishing it epidemiologically and clinically from the early-onset form.",
+      "source": "[Paeds Day 5] Listeria",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 55-year-old solid organ transplant recipient presents with multiple BCCs across the trunk and is on calcineurin inhibitor-based immunosuppression. Which intervention may reduce tumor burden while maintaining transplant function?",
+      "opts": [
+        "Increase calcineurin inhibitor dosing to enhance immune surveillance",
+        "Switch from calcineurin inhibitors to mTOR inhibitors (sirolimus/everolimus) which have antineoplastic properties",
+        "Discontinue all immunosuppression to restore tumor immunity",
+        "Initiate systemic interferon-alpha monotherapy"
       ],
       "ans": 1,
-      "exp": "The patient's presentation with involvement of forehead, cheeks, nose, and upper lip (sparing the philtrum and nasolabial folds) is classic for the centrofacial distribution pattern, which is the most common pattern in melasma. The malar pattern would involve only cheeks and nose, while mandibular pattern affects the jawline.",
-      "source": "Facial melanosis",
+      "exp": "Solid organ transplant recipients have a 5–10-fold increased BCC risk due to chronic immunosuppression. mTOR inhibitors (sirolimus, everolimus) possess intrinsic antineoplastic and anti-angiogenic properties, making them preferable alternatives to calcineurin inhibitors in high-burden disease. This switch balances graft protection with reduced malignancy risk.",
+      "source": "Basal cell carcinoma 1 1",
+      "topic": "Benign tumours",
+      "memory": "🏰 Palace: A TRANSPLANT KNIGHT trades his CALCINEURIN SHIELD for an mTOR SWORD—the sword has a POISON EDGE that kills TUMORS while keeping the GRAFT ALIVE in the castle keep."
+    },
+    {
+      "q": "Which of the following demographic and obstetric factors is associated with the HIGHEST risk for infantile haemangioma development?",
+      "opts": [
+        "Male infant, term delivery, birth weight 3500 g",
+        "Female infant, premature delivery, birth weight 950 g",
+        "Female infant, term delivery, birth weight 2800 g",
+        "Male infant, premature delivery, birth weight 2300 g"
+      ],
+      "ans": 1,
+      "exp": "Infantile haemangiomas show a marked female predominance (F:M ratio 2:1–5:1), occur predominantly in White non-Hispanic infants, and carry dramatically elevated incidence in premature and low birth weight infants—notably 25–30% of infants weighing <1000 g. Birth weight <2500 g is an independent risk factor with incidence rising inversely with decreasing weight.",
+      "source": "[Paeds Day 3] Infantile Haemangioma",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 3-month-old with large, irregular midline scalp defects overlying a skull ossification defect, prominent scalp vein dilation, shortened digits, and syndactyly of the feet is evaluated. Which genetic mutation and classification group best fits this clinical presentation?",
+      "opts": [
+        "BMS1 gene mutation; Group 1 scalp ACC without multiple anomalies",
+        "DOCK6 gene mutation (autosomal recessive); Group 2 Adams-Oliver Syndrome",
+        "Sporadic vascular disruption; Group 3 scalp ACC with epidermal and organoid nevi",
+        "NOTCH1 gene mutation; isolated scalp ACC associated with cleft palate only"
+      ],
+      "ans": 1,
+      "exp": "Adams-Oliver Syndrome (Group 2) is characterized by large, non-membranous scalp defects with skull ossification defects and dilated scalp veins, combined with terminal transverse limb defects (shortened digits, syndactyly) and cutis marmorata telangiectatica congenita. DOCK6 mutations cause autosomal recessive Adams-Oliver Syndrome, while ARHGAP31, RBPJ, NOTCH1, and DLL4 mutations cause autosomal dominant forms.",
+      "source": "[Paeds Day 4] Aplasia cutis congenita",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 4-month-old girl presents with a port-wine stain over the left upper eyelid and forehead extending into the V2 distribution. Her parents are concerned about inheritance risk. Which genetic mechanism best explains Sturge-Weber syndrome?",
+      "opts": [
+        "Autosomal dominant germline mutation inherited from an affected parent",
+        "Somatic postzygotic GNAQ mutation (c.548G>A; p.Arg183Gln) occurring in anterior neural crest cells before widespread migration",
+        "X-linked recessive mutation affecting vascular development genes",
+        "Autosomal recessive homozygous mutation in GNA11 present in all body cells"
+      ],
+      "ans": 1,
+      "exp": "Sturge-Weber syndrome is a sporadic neurocutaneous disorder caused by a somatic (not germline) activating missense mutation in GNAQ that occurs postzygotically in the anterior neural crest or cephalic mesenchyme. This explains why it is non-heritable and why affected individuals have normal recurrence risk for offspring. The mutation is present only in lesional tissue, not throughout the body or germline.",
+      "source": "[Paeds Day 2] Sturge-Weber Syndrome",
+      "topic": "C pediatric dermatology",
+      "palace": "🏰 Palace: Picture a GNARLY SOMATIC GNAQ mutant emerging ONLY from the castle's ANTERIOR NEURAL CREST gate (not the germline tower)—it colonizes the FOREHEAD area and vanishes before reaching other rooms, so offspring are SAFE from inheritance."
+    },
+    {
+      "q": "A 65-year-old man presents with a pearlescent nodule on his cheek featuring a rolled border and surface telangiectasias. Dermoscopy is performed to confirm the diagnosis. Which of the following dermoscopic features is considered the most sensitive and specific for nodular basal cell carcinoma?",
+      "opts": [
+        "Blue-gray ovoid nests without follicular association",
+        "Arborizing telangiectasias with tree-like branching vessels",
+        "Multiple small erosions with fine superficial telangiectasias",
+        "Leaf-like areas with radial projections from a central hub"
+      ],
+      "ans": 1,
+      "exp": "Arborizing telangiectasias are bright red, large, tree-like branching vessels that focus sharply at the surface and represent the most sensitive and specific dermoscopic feature for nodular BCC. The other features are present in BCC but are either less specific (blue-gray nests are seen in pigmented BCC) or more characteristic of superficial or pigmented subtypes. 🏰 Palace: Picture a magnificent TREE growing bright red BRANCHES right at the castle gate—this ARBORIZING pattern is the VIP signature of nodular BCC's dermoscopic ballroom.",
+      "source": "Basal cell carcinoma 1",
+      "topic": "Benign tumours"
+    },
+    {
+      "q": "Which of the following mechanisms is responsible for the accumulation of glycated collagen in the dermis of diabetic patients?",
+      "opts": [
+        "Increased enzymatic degradation by matrix metalloproteinases due to hyperglycemia",
+        "Glycated collagen is highly resistant to degradation by metalloproteinases and accumulates rather than being broken down",
+        "Reduced collagen synthesis due to impaired fibroblast function from neuropathy",
+        "Cross-linking of collagen fibers mediated by insulin-like growth factor-1"
+      ],
+      "ans": 1,
+      "exp": "Non-enzymatic glycosylation of collagen in diabetes forms advanced glycation end products (AGEs) that render the collagen highly resistant to degradation by metalloproteinases, leading to pathological accumulation in the dermis. This accumulation contributes to reduced skin elasticity and various dermatological manifestations.",
+      "source": "Skin manifestations in diabetes",
       "topic": "Dermatology"
     },
     {
-      "q": "A researcher investigates how neutrophils contribute to skin antimicrobial defense. Which of the following proteins do neutrophils produce in their primary granules as part of the innate immune arsenal?",
+      "q": "A mother presents at 32 weeks gestation with primary genital HSV infection. What is her approximate risk of transmitting the virus to her neonate if vaginal delivery occurs?",
       "opts": [
-        "Psoriasin and histone H4",
-        "Bactericidal/permeability-increasing protein (BPI) and defensins",
-        "Dermcidin and ribonucleases",
-        "LL-37 and calprotectin"
-      ],
-      "ans": 1,
-      "exp": "Neutrophils produce bactericidal/permeability-increasing protein (BPI) and defensins stored in their primary granules, which are released upon activation to combat microbial pathogens. These represent critical components of neutrophil-mediated antimicrobial defense.",
-      "source": "Antimicrobial peptides",
-      "topic": "Basic things"
-    },
-    {
-      "q": "A 3-year-old boy with a family history of tuberous sclerosis presents with multiple ash-leaf macules and focal seizures. Genetic testing identifies a TSC2 mutation inherited from his mother. Which statement best explains why TSC2 mutations typically produce a more severe clinical phenotype compared to TSC1 mutations?",
-      "opts": [
-        "TSC2 encodes hamartin, which has direct inhibitory control over mTORC1 signaling",
-        "TSC2 encodes tuberin, a GTPase-activating protein that directly inhibits Rheb-GTP and suppresses mTORC1; loss of tuberin results in greater mTORC1 hyperactivation than hamartin loss",
-        "TSC2 mutations are exclusively autosomal recessive and therefore always manifest with higher penetrance",
-        "TSC2 is located on chromosome 9q34, whereas TSC1 is on 16p13.3, making TSC2 more susceptible to somatic second hits"
-      ],
-      "ans": 1,
-      "exp": "The hamartin-tuberin heterodimer functions as a tumor suppressor complex. Tuberin (TSC2 product) is a GTPase-activating protein that directly converts Rheb-GTP to its inactive Rheb-GDP form, thereby suppressing mTORC1. Loss of tuberin removes this critical brake point, leading to greater constitutive mTORC1 activation and more severe hamartoma formation, intellectual disability, and treatment-resistant seizures. Hamartin (TSC1 product) acts as a cytoplasmic scaffold protein; its loss produces a comparatively milder phenotype.",
-      "source": "Tuberous Sclerosis Complex (TSC1 TSC2, Hamartin, Tuberin, Ash-Leaf, Shagreen, Koenen)",
-      "topic": "Tuberous sclerosis"
-    },
-    {
-      "q": "A 28-year-old Brazilian patient with a history of cutaneous leishmaniasis 3 months ago (treated with topical therapy alone) now presents with nasal stuffiness and septal necrosis. What is the most critical management principle for preventing further mucocutaneous progression?",
-      "opts": [
-        "Topical antifungal agents applied directly to nasal mucosa",
-        "Mandatory systemic treatment with pentavalent antimonials or intravenous Amphotericin B regardless of primary lesion size",
-        "Surgical debridement of necrotic tissue followed by observation",
-        "Intralesional corticosteroids to suppress local inflammation"
-      ],
-      "ans": 1,
-      "exp": "Systemic treatment is always mandatory for any L. braziliensis infection because MCL does not self-heal and pursues a relentless, mutilating course. Inadequate or incomplete initial systemic treatment directly leads to relapse and mucosal metastasis. IV Amphotericin B is preferred for established or resistant MCL over pentavalent antimonials.",
-      "source": "Leishmaniasis 2",
-      "topic": "Parasite",
-      "hook": "🏰 Palace: The CASTLE GUARD (parasites) has already snuck PAST THE GATES once—you MUST deploy SYSTEMIC SOLDIERS (IV Amphotericin B) to patrol the ENTIRE KINGDOM, not just bandage the outer walls, or the enemy will march toward the THRONE (respiratory tract) and destroy everything."
-    },
-    {
-      "q": "Which histopathological feature is considered pathognomonic for cylindroma and distinguishes it from other adnexal tumors?",
-      "opts": [
-        "Single layer of cuboidal cells arranged in concentric rings",
-        "Basaloid cell nests arranged in a jigsaw puzzle pattern with a thick PAS-positive hyaline basement membrane cylinder",
-        "Dilated, keratinous-filled cystic structures lined by stratified squamous epithelium",
-        "Adipocytes intermixed with fibrous tissue in a honeycomb pattern"
-      ],
-      "ans": 1,
-      "exp": "The distinctive jigsaw puzzle arrangement of basaloid cell nests combined with the thick, densely eosinophilic, PAS-positive (diastase-resistant) hyaline basement membrane sheath that surrounds individual tumor nests is virtually unmistakable and defines cylindroma histologically. This combination of architectural pattern and basement membrane morphology is the hallmark that makes cylindroma diagnosis straightforward on microscopy.",
-      "source": "Cylindroma",
-      "topic": "Benign tumours"
-    },
-    {
-      "q": "A 35-year-old MSM patient presents with violaceous plaques on the lower extremities. Biopsy confirms Kaposi sarcoma with spindle cells expressing LYVE-1 and podoplanin. Which viral gene product is primarily responsible for converting blood vascular endothelial cells to a lymphatic endothelial phenotype through transcriptional reprogramming?",
-      "opts": [
-        "LANA-1 (ORF 73) – maintains viral latency and inhibits apoptosis",
-        "vCyclin (ORF 72) – inhibits retinoblastoma protein to drive cell cycle progression",
-        "KSHV infection itself induces transcriptional changes in endothelial cells without a single gene product responsible",
-        "vGPCR (ORF 74) – constitutively activates inflammatory signaling pathways"
+        "Less than 1–3%",
+        "5–10%",
+        "30–50%",
+        "70–80%"
       ],
       "ans": 2,
-      "exp": "Infection of blood vascular endothelial cells with KSHV induces transcriptional reprogramming that converts them toward a lymphatic endothelial phenotype, generating neoplastic spindle cells expressing lymphatic markers (LYVE-1, podoplanin, PROX1, VEGFR-3). This phenotypic switch is the result of the infection process itself rather than a single viral gene product.",
-      "source": "Kaposi sarcoma",
-      "topic": "Malignant tumours",
-      "memory": "🏰 Palace: Imagine blood vessel cells in your castle being REPROGRAMMED into LYMPHATIC dancers (LYVE-1, podoplanin) by KSHV infection itself—the whole virus rewires their identity, not just one gene."
+      "exp": "Primary maternal genital HSV infection acquired near delivery (third trimester) carries a catastrophic 30–50% transmission risk due to high viral shedding and absence of protective transplacental maternal antibodies. This is markedly higher than the <1–3% risk seen with recurrent maternal herpes.",
+      "source": "[Paeds Day 5] Neonatal HSV",
+      "topic": "C pediatric dermatology"
     },
     {
-      "q": "A 28-year-old patient with atopic dermatitis shows elevated expression of psoriasin (S100A7). Based on the mechanisms described, which of the following best explains why psoriasin expression increases in this condition?",
+      "q": "A 42-year-old woman with limited cutaneous systemic sclerosis presents with progressive calcinosis cutis affecting her fingers and elbows. She is started on diltiazem for management. What is the PRIMARY mechanism by which diltiazem reduces cutaneous calcium deposits?",
       "opts": [
-        "Increased sebaceous gland activity",
-        "Enhanced TLR signaling from commensal bacteria",
-        "Skin barrier disruption and enhanced innate immune response",
-        "Elevated systemic levels of cathelicidins"
+        "Inhibition of intracellular calcium transport",
+        "Enhanced renal excretion of serum calcium",
+        "Direct chelation of calcium in the dermis",
+        "Suppression of osteoclast-mediated bone resorption"
       ],
-      "ans": 2,
-      "exp": "Psoriasin (S100A7) expression is upregulated in atopic dermatitis and after skin barrier disruption as part of the adaptive innate immune response to restore barrier function and prevent infection. This represents the skin's attempt to compensate for compromised barrier integrity.",
-      "source": "Antimicrobial peptides",
-      "topic": "Basic things"
+      "ans": 0,
+      "exp": "Diltiazem decreases the size of cutaneous calcium deposits through inhibition of intracellular calcium transport, which reduces dystrophic calcification in autoimmune connective tissue diseases. This mechanism is thought to alter calcium homeostasis within affected tissues, preventing further deposition and promoting resorption of existing calcifications.",
+      "source": "Diltiazem",
+      "topic": "Drugs"
     },
     {
-      "q": "Among infectious causes of balanitis documented in the literature, which organism was found in the highest percentage of balanoposthitis patients in a Swedish study?",
+      "q": "A 45-year-old woman with type 2 diabetes presents with velvety hyperpigmented plaques on her neck, axillae, and groin. Which of the following best explains the pathogenesis of these lesions?",
       "opts": [
-        "Candida albicans at 18%",
-        "Malassezia at 23%",
-        "Streptococcus species at 15%",
-        "Chlamydia trachomatis at 20%"
-      ],
-      "ans": 1,
-      "exp": "A Swedish study documented Malassezia in 23% of balanoposthitis patients, making it the highest documented percentage in that population. While Candida albicans was found in 18% of patients in another study and is considered the commonest cause overall of infective balanitis, Malassezia showed higher prevalence in the Swedish cohort.",
-      "source": "Balanoposthitis",
-      "topic": "STD infections",
-      "mnemonic": "🏰 Palace: In the SWEDISH CASTLE, a SLIMY MALASSEZIA TROLL (23%) sits on the THRONE, beating the CANDIDA KNIGHT (18%) in the ranking—remember SWEDISH = MALASSEZIA WINS the numbers game."
-    },
-    {
-      "q": "A 45-year-old woman presents with multiple pink to red nodules on her scalp that have gradually enlarged and coalesced over 20 years, forming a large mosaic plaque covering most of her head. Histopathology shows well-circumscribed dermal nodules with basaloid cells arranged in a jigsaw puzzle pattern, surrounded by a thick PAS-positive hyaline basement membrane. Which gene mutation is most likely responsible for this presentation?",
-      "opts": [
-        "TP53 on chromosome 17p13",
-        "CYLD on chromosome 16q12-q13",
-        "BRCA1 on chromosome 17q21",
-        "NF1 on chromosome 17q11"
+        "Non-enzymatic glycosylation of collagen leading to reduced skin elasticity",
+        "Hyperinsulinemia stimulating IGF-1 receptors on keratinocytes and fibroblasts, causing epidermal proliferation",
+        "Macro- and microangiopathic damage combined with sensory neuropathy",
+        "Decreased chemotaxis and phagocytosis of white blood cells predisposing to infection"
       ],
       "ans": 1,
-      "exp": "The CYLD (cylindromatosis) tumor suppressor gene on chromosome 16q12-q13 is the key gene implicated in familial cylindromas and Brooke-Spiegler syndrome. Loss of CYLD function leads to uncontrolled NF-κB activation and unhindered cell proliferation. The presentation of multiple cylindromas with scalp involvement forming a 'turban tumor' is pathognomonic for CYLD-associated disease.",
-      "source": "Cylindroma",
-      "topic": "Benign tumours"
+      "exp": "Acanthosis nigricans in type 2 diabetes is mediated by hyperinsulinemia acting on IGF-1 receptors in keratinocytes and fibroblasts, which stimulate epidermal hyperkeratosis and papillomatosis. While AGEs contribute to various diabetic skin manifestations, they are not the primary mechanism for acanthosis nigricans.",
+      "source": "Skin manifestations in diabetes",
+      "topic": "Dermatology"
     },
     {
-      "q": "A patient with suspected pemphigus vulgaris requires direct immunofluorescence (DIF) testing. What is the most critical error in specimen handling that would invalidate the DIF results?",
+      "q": "A 10-day-old neonate presents with grouped vesicles on an erythematous base over the scalp at the site of a fetal scalp monitor electrode. Conjunctivitis and oral ulcers are noted. Neuroimaging and visceral organ assessments are normal. What is the mortality rate for this presentation if appropriately treated with systemic antiviral therapy?",
       "opts": [
-        "Taking the biopsy from the center of an intact blister rather than the edge",
-        "Placing the DIF specimen in formalin instead of Michel's medium or normal saline",
-        "Obtaining a shave biopsy instead of a punch biopsy",
-        "Failing to orient the specimen with a marker suture before fixation"
+        "0%",
+        "5–10%",
+        "25–30%",
+        "60–70%"
+      ],
+      "ans": 0,
+      "exp": "This clinical presentation is consistent with skin-eye-mouth (SEM) disease, which is limited to stratified squamous epithelium with sparing of the CNS and visceral organs. The mortality rate for isolated SEM disease is 0%; however, untreated disease can rapidly progress to life-threatening disseminated or CNS infection.",
+      "source": "[Paeds Day 5] Neonatal HSV",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "A 35-year-old patient with leprosy presents with 15 skin lesions of mixed morphology and a slit-skin smear showing acid-fast bacilli (AFB) with a Bacteriological Index of 2+. Histopathology reveals a granuloma composed of both immature epithelioid cells and macrophages. According to the Ridley-Jopling classification, which position on the spectrum does this patient occupy?",
+      "opts": [
+        "Borderline Tuberculoid (BT)",
+        "Mid-Borderline (BB)",
+        "Borderline Lepromatous (BL)",
+        "Lepromatous (LL)"
       ],
       "ans": 1,
-      "exp": "Direct immunofluorescence specimens must NEVER be placed in formalin because formalin destroys the immunoglobulins required for diagnostic visualization on DIF. The specimen must be transported in Michel's medium, Zeus medium, or normal saline to preserve the antibody antigens at the basement membrane zone.",
-      "source": "Review",
-      "topic": "cosmetology review"
+      "exp": "The patient demonstrates a 'true dimorphous' admixture of tuberculoid features (immature epithelioid cells, moderate lesion numbers) and lepromatous features (positive smear, macrophages). BB is the exact immunological and clinical midpoint of the Ridley-Jopling spectrum, sitting between BT and BL. The hybrid granulomatous architecture with both epithelioid cells and macrophages is pathognomonic for BB.",
+      "source": "Leprosy 3",
+      "topic": "Leprosy"
     },
     {
-      "q": "A 28-year-old patient with newly diagnosed HIV infection and CD4 count <50 cells/μL develops Kaposi sarcoma. Which KSHV viral protein actively suppresses the host retinoblastoma (pRb) tumor suppressor, allowing cells to bypass G1 checkpoint and progress to S phase?",
+      "q": "A 2-week-old term neonate presents with multiple 1–2 mm yellow papules clustered over the nose and cheeks. The mother is concerned these may be infectious. On examination, the lesions are non-inflamed, non-tender, and located at follicular ostia. Which of the following best explains the pathogenesis of this condition?",
       "opts": [
-        "vFLIP (ORF 71) – prevents apoptosis in latently infected cells",
-        "vCyclin (ORF 72) – viral cyclin D homolog that inactivates pRb",
-        "vGPCR (ORF 74) – activates PI3K-AKT-mTOR signaling cascade",
-        "vIL-6 – stimulates inflammatory response and B-cell proliferation"
+        "Transplacental transfer of maternal androgens stimulating fetal sebaceous glands",
+        "Abnormal keratinization leading to keratin-filled cysts",
+        "Retained ectopic melanocytes in the dermis",
+        "Mast cell degranulation causing vasodilation and erythema"
+      ],
+      "ans": 0,
+      "exp": "Neonatal sebaceous gland hyperplasia is driven by transplacental maternal androgens, which stimulate sebaceous gland enlargement and heightened activity. Sebum production peaks at one week (matching adult rates) then declines as maternal androgens are cleared. The condition is benign and resolves by 4–6 months without treatment.",
+      "source": "[Paeds Day 1] Physiological, Pigmentary and Mechanical Neonatal Lesions",
+      "topic": "C pediatric dermatology"
+    },
+    {
+      "q": "Which UV wavelength paradoxically upregulates elastin synthesis while simultaneously inducing oxidative stress that activates elastase and cathepsin K, leading to solar elastosis?",
+      "opts": [
+        "UVB (290–320 nm), which primarily damages epidermal DNA and causes sunburn",
+        "UVA (320–400 nm), which penetrates the dermis and induces mitochondrial DNA mutations",
+        "Visible light (400–500 nm), which generates singlet oxygen in the dermis",
+        "UVC (200–290 nm), which is completely absorbed by the ozone layer"
       ],
       "ans": 1,
-      "exp": "vCyclin (ORF 72) is a viral homolog of cellular cyclin D that directly inhibits the retinoblastoma tumor suppressor protein (pRb), allowing infected cells to bypass normal G1 arrest and progress into S phase, promoting uncontrolled proliferation. This is a classic mechanism of KSHV-driven oncogenic transformation.",
-      "source": "Kaposi sarcoma",
-      "topic": "Malignant tumours",
-      "memory": "🏰 Palace: vCyclin (ORF 72) is a CLONE of cyclin D—imagine it SMASHING the retinoblastoma guardian at the G1 gate, forcing cells through like a BROKEN CHECKPOINT into S phase."
-    },
-    {
-      "q": "During a dermatology case conference, a colleague asks which skin cell type is responsible for secreting dermcidin as part of the skin's antimicrobial defense. What is the correct answer?",
-      "opts": [
-        "Keratinocytes",
-        "Sebocytes",
-        "Eccrine sweat gland epithelial cells",
-        "Langerhans cells"
-      ],
-      "ans": 2,
-      "exp": "Dermcidin (DCD-1) is secreted by eccrine sweat gland epithelial cells and exhibits broad-spectrum antimicrobial activity. This secretion in sweat represents an important mechanism for protecting skin surfaces from microbial colonization.",
-      "source": "Antimicrobial peptides",
-      "topic": "Basic things"
-    },
-    {
-      "q": "A dermatology clinic identifies a 5-year-old girl with unilateral facial angiofibromas strictly respecting the midline, confined to the right side of her face. Her parents are both phenotypically normal with negative genetic screening for TSC mutations. Systemic imaging reveals no renal angiomyolipomas, cardiac rhabdomyosarcomas, or brain hamartomas. What is the most likely genetic mechanism underlying her presentation?",
-      "opts": [
-        "Autosomal dominant inheritance with incomplete penetrance in the parents",
-        "Postzygotic (somatic) TSC1 or TSC2 mutation during early embryogenesis resulting in segmental/mosaic TSC confined to the affected body region",
-        "TSC2/PKD1 contiguous gene deletion with mild systemic manifestations",
-        "NMI-TSC (No Mutation Identified) with intronic mutations detectable only by deep sequencing"
-      ],
-      "ans": 1,
-      "exp": "Mosaic (segmental) TSC arises from a postzygotic somatic mutation in TSC1 or TSC2 during embryogenesis, affecting only the progenitor cells of a specific body segment. The characteristic finding is skin manifestations strictly localized to one region respecting the midline (as in this unilateral facial presentation) with absence of systemic complications such as renal or cardiac hamartomas. When the mutation remains isolated to the skin, systemic manifestations are absent; however, if gonadal tissue is involved, germline transmission of generalized TSC to offspring is possible.",
-      "source": "Tuberous Sclerosis Complex (TSC1 TSC2, Hamartin, Tuberin, Ash-Leaf, Shagreen, Koenen)",
-      "topic": "Tuberous sclerosis"
-    },
-    {
-      "q": "According to Indian medical law standards for informed consent in cosmetic dermatology, which of the following is NOT a mandatory disclosure requirement to the patient?",
-      "opts": [
-        "Nature of the ailment and proposed procedure",
-        "Pros and cons of the treatment",
-        "Alternative treatment options",
-        "The physician's personal financial incentives for recommending the procedure"
-      ],
-      "ans": 3,
-      "exp": "Indian dermatology practice standards mandate disclosure of nature of ailment, proposed procedure, pros/cons, alternatives, substantial risks, and consequences of non-treatment. However, the physician's personal financial incentives are not listed as a mandatory disclosure requirement in the informed consent framework, though transparency about conflicts of interest is ethically important. The other three options are explicitly required disclosures under Indian medical law standards for valid informed consent.",
-      "source": "Medicolegal aspects 2",
+      "exp": "UVA (320–400 nm) deeply penetrates the dermis and creates ROS through indirect DNA damage via chromophore energy transfer. Paradoxically, UVA upregulates elastin synthesis while also activating elastase and cathepsin K enzymes through oxidative stress. Aged fibroblasts cannot properly clear the fragmented elastin pieces, resulting in accumulation of basophilic elastotic material—the hallmark of solar elastosis. 🏰 Palace: Imagine a DEEP UVA DIVER descending into a DERMAL DUNGEON, carrying bags of ELASTIC BUILDING BLOCKS but also SCISSOR-HANDED ENZYMES that shred them into unsalvageable confetti.",
+      "source": "x niche 1",
       "topic": "Cosmetology"
     },
     {
-      "q": "According to Linder's Scoring System for multibacillary (MB) leprosy relapse, which combination of factors would yield a score of ≥3 points, confirming the diagnosis of MB relapse?",
+      "q": "A 3-day-old neonate of African descent has a bluish-grey macule over the sacrum that was noted at birth. The parents ask if this is a bruise from delivery trauma and whether it will fade. Which mechanism best explains the blue-grey coloration of a Mongolian spot?",
       "opts": [
-        "Initial BI ≥3+ (1 point), treatment completion 4 years ago (0 points), and average BI in current lesion 1+ higher than expected (0 points)",
-        "Treatment completion 65 months ago (3 points), initial BI ≥3+ (1 point), and absence of reaction signs (1 point) = 5 points",
-        "Treatment completion 50 months ago (0 points), initial BI <3+ (0 points), and BI in single lesion 3+ higher than expected (1 point)",
-        "Initial BI ≥3+ (1 point) and average BI 2+ higher than expected (1 point) with clinical presentation consistent with reaction signs (0 points)"
+        "Oxidized hemoglobin in dermal blood vessels causing cyanosis",
+        "Tyndall effect: deep dermal melanin absorbs longer wavelengths and reflects shorter blue/violet wavelengths",
+        "Reduced oxygenation of melanocytes in the reticular dermis",
+        "Admixture of melanin and hemosiderin from resolved microhemorrhages"
       ],
       "ans": 1,
-      "exp": "Linder's Scoring System awards 3 points for time >60 months after treatment, 1 point for initial BI ≥3+, and 1 point each for BI in a single lesion ≥2+ higher than expected, average BI ≥2+ higher than expected, or absence of reaction signs. A total score of ≥3 diagnoses MB relapse. Option B achieves 5 points (3+1+1), exceeding the diagnostic threshold.",
-      "source": "Leprosy 13 follow up",
-      "topic": "Leprosy – Linder's Scoring System"
+      "exp": "The Mongolian spot (congenital dermal melanocytosis) appears blue-grey due to the Tyndall effect: melanocytes are entrapped deep in the dermis after incomplete neural crest migration, and dermal melanin absorbs longer (red/orange/yellow) wavelengths while reflecting the shorter (blue/violet) wavelengths that scatter back to the observer. This is not a bruise and fades with time.",
+      "source": "[Paeds Day 1] Physiological, Pigmentary and Mechanical Neonatal Lesions",
+      "topic": "C pediatric dermatology"
     },
     {
-      "q": "A 42-year-old man with lepromatous leprosy completed adequate multidrug therapy (MDT) 7 years ago. He now presents with new skin lesions in previously unaffected areas and an increase in the bacteriological index (BI) of 3 log units compared to his baseline. On histopathology, active spindle-shaped macrophages packed with solid-staining AFB are noted. Which diagnostic criterion most strongly supports a diagnosis of relapse rather than reversal reaction?",
+      "q": "A 2-day-old neonate presents with a round, punched-out scalp defect covered by a thin, translucent epithelial membrane surrounded by a ring of coarse, dark, radially oriented hair. Which of the following is the most likely pathogenic mechanism and associated concern?",
       "opts": [
-        "Appearance of new lesions and elevated BI, which will respond completely to systemic corticosteroids within 2–4 weeks",
-        "Presence of solid-staining (viable) bacilli on histopathology with increased BI of 2 or more log units, indicating multiplication of persister bacilli",
-        "Clinical presentation with new satellite lesions that feel like 'peas in a pod' and respond transiently to corticosteroid therapy",
-        "Reappearance of AFB in skin smears at a single anatomical site, confirming new infection rather than disease reactivation"
+        "Autoimmune destruction mediated by anti-basement membrane antibodies; requires immunosuppression",
+        "Incomplete closure of embryonic ectodermal fusion lines; the hair collar sign warrants investigation for neural tube defects",
+        "Intrauterine vascular ischemia from placental infarction; associated with terminal transverse limb defects",
+        "HLA-associated genetic predisposition; most cases follow autosomal recessive inheritance"
       ],
       "ans": 1,
-      "exp": "True relapse in leprosy is caused by viable 'persister' bacilli multiplying after MDT completion. The solid-staining bacilli on histology and an increase in BI of ≥2 log units are hallmark bacteriological criteria for relapse. Unlike reversal reactions, relapse lesions will persist, enlarge, or show only partial improvement under corticosteroid cover. The presence of viable solid-staining bacilli strongly favors relapse over reaction.",
-      "source": "Leprosy 13 follow up",
-      "topic": "Leprosy – Relapse Diagnosis"
+      "exp": "Membranous ACC results from incomplete closure of embryonic ectodermal fusion lines and classically presents as a punched-out defect with a pathognomonic hair collar sign. This hair collar sign is a clinical marker for underlying neural tube defects and warrants neuroimaging. ACC is a structural anomaly, not an autoimmune or antibody-mediated disease, and has no HLA associations.",
+      "source": "[Paeds Day 4] Aplasia cutis congenita",
+      "topic": "C pediatric dermatology"
     },
     {
-      "q": "Which of the following pathophysiological mechanisms is considered the most significant trigger in the development of melasma?",
+      "q": "A 72-year-old woman with a clinically suspicious basal cell carcinoma on her nose undergoes reflectance confocal microscopy (RCM) before biopsy to reduce unnecessary tissue sampling. Which characteristic RCM finding best correlates with the peritumoral mucinous retraction artefact seen on histology?",
       "opts": [
-        "Increased number of melanocytes in lesional skin compared to perilesional skin",
-        "Ultraviolet radiation activating inducible nitric oxide and reactive oxygen species",
-        "Thyroid disease-induced hormonal dysregulation",
-        "Reduced expression of vascular endothelial growth factor by fibroblasts"
+        "Bright collagen fibers surrounding hyporeflective tumor islands",
+        "Dark cleft-like spaces surrounding tumor nests with polarization/streaming pattern of nuclei",
+        "Multiple small erosions at the epidermal surface",
+        "Shiny white structureless areas visible only under polarized light"
       ],
       "ans": 1,
-      "exp": "UV radiation is the most significant trigger in melasma pathogenesis, activating inducible nitric oxide and reactive oxygen species (ROS) that promote melanogenesis. While hormonal factors and increased expression of growth factors like SCF, c-kit, and VEGF contribute to melasma, the number of melanocytes is typically similar between lesional and perilesional skin; those in affected areas are simply more biologically active.",
-      "source": "Facial melanosis",
-      "topic": "Dermatology"
+      "exp": "RCM reveals dark cleft-like spaces surrounding tumor nests along with a polarization or streaming pattern of elongated, monomorphic nuclei, which directly correlate with the peritumoral mucinous retraction artefact observed on histopathology. Bright collagen fibers are the background context, not the specific artefact correlation. 🏰 Palace: Imagine a DARK MOAT (cleft-like spaces) surrounding the castle walls, with soldiers standing in NEAT ROWS (streaming nuclei)—this moat is the RCM mirror of the histologic mucin retraction gap that guards the BCC fortress.",
+      "source": "Basal cell carcinoma 1",
+      "topic": "Benign tumours"
     },
     {
-      "q": "A 35-year-old man from Peru presents with a 2-year history of progressive nasal bridge collapse, epistaxis, and palatal perforation following a healed cutaneous ulcer on his cheek 4 years ago. Which immunopathological mechanism best explains the tissue destruction in mucocutaneous leishmaniasis (MCL)?",
+      "q": "According to the Ridley-Jopling classification, BB (Mid-Borderline) leprosy is considered the most immunologically unstable stage of the disease spectrum. What is the primary immunological basis for this instability?",
       "opts": [
-        "T-cell anergy and tolerance allowing unrestricted parasite proliferation",
-        "Exaggerated Th1 hyperergic response with excessive pro-inflammatory cytokines causing host tissue destruction despite sparse parasites",
-        "Direct parasitic invasion overwhelming local immune defenses",
-        "IgE-mediated type I hypersensitivity reaction targeting mucosal epithelium"
+        "Complete loss of cell-mediated immunity (anergy) to Mycobacterium leprae",
+        "Continuous unresolved conflict between host immunocytes attempting to contain bacilli and the pathogen's drive to multiply",
+        "Maximal cell-mediated immunity resulting in rapid tissue destruction",
+        "Presence of neutralizing antibodies that prevent bacillary multiplication"
       ],
       "ans": 1,
-      "exp": "MCL pathogenesis is driven by a hyperergic Th1 response with massive TNF-alpha production that destroys host tissue in a futile attempt to clear sparse parasites. This is the pathophysiological opposite of DCL, which involves T-cell anergy. The exaggerated cellular immune response, not anergy or direct parasitic overwhelming, characterizes MCL's destructive course.",
-      "source": "Leishmaniasis 2",
-      "topic": "Parasite",
-      "hook": "🏰 Palace: Imagine a HYPERACTIVE BOUNCER (Th1) at the castle gate wildly swinging TNF-alpha baseball bats, smashing the ENTIRE CASTLE (host tissue) to kill one tiny invisible parasite hiding in the corner—the cure is worse than the disease."
+      "exp": "BB represents a precarious equilibrium where the host's immune system neither fully controls the infection (as in TT) nor surrenders completely (as in LL). This delicate balance cannot be sustained because the continuous antigenic stimulus and bacillary multiplication gradually exhaust the host's CMI capacity. The unresolved immunological conflict drives the disease toward upgrading or, more commonly, downgrading transitions.",
+      "source": "Leprosy 3",
+      "topic": "Leprosy",
+      "memory_hook": "🏰 Palace: Picture BB as a TIGHTROPE WALKER balanced on a thin rope between two castle towers (TT and LL)—one gust of immune wind and they tumble downward into the lepromatous abyss below."
     },
     {
-      "q": "A 28-year-old uncircumcised male presents to the GUM clinic with inflammation affecting both the glans penis and the prepuce. Which of the following statements about his condition is correct?",
+      "q": "A 7-month-old boy with Sturge-Weber syndrome is found to have facial port-wine stain involving V1, V2, and V3 distributions bilaterally. Which tissues share a common embryologic origin explaining the simultaneous involvement of skin, brain, and eye in this condition?",
       "opts": [
-        "Balanoposthitis can occur in both circumcised and uncircumcised males with equal frequency",
-        "By definition, balanoposthitis does not occur in circumcised males",
-        "Posthitis alone is sufficient to diagnose balanoposthitis",
-        "Balanitis and balanoposthitis are synonymous terms with identical clinical presentations"
+        "Mesoderm-derived structures throughout the cranium",
+        "Neural-crest derived mural cells that ensheath endothelium in the frontonasal prominence and populate the upper facial vasculature, leptomeninges, and choroid",
+        "Endoderm-derived vascular endothelial cells in the anterior circulation",
+        "Ectoderm-derived epithelial cells that secondarily acquired vascular malformation"
       ],
       "ans": 1,
-      "exp": "Balanoposthitis is defined as inflammation of both the glans penis and the mucosal surface of the prepuce, and by definition cannot occur in circumcised males who lack a prepuce. Balanitis refers only to glans inflammation, while posthitis refers only to preputial inflammation; balanoposthitis requires both to be present.",
-      "source": "Balanoposthitis",
-      "topic": "STD infections",
-      "mnemonic": "🏰 Palace: Picture a CIRCUMCISED KNIGHT who has had his castle DRAWBRIDGE (prepuce) removed—he cannot have BALANO-POSTHITIS (both parts inflamed) because one part is GONE. Only the uncircumcised knight with both glans AND foreskin can suffer the full 'BOTH-PART' inflammation."
-    },
-    {
-      "q": "A 28-year-old patient presents with bilateral hearing loss and is found to have bilateral vestibular schwannomas on MRI. Genetic testing reveals a nonsense mutation in the NF2 gene on chromosome 22q12. Which of the following best explains why this truncating mutation typically results in a more severe clinical phenotype?",
-      "opts": [
-        "It produces a partially functional but unstable merlin protein that retains some tumor-suppressor activity",
-        "It completely abolishes merlin protein production, eliminating all contact inhibition and Hippo pathway regulation",
-        "It causes overexpression of the ERM protein family, leading to excessive cell proliferation",
-        "It triggers an autoimmune response against neuroectodermal cells via HLA-associated pathways"
-      ],
-      "ans": 1,
-      "exp": "Truncating mutations (nonsense, frameshift) in NF2 completely abolish merlin protein production, representing the most severe loss-of-function type and are associated with the Wishart (early-onset, severe) phenotype. This patient's presentation with bilateral vestibular schwannomas before age 30 and a truncating mutation is consistent with Wishart-type NF2. Merlin is the critical tumor suppressor of the ERM family that regulates contact inhibition and the Hippo signaling pathway; its complete absence eliminates these protective mechanisms.",
-      "source": "Neurofibromatosis Type 2 (NF2 Gene, Merlin Protein, Bilateral Vestibular Schwannomas)",
-      "topic": "Neurofibromatosis"
-    },
-    {
-      "q": "A 45-year-old man with serological evidence of active hepatitis B infection presents with constitutional symptoms, peripheral neuropathy, and angiographic findings of microaneurysms in mesenteric vessels. What is the proposed immunopathological mechanism driving vasculitis in this clinical scenario?",
-      "opts": [
-        "Direct viral invasion of vascular endothelial cells with intranuclear viral inclusions",
-        "Formation and deposition of immune complexes containing hepatitis B surface antigen (HBsAg) and immunoglobulins",
-        "ANCA-mediated neutrophil activation and degranulation within the vessel wall",
-        "Complement-independent antibody-mediated Type II hypersensitivity targeting basement membranes"
-      ],
-      "ans": 1,
-      "exp": "In hepatitis B-associated PAN, the pathophysiology is driven by immune complex-mediated vascular damage, specifically through the formation and deposition of immune complexes containing hepatitis B surface antigen (HBsAg) and corresponding immunoglobulins. This represents the central mechanism of medium-vessel vasculitis in HBV-associated disease, which historically accounted for up to 30% of classic PAN cases.",
-      "source": "Polyarteritis nodosa",
-      "topic": "Vasculitis"
-    },
-    {
-      "q": "According to the revised International Chapel Hill Consensus Conference nomenclature, which of the following findings would EXCLUDE a diagnosis of polyarteritis nodosa (PAN)?",
-      "opts": [
-        "Necrotizing vasculitis of medium-sized muscular arteries at bifurcations",
-        "Presence of glomerulonephritis on renal biopsy",
-        "Absence of ANCA antibodies",
-        "Formation of microaneurysms and vessel wall weakening"
-      ],
-      "ans": 1,
-      "exp": "PAN is definitively classified as a medium-vessel vasculitis with the strict absence of glomerulonephritis and lack of vasculitis in arterioles, capillaries, or venules. The presence of glomerulonephritis would argue against PAN and suggest an alternative diagnosis such as microscopic polyangiitis (MPA) or granulomatosis with polyangiitis (GPA). ANCA negativity is a hallmark of PAN that distinguishes it from these other vasculitides.",
-      "source": "Polyarteritis nodosa",
-      "topic": "Vasculitis"
-    },
-    {
-      "q": "A 42-year-old immunocompromised patient develops recurrent skin infections. Understanding AMP mechanisms, which structural feature enables most cationic AMPs to selectively disrupt bacterial membranes while preserving host cell membranes?",
-      "opts": [
-        "Hydrophobic interaction with lipid bilayers",
-        "Electrostatic interaction with negatively charged bacterial membrane surfaces",
-        "Competitive inhibition of membrane proteins",
-        "Enzymatic degradation of peptidoglycan"
-      ],
-      "ans": 1,
-      "exp": "Cationic AMPs interact with the negatively charged surfaces of bacterial membranes through electrostatic interactions, leading to membrane disruption. This charge-based selectivity explains their preferential activity against bacteria while minimizing damage to host cell membranes, which are typically less negatively charged.",
-      "source": "Antimicrobial peptides",
-      "topic": "Basic things"
+      "exp": "The GNAQ mutation in Sturge-Weber syndrome occurs very early in the anterior neural crest or cephalic mesenchyme, before widespread migration of neural-crest derived mural cells. These cells populate the upper facial cutaneous vasculature, the leptomeninges overlying cerebral cortex, and the ocular choroid—all derived from the same embryologic source in the frontonasal prominence. This explains why the triad (port-wine stain, leptomeningeal angiomatosis, and choroidal malformation) occurs simultaneously.",
+      "source": "[Paeds Day 2] Sturge-Weber Syndrome",
+      "topic": "C pediatric dermatology",
+      "palace": "🏰 Palace: Imagine NEURAL CREST cells as TRIPLET BUILDERS arriving at the frontonasal castle—one triplet constructs the FACIAL SKIN vasculature, one the BRAIN'S leptomeningeal walls, and one the EYE'S choroid chamber. A GNAQ MUTATION in their blueprint (before they split) corrupts ALL THREE BUILDINGS at once."
     }
   ]
 }
