@@ -30,6 +30,16 @@ MAX_NOTE_CHARS    = 4000        # truncate long notes before sending
 MODEL             = "claude-haiku-4-5-20251001"   # fast + cheap; upgrade to claude-sonnet-4-6 for higher quality
 QUESTIONS_PER_NOTE = 2          # questions generated per note
 
+# ─────────────────────────────────────────────
+# PEDIATRIC FOCUS (persistent topic bias)
+# When enabled, ~PEDIATRIC_FRACTION of every quiz comes from the pediatric
+# dermatology folder; the rest is balanced across all other topics.
+# Set PEDIATRIC_FOCUS = False to return to a fully balanced quiz.
+# ─────────────────────────────────────────────
+PEDIATRIC_FOCUS    = True
+PEDIATRIC_TOPIC    = "C pediatric dermatology"   # exact vault folder name
+PEDIATRIC_FRACTION = 0.5                          # share of the note sample
+
 # Exclude Obsidian system folders
 EXCLUDE_DIRS = {".obsidian", ".trash", "templates", "Templates"}
 
@@ -124,6 +134,40 @@ def sample_notes(by_topic: dict[str, list[Path]], n: int,
     flat = [(t, p) for t, paths in by_topic.items() for p in paths]
     while len(pool) < n:
         pool.append(random.choice(flat))
+
+    random.shuffle(pool)
+    return pool[:n]
+
+
+def sample_notes_pediatric(by_topic: dict[str, list[Path]], n: int,
+                           ped_topic: str, fraction: float
+                           ) -> list[tuple[str, Path]]:
+    """
+    Sample n notes with ~`fraction` drawn from `ped_topic` (pediatric
+    dermatology) and the rest balanced across all OTHER topics.
+    Pediatric notes are sampled WITHOUT replacement (no duplicate questions);
+    the remainder is a balanced random spread, not alphabetical.
+    """
+    ped_paths = by_topic.get(ped_topic, [])
+    if not ped_paths:
+        print(f"  ⚠  Pediatric topic '{ped_topic}' not found in vault — "
+              f"falling back to balanced sampling.")
+        return sample_notes(by_topic, n)
+
+    ped_target = min(round(n * fraction), len(ped_paths))
+    ped_sample = random.sample(ped_paths, ped_target)
+    pool: list[tuple[str, Path]] = [(ped_topic, p) for p in ped_sample]
+
+    # Remainder: balanced spread over the other topics (excluding pediatric).
+    other_flat = [(t, p) for t, paths in by_topic.items() if t != ped_topic
+                  for p in paths]
+    remaining = n - len(pool)
+    if other_flat and remaining > 0:
+        # one pass picking distinct (topic, path) pairs, topped up if short
+        picks = random.sample(other_flat, k=min(remaining, len(other_flat)))
+        pool.extend(picks)
+        while len(pool) < n:
+            pool.append(random.choice(other_flat))
 
     random.shuffle(pool)
     return pool[:n]
@@ -407,6 +451,8 @@ def main():
         spotter_count = focus.get("spotters", 0)
         if spotter_count:
             print(f"   Image spotter questions per day: {spotter_count}")
+    elif PEDIATRIC_FOCUS:
+        print(f"\nMode: Pediatric focus (~{int(PEDIATRIC_FRACTION*100)}% from '{PEDIATRIC_TOPIC}')")
     else:
         print(f"\nMode: Balanced (all topics)")
 
@@ -462,6 +508,26 @@ def main():
             print("\n  ⚠  No cosmetology notes found in vault — generating via API...")
             all_questions = generate_cosmetology_direct(client, text_target, today)
             sampled = []
+    elif PEDIATRIC_FOCUS:
+        # ── Pediatric-weighted sampling (~50% from pediatric dermatology) ─────
+        sampled = sample_notes_pediatric(by_topic, NOTES_TO_SAMPLE,
+                                         PEDIATRIC_TOPIC, PEDIATRIC_FRACTION)
+        ped_n = sum(1 for t, _ in sampled if t == PEDIATRIC_TOPIC)
+        print(f"\n📝 Sampled {len(sampled)} notes "
+              f"({ped_n} pediatric / {len(sampled) - ped_n} other) for today's quiz")
+
+        for i, (topic, path) in enumerate(sampled, 1):
+            if len(all_questions) >= text_target:
+                break
+            needed = min(QUESTIONS_PER_NOTE, text_target - len(all_questions))
+            print(f"   [{i:02d}/{len(sampled)}] {topic[:28]:<28} / {path.stem[:35]:<35} ", end="", flush=True)
+            content = read_note(path)
+            if not content:
+                print("⚠  empty")
+                continue
+            qs = make_questions(client, content, path.stem, topic, needed)
+            print(f"→ +{len(qs)} question{'s' if len(qs)!=1 else ''}")
+            all_questions.extend(qs)
     else:
         # ── Balanced sampling across all topics ──────────────────────────────
         sampled = sample_notes(by_topic, NOTES_TO_SAMPLE, focus=focus)
@@ -518,9 +584,9 @@ def main():
     # ── git push ──────────────────────────────
     print(f"\n🚀 Pushing to GitHub Pages…")
     run_time = datetime.now().strftime("%H:%M")
-    focus_label = f" [{focus['label']}]" if focus else ""
+    focus_label = f" [{focus['label']}]" if focus else (" [Pediatric 50%]" if PEDIATRIC_FOCUS else "")
     git_push(REPO_PATH,
-             f"Quiz {today} {run_time} — {len(all_questions)} cosmetology Qs{focus_label}",
+             f"Quiz {today} {run_time} — {len(all_questions)} Qs{focus_label}",
              github_token, "gauthamkrishna0730-png")
 
     print(f"\n✅ Done! Visit your quiz at:")
