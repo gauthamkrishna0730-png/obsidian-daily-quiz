@@ -1,272 +1,426 @@
 {
-  "date": "2026-07-08",
-  "generated_at": "2026-07-08T00:00:00",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T00:00:00",
   "count": 30,
   "topics_covered": [
-    "Bacterial Infections",
-    "Fungal Infections",
-    "Viral Infections",
-    "Sexually Transmitted Diseases",
+    "Bacterial infections",
+    "Fungal infections",
+    "Viral infections",
     "Leprosy",
-    "Connective Tissue Disorders",
-    "Bullous Disorders",
-    "Skin Tumours",
-    "Dermatological Procedures",
-    "Pharmacology",
-    "Basic Science",
+    "STDs",
+    "Connective tissue disorders",
+    "Bullous disorders",
+    "Skin tumours",
+    "Dermatological procedures",
+    "Dermatopharmacology",
+    "Basic dermatology science",
     "Psoriasis",
     "Eczema/Dermatitis",
-    "Pigmentary Disorders",
-    "Hair and Nail Disorders"
+    "Pigmentary disorders"
   ],
   "questions": [
     {
-      "q": "A 35-year-old woman presents with a butterfly-shaped erythematous rash over the cheeks and nose sparing the nasolabial folds, joint pain, and photosensitivity. Which antibody is most specific for this diagnosis?",
-      "opts": ["Anti-dsDNA", "Anti-Ro (SSA)", "Anti-histone", "Anti-Sm"],
-      "ans": 3,
-      "exp": "Anti-Sm (anti-Smith) antibody is the most specific antibody for SLE, though anti-dsDNA is more sensitive and correlates with disease activity. The malar rash sparing nasolabial folds is classic for SLE. Anti-histone is the hallmark of drug-induced lupus.",
-      "source": "Cloud fallback",
-      "topic": "Connective Tissue Disorders"
-    },
-    {
-      "q": "A 28-year-old patient presents with grouped vesicles on an erythematous base over the right T5 dermatome preceded by 3 days of burning pain. The most appropriate first-line oral treatment is:",
-      "opts": ["Acyclovir 200 mg five times daily for 5 days", "Valacyclovir 1000 mg three times daily for 7 days", "Famciclovir 250 mg twice daily for 5 days", "Acyclovir 400 mg three times daily for 5 days"],
-      "ans": 1,
-      "exp": "Valacyclovir 1000 mg TDS for 7 days is the preferred oral agent for herpes zoster. It achieves 3-5x higher bioavailability than acyclovir and has been shown to reduce post-herpetic neuralgia. Treatment should begin within 72 hours of rash onset.",
-      "source": "Cloud fallback",
-      "topic": "Viral Infections"
-    },
-    {
-      "q": "A 6-year-old child presents with honey-coloured crusted lesions around the nose and mouth. Gram stain of the crust shows Gram-positive cocci in clusters. The most likely causative organism for the bullous variant is:",
-      "opts": ["Streptococcus pyogenes (Group A)", "Staphylococcus aureus phage group II", "Staphylococcus epidermidis", "Streptococcus agalactiae (Group B)"],
-      "ans": 1,
-      "exp": "Bullous impetigo is caused almost exclusively by Staphylococcus aureus phage group II (especially phage type 71), which produces exfoliative toxin A. Non-bullous impetigo can be caused by either S. aureus or Streptococcus pyogenes. Honey-coloured crusting in the non-bullous form is more associated with S. pyogenes.",
-      "source": "Cloud fallback",
-      "topic": "Bacterial Infections"
-    },
-    {
-      "q": "A 50-year-old diabetic presents with tender, erythematous skin infection with crepitus on the foot. The most common type of necrotising fasciitis in this clinical context is:",
-      "opts": ["Type I — Group A Streptococcus alone", "Type I — polymicrobial (aerobic + anaerobic)", "Type II — methicillin-resistant S. aureus", "Type III — Vibrio vulnificus"],
-      "ans": 1,
-      "exp": "Necrotising fasciitis Type I (polymicrobial) is the most common form and typically occurs in diabetics, immunocompromised patients, and the elderly. It involves a synergistic combination of aerobic and anaerobic organisms. Type II is monomicrobial Group A Streptococcus and tends to affect healthy adults.",
-      "source": "Cloud fallback",
-      "topic": "Bacterial Infections"
-    },
-    {
-      "q": "A 22-year-old sexually active man presents with a painless, indurated, single ulcer on the glans penis. Darkfield microscopy of the serous exudate reveals corkscrew-motile spirochetes. The recommended treatment for this stage is:",
-      "opts": ["Benzathine penicillin G 2.4 MU IM single dose", "Doxycycline 100 mg BD for 14 days", "Azithromycin 1 g stat", "Ceftriaxone 500 mg IM for 10 days"],
+      "q": "A 28-year-old man presents with a painless genital ulcer with indurated edges and a clean base. Inguinal lymph nodes are enlarged, rubbery, and non-tender. Dark-field microscopy shows corkscrew-motile organisms. Which of the following is the most appropriate treatment?",
+      "opts": [
+        "Benzathine penicillin G 2.4 MU IM single dose",
+        "Doxycycline 100 mg BD for 14 days",
+        "Azithromycin 1 g single oral dose",
+        "Ceftriaxone 250 mg IM single dose"
+      ],
       "ans": 0,
-      "exp": "Primary syphilis (painless indurated chancre caused by Treponema pallidum) is treated with benzathine penicillin G 2.4 MU IM as a single dose. This is the WHO and CDC standard of care. Doxycycline 100 mg BD for 14 days is the alternative for penicillin-allergic patients.",
+      "exp": "This is primary syphilis caused by Treponema pallidum. Benzathine penicillin G 2.4 MU IM single dose is the first-line treatment for primary and secondary syphilis per WHO and IADVL guidelines.",
       "source": "Cloud fallback",
-      "topic": "Sexually Transmitted Diseases"
+      "topic": "STDs"
     },
     {
-      "q": "A leprosy patient (borderline lepromatous) develops sudden onset painful nodular skin lesions, high fever, arthralgia, and orchitis. Nerve function remains intact. The pathophysiology of this reaction involves:",
-      "opts": ["Type IV (cell-mediated) hypersensitivity — upgrading reaction", "Type III (immune complex) hypersensitivity — deposition in skin and vessels", "Type I (IgE-mediated) hypersensitivity", "Direct bacterial invasion causing tissue necrosis"],
+      "q": "A 35-year-old farmer presents with a 3-month history of hypopigmented anesthetic patches on the trunk. Skin smear from the lesion shows 1-2 AFB per 100 oil-immersion fields (BI = 1+). Histopathology shows epithelioid cell granulomas with a grenz zone. What is the Ridley-Jopling classification of this patient?",
+      "opts": [
+        "Tuberculoid leprosy (TT)",
+        "Borderline tuberculoid (BT)",
+        "Mid-borderline (BB)",
+        "Borderline lepromatous (BL)"
+      ],
       "ans": 1,
-      "exp": "Erythema Nodosum Leprosum (ENL/Type 2 reaction) is a Type III (immune complex-mediated) hypersensitivity reaction. Complement-fixing immune complexes of IgM/IgG with M. leprae antigens are deposited in tissues. It occurs in MB leprosy (BL/LL). Thalidomide is the drug of choice; prednisolone is used when thalidomide is contraindicated.",
+      "exp": "Borderline tuberculoid (BT) leprosy shows epithelioid granulomas with a grenz zone, and skin smears may show scanty AFB (BI 1-2+). TT would be smear-negative; BB and BL would have higher BI and less well-formed granulomas.",
       "source": "Cloud fallback",
       "topic": "Leprosy"
     },
     {
-      "q": "A 30-year-old farmer presents with painless, progressive swelling of the foot with multiple discharging sinuses producing black granules. KOH mount shows large, dark, pigmented hyphae. The most common causative organism in India is:",
-      "opts": ["Madurella mycetomatis", "Actinomadura madurae", "Scedosporium apiospermum", "Nocardia brasiliensis"],
+      "q": "A 45-year-old woman develops tense bullae on normal-appearing skin and erythematous plaques, predominantly on the flexures and trunk. Direct immunofluorescence (DIF) shows linear IgG and C3 along the basement membrane zone. Which autoantigen is primarily targeted?",
+      "opts": [
+        "Desmoglein 3",
+        "Desmoglein 1",
+        "BP180 (type XVII collagen)",
+        "Laminin 332"
+      ],
+      "ans": 2,
+      "exp": "Bullous pemphigoid is characterized by IgG autoantibodies against BP180 (BPAG2, type XVII collagen) and BP230 (BPAG1). Linear IgG/C3 at BMZ on DIF is the hallmark. Desmoglein 3 is targeted in pemphigus vulgaris.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
+    },
+    {
+      "q": "A 22-year-old HIV-positive man (CD4 count 80 cells/μL) presents with multiple painless, umbilicated, flesh-colored papules on the face and genitals. The causative virus belongs to which family?",
+      "opts": [
+        "Herpesviridae",
+        "Papillomaviridae",
+        "Poxviridae",
+        "Parvoviridae"
+      ],
+      "ans": 2,
+      "exp": "Molluscum contagiosum is caused by Molluscum contagiosum virus (MCV), a large DNA virus belonging to the Poxviridae family. It is particularly widespread in immunocompromised individuals.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
+    },
+    {
+      "q": "A 30-year-old woman presents with butterfly-shaped erythema on the face, photosensitivity, oral ulcers, and joint pain. ANA is positive (1:640, homogeneous pattern). Anti-dsDNA antibodies are strongly positive. Which complement component level is most characteristically reduced in active disease?",
+      "opts": [
+        "C1q",
+        "C3",
+        "C5",
+        "Properdin"
+      ],
+      "ans": 1,
+      "exp": "In active SLE, complement consumption through the classical pathway leads to low serum C3 and C4 levels. C3 is the central complement component and its reduction is the most reliable marker of disease activity and immune complex deposition.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 50-year-old man on long-term hydroxyurea for polycythemia vera develops painful leg ulcers over the medial malleoli and hyperpigmented macules on the lower limbs. Which mechanism best explains the hydroxyurea-induced leg ulcers?",
+      "opts": [
+        "Cutaneous vasculitis from immune complexes",
+        "Impaired DNA repair leading to dermal fibrosis and vascular insufficiency",
+        "Drug-induced antiphospholipid syndrome",
+        "Fixed drug eruption at pressure sites"
+      ],
+      "ans": 1,
+      "exp": "Hydroxyurea causes leg ulcers (most commonly over medial malleoli) through impaired DNA repair in endothelial cells, reduced angiogenesis, and local vascular damage. These ulcers are notoriously slow to heal and often require drug discontinuation.",
+      "source": "Cloud fallback",
+      "topic": "Dermatopharmacology"
+    },
+    {
+      "q": "A 60-year-old man presents with a pearly, translucent papule with telangiectasias on the nose, present for 2 years. Dermoscopy reveals arborizing vessels and shiny white structureless areas. What is the most likely diagnosis?",
+      "opts": [
+        "Squamous cell carcinoma",
+        "Basal cell carcinoma",
+        "Sebaceous hyperplasia",
+        "Amelanotic melanoma"
+      ],
+      "ans": 1,
+      "exp": "Nodular basal cell carcinoma (BCC) classically appears as a pearly papule with rolled edges and arborizing telangiectasias on sun-exposed skin. Dermoscopy shows arborizing vessels and shiny white structures (chrysalis structures). It is the most common skin malignancy.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
+    },
+    {
+      "q": "A 25-year-old woman presents with intense pruritus and erythematous papulovesicles on the extensor surfaces of elbows, knees, and buttocks. She also has a history of gluten-sensitive enteropathy. Direct immunofluorescence shows granular IgA deposits at the dermal papillae tips. What is the treatment of choice?",
+      "opts": [
+        "Dapsone and gluten-free diet",
+        "Oral prednisolone",
+        "Rituximab",
+        "Colchicine"
+      ],
       "ans": 0,
-      "exp": "Black-grain eumycetoma (fungal mycetoma) is most commonly caused by Madurella mycetomatis worldwide and in India. White-grain eumycetoma is caused by Scedosporium apiospermum or Acremonium species. Actinomadura madurae (white grains) and Nocardia brasiliensis (white/yellow grains) cause actinomycetoma (bacterial).",
+      "exp": "Dermatitis herpetiformis (Duhring's disease) is characterized by granular IgA at dermal papillae tips and is associated with celiac disease. First-line treatment is dapsone (for rapid symptom control) combined with a strict gluten-free diet (for long-term remission).",
       "source": "Cloud fallback",
-      "topic": "Fungal Infections"
+      "topic": "Bullous disorders"
     },
     {
-      "q": "A 55-year-old man presents with tense bullae on normal and erythematous skin predominantly affecting the trunk and flexures. Nikolsky sign is negative. Direct immunofluorescence shows linear IgG and C3 at the dermoepidermal junction. The target antigen in this condition is:",
-      "opts": ["Desmoglein 3 (Dsg3)", "BP180 (collagen XVII, NC16A domain)", "Desmoglein 1 (Dsg1)", "Laminin 332 (epiligrin)"],
+      "q": "A 40-year-old woman from Rajasthan presents with a chronic painless ulcer on the forearm with a 'volcano crater' appearance and painless lymphadenopathy. Slit-skin smear shows oval bodies inside macrophages. What is the vector responsible for transmitting this disease?",
+      "opts": [
+        "Anopheles mosquito",
+        "Phlebotomus sandfly",
+        "Culex mosquito",
+        "Simulium blackfly"
+      ],
       "ans": 1,
-      "exp": "Bullous pemphigoid (BP) targets BP180 (type XVII collagen, especially the NC16A domain) and BP230 at the hemidesmosome. Linear IgG/C3 at the BMZ on DIF and negative Nikolsky sign (subepidermal blister) are characteristic. ELISA for anti-BP180 NC16A is the most sensitive serological test.",
+      "exp": "Cutaneous leishmaniasis (Oriental sore) is caused by Leishmania tropica, transmitted by the female Phlebotomus sandfly. Amastigotes (Leishman-Donovan bodies) are seen inside macrophages on smear.",
       "source": "Cloud fallback",
-      "topic": "Bullous Disorders"
+      "topic": "Bacterial infections"
     },
     {
-      "q": "A 40-year-old woman presents with flaccid bullae rupturing to form painful oral and skin erosions. Nikolsky sign is positive. ELISA shows antibodies against desmoglein 3 (mucosa) and desmoglein 1 (skin). The most likely histological finding is:",
-      "opts": ["Subepidermal blister with eosinophils", "Suprabasal acantholysis with a 'row of tombstones' pattern", "Neutrophilic microabscesses at dermal papillae tips", "Spongiosis and vesicle formation"],
+      "q": "A 32-year-old man presents with well-demarcated erythematous plaques with silvery-white scales on the scalp, elbows, and knees for 5 years. Nail examination reveals pitting, onycholysis, and oil spots. Auspitz sign is positive. Which cytokine pathway is central to the pathogenesis of plaque psoriasis?",
+      "opts": [
+        "IL-4/IL-13 (Th2)",
+        "IL-17A/IL-23 (Th17)",
+        "IL-5 (Th2)",
+        "IFN-γ (Th1) exclusively"
+      ],
       "ans": 1,
-      "exp": "Pemphigus vulgaris shows suprabasal acantholysis — loss of adhesion between keratinocytes just above the basal layer, leaving the basal cells still attached to the BMZ like a 'row of tombstones'. The blister is intraepidermal. Direct IF shows intercellular IgG in a 'chicken-wire' pattern throughout the epidermis.",
-      "source": "Cloud fallback",
-      "topic": "Bullous Disorders"
-    },
-    {
-      "q": "A 7-year-old child has itchy, scaly patches on the scalp with hair loss and tender cervical lymphadenopathy. Wood's lamp examination shows bright green fluorescence. The systemic drug of choice and its duration is:",
-      "opts": ["Fluconazole 3-6 mg/kg/day for 2-3 weeks", "Griseofulvin 10-15 mg/kg/day for 6-8 weeks", "Itraconazole 5 mg/kg/day for 2-4 weeks", "Terbinafine 3-6 mg/kg/day for 2 weeks"],
-      "ans": 1,
-      "exp": "Tinea capitis requires systemic antifungals because topical agents cannot penetrate the hair shaft. Griseofulvin (10-15 mg/kg/day) for 6-8 weeks remains the drug of choice in children, particularly for Microsporum species. Green Wood's lamp fluorescence indicates Microsporum canis or M. audouinii (pteridine metabolites). Terbinafine is preferred for Trichophyton species.",
-      "source": "Cloud fallback",
-      "topic": "Fungal Infections"
-    },
-    {
-      "q": "A 25-year-old woman presents with well-demarcated, silvery-white plaques on the extensor elbows and scalp. Auspitz sign is positive. Which cytokine pathway is primarily responsible for the pathogenesis of psoriasis?",
-      "opts": ["IL-4/IL-13 (Th2 axis)", "IL-23/IL-17 (Th17 axis)", "IL-12/IFN-γ (Th1 axis)", "IL-5/IL-33 (innate type 2)"],
-      "ans": 1,
-      "exp": "Psoriasis pathogenesis is driven primarily by the IL-23/Th17 axis. Dendritic cells produce IL-23, which drives naïve T cells to Th17 differentiation, producing IL-17A, IL-17F, and IL-22. These cytokines cause keratinocyte hyperproliferation. This explains why anti-IL-23 (risankizumab, guselkumab) and anti-IL-17 (secukinumab, ixekizumab) biologics are highly effective.",
+      "exp": "Plaque psoriasis pathogenesis is driven primarily by the IL-23/Th17 axis. IL-23 (from dendritic cells) drives Th17 cell differentiation producing IL-17A, IL-17F, and IL-22, which stimulate keratinocyte proliferation and neutrophil recruitment. This is the target of secukinumab, ixekizumab (anti-IL-17) and guselkumab, risankizumab (anti-IL-23) biologics.",
       "source": "Cloud fallback",
       "topic": "Psoriasis"
     },
     {
-      "q": "A patient on long-term methotrexate for psoriasis has received a cumulative dose of 1.5 g. The most sensitive non-invasive marker for early hepatic fibrosis monitoring is:",
-      "opts": ["Serum ALT and AST levels every 3 months", "Procollagen III peptide (PIIINP)", "Liver ultrasound with elastography every 6 months", "LDH and albumin levels"],
+      "q": "A 5-year-old child presents with honey-colored crusted lesions around the nose and mouth following an upper respiratory tract infection. Gram stain shows gram-positive cocci in clusters. Which organism is the most common causative agent today?",
+      "opts": [
+        "Streptococcus pyogenes",
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Corynebacterium diphtheriae"
+      ],
       "ans": 1,
-      "exp": "Procollagen III peptide (PIIINP) is the most sensitive non-invasive serum marker of hepatic fibrosis for methotrexate monitoring. It correlates well with liver biopsy findings. Liver biopsy is recommended after a cumulative dose of 1.5-2 g or when PIIINP is persistently elevated. Routine LFTs are insensitive for early fibrosis.",
+      "exp": "Non-bullous impetigo is most commonly caused by Staphylococcus aureus, which appears as gram-positive cocci in clusters. It presents with honey-colored crusted lesions. S. pyogenes can also cause impetigo but S. aureus is now the predominant organism.",
       "source": "Cloud fallback",
-      "topic": "Pharmacology"
+      "topic": "Bacterial infections"
     },
     {
-      "q": "A 32-year-old woman with systemic sclerosis presents with progressive dyspnoea and diffuse skin thickening extending proximal to the elbows. The antibody most specific for diffuse cutaneous SSc with renal crisis is:",
-      "opts": ["Anti-centromere antibody (ACA)", "Anti-Scl-70 (anti-topoisomerase I)", "Anti-RNA polymerase III", "Anti-U1 RNP"],
-      "ans": 2,
-      "exp": "Anti-RNA polymerase III (anti-RNAP III) antibodies are strongly associated with diffuse cutaneous SSc and scleroderma renal crisis (SRC). Anti-Scl-70 is associated with diffuse SSc and pulmonary fibrosis. Anti-centromere is the hallmark of limited cutaneous SSc/CREST and is protective against renal crisis.",
+      "q": "A 55-year-old woman with rheumatoid arthritis on methotrexate develops painful vesicles along the T5 dermatome on the right side. Which antiviral combination is most effective in reducing post-herpetic neuralgia when started within 72 hours of rash onset?",
+      "opts": [
+        "Acyclovir 400 mg 5 times/day for 7 days",
+        "Valacyclovir 1000 mg TID for 7 days",
+        "Famciclovir 500 mg TID for 7 days",
+        "Both valacyclovir and famciclovir are superior to acyclovir for reducing PHN"
+      ],
+      "ans": 3,
+      "exp": "Valacyclovir (1g TID) and famciclovir (500mg TID) for 7 days have been shown to be superior to acyclovir in reducing the duration and severity of post-herpetic neuralgia due to higher bioavailability and sustained plasma levels compared to acyclovir.",
       "source": "Cloud fallback",
-      "topic": "Connective Tissue Disorders"
+      "topic": "Viral infections"
     },
     {
-      "q": "A 38-year-old HIV-positive patient (CD4 = 90 cells/μL) presents with multiple pearly papules with central umbilication on the face and neck. The causative agent belongs to which virus family?",
-      "opts": ["Herpesviridae", "Papillomaviridae", "Poxviridae", "Polyomaviridae"],
-      "ans": 2,
-      "exp": "Molluscum contagiosum virus (MCV) belongs to the Poxviridae family, genus Molluscipoxvirus. It is the only member of its genus. In immunocompromised patients (HIV, CD4 <200), lesions are atypically large (>1 cm, 'giant molluscum'), numerous, and occur on atypical sites including the face. Treatment of underlying immunodeficiency is key.",
+      "q": "A 28-year-old primigravida at 32 weeks gestation develops intensely pruritic urticarial papules and plaques in the abdominal striae, sparing the umbilicus. DIF of perilesional skin is negative. What is the most likely diagnosis?",
+      "opts": [
+        "Pemphigoid gestationis",
+        "Polymorphic eruption of pregnancy (PUPPP)",
+        "Intrahepatic cholestasis of pregnancy",
+        "Atopic eruption of pregnancy"
+      ],
+      "ans": 1,
+      "exp": "Polymorphic eruption of pregnancy (PUPPP/pruritic urticarial papules and plaques of pregnancy) characteristically starts in the abdominal striae, spares the umbilicus, DIF is negative, and is most common in primigravidae. Pemphigoid gestationis would show linear C3/IgG on DIF and typically involves the umbilicus.",
       "source": "Cloud fallback",
-      "topic": "Viral Infections"
+      "topic": "Bullous disorders"
     },
     {
-      "q": "A leprosy patient on multidrug therapy develops sudden severe right-sided facial weakness, lagophthalmos, and loss of brow wrinkling. The nerve most commonly involved in leprosy causing this presentation is:",
-      "opts": ["Greater auricular nerve", "Facial nerve (VII) at the zygomatic branch", "Facial nerve (VII) at the main trunk", "Supra-orbital nerve"],
-      "ans": 2,
-      "exp": "The facial (VII) nerve is the most commonly affected cranial nerve in leprosy. Involvement of the main trunk at the stylomastoid foramen or post-auricular branch causes lagophthalmos (failure to close eye), loss of brow wrinkling (frontalis), and corneal exposure risk. The greater auricular nerve is the most commonly thickened peripheral nerve in leprosy.",
+      "q": "A 36-year-old woman presents with Raynaud's phenomenon, sclerodactyly, telangiectasias on the face and hands, and dysphagia. Anti-centromere antibody (ACA) is positive. What is the most likely diagnosis?",
+      "opts": [
+        "Diffuse cutaneous systemic sclerosis",
+        "Limited cutaneous systemic sclerosis (CREST syndrome)",
+        "Mixed connective tissue disease",
+        "Undifferentiated connective tissue disease"
+      ],
+      "ans": 1,
+      "exp": "The CREST syndrome (Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasia) represents limited cutaneous systemic sclerosis. Anti-centromere antibody is the hallmark serological marker, found in 70-80% of CREST patients.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 19-year-old man presents with multiple verrucous, cauliflower-like lesions on his penis. Biopsy shows koilocytes, acanthosis, and hyperkeratosis. HPV typing shows HPV 6. What is the risk of malignant transformation with this HPV type?",
+      "opts": [
+        "High risk — commonly transforms to penile carcinoma",
+        "Low risk — HPV 6 is a low-risk type",
+        "Intermediate risk — depends on immune status",
+        "Certain transformation occurs within 5 years without treatment"
+      ],
+      "ans": 1,
+      "exp": "HPV 6 and HPV 11 are low-risk HPV types responsible for condyloma acuminata (genital warts). They rarely cause malignant transformation. High-risk types include HPV 16, 18, 31, 33, which are associated with squamous cell carcinoma.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 45-year-old diabetic man presents with a rapidly spreading, foul-smelling necrotic infection of the scrotum and perineum with subcutaneous emphysema on X-ray. What is the specific term for this life-threatening condition?",
+      "opts": [
+        "Toxic epidermal necrolysis",
+        "Fournier's gangrene",
+        "Meleney's synergistic gangrene",
+        "Ecthyma gangrenosum"
+      ],
+      "ans": 1,
+      "exp": "Fournier's gangrene is a type of necrotizing fasciitis specifically affecting the perineum and genitalia. It is polymicrobial (aerobic + anaerobic bacteria) and classically occurs in diabetic men. Subcutaneous gas on imaging is pathognomonic. Requires urgent surgical debridement and broad-spectrum antibiotics.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 3-year-old child presents with depigmented macules on the face and trunk since birth. Wood's lamp examination shows ivory-white fluorescence. Histopathology reveals absent melanocytes. There is a white forelock. What is the most likely diagnosis?",
+      "opts": [
+        "Vitiligo",
+        "Piebaldism",
+        "Oculocutaneous albinism",
+        "Ash-leaf macule of tuberous sclerosis"
+      ],
+      "ans": 1,
+      "exp": "Piebaldism is a congenital disorder (autosomal dominant, KIT gene mutation) with absent melanocytes in affected areas. It presents at birth with white forelock and depigmented patches, often with islands of normal or hyperpigmented skin within white patches. Unlike vitiligo, melanocytes are congenitally absent, not autoimmunely destroyed.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentary disorders"
+    },
+    {
+      "q": "A 48-year-old woman presents with a 2-cm red nodule on the lower leg that bleeds easily on minor trauma, present for 6 months. Dermoscopy shows a white structureless area centrally surrounded by a red collarette. Histopathology shows lobular proliferation of blood vessels. What is the diagnosis?",
+      "opts": [
+        "Kaposi's sarcoma",
+        "Pyogenic granuloma (lobular capillary hemangioma)",
+        "Bacillary angiomatosis",
+        "Glomus tumour"
+      ],
+      "ans": 1,
+      "exp": "Pyogenic granuloma (lobular capillary hemangioma) is a benign vascular proliferation presenting as a rapidly growing, easily bleeding red nodule. Dermoscopy shows a white rail sign and red collarette. Histopathology reveals lobular arrangement of capillaries.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
+    },
+    {
+      "q": "A 25-year-old man presents with scaly, hypopigmented macules on the upper trunk with fine scale on stretching (Besnier's sign). KOH mount shows short hyphae and spherical spores ('spaghetti and meatballs'). What is the most appropriate topical treatment?",
+      "opts": [
+        "Topical terbinafine cream twice daily",
+        "Topical selenium sulfide 2.5% or ketoconazole 2% shampoo",
+        "Whitfield's ointment",
+        "Topical clindamycin"
+      ],
+      "ans": 1,
+      "exp": "Pityriasis versicolor caused by Malassezia furfur shows characteristic 'spaghetti and meatballs' pattern on KOH. First-line topical treatment includes selenium sulfide 2.5% lotion or ketoconazole 2% shampoo applied to affected areas. For extensive disease, oral itraconazole or fluconazole is used.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A 65-year-old man on antihypertensive therapy develops a widespread blistering eruption with erosions involving mucous membranes. DIF shows intercellular IgG deposition in the epidermis (fishnet pattern). Which drug class is most commonly implicated in drug-induced pemphigus?",
+      "opts": [
+        "Calcium channel blockers",
+        "Thiol-containing drugs (e.g., D-penicillamine, captopril)",
+        "Loop diuretics",
+        "Beta blockers"
+      ],
+      "ans": 1,
+      "exp": "Drug-induced pemphigus most commonly occurs with thiol-containing drugs such as D-penicillamine and captopril. The DIF pattern with intercellular IgG (fishnet/chicken wire) is identical to true pemphigus vulgaris. D-penicillamine is the single most common drug implicated.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
+    },
+    {
+      "q": "A 30-year-old HIV-positive man presents with painful perianal ulcers for 4 weeks. HSV PCR from the ulcer swab is positive. CD4 count is 50 cells/μL. What is the significance of HSV ulcers persisting beyond 1 month in an HIV-infected individual?",
+      "opts": [
+        "AIDS-defining illness (CDC Category C)",
+        "Increased risk of secondary bacterial superinfection only",
+        "Development of HSV encephalitis is imminent",
+        "Risk of perinatal transmission if partner is pregnant"
+      ],
+      "ans": 0,
+      "exp": "Chronic mucocutaneous HSV ulcers persisting for more than 1 month in an HIV-infected individual is an AIDS-defining illness (CDC Category C). Acyclovir or valacyclovir treatment is indicated; if acyclovir-resistant, foscarnet is the alternative.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 42-year-old leprosy patient on multi-drug therapy develops sudden appearance of new shiny erythematous tender nodules on the face and extremities with fever and arthralgias. Existing patches remain unchanged. What type of reaction is this and what is the first-line treatment?",
+      "opts": [
+        "Type 1 lepra reaction — treated with corticosteroids",
+        "Type 2 lepra reaction (ENL) — treated with thalidomide or corticosteroids",
+        "Lucio's phenomenon — treated with clofazimine",
+        "Downgrading reaction — treated by adding rifampicin"
+      ],
+      "ans": 1,
+      "exp": "Erythema nodosum leprosum (ENL) is a Type 2 lepra reaction occurring in BL/LL leprosy, characterized by tender erythematous nodules, fever, and systemic symptoms. It is immune complex-mediated. Thalidomide is first-line for males; prednisolone is used for women of childbearing age. MDT is continued.",
       "source": "Cloud fallback",
       "topic": "Leprosy"
     },
     {
-      "q": "A 52-year-old man presents with a pearly, translucent nodule with overlying telangiectasia on the inner canthus of the left eye that has slowly grown over 3 years. Dermoscopy shows arborising vessels. The MOST appropriate surgical management is:",
-      "opts": ["Wide local excision with 4 mm clinical margins", "Mohs micrographic surgery", "Curettage and electrodessication", "Cryotherapy with liquid nitrogen"],
-      "ans": 1,
-      "exp": "Basal cell carcinoma on the inner canthus (H-zone, high-risk area) requires Mohs micrographic surgery. The H-zone (central face, nasal ala, inner canthus, ear) demands tissue-sparing maximum margin control. Mohs offers >99% cure rate for primary facial BCC vs ~90% for standard excision. Arborising vessels on dermoscopy are pathognomonic for BCC.",
-      "source": "Cloud fallback",
-      "topic": "Skin Tumours"
-    },
-    {
-      "q": "A 60-year-old woman with a 20-year history of venous ulcer develops a rapidly growing, fungating ulcer with raised everted edges that bleeds on contact. Biopsy shows well-differentiated SCC. This transformation is called:",
-      "opts": ["Bowen's disease", "Marjolin's ulcer", "Erythroplasia of Queyrat", "Keratoacanthoma"],
-      "ans": 1,
-      "exp": "Marjolin's ulcer is malignant transformation (most commonly SCC) arising in chronic wounds, scars, or inflammatory conditions: burn scars (latency 20-30 years), chronic venous ulcers, osteomyelitis sinuses, vaccination scars. It carries a worse prognosis than de novo SCC due to higher metastatic rate (~30%) because it lacks lymphatics in scar tissue.",
-      "source": "Cloud fallback",
-      "topic": "Skin Tumours"
-    },
-    {
-      "q": "A 26-year-old man develops classic target lesions on the palms and soles 10 days after a cold sore. Individual lesions show three concentric zones: central dusky area, pale oedematous ring, and peripheral erythema. No mucosal involvement. This best represents:",
-      "opts": ["Stevens-Johnson syndrome", "Erythema multiforme minor", "Fixed drug eruption", "Erythema multiforme major"],
-      "ans": 1,
-      "exp": "Erythema multiforme (EM) minor is characterised by classic 'target' or 'iris' lesions on acral sites with no or minimal mucosal involvement (<1 mucosal site). HSV-1 and HSV-2 are the most common triggers (>80%). EM major involves ≥2 mucosal sites. EM is now separated from SJS/TEN — SJS has >10% BSA detachment and is usually drug-induced.",
-      "source": "Cloud fallback",
-      "topic": "Viral Infections"
-    },
-    {
-      "q": "During patch testing, a positive reaction at 48h that further intensifies at 96h (crescendo pattern) indicates allergic contact dermatitis. A reaction that is positive at 48h but fades by 96h (decrescendo pattern) indicates:",
-      "opts": ["Strongly positive allergic reaction", "Irritant contact dermatitis reaction", "Photoallergic contact dermatitis", "Delayed-type hypersensitivity to protein allergen"],
-      "ans": 1,
-      "exp": "Irritant contact dermatitis (ICD) patch test reactions typically peak at 48h and decrease by 96h (decrescendo/fading pattern) because they are non-immunological, concentration-dependent reactions. In contrast, allergic contact dermatitis (ACD) reactions increase from 48h to 96-120h (crescendo pattern) due to the immunological amplification phase. This distinction is critical in interpreting patch tests.",
+      "q": "A 24-year-old woman with atopic dermatitis develops widespread monomorphic umbilicated vesicles over her entire body following a cold sore contact. On examination, vesicles appear on a background of eczematous skin. What is this serious complication called?",
+      "opts": [
+        "Kaposi's varicelliform eruption (eczema herpeticum)",
+        "Bullous impetigo superimposed on eczema",
+        "Pompholyx (dyshidrotic eczema)",
+        "Generalized herpes zoster"
+      ],
+      "ans": 0,
+      "exp": "Kaposi's varicelliform eruption (eczema herpeticum) is a serious complication of atopic dermatitis where HSV-1 disseminates widely over eczematous skin. It presents as monomorphic umbilicated vesicles becoming erosions and crusts. Requires systemic acyclovir treatment.",
       "source": "Cloud fallback",
       "topic": "Eczema/Dermatitis"
     },
     {
-      "q": "A 38-year-old woman presents with bilateral hyperpigmented patches on the cheeks, upper lip, and forehead worsening in summer. She is on oral contraceptive pills. Wood's lamp examination enhances the pigmentation. This indicates pigment is predominantly in the:",
-      "opts": ["Dermis (dermal melanophages)", "Epidermis (epidermal melanocytes)", "Basal layer only", "Papillary dermis with pigment incontinence"],
+      "q": "A 35-year-old man presents with a large pigmented lesion on his back: irregular borders, multiple colors, diameter of 9 mm. Dermoscopy shows atypical pigment network, regression structures, and blue-white veil. What is the next best step in management?",
+      "opts": [
+        "Topical imiquimod for 16 weeks",
+        "Excisional biopsy with 2 mm margins for histopathological diagnosis",
+        "Punch biopsy of the darkest area only",
+        "Shave biopsy and send for melanoma markers"
+      ],
       "ans": 1,
-      "exp": "Wood's lamp (365 nm UVA) enhances epidermal pigmentation (appears darker) but does not enhance dermal pigmentation. In melasma, the epidermal type (Wood's lamp positive) has the best response to treatment. Mixed type (epidermal + dermal) has intermediate response. Dermal type responds poorly. OCPs and UV light are the main triggers.",
+      "exp": "A suspicious pigmented lesion with ABCDE criteria and dermoscopic features of melanoma requires excisional biopsy with narrow margins (1-2mm) to allow complete histological assessment including Breslow thickness and Clark level. Punch or shave biopsy can miss the deepest portion and are not recommended.",
       "source": "Cloud fallback",
-      "topic": "Pigmentary Disorders"
+      "topic": "Skin tumours"
     },
     {
-      "q": "A 45-year-old HIV-positive man (CD4 = 80 cells/μL) presents with purplish violaceous plaques on the lower legs, oral palate, and gastrointestinal tract. Biopsy shows spindle cell proliferation with slit-like vascular channels and extravasated erythrocytes. The causative virus and its primary route of transmission is:",
-      "opts": ["HHV-6 — respiratory droplet transmission", "HHV-8 (KSHV) — primarily sexual transmission (saliva/sexual contact)", "EBV — B-cell tropism via saliva", "CMV — vertical transmission in immunocompromised"],
+      "q": "A 28-year-old woman undergoes patch testing. A reaction that appears at 48 hours but disappears by 96 hours is classified as:",
+      "opts": [
+        "Allergic contact dermatitis (true positive)",
+        "Irritant reaction (false positive)",
+        "Doubtful reaction requiring repeat testing",
+        "Late-phase allergic reaction"
+      ],
       "ans": 1,
-      "exp": "Kaposi's sarcoma is caused by HHV-8 (KSHV — Kaposi's Sarcoma-associated Herpesvirus). In HIV-positive men who have sex with men, sexual transmission (primarily via saliva) is the main route. HAART is the cornerstone of AIDS-KS management; it reduces KS incidence by 80%. Chemotherapy (liposomal doxorubicin) is used for advanced disease.",
-      "source": "Cloud fallback",
-      "topic": "Viral Infections"
-    },
-    {
-      "q": "A patient with tinea cruris fails 4 weeks of topical clotrimazole. The active lesion extends beyond the natal cleft. The most effective topical antifungal for dermatophytes that is fungicidal (not fungistatic) is:",
-      "opts": ["Clotrimazole 1% cream", "Terbinafine 1% cream", "Econazole 1% cream", "Fluconazole 0.5% shampoo"],
-      "ans": 1,
-      "exp": "Terbinafine (allylamine class) is fungicidal against dermatophytes by inhibiting squalene epoxidase, causing lethal accumulation of squalene. Azoles (clotrimazole, econazole, miconazole) are fungistatic, inhibiting ergosterol synthesis via CYP51. Terbinafine 1% cream applied twice daily for 1-2 weeks achieves higher cure rates than azoles for tinea corporis/cruris/pedis.",
-      "source": "Cloud fallback",
-      "topic": "Fungal Infections"
-    },
-    {
-      "q": "A 65-year-old farmer presents with slow-growing, verrucous plaque on the foot with nodular satellites and discharging sinuses over 10 years. Biopsy shows pseudoepitheliomatous hyperplasia with brown pigmented round cells dividing by binary fission. These cells are called:",
-      "opts": ["Sporothrix asteroid bodies", "Sclerotic (Medlar) bodies — Copper penny bodies", "Leishman-Donovan bodies", "Henderson-Patterson bodies"],
-      "ans": 1,
-      "exp": "Chromoblastomycosis (chromomycosis) is characterised by sclerotic bodies (Medlar bodies/copper penny bodies) — brown, thick-walled, septate cells that reproduce by planate division (binary fission in a single plane). These are pathognomonic. Causative agents: Fonsecaea pedrosoi (most common), Cladophialophora carrionii. Treatment: itraconazole ± terbinafine for 6-12 months.",
-      "source": "Cloud fallback",
-      "topic": "Fungal Infections"
-    },
-    {
-      "q": "A dermatology resident performs a Tzanck smear from the floor of a fresh blister in a patient with pemphigus vulgaris. The finding on Tzanck smear in pemphigus vulgaris is:",
-      "opts": ["Multinucleated giant cells with nuclear molding", "Acantholytic cells (rounded, large, with prominent nuclei) — Tzanck cells", "Neutrophilic microabscesses", "No diagnostic finding — Tzanck is not useful in PV"],
-      "ans": 1,
-      "exp": "In pemphigus vulgaris, Tzanck smear shows acantholytic keratinocytes (Tzanck cells) — rounded cells that have lost their adhesion, with enlarged nuclei and prominent nucleoli, and abundant basophilic cytoplasm. Unlike herpes, there are NO multinucleated giant cells. Tzanck smear is a quick bedside test to confirm acantholysis.",
-      "source": "Cloud fallback",
-      "topic": "Dermatological Procedures"
-    },
-    {
-      "q": "A 20-year-old woman presents with diffuse hair shedding of 200+ hairs/day beginning 3 months after delivery of a healthy baby. Pull test is strongly positive. Trichoscopy shows no miniaturisation. The expected natural course is:",
-      "opts": ["Permanent hair loss requiring minoxidil", "Spontaneous complete resolution within 6-12 months", "Progressive thinning requiring PRP treatment", "Evolution into female pattern hair loss"],
-      "ans": 1,
-      "exp": "Postpartum telogen effluvium (TE) is a self-limiting condition. During pregnancy, high oestrogen prolongs the anagen (growth) phase. After delivery, oestrogen drops precipitously, triggering synchronous telogen entry of retained hairs, leading to shedding 2-4 months later. It resolves spontaneously within 6-12 months. Reassurance is the main treatment. No miniaturisation distinguishes it from FPHL.",
-      "source": "Cloud fallback",
-      "topic": "Hair and Nail Disorders"
-    },
-    {
-      "q": "A patient with dermatophyte toenail onychomycosis (distal subungual type, 3 nails, no matrix involvement) fails topical therapy. The drug of choice and regimen is:",
-      "opts": ["Fluconazole 150 mg once weekly for 6 months", "Terbinafine 250 mg daily for 12 weeks", "Itraconazole 200 mg daily for 3 months", "Griseofulvin 500 mg daily for 12 months"],
-      "ans": 1,
-      "exp": "Terbinafine 250 mg daily is the first-line systemic treatment for dermatophyte onychomycosis with the highest mycological cure rates. Duration: 6 weeks for fingernails, 12 weeks for toenails. It is fungicidal (vs fungistatic azoles). Itraconazole pulse (400 mg/day for 1 week/month) is preferred for Candida onychomycosis. Griseofulvin has poor nail penetration.",
-      "source": "Cloud fallback",
-      "topic": "Hair and Nail Disorders"
-    },
-    {
-      "q": "A 40-year-old woman on long-term hydroxychloroquine for cutaneous lupus has developed progressive visual field defects. Ophthalmology reports 'bull's eye maculopathy'. The safe maximum daily dose to minimise retinal toxicity is:",
-      "opts": ["No dose limit, monitor only", "5 mg/kg/day of actual body weight", "400 mg/day regardless of weight", "250 mg/day"],
-      "ans": 1,
-      "exp": "Per AAO 2016 guidelines, the safe daily dose of hydroxychloroquine to minimise retinal toxicity is ≤5 mg/kg/day of actual body weight (not ideal body weight). Above this threshold, cumulative toxicity risk increases significantly. Annual ophthalmological screening (visual field + SD-OCT) is mandatory from baseline or after 5 years. Bull's eye maculopathy is an irreversible, late finding.",
-      "source": "Cloud fallback",
-      "topic": "Pharmacology"
-    },
-    {
-      "q": "A patient with lepromatous leprosy presents with collapse of the nasal bridge (saddle-nose deformity). The pathological basis of this nasal involvement is:",
-      "opts": ["Peripheral nerve invasion causing sensory loss and trauma", "Direct bacillary infiltration and destruction of the anterior nasal cartilage and bones", "Vasculitis causing ischaemic necrosis", "Type 1 reversal reaction targeting nasal mucosa"],
-      "ans": 1,
-      "exp": "In lepromatous leprosy (LL), the nasal mucosa is heavily infiltrated with bacilli (rich in M. leprae as it is a cooler site). Progressive destruction of the anterior nasal spine, septal cartilage, and inferior turbinates leads to saddle-nose deformity. The nasal smear in LL patients shows high BI. This is a feature of longstanding, untreated LL.",
-      "source": "Cloud fallback",
-      "topic": "Leprosy"
-    },
-    {
-      "q": "A 33-year-old man with severe atopic dermatitis unresponsive to moderate-potency topical corticosteroids is started on dupilumab. The primary molecular target of dupilumab is:",
-      "opts": ["IL-31 receptor alpha (IL-31Rα)", "IL-4 receptor alpha subunit (IL-4Rα), blocking IL-4 and IL-13 signalling", "IL-33 receptor (ST2)", "TSLP (thymic stromal lymphopoietin)"],
-      "ans": 1,
-      "exp": "Dupilumab is a fully human monoclonal antibody targeting the IL-4 receptor alpha (IL-4Rα) subunit, which is shared by the IL-4 and IL-13 receptor complexes. By blocking IL-4Rα, it simultaneously inhibits both IL-4 and IL-13 signalling — the core Th2 cytokines driving atopic dermatitis inflammation. It is approved for moderate-to-severe AD, eosinophilic oesophagitis, and prurigo nodularis.",
+      "exp": "In patch testing, a reaction that peaks at 48 hours and fades by 96 hours is characteristic of an irritant (non-allergic) reaction (decrescendo pattern). True allergic contact dermatitis reactions typically persist or increase in intensity from 48 to 96-120 hours (crescendo pattern).",
       "source": "Cloud fallback",
       "topic": "Eczema/Dermatitis"
     },
     {
-      "q": "A 48-year-old woman presents with intensely pruritic grouped papulovesicles on the extensor elbows, knees, and buttocks. Biopsy shows neutrophilic microabscesses at dermal papillae tips. DIF shows granular IgA deposits at dermal papillae. The most appropriate confirmatory investigation for the underlying enteropathy is:",
-      "opts": ["Anti-gliadin IgA antibodies", "Anti-tissue transglutaminase IgA (anti-tTG IgA) + duodenal biopsy", "Anti-endomysial IgA antibodies alone", "Stool microscopy for fat globules"],
+      "q": "A 52-year-old chronic smoker presents with a 1.5 cm erythematous plaque with central ulceration on the lower lip. Biopsy reveals squamous cell carcinoma. Which histological feature indicates the worst prognosis?",
+      "opts": [
+        "Well-differentiated squamous cells with keratin pearls",
+        "Perineural invasion",
+        "Acanthosis of overlying epidermis",
+        "Presence of tumor-infiltrating lymphocytes"
+      ],
       "ans": 1,
-      "exp": "Dermatitis herpetiformis (DH) is the cutaneous manifestation of coeliac disease (gluten-sensitive enteropathy). Granular IgA at dermal papillae on DIF is pathognomonic. Anti-tissue transglutaminase (tTG) IgA is the most sensitive serological marker for coeliac disease (sensitivity >95%), and duodenal biopsy confirms villous atrophy. Dapsone controls skin symptoms; strict gluten-free diet treats the underlying enteropathy.",
+      "exp": "Perineural invasion in squamous cell carcinoma is associated with poor prognosis, higher risk of local recurrence, and regional lymph node metastasis. Tumor-infiltrating lymphocytes indicate a favorable immune response. Well-differentiated histology with keratin pearls indicates better differentiation.",
       "source": "Cloud fallback",
-      "topic": "Bullous Disorders"
+      "topic": "Skin tumours"
     },
     {
-      "q": "A 28-year-old man from Rajasthan presents with a slow-growing cutaneous nodule on the forearm that has developed into a painless ulcer with raised, undermined edges and a 'volcano crater' appearance. He has a history of travel to the Thar desert region. The causative organism and its vector is:",
-      "opts": ["Leishmania donovani — Phlebotomus argentipes sandfly", "Leishmania tropica or L. major — Phlebotomus sandfly", "Leishmania braziliensis — Lutzomyia sandfly", "Leishmania infantum — Phlebotomus perniciosus sandfly"],
+      "q": "A 20-year-old woman with SLE has anti-Smith antibody positive, anti-dsDNA positive, low C3/C4, and thrombocytopenia. Which of the following antibodies has the HIGHEST specificity for SLE, though low sensitivity?",
+      "opts": [
+        "Anti-dsDNA",
+        "Anti-Smith (anti-Sm)",
+        "Anti-Ro/SSA",
+        "Anti-histone"
+      ],
       "ans": 1,
-      "exp": "Cutaneous leishmaniasis in India (Oriental sore) is caused by Leishmania tropica (urban, dry type) or L. major (rural, moist type), transmitted by Phlebotomus sandflies. L. donovani causes visceral leishmaniasis (kala-azar). L. braziliensis causes mucocutaneous leishmaniasis in South America (Lutzomyia vector). Treatment: intralesional sodium stibogluconate or miltefosine.",
+      "exp": "Anti-Smith (anti-Sm) antibody has the highest specificity for SLE (>99%) but low sensitivity (25-30%). Anti-dsDNA is also highly specific and correlates with disease activity. Anti-Ro/SSA is associated with neonatal lupus and Sjogren's syndrome. Anti-histone is associated with drug-induced lupus.",
       "source": "Cloud fallback",
-      "topic": "Basic Science"
+      "topic": "Connective tissue disorders"
+    },
+    {
+      "q": "A 16-year-old boy has recurrent boils, folliculitis, and perianal abscesses since childhood. History reveals delayed separation of umbilical cord. Neutrophil count is markedly elevated (30,000/μL) during infection but neutrophils cannot reach the site of infection. NBT (nitroblue tetrazolium) test is normal. What is the diagnosis?",
+      "opts": [
+        "Chediak-Higashi syndrome",
+        "Chronic granulomatous disease (CGD)",
+        "Leukocyte adhesion deficiency (LAD)",
+        "Hyperimmunoglobulin E syndrome (Job's syndrome)"
+      ],
+      "ans": 2,
+      "exp": "Leukocyte adhesion deficiency (LAD) is characterized by delayed umbilical cord separation, recurrent bacterial infections, and marked neutrophilia without pus formation. CD18 (beta-2 integrin) is absent, preventing neutrophil migration to infection sites. NBT test is normal in LAD (unlike CGD where oxidative burst is absent).",
+      "source": "Cloud fallback",
+      "topic": "Basic dermatology science"
+    },
+    {
+      "q": "A 38-year-old man with type 2 diabetes and hypertension presents for treatment of moderate-to-severe plaque psoriasis. Which systemic therapy has the most favorable safety profile considering his comorbidities?",
+      "opts": [
+        "Cyclosporine",
+        "Methotrexate",
+        "Acitretin",
+        "Secukinumab (anti-IL-17A biologic)"
+      ],
+      "ans": 3,
+      "exp": "In a diabetic hypertensive patient, conventional agents are limited: cyclosporine worsens hypertension and causes nephrotoxicity; methotrexate causes hepatotoxicity (worsened by metabolic syndrome); acitretin causes dyslipidemia. Secukinumab (anti-IL-17A) has a favorable safety profile with no clinically significant interactions with diabetes or hypertension medications.",
+      "source": "Cloud fallback",
+      "topic": "Dermatopharmacology"
+    },
+    {
+      "q": "A 45-year-old woman undergoes Mohs micrographic surgery for a 1.8 cm recurrent basal cell carcinoma on the nose. What is the key advantage of Mohs surgery over standard wide local excision?",
+      "opts": [
+        "Complete margin assessment in real-time with maximal tissue conservation",
+        "Faster procedure requiring no histopathology",
+        "Better cosmesis due to smaller routine excision margins",
+        "Simultaneous treatment of regional lymph nodes"
+      ],
+      "ans": 0,
+      "exp": "Mohs micrographic surgery allows 100% margin assessment of the excised tissue in real-time using frozen sections, compared to standard bread-loaf sectioning that samples only approximately 0.1% of margins. This results in the lowest recurrence rate while conserving maximum normal tissue, crucial for cosmetically sensitive areas.",
+      "source": "Cloud fallback",
+      "topic": "Dermatological procedures"
+    },
+    {
+      "q": "A 29-year-old woman with BMI 34 kg/m2 presents with brown, reticulated, velvety hyperpigmentation on her inner thighs and axillae. Fasting insulin level is markedly elevated. What is this condition and its primary clinical significance?",
+      "opts": [
+        "Terra firma-forme dermatosis — cosmetic concern only",
+        "Acanthosis nigricans — cutaneous marker of insulin resistance",
+        "Confluent and reticulated papillomatosis — requires minocycline",
+        "Dowling-Degos disease — genetic pigmentary disorder"
+      ],
+      "ans": 1,
+      "exp": "Acanthosis nigricans presents as velvety, hyperpigmented plaques in body folds and is most commonly associated with insulin resistance and obesity. In young patients, it mandates screening for type 2 diabetes and metabolic syndrome. Malignant acanthosis nigricans associated with internal malignancy is typically more extensive and involves unusual sites.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentary disorders"
     }
   ]
 }
