@@ -38,7 +38,7 @@ QUESTIONS_PER_NOTE = 2          # questions generated per note
 # ─────────────────────────────────────────────
 PEDIATRIC_FOCUS    = True
 PEDIATRIC_TOPIC    = "C pediatric dermatology"   # exact vault folder name
-PEDIATRIC_FRACTION = 0.5                          # share of the note sample
+PEDIATRIC_FRACTION = 1.0                          # share of the note sample
 
 # Exclude Obsidian system folders
 EXCLUDE_DIRS = {".obsidian", ".trash", "templates", "Templates"}
@@ -591,7 +591,7 @@ def main():
     # ── git push ──────────────────────────────
     print(f"\n🚀 Pushing to GitHub Pages…")
     run_time = datetime.now().strftime("%H:%M")
-    focus_label = f" [{focus['label']}]" if focus else (" [Pediatric 50%]" if PEDIATRIC_FOCUS else "")
+    focus_label = f" [{focus['label']}]" if focus else (f" [Pediatric {int(PEDIATRIC_FRACTION*100)}%]" if PEDIATRIC_FOCUS else "")
     git_push(REPO_PATH,
              f"Quiz {today} {run_time} — {len(all_questions)} Qs{focus_label}",
              github_token, "gauthamkrishna0730-png")
