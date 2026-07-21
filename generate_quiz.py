@@ -396,6 +396,13 @@ def git_push(repo: str, message: str, token: str = "", username: str = ""):
     if token and username:
         remote_url = f"https://{username}:{token}@github.com/{username}/obsidian-daily-quiz.git"
         subprocess.run(["git", "remote", "set-url", "origin", remote_url], check=False)
+    # reconcile with remote first (e.g. cloud fallback commits land on main between runs);
+    # -X theirs keeps THIS run's files when the same file changed on both sides
+    pull = subprocess.run(["git", "pull", "--rebase", "-X", "theirs", "origin", "main"],
+                          capture_output=True, text=True)
+    if pull.returncode != 0:
+        subprocess.run(["git", "rebase", "--abort"], capture_output=True, text=True)
+        print(f"  ⚠  Pull/rebase failed, pushing may be rejected: {pull.stderr}")
     push = subprocess.run(["git", "push", "origin", "main"],
                           capture_output=True, text=True)
     if push.returncode == 0:
