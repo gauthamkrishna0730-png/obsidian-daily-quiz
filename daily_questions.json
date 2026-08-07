@@ -1,428 +1,414 @@
 {
   "date": "2026-08-07",
-  "generated_at": "2026-08-07T05:31:50",
+  "generated_at": "2026-08-07T00:00:00",
   "count": 30,
   "topics_covered": [
     "Bacterial infections",
     "Fungal infections",
     "Viral infections",
-    "Sexually transmitted infections",
+    "STDs",
     "Leprosy",
     "Connective tissue disorders",
     "Bullous disorders",
     "Skin tumours",
     "Dermatological procedures",
-    "Pharmacology",
-    "Basic dermatoscopy",
+    "Dermatological drugs",
+    "Basic dermatology science",
     "Psoriasis",
-    "Eczema/Dermatitis"
+    "Eczema/Dermatitis",
+    "Pigmentation disorders",
+    "Vasculitis"
   ],
   "questions": [
     {
-      "q": "A 4-year-old child presents with a poorly defined, reddish-blue plaque on the forearm that has remained stable in size over 2 years with overlying hypertrichosis. Histology shows nodules of spindle-shaped endothelial cells confined to the mid-to-deep dermis. According to the ISSVA classification and the Kasabach-Merritt spectrum concept, how should this lesion be categorized?",
+      "q": "A 35-year-old farmer presents with a painless ulcer on his right hand with a black eschar and significant surrounding edema. He handles animal hides regularly. The most likely causative organism is:",
       "opts": [
-        "Locally aggressive borderline vascular tumor requiring immediate systemic chemotherapy",
-        "Benign vascular tumor (tufted angioma) representing the superficial, mild end of the KHE spectrum, still carrying risk of Kasabach-Merritt Phenomenon",
-        "GLUT1-positive infantile hemangioma with atypical superficial presentation",
-        "Congenital hemangioma (RICH subtype) that will undergo spontaneous complete involution"
-      ],
-      "ans": 1,
-      "exp": "This clinical and histopathological presentation is characteristic of tufted angioma, which ISSVA technically classifies as benign but which exists on the same biological spectrum as kaposiform hemangioendothelioma. Despite its benign classification and superficial indolent behavior, tufted angioma shares the capacity with KHE to trigger Kasabach-Merritt Phenomenon. The dermis-confined location with spindle-shaped endothelial cell nodules and lack of spontaneous involution are key distinguishing features.",
-      "source": "[Paeds Day 3] Kaposiform Haemangioendothelioma and Tufted Angioma",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 24-year-old woman presents with sharply demarcated symmetric erythema and petechiae of the hands and feet with an abrupt demarcation line at the wrists and ankles, accompanied by an enanthem on the lips and soft palate. This clinical presentation most closely matches which parvovirus B19-associated syndrome?",
-      "opts": [
-        "Classic erythema infectiosum with secondary bacterial infection",
-        "Papular-purpuric gloves and socks syndrome (PPGSS)",
-        "Erythema infectiosum occurring in an immunocompromised adult",
-        "Parvovirus B19-induced necrotizing vasculitis"
-      ],
-      "ans": 1,
-      "exp": "Papular-purpuric gloves and socks syndrome (PPGSS) is a distinct acral variant of parvovirus B19 infection characterized by symmetric edema, erythema, and petechiae of the distal hands and feet with a sharp demarcation line at the wrists and ankles. Unlike classic erythema infectiosum, which predominantly affects school-aged children, PPGSS is most commonly seen in young adults. The enanthem involvement and dermoscopic features are pathognomonic for this variant.",
-      "palace": "🏰 Palace: Imagine a YOUNG ADULT wearing RED GLOVES and RED SOCKS with a SHARP CUT-OFF line at the wrists and ankles—like she stopped mid-dressing at the castle entrance; the RED extends only to the GLOVE and SOCK boundaries, nowhere else.",
-      "source": "[paeds Day 16] 5th erythema infectiosum",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A skin biopsy of a blueberry muffin baby reveals poorly circumscribed, plaque-like aggregates of nucleated erythroid precursor cells, immature leukocytes, and megakaryocytes within the dermis. Which layer of the skin is primarily affected by this pathological process?",
-      "opts": [
-        "Stratum corneum and epidermis exclusively",
-        "Superficial vascular plexus, reticular dermis, and occasionally subcutaneous fat",
-        "Subcutaneous panniculus only",
-        "Epidermal-dermal junction with vasculitis"
-      ],
-      "ans": 1,
-      "exp": "The blueberry muffin sign represents cutaneous extramedullary hematopoiesis centered on the superficial vascular plexus and extending diffusely throughout the reticular dermis and occasionally into subcutaneous fat. The pathology lacks true inflammation or vasculitis, distinguishing it from autoimmune bullous diseases. Notably, the epidermis is spared in this morphological reaction pattern.",
-      "source": "[Paeds Day 6] Blueberry muffin DDx",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A term neonate develops a prodrome of fever and irritability followed by faint orange-red macules with flexural accentuation. Within 48 hours, tissue-paper-like wrinkling progresses to widespread exfoliation with large areas of denuded skin resembling a scalded appearance. Gram-positive cocci are cultured from what anatomical site, suggesting the primary source of infection?",
-      "opts": [
-        "Bullae fluid at the site of exfoliation",
-        "An occult distant focus such as purulent conjunctivitis or omphalitis",
-        "Cerebrospinal fluid",
-        "Urine culture"
-      ],
-      "ans": 1,
-      "exp": "Staphylococcal scalded skin syndrome (SSSS) differs from localized bullous impetigo in that exfoliative toxins act systemically, diffusing hematogenously from a distant, often occult primary focus of infection such as purulent conjunctivitis, omphalitis, or a colonized umbilical stump. The bullae fluid at the site of exfoliation is characteristically sterile because the toxins act remotely rather than locally, distinguishing SSSS from localized bullous impetigo where organisms are cultured from blister fluid.",
-      "source": "[Paeds Day 5] Bullous impetigo of newborn",
-      "topic": "C pediatric dermatology",
-      "palace": "🏰 Palace: Imagine the castle's EYE (conjunctivitis), BELLY BUTTON (omphalitis), or UMBILICAL ROPE hidden as the POISON SOURCE—toxins travel through SECRET UNDERGROUND TUNNELS (bloodstream) to FLOOD the whole castle (SSSS), but the VISIBLE FLOOD WATERS (bullae) are EMPTY of germs because the poison was BREWED ELSEWHERE."
-    },
-    {
-      "q": "A 3-week-old infant presents with widespread, asymptomatic brown macules distributed in a linear streaky pattern following the lines of Blaschko on the trunk and extremities. Histology shows increased melanin within basal keratinocytes with normal melanocyte count and no dermal melanophages. What is the most likely diagnosis?",
-      "opts": [
-        "Hypomelanosis of Ito",
-        "Linear and Whorled Nevoid Hypermelanosis (LWNH)",
-        "Segmental neurofibromatosis type 1",
-        "Incontinentia pigmenti"
-      ],
-      "ans": 1,
-      "exp": "LWNH presents in the first few weeks of life with diffuse, streaky hyperpigmented macules following Blaschko lines, lacking any preceding inflammatory or vesicular stage. The characteristic histology shows epidermal melanotic hypermelanosis with increased melanin in basal keratinocytes, normal melanocyte numbers, and crucially, no dermal melanophages—distinguishing it from incontinentia pigmenti where pigment incontinence occurs.",
-      "source": "[paeds Day 27] Pigmentary mosaicism",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 7-year-old boy presents with symmetric, shiny, glazed erythema on the balls of his feet and heel areas that he reports as painful and fissured. On examination, the interdigital web spaces and the arches of the feet are completely spared. Which of the following is the MOST important distinguishing feature that differentiates this condition from tinea pedis?",
-      "opts": [
-        "Presence of superficial desquamation and scaling",
-        "Pathognomonic sparing of the interdigital web spaces and non-weight-bearing instep",
-        "Symmetric distribution on weight-bearing surfaces",
-        "Associated hyperhidrosis and occlusive footwear use"
-      ],
-      "ans": 1,
-      "exp": "Juvenile plantar dermatosis characteristically spares the interdigital web spaces (toe clefts) and non-weight-bearing instep areas, which is the primary clinical feature that distinguishes it from tinea pedis, where web space involvement is common. While all other features are present in JPD, this specific topographical sparing pattern is pathognomonic.",
-      "source": "[paeds Day 22] Juvenile plantar dermatosis",
-      "topic": "C pediatric dermatology",
-      "palace": "🏰 Palace: Picture the ARCHES of a medieval castle COMPLETELY UNTOUCHED by invaders while the WEIGHT-BEARING STONE WALKWAYS crumble—those EMPTY ARCHES are your clue to JPD, not fungal infection."
-    },
-    {
-      "q": "A 15-year-old girl with moderate inflammatory acne is started on oral doxycycline. Her mother asks why the dermatologist specifically avoided this drug when the patient was younger. What is the primary concern with tetracycline antibiotics in children <8 years?",
-      "opts": [
-        "Irreversible tooth discoloration and enamel hypoplasia",
-        "Increased risk of photosensitivity reactions",
-        "Hepatotoxicity requiring monthly liver function tests",
-        "Gastrointestinal dysmotility and delayed gastric emptying"
+        "Bacillus anthracis",
+        "Clostridium perfringens",
+        "Francisella tularensis",
+        "Pseudomonas aeruginosa"
       ],
       "ans": 0,
-      "exp": "Doxycycline and other tetracyclines are contraindicated in children <8 years due to binding of the drug to calcium in developing tooth enamel, causing permanent yellow-brown discoloration and hypoplasia. This is a classic pediatric dermatology safety point and frequently appears on board exams. The other side effects are either not specific to this age group or not the primary reason for age restriction.",
-      "palace": "🏰 Palace: Imagine an 8-YEAR-OLD CHILD with YELLOW-BROWN VAMPIRE FANGS (tetracycline staining) emerging from the castle dungeon—the calcium-binding monsters attack only before age 8, when teeth are still forming.",
-      "source": "Hggg",
-      "topic": "C pediatric dermatology"
+      "exp": "Cutaneous anthrax (malignant pustule) caused by Bacillus anthracis presents with painless ulcer, black eschar and non-pitting edema. Occupational exposure to animal hides is a classic risk factor.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
     },
     {
-      "q": "A 3-week-old presents with shedding of the collodion membrane, revealing large, dark-brown, plate-like scales in a bark-like mosaic pattern, severe ectropion, eclabium, scarring alopecia, and extreme heat intolerance. Which gene mutation most commonly causes this presentation?",
+      "q": "A 28-year-old immunocompetent patient develops grouped vesicles on an erythematous base along the T5 dermatome. Two weeks later he develops severe burning pain in the same distribution without any active lesions. The most appropriate management is:",
       "opts": [
-        "*ALOX12B* encoding lipoxygenase",
-        "*TGM1* encoding transglutaminase-1",
-        "*NIPAL4* encoding ichthyin",
-        "*CYP4F22* encoding vitamin A metabolism enzyme"
+        "Topical acyclovir cream",
+        "Gabapentin and amitriptyline",
+        "Restart systemic acyclovir",
+        "Intralesional corticosteroids"
       ],
       "ans": 1,
-      "exp": "The clinical presentation of large, dark-brown, plate-like scales in a bark-like mosaic pattern with severe ectropion, eclabium, scarring alopecia, and extreme heat intolerance is characteristic of lamellar ichthyosis, which is most commonly caused by inactivating mutations in the *TGM1* gene encoding transglutaminase-1. This enzyme is essential for formation of the cornified cell envelope within the stratum corneum.",
-      "source": "[Paeds Day 4] Collodion baby",
-      "topic": "C pediatric dermatology"
+      "exp": "This is postherpetic neuralgia (PHN) following herpes zoster. PHN is defined as pain persisting >3 months after rash onset. Gabapentinoids (gabapentin/pregabalin) and tricyclic antidepressants (amitriptyline) are first-line treatments for neuropathic pain.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
     },
     {
-      "q": "A 14-year-old boy presents with a well-demarcated, irregularly bordered tan-brown patch on his left shoulder with coarse dark terminal hairs erupting over it. The patch has a bizarre, jagged outline resembling an archipelago. Which genetic mutation is primarily responsible for the pathogenesis of this lesion?",
+      "q": "A 22-year-old sexually active woman presents with painless, firm, indurated ulcer on her vulva with associated rubbery, non-tender inguinal lymphadenopathy. Dark-field microscopy of the exudate would most likely show:",
       "opts": [
-        "Postzygotic somatic mutations in the ACTB gene affecting pilar smooth muscle cells",
-        "Germline BRAF V600E mutation causing constitutive MAPK pathway activation",
-        "Loss-of-function mutations in the NF1 gene on chromosome 17",
-        "Gain-of-function mutations in the PTEN gene affecting melanocyte proliferation"
-      ],
-      "ans": 0,
-      "exp": "Becker's nevus is driven by postzygotic somatic mutations in the ACTB gene (encoding beta-actin), which potentiate Hedgehog pathway signaling and disrupt hair follicle and pilar muscle development. Laser microdissection has proven these mutations are primarily located within the pilar smooth muscle cells of the lesional area. The condition follows a paradominant inheritance pattern, occurring almost always sporadically as a mosaic trait.",
-      "palace": "🏰 Palace: Imagine ACTB (ACTion Beta-actin) muscular BUILDERS constructing pilar MUSCLES in the castle's shoulder tower—their mutations make HAIRY, PIGMENTED ARCHIPELAGO blueprints.",
-      "source": "[paeds Day 26] Becker's nevus",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 5-day-old neonate presents with multiple flaccid bullae (1–2 cm) filled with clear yellow fluid on the perineum and neck folds. The bullae rupture within 24–48 hours leaving thin, shiny golden-yellow crusts with a peripheral collarette of scale. Nikolsky sign is negative and mucous membranes are spared. What is the specific target antigen cleaved by the staphylococcal exfoliative toxins in this condition?",
-      "opts": [
-        "Desmoglein 3 (Dsg3)",
-        "Desmoglein 1 (Dsg1)",
-        "α3-β1 integrin",
-        "Occludin"
+        "Gram-negative intracellular diplococci",
+        "Motile spirochetes",
+        "Calymmatobacterium granulomatis",
+        "Haemophilus ducreyi"
       ],
       "ans": 1,
-      "exp": "Bullous impetigo of the newborn is mediated by staphylococcal exfoliative toxins (ETA or ETB) that act as trypsin-like serine proteases and specifically cleave desmoglein 1 (Dsg1), a desmosomal cadherin responsible for cell-to-cell adhesion in the superficial epidermis. This results in subcorneal acantholytic blister formation characteristic of localized bullous impetigo.",
-      "source": "[Paeds Day 5] Bullous impetigo of newborn",
-      "topic": "C pediatric dermatology",
-      "palace": "🏰 Palace: Picture Dsg1 as a golden CHAIN LINK holding the SHALLOW (superficial) castle floor together—when the toxin SCISSORS (serine protease) cut it, the FLOOR COLLAPSES inward at the GRAIN CELLAR (stratum granulosum), spilling treasure (blister fluid) that dries to VARNISH (golden crusts)."
+      "exp": "Primary syphilis presents as a painless, indurated chancre with rubbery non-tender lymphadenopathy. Dark-field microscopy of serous exudate reveals Treponema pallidum, a motile spirochete.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "A 7-year-old with classic molluscum contagiosum develops an eczematous inflammatory halo surrounding several lesions. The parents are concerned this indicates secondary bacterial infection. What does this inflammatory response actually represent?",
+      "q": "A 40-year-old male from rural India presents with hypopigmented anaesthetic patches on his trunk and thickened greater auricular nerve. Slit-skin smear shows 3+ bacillary index. As per Ridley-Jopling classification, this patient is best classified as:",
       "opts": [
-        "Secondary bacterial superinfection requiring antibiotic treatment",
-        "A robust host immune response involving plasmacytoid dendritic cells and cytotoxic T lymphocytes that often precedes spontaneous viral clearance",
-        "Progression to giant molluscum requiring immediate intervention",
-        "Meyerson's phenomenon indicating systemic immunodeficiency"
-      ],
-      "ans": 1,
-      "exp": "The eczematous inflammatory halo around molluscum papules is termed Meyerson's phenomenon and represents a robust host immune response, not a bacterial infection. This inflammation frequently precedes spontaneous resolution and clearance of the virus, indicating favorable immune recognition rather than disease progression.",
-      "source": "[paeds Day 17] Molluscum",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 6-year-old child presents with a bright red, confluent macular erythema strictly localized to both cheeks with sparing of the nasal bridge and circumoral regions. The mother reports a mild prodrome of low-grade fever and headache 3 days ago. Which statement regarding infectivity at the time of rash appearance is correct?",
-      "opts": [
-        "The patient remains highly infectious via respiratory droplets when the cutaneous rash appears",
-        "The patient is no longer infectious once the cutaneous rash appears",
-        "The patient becomes infectious only after the lacy reticulated rash develops on the extremities",
-        "Infectivity persists throughout the entire clinical course of the disease"
-      ],
-      "ans": 1,
-      "exp": "Parvovirus B19 (Fifth Disease) follows a characteristic two-stage rash pattern: first the 'slapped cheek' appearance on the face, then lacy reticulated eruption on extremities. Crucially, patients are no longer infectious once the cutaneous rash appears, making early diagnosis important for infection control in schools. The viral replication peaks during the prodromal phase before rash onset.",
-      "palace": "🏰 Palace: Picture a SLAPPED CHEEK so RED it's LOCKED BEHIND CASTLE GATES—once you SEE the red cheek (rash), the gates CLOSE and the virus ESCAPES; the contagious GHOST already LEFT when the rash ARRIVED.",
-      "source": "[paeds Day 16] 5th erythema infectiosum",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 2-year-old boy presents with multiple reddish-brown macules and papules on his trunk and thighs. Stroking one lesion produces immediate localized whealing and erythema. Genetic testing reveals a KIT D816V mutation. Which layer of the dermis is primarily affected in this patient's condition?",
-      "opts": [
-        "Reticular dermis with deep subcutaneous extension",
-        "Papillary dermis around superficial blood vessels and adnexae",
-        "Mid-dermis at the dermal-hypodermal junction",
-        "Subcutaneous fat with sparse dermal involvement"
-      ],
-      "ans": 1,
-      "exp": "Maculopapular cutaneous mastocytosis (urticaria pigmentosa) is characterized by mast cell infiltration primarily in the papillary dermis, with cells accumulating around superficial blood vessels and adnexal structures. The positive Darier's sign reflects rapid mast cell degranulation in this superficial layer when mechanically stimulated.",
-      "palace": "🏰 Palace: Picture PAPILLARY DERMIS as the SHALLOW MOAT surrounding the castle's SUPERFICIAL towers (blood vessels), where mast cell guards stand ready to WHEEZE and ERECT immediately when you STROKE the drawbridge—UP from UP (Urticaria Pigmentosa).",
-      "source": "[paeds Day 29] Mastocytosis",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "Which enterovirus is responsible for severe hand-foot-and-mouth disease with a documented propensity for brainstem encephalitis and acute flaccid paralysis, and has been the cause of recurrent massive epidemics in the Asia-Pacific region since the late 1990s?",
-      "opts": [
-        "Coxsackievirus A16",
-        "Coxsackievirus A6",
-        "Enterovirus 71",
-        "Echovirus type 5"
+        "Tuberculoid (TT)",
+        "Borderline tuberculoid (BT)",
+        "Borderline lepromatous (BL)",
+        "Lepromatous (LL)"
       ],
       "ans": 2,
-      "exp": "Enterovirus 71 (EV-A71) causes the severe neurologic variant of HFMD with CNS and cardiopulmonary tropism, leading to brainstem encephalitis, encephalomyelitis, aseptic meningitis, and acute flaccid paralysis. This virus has been responsible for large, severe epidemics throughout the Asia-Pacific region (Taiwan, China, Singapore, Malaysia, Vietnam, Australia) since the late 1990s, with highest mortality in children under 5 years.",
-      "source": "[paeds Day 17] Hand-foot-mouth disease 1",
-      "topic": "C pediatric dermatology",
-      "memory": "🏰 Palace: EV71 is the EVIL SEVEN-ONE virus—imagine it storming through ASIA-PACIFIC castles wearing a BRAINSTEM crown, causing FLACCID knights to collapse in PARALYSIS, while EPIDEMIC flags wave across Taiwan, China, and Singapore."
+      "exp": "High bacillary index (3+), multiple lesions with diffuse distribution, thickened nerves, and anaesthesia suggest Borderline Lepromatous (BL) leprosy on the Ridley-Jopling spectrum. LL typically has BI 5-6+ and TT is paucibacillary with BI 0.",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "A 6-year-old boy presents with multiple dome-shaped, pearly-white papules with central umbilication on his trunk and arms. Genotypic analysis is performed. Which MCV subtype is most likely responsible for this presentation?",
+      "q": "A patient on multidrug therapy for lepromatous leprosy develops sudden fever, erythematous tender nodules over his face and extremities, and iridocyclitis. The most appropriate additional treatment is:",
       "opts": [
-        "MCV-2",
-        "MCV-1",
-        "MCV-3",
-        "MCV-4"
+        "Prednisolone",
+        "Thalidomide",
+        "Clofazimine",
+        "Clarithromycin"
       ],
       "ans": 1,
-      "exp": "MCV-1 is the most dominant subtype worldwide and is responsible for 76–98% of childhood molluscum contagiosum infections, particularly in the United States. MCV-2 is predominantly sexually transmitted in adults and is prevalent in immunosuppressed individuals. MCV-3 and MCV-4 are extremely rare.",
-      "source": "[paeds Day 17] Molluscum",
-      "topic": "C pediatric dermatology"
+      "exp": "This is Type 2 lepra reaction (Erythema Nodosum Leprosum - ENL) characterised by tender erythematous nodules, systemic features and ocular involvement. Thalidomide is the drug of choice for ENL; prednisolone is used when thalidomide is contraindicated (e.g., in women of childbearing age).",
+      "source": "Cloud fallback",
+      "topic": "Leprosy"
     },
     {
-      "q": "Pigmentary mosaicism in a newborn results from a somatic postzygotic mutation occurring during early embryogenesis. Which of the following is the PRIMARY reason these lesions follow predictable distribution patterns such as the lines of Blaschko or leaf-like (phylloid) patterns?",
+      "q": "A 45-year-old woman presents with malar erythema, photosensitivity, oral ulcers, and arthritis for 6 months. ANA is positive (1:640, homogeneous pattern). Which antibody is most specific for this diagnosis?",
       "opts": [
-        "Autoimmune targeting of melanocytes along developmental seams",
-        "Directional proliferation and outward migration of embryonic keratinocytes and melanoblasts during neural crest migration",
-        "Age-related progressive dermal infiltration by inflammatory cells",
-        "HLA-associated immune receptor activation in genetically predisposed individuals"
+        "Anti-histone antibody",
+        "Anti-dsDNA antibody",
+        "Anti-Ro/SSA antibody",
+        "Anti-centromere antibody"
       ],
       "ans": 1,
-      "exp": "Pigmentary mosaicism patterns reflect the embryonic migration pathways of mutated cell clones—Blaschko lines represent keratinocyte migration from the neural crest, while phylloid patterns represent the migration of single melanoblasts. These are purely developmental/structural anomalies arising from somatic mutations, completely devoid of autoimmune, inflammatory, or HLA-associated mechanisms.",
-      "source": "[paeds Day 27] Pigmentary mosaicism",
-      "topic": "C pediatric dermatology"
+      "exp": "Anti-dsDNA antibodies are highly specific for Systemic Lupus Erythematosus (SLE) and also correlate with disease activity, particularly lupus nephritis. Anti-histone antibodies are associated with drug-induced lupus; anti-Ro with Sjögren's/neonatal lupus; anti-centromere with limited systemic sclerosis.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
     },
     {
-      "q": "A 2-day-old neonate presents with a generalized eruption of discrete, dark blue, non-blanching macules and papules (2–10 mm) across the trunk and extremities. The mother reports a febrile illness with rash during the first trimester of pregnancy. Which of the following intracerebral imaging findings would be most characteristic of the likely causative pathogen?",
+      "q": "A 55-year-old woman presents with Raynaud's phenomenon, puffy hands, dysphagia, and progressive skin tightening from distal extremities to the trunk. She has anti-centromere antibodies. The most likely diagnosis is:",
       "opts": [
-        "Periventricular calcifications only",
-        "Diffuse/tram-track calcifications",
-        "Multiple cortical microabscesses",
-        "Subdural hemorrhage"
+        "Diffuse systemic sclerosis",
+        "Limited systemic sclerosis (CREST syndrome)",
+        "Mixed connective tissue disease",
+        "Overlap syndrome"
       ],
       "ans": 1,
-      "exp": "The first-trimester maternal infection with rash strongly suggests congenital toxoplasmosis, which presents with characteristic diffuse or tram-track intracerebral calcifications. Periventricular calcifications are the hallmark of CMV. The blueberry muffin sign in this clinical context results from cutaneous extramedullary hematopoiesis driven by overwhelming fetal parasitemia.",
-      "source": "[Paeds Day 6] Blueberry muffin DDx",
-      "topic": "C pediatric dermatology"
+      "exp": "Anti-centromere antibodies are characteristic of limited systemic sclerosis (formerly CREST syndrome). CREST features: Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasias. Skin involvement is limited to distal extremities and face.",
+      "source": "Cloud fallback",
+      "topic": "Connective tissue disorders"
     },
     {
-      "q": "A 13-year-old boy with Becker's nevus on his upper trunk is noted to have a male-to-female sex predilection ratio of 5:1 in the isolated form. Which hormonal receptor is uniquely and strongly linked to driving the clinical evolution and progression of this lesion?",
+      "q": "A 60-year-old man presents with tense bullae on normal-appearing skin and erythematous plaques. Nikolsky's sign is negative. Histology shows a subepidermal blister with eosinophils. DIF shows linear IgG and C3 deposition at the BMZ. Diagnosis:",
       "opts": [
-        "Androgen receptor with heightened localized sensitivity and increased receptor density in lesional skin",
-        "Estrogen receptor alpha mediating systemic hyperpigmentation",
-        "Melanocyte-stimulating hormone receptor promoting melanin synthesis",
-        "Thyroid hormone receptor triggering dermal fibroblast proliferation"
-      ],
-      "ans": 0,
-      "exp": "Becker's nevus progression is directly driven by localized heightened sensitivity to circulating androgens, accompanied by a documented increase in the density and activity of androgen receptors within lesional skin. This androgen-driven pathogenesis explains the dramatic growth and hypertrichosis during adolescence/puberty and accounts for the striking male predominance in the classic isolated form.",
-      "palace": "🏰 Palace: ANDROGENS (masculine WARRIOR KINGS) sit on THRONE RECEPTORS in the upper TRUNK CASTLE, triggering PUBERTY'S hair EXPLOSION and pigment ARMY during adolescence.",
-      "source": "[paeds Day 26] Becker's nevus",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 4-year-old boy presents with painful vesicles on his palms and soles following oral ulcers on the buccal mucosa and hard palate. The vesicles are described as elliptical with their long axes running parallel to skin lines. Skin biopsy shows intraepidermal vesicles with vacuolar degeneration of keratinocytes, but notably absent are viral inclusion bodies and multinucleated giant cells. Which virus is the most likely causative agent?",
-      "opts": [
-        "Enterovirus 71",
-        "Coxsackievirus A16",
-        "Herpes simplex virus type 1",
-        "Varicella-zoster virus"
+        "Pemphigus vulgaris",
+        "Bullous pemphigoid",
+        "Dermatitis herpetiformis",
+        "Epidermolysis bullosa acquisita"
       ],
       "ans": 1,
-      "exp": "Classic hand-foot-and-mouth disease is most commonly caused by Coxsackievirus A16 (CVA16). The characteristic elliptical 'football-shaped' vesicles with axes parallel to dermatoglyphics, combined with the absence of viral inclusion bodies and multinucleated giant cells on histology, distinguish HFMD from HSV and varicella, which would show these cytopathic features. Enterovirus 71 causes the severe neurologic variant.",
-      "source": "[paeds Day 17] Hand-foot-mouth disease 1",
-      "topic": "C pediatric dermatology",
-      "memory": "🏰 Palace: A 16-year-old BOY (CVA16) plays FOOTBALL at the PALM tree SPA during SUMMER, drawing PARALLEL lines with his finger on the sand—no GIANT HEADS in the game, just classic fun."
+      "exp": "Bullous pemphigoid presents in elderly patients with tense blisters (negative Nikolsky's sign), subepidermal blisters with eosinophils on histology, and linear IgG/C3 at BMZ on DIF targeting BP180 and BP230 antigens.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
     },
     {
-      "q": "A 6-year-old boy with a history of atopy presents with bilateral shiny, fissured lesions on the forefoot and toe pads that developed after a summer spent in a swimming pool and wearing synthetic sneakers. Histopathology, if performed, would most likely show the characteristic pathological finding of inflammation localized to which anatomical structure?",
+      "q": "A 30-year-old woman presents with painful oral erosions and flaccid bullae on the scalp and chest. Blisters rupture easily leaving raw areas. Nikolsky's sign is positive. Tzanck smear shows acantholytic cells. Which antibody is responsible?",
       "opts": [
-        "Sebaceous glands and hair follicles",
-        "Acrosyringium and eccrine sweat ducts",
-        "Dermal collagen bundles and elastic fibers",
-        "Blood vessels and lymphatic channels"
+        "Anti-BP180",
+        "Anti-desmoglein 3",
+        "Anti-endomysial IgA",
+        "Anti-collagen VII"
       ],
       "ans": 1,
-      "exp": "The hallmark histological finding in juvenile plantar dermatosis, despite the condition being primarily diagnosed clinically, is inflammation specifically targeting the acrosyringium and eccrine sweat ducts. This reflects the underlying mechanism of barrier disruption from repeated maceration and drying cycles in an occlusive, humid environment.",
-      "source": "[paeds Day 22] Juvenile plantar dermatosis",
-      "topic": "C pediatric dermatology",
-      "palace": "🏰 Palace: In the castle's SWEAT LODGE (acrosyringium), tiny DUCTS are under SIEGE—the SWEATY SOCK scenario creates inflammation RIGHT AT THE SWEAT GLAND OPENING where wet meets dry."
+      "exp": "Pemphigus vulgaris is caused by IgG autoantibodies against desmoglein 3 (and desmoglein 1 in mucocutaneous form). It presents with flaccid blisters, oral erosions, positive Nikolsky's sign, and acantholytic cells on Tzanck smear.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
     },
     {
-      "q": "A 3-month-old infant presents with a deep, infiltrative vascular lesion on the neck that crosses tissue planes into the subcutis. On laboratory testing, the child has thrombocytopenia and prolonged PT/INR. Which of the following best explains the relationship between this tumor type and the laboratory findings?",
+      "q": "A 25-year-old patient presents with intensely pruritic vesicles on elbows, knees, and buttocks. He has a history of malabsorption. Skin biopsy shows subepidermal blisters with neutrophils in dermal papillae. DIF shows granular IgA deposits. Best treatment:",
       "opts": [
-        "The tumor is GLUT1-positive infantile hemangioma, which triggers consumptive coagulopathy through platelet sequestration",
-        "The tumor is kaposiform hemangioendothelioma, which shares a unique capacity with tufted angioma to trigger Kasabach-Merritt Phenomenon through inappropriate endothelial proliferation",
-        "The tumor is pyogenic granuloma with secondary infection leading to disseminated intravascular coagulation",
-        "The tumor is congenital hemangioma that spontaneously involutes, causing transient coagulopathy during regression"
+        "Systemic corticosteroids",
+        "Dapsone and gluten-free diet",
+        "Doxycycline and nicotinamide",
+        "Rituximab"
       ],
       "ans": 1,
-      "exp": "Kaposiform hemangioendothelioma (KHE) and tufted angioma represent a biological spectrum unified by their shared, unique capacity to trigger Kasabach-Merritt Phenomenon (KMP)—a life-threatening consumptive coagulopathy. This distinguishes them sharply from GLUT1-positive infantile hemangioma, which never causes KMP. The inappropriately proliferating blood and lymphatic endothelial cells in these tumors are responsible for the coagulopathy.",
-      "source": "[Paeds Day 3] Kaposiform Haemangioendothelioma and Tufted Angioma",
-      "topic": "C pediatric dermatology"
+      "exp": "Dermatitis herpetiformis presents with intensely pruritic vesicles on extensor surfaces, associated with celiac disease. DIF shows granular IgA in dermal papillae. Treatment is dapsone for itch and strict gluten-free diet as definitive management.",
+      "source": "Cloud fallback",
+      "topic": "Bullous disorders"
     },
     {
-      "q": "A 7-year-old boy presents with depigmented patches on his left arm and chest that appeared 6 months ago. The lesions are unilateral, band-shaped, and stopped abruptly at the midline. Which of the following best describes the pathological target and primary immune mechanism in this clinical presentation?",
+      "q": "A 50-year-old man presents with a pearly, translucent nodule with rolled borders and telangiectasias on his nose. He is a farmer with decades of sun exposure. Diagnosis and first-line treatment:",
       "opts": [
-        "Structural melanin defect in the stratum corneum; primary role of neutrophilic infiltration",
-        "Mature melanocytes in the basal layer and hair follicle bulge; CD8+ cytotoxic T cells driven by IFN-γ and CXCL10 signaling",
-        "Melanocyte precursor cells in the dermis; primary role of humoral antibody responses",
-        "Tyrosinase enzyme deficiency inherited as an autosomal recessive trait; no inflammatory component"
+        "Squamous cell carcinoma; wide local excision",
+        "Basal cell carcinoma; Mohs micrographic surgery",
+        "Sebaceous carcinoma; radiation therapy",
+        "Keratoacanthoma; intralesional 5-FU"
       ],
       "ans": 1,
-      "exp": "Vitiligo is an acquired, cell-mediated autoimmune disease targeting mature, functional melanocytes in the basal epidermis and hair follicle bulge. The pathogenic cascade is driven by autoreactive CD8+ cytotoxic T cells recognizing melanocyte autoantigens (tyrosinase, TYRP1, DCT, MCHR1, SOX10), with the IFN-γ and CXCL10 chemokine axis playing a central role. Segmental vitiligo, as described here, accounts for 15–30% of pediatric cases and follows quasi-dermatomal or Blaschkoid patterns.",
-      "source": "[paeds Day 27] Childhood vitiligo",
-      "topic": "C pediatric dermatology",
-      "palace": "🏰 Palace: Picture a SEGMENTED KNIGHT (segmental vitiligo) guarding the BASAL LAYER CASTLE WALL, with CD8+ CYTOTOXIC ASSASSINS (T cells) firing GAMMA-RAY ARROWS (IFN-γ) and CXCL10 GRAPPLING HOOKS across the midline—stopping abruptly at the castle moat."
+      "exp": "Nodular BCC presents as a pearly papule/nodule with rolled borders, telangiectasias, and central ulceration on sun-exposed skin. Mohs micrographic surgery offers the highest cure rate (>99%) and tissue conservation, especially on the face (H-zone).",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
     },
     {
-      "q": "A 4-month-old infant with severe atopic dermatitis unresponsive to topical therapies is referred for biologic therapy. Which of the following biologics is FDA-approved for use at this age?",
+      "q": "A 65-year-old immunosuppressed patient develops a rapidly growing, hyperkeratotic, crusted nodule on the lower lip over 6 weeks. Biopsy shows atypical keratinocytes extending into dermis. Which feature confers the highest risk for metastasis?",
       "opts": [
-        "Dupilumab (IL-4Rα inhibitor)",
-        "Tralokinumab (IL-13 inhibitor)",
-        "Abrocitinib (JAK1 inhibitor)",
-        "Ruxolitinib cream (JAK inhibitor)"
-      ],
-      "ans": 0,
-      "exp": "Dupilumab is the only biologic approved for atopic dermatitis in infants as young as 6 months. Tralokinumab is approved only for adults (≥18 yrs), while abrocitinib and ruxolitinib require age ≥12 years. Dupilumab targets IL-4 receptor alpha and was the first biologic approved in such a young pediatric population.",
-      "palace": "🏰 Palace: Picture a 6-MONTH-OLD BABY riding a DUPLICATE (Dupilumab) horse through the castle—the ONLY steed young enough for the nursery wing, while all other biologics are locked in the adult tower (18+ years).",
-      "source": "Hggg",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 7-year-old boy presents with a rapidly growing, dome-shaped, firm papule on his neck that is 5 mm in diameter with a reddish-pink color. Histology reveals large epithelioid and spindle-shaped melanocytes with abundant eosinophilic cytoplasm, prominent nucleoli, and characteristic dull-pink acellular globules at the dermal-epidermal junction. What is the most likely diagnosis?",
-      "opts": [
-        "Classic Spitz nevus",
-        "Pigmented spindle cell nevus (Reed nevus)",
-        "Common acquired nevus",
-        "Melanoma"
-      ],
-      "ans": 0,
-      "exp": "The clinical presentation of a rapidly growing dome-shaped papule in a child <10 years, combined with the pathognomonic histological finding of Kamino bodies (dull-pink, acellular, PAS-positive basement membrane material at the DEJ) and maturation with depth, is diagnostic of classic Spitz nevus. The epidermis overlying Spitz nevi is thin and fragile, explaining the risk of bleeding with minor trauma.",
-      "source": "[paeds Day 26] Spitz nevus",
-      "topic": "C pediatric dermatology"
-    },
-    {
-      "q": "A 2-day-old neonate presents with a 3.5 cm tan-to-brown patch on the left thigh with coarse terminal hair. Which genetic mutation is most likely responsible for this lesion, and what is its detection frequency in congenital melanocytic nevi?",
-      "opts": [
-        "BRAF V600E mutation, detected in ~70–80% of cases",
-        "NRAS mutation at codon 61, detected in ~70–80% of cases",
-        "TP53 mutation, detected in ~50% of cases",
-        "KIT mutation, detected in ~60% of cases"
+        "Tumour diameter >2 cm",
+        "Perineural invasion",
+        "Location on the lip",
+        "All of the above"
       ],
       "ans": 1,
-      "exp": "NRAS mutations at codon 61 are the most prevalent genetic driver of congenital melanocytic nevi, found in approximately 70–80% of cases. These mutations occur via postzygotic somatic events in the MAPK signaling cascade and are strongly associated with larger lesions, satellite nevi, and neurological involvement. BRAF mutations are occasionally present but are less common and more typical of smaller CMNs.",
-      "source": "[paeds Day 26] Congenital melanocytic nevus",
-      "topic": "C pediatric dermatology"
+      "exp": "Perineural invasion is the single most important high-risk feature in squamous cell carcinoma (SCC) associated with metastasis and local recurrence. Other high-risk features include: >2 cm diameter, depth >4 mm, poor differentiation, location on lip/ear, and immunosuppression.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
     },
     {
-      "q": "What is the primary genetic driver of approximately 55% of Spitz nevi, and how does this differ from common acquired nevi and melanomas?",
+      "q": "A 45-year-old woman presents with an asymmetric, irregularly pigmented lesion (6 mm) on her back with variegated colour (black, brown, red). Dermoscopy shows atypical pigment network and regression areas. Next best step:",
       "opts": [
-        "BRAF mutations; same as common acquired nevi",
-        "Kinase fusions involving ALK, ROS1, NTRK1, NTRK3, BRAF, RET, and MET; different from the BRAF/NRAS mutations typical of common nevi and melanomas",
-        "NRAS mutations with chromosome 11p copy number increase; identical to melanoma pathogenesis",
-        "TP53 mutations; unique to pediatric melanocytic lesions"
+        "Punch biopsy of the darkest area",
+        "Excisional biopsy with 2 mm margins",
+        "Shave biopsy",
+        "Fine needle aspiration cytology"
       ],
       "ans": 1,
-      "exp": "Approximately 55% of Spitz nevi are driven by mutually exclusive kinase fusions (ALK, ROS1, NTRK1, NTRK3, BRAF, RET, MET), which distinguishes them genetically from common acquired nevi and melanomas that are typically driven by BRAF or NRAS point mutations. An additional 15% of Spitz nevi harbour HRAS mutations often with isolated chromosome 11p copy number increase.",
-      "source": "[paeds Day 26] Spitz nevus",
-      "topic": "C pediatric dermatology"
+      "exp": "Suspected melanoma requires excisional biopsy with narrow (1-2 mm) margins to allow accurate Breslow thickness measurement on the entire lesion. Punch or shave biopsies may not sample the deepest part. FNAC is not appropriate for primary diagnosis.",
+      "source": "Cloud fallback",
+      "topic": "Skin tumours"
     },
     {
-      "q": "A 10-year-old girl with a family history of Hashimoto's thyroiditis and alopecia areata develops symmetric depigmented macules on her face, neck, and extremities over 8 months. Histopathology of an early lesion shows a sparse band-like superficial infiltrate at the dermoepidermal junction with complete absence of melanocytes on Melan-A immunostaining. Which genetic/HLA feature most directly explains the co-occurrence of her vitiligo with her family's autoimmune thyroid disease?",
+      "q": "A 2-year-old child presents with honey-coloured crusted lesions around the nose and mouth. Gram stain shows gram-positive cocci in clusters. The drug of choice for a localised presentation is:",
       "opts": [
-        "Vitiligo and Hashimoto's thyroiditis share identical HLA-B27 alleles, which encode cross-reactive T-cell epitopes",
-        "Both conditions result from loss-of-function mutations in the FOXP3 gene affecting regulatory T cells",
-        "Vitiligo and Hashimoto's disease share a polygenic autoimmune background; GWAS has identified ~50 susceptibility loci encoding immune-regulating proteins (HLA, PTPN22, NALP1, IFIH1) common to both conditions",
-        "Thyroid peroxidase antibodies directly cross-react with tyrosinase on melanocytes, causing simultaneous autoimmune damage"
+        "Oral penicillin V",
+        "Topical mupirocin",
+        "Oral cephalexin",
+        "Topical fusidic acid"
+      ],
+      "ans": 1,
+      "exp": "Impetigo most commonly caused by Staphylococcus aureus (or Streptococcus pyogenes) presents with honey-coloured crusts. For localised disease, topical mupirocin (or retapamulin) is preferred over systemic antibiotics. Fusidic acid is also topical but resistance is a concern.",
+      "source": "Cloud fallback",
+      "topic": "Bacterial infections"
+    },
+    {
+      "q": "A 30-year-old HIV-positive man (CD4 200 cells/μL) presents with extensive white plaques on his buccal mucosa that can be scraped off revealing an erythematous base. KOH preparation shows pseudohyphae and budding yeast. First-line treatment:",
+      "opts": [
+        "Topical clotrimazole troches",
+        "Oral fluconazole",
+        "Intravenous amphotericin B",
+        "Topical nystatin suspension"
+      ],
+      "ans": 1,
+      "exp": "Oral candidiasis (thrush) in HIV patients with CD4 <200 typically requires systemic therapy. Oral fluconazole is the first-line treatment for oropharyngeal candidiasis in immunocompromised patients due to superior efficacy over topical agents.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A 20-year-old college student presents with well-demarcated hypopigmented scaly macules on the chest. Wood's lamp shows yellow-green fluorescence. KOH shows 'spaghetti and meatballs' pattern. Diagnosis:",
+      "opts": [
+        "Pityriasis alba",
+        "Tinea versicolor",
+        "Vitiligo",
+        "Seborrheic dermatitis"
+      ],
+      "ans": 1,
+      "exp": "Tinea versicolor (pityriasis versicolor) caused by Malassezia furfur presents with hypo- or hyperpigmented scaly macules on trunk. KOH shows short hyphae and round spores ('spaghetti and meatballs'). Wood's lamp shows golden-yellow fluorescence.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A 35-year-old immunocompetent patient presents with painful grouped vesicles in the perigenital area recurring 4 times this year. What is the most appropriate management strategy?",
+      "opts": [
+        "Topical acyclovir for each episode",
+        "Episodic oral valacyclovir",
+        "Daily suppressive valacyclovir",
+        "Intralesional interferon"
       ],
       "ans": 2,
-      "exp": "Vitiligo is a polygenic disorder, and genome-wide association studies have identified approximately 50 susceptibility loci, the vast majority of which encode immune-regulating proteins (HLA genes, PTPN22, NALP1, IFIH1). Vitiligo shares this genetic autoimmune background with other endocrinopathies, resulting in strong clinical associations with autoimmune thyroid disease (Hashimoto's), Type 1 diabetes, Addison's disease, and alopecia areata. The shared genetic susceptibility rather than direct antigen cross-reactivity explains the familial clustering of autoimmune conditions.",
-      "source": "[paeds Day 27] Childhood vitiligo",
-      "topic": "C pediatric dermatology",
-      "palace": "🏰 Palace: In the GENETIC LIBRARY of the castle, imagine 50 GOLDEN IMMUNE-REGULATING KEYS (GWAS loci: HLA, PTPN22, NALP1, IFIH1) hanging on the same wall, unlocking BOTH the THYROID VAULT and the MELANOCYTE CHAMBER—shared keys for shared autoimmune troubles."
+      "exp": "With ≥6 recurrences/year (or ≥4 recurrences causing significant morbidity), daily suppressive antiviral therapy is recommended. Valacyclovir 500 mg OD reduces recurrence frequency by 70-80% and reduces transmission risk. Episodic therapy is used for infrequent recurrences.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
     },
     {
-      "q": "A 6-month-old infant is evaluated for multiple congenital melanocytic nevi (n=15) ranging from 2–8 cm each across the trunk and extremities. The parents inquire about the risk of serious neurological complications. What is the primary neurological syndrome associated with this presentation?",
+      "q": "A 25-year-old man presents with painless cauliflower-like growths on his genitalia. The lesions are soft and skin-coloured. The most appropriate treatment with the lowest recurrence rate is:",
       "opts": [
-        "Sturge–Weber syndrome with facial port-wine stains and seizures",
-        "Neurocutaneous melanosis, associated with melanosis of the leptomeninges and CNS melanoma",
-        "Neurofibromatosis type 1 with café-au-lait macules and optic nerve gliomas",
-        "Tuberous sclerosis with cortical hamartomas and cardiac rhabdomyomas"
+        "Topical podophyllotoxin",
+        "Imiquimod 5% cream",
+        "Carbon dioxide laser ablation",
+        "Topical trichloroacetic acid"
+      ],
+      "ans": 2,
+      "exp": "Condyloma acuminata (anogenital warts, HPV 6 & 11) can be treated with various modalities. CO2 laser ablation has the lowest recurrence rate (~10-15%) compared to podophyllotoxin (~38%), TCA (~36%), and imiquimod (~13-19%). Recurrence depends on viral load and immune status.",
+      "source": "Cloud fallback",
+      "topic": "STDs"
+    },
+    {
+      "q": "A 28-year-old woman presents with erythematous, well-demarcated plaques with silvery-white scales on her elbows and scalp. Auspitz sign is positive. Histopathology would most likely show:",
+      "opts": [
+        "Spongiosis and exocytosis of lymphocytes",
+        "Regular acanthosis, parakeratosis, Munro microabscesses, and suprapapillary thinning",
+        "Subepidermal blistering with eosinophils",
+        "Granulomatous inflammation in the dermis"
       ],
       "ans": 1,
-      "exp": "Neurocutaneous melanosis is the primary neurological complication associated with multiple medium-to-large congenital melanocytic nevi, particularly when three or more medium CMNs are present. This syndrome involves aberrant melanocytic infiltration of the leptomeninges and brain parenchyma, conferring risk for primary CNS melanoma and neurological sequelae. The presence of multiple satellite nevi substantially elevates this risk even without a giant nevus.",
-      "source": "[paeds Day 26] Congenital melanocytic nevus",
-      "topic": "C pediatric dermatology"
+      "exp": "Psoriasis histopathology shows: regular acanthosis (elongated rete ridges), parakeratosis (retention of nuclei in stratum corneum), Munro microabscesses (neutrophils in stratum corneum), Kogoj's spongiform pustules (in early lesions), and suprapapillary thinning with dilated capillaries.",
+      "source": "Cloud fallback",
+      "topic": "Psoriasis"
     },
     {
-      "q": "A 2-week-old neonate born at 36 weeks presents with a taut, shiny, transparent parchment-like membrane covering the entire body. Which histological finding is the primary hallmark of the collodion membrane?",
+      "q": "A 40-year-old man with plaque psoriasis involving 30% BSA failed topical treatment and phototherapy. He is started on methotrexate. The most important monitoring parameter is:",
       "opts": [
-        "Markedly thickened, compact, orthokeratotic stratum corneum with normal underlying epidermis and dermis",
-        "Spongiosis and intercellular edema throughout the epidermis",
-        "Dilated dermal blood vessels with perivascular lymphocytic infiltrate",
-        "Dyskeratosis and acantholysis in the suprabasal layers"
+        "Serum creatinine monthly",
+        "Liver biopsy after cumulative dose of 3.5–4 g",
+        "Complete blood count weekly for 3 months",
+        "Chest X-ray every 6 months"
+      ],
+      "ans": 1,
+      "exp": "Methotrexate causes hepatotoxicity (hepatic fibrosis/cirrhosis) with cumulative dosing. Liver biopsy is recommended after a cumulative dose of 3.5-4 g (UK guidelines) or based on transaminase monitoring (Roenigk criteria). CBC monitoring for myelosuppression is important but typically monthly, not weekly after stabilization.",
+      "source": "Cloud fallback",
+      "topic": "Dermatological drugs"
+    },
+    {
+      "q": "A 16-year-old boy presents with erythematous, excoriated papules and vesicles in the antecubital fossae, neck, and behind the knees since childhood, with associated allergic rhinitis. Serum IgE is markedly elevated. The most reliable diagnostic criterion is:",
+      "opts": [
+        "Elevated serum IgE",
+        "Pruritus",
+        "Positive skin prick test",
+        "Eosinophilia"
+      ],
+      "ans": 1,
+      "exp": "As per Hanifin and Rajka diagnostic criteria for Atopic Dermatitis, pruritus is the essential (major) criterion — it is the cardinal feature without which the diagnosis cannot be made. Elevated IgE, eosinophilia, and positive SPT are minor criteria.",
+      "source": "Cloud fallback",
+      "topic": "Eczema/Dermatitis"
+    },
+    {
+      "q": "A 55-year-old man presents with an ill-defined erythematous scaly plaque on the lower leg with hyperpigmentation and ulceration near the medial malleolus. There is pitting oedema and varicosities. The most likely diagnosis is:",
+      "opts": [
+        "Gravitational eczema with venous ulcer",
+        "Nummular eczema",
+        "Asteatotic eczema",
+        "Contact dermatitis"
       ],
       "ans": 0,
-      "exp": "The collodion baby phenotype is characterized histologically by a markedly thickened, compact, orthokeratotic stratum corneum, while the underlying epidermis and dermis remain relatively normal. This distinctive finding is consistent across all genetic subtypes of congenital disorders of cornification that present with collodion baby phenotype.",
-      "source": "[Paeds Day 4] Collodion baby",
-      "topic": "C pediatric dermatology"
+      "exp": "Gravitational (stasis) eczema is associated with chronic venous insufficiency presenting with medial ankle eczema, hyperpigmentation (hemosiderin), lipodermatosclerosis, and venous ulceration at the gaiter area. Management includes compression bandaging and emollients.",
+      "source": "Cloud fallback",
+      "topic": "Eczema/Dermatitis"
     },
     {
-      "q": "A 35-year-old man has systemic mastocytosis confirmed by bone marrow biopsy. Flow cytometry reveals aberrant mast cells co-expressing CD117, CD25, and CD2. Which of the following best explains why these immunophenotypic markers distinguish clonal mastocytosis mast cells from reactive mast cells?",
+      "q": "A 30-year-old woman with SLE develops a butterfly-shaped facial rash that spares the nasolabial folds. She is started on hydroxychloroquine. The most important side effect to monitor is:",
       "opts": [
-        "CD25 and CD2 are markers of autoimmune activation against mast cell autoantigens",
-        "Normal reactive mast cells lack CD25 and CD2 expression; only clonal neoplastic mast cells aberrantly co-express these markers",
-        "CD25 and CD2 indicate HLA-associated mast cell infiltration typical of allergic responses",
-        "These markers identify pathogenic autoantibodies bound to mast cell surface receptors"
+        "Cardiomyopathy",
+        "Retinal toxicity",
+        "Nephrotoxicity",
+        "Pulmonary fibrosis"
       ],
       "ans": 1,
-      "exp": "Mastocytosis is a clonal myeloproliferative neoplasm driven by KIT mutations, not autoimmunity. The aberrant mast cells uniquely express CD25 and CD2 as part of their neoplastic phenotype, whereas normal reactive mast cells strictly lack these markers. This immunophenotypic distinction is critical for flow cytometric diagnosis of systemic mastocytosis.",
-      "palace": "🏰 Palace: In the castle armory, CLONAL CLONE soldiers wear DUAL BADGES (CD25 + CD2) sewn onto their armor—normal REACTIVE guards have NO badges. The mutant KIT (CD117) KEY opens doors only ABERRANT clones can unlock, never autoimmune peasants storming the gates.",
-      "source": "[paeds Day 29] Mastocytosis",
-      "topic": "C pediatric dermatology"
+      "exp": "Hydroxychloroquine can cause irreversible retinal toxicity (bull's eye maculopathy) with cumulative dosing. Annual ophthalmologic screening with automated visual fields and OCT is recommended after 5 years of use (or earlier if risk factors present). Cardiomyopathy is rare.",
+      "source": "Cloud fallback",
+      "topic": "Dermatological drugs"
+    },
+    {
+      "q": "A 70-year-old man presents with palpable purpura on both lower extremities, haematuria, and arthralgia. Skin biopsy shows leukocytoclastic vasculitis (LCV) with IgA deposits on DIF. The underlying diagnosis is:",
+      "opts": [
+        "Microscopic polyangiitis",
+        "IgA vasculitis (Henoch-Schönlein Purpura)",
+        "Cryoglobulinemic vasculitis",
+        "Granulomatosis with polyangiitis"
+      ],
+      "ans": 1,
+      "exp": "IgA vasculitis (Henoch-Schönlein Purpura) is characterised by IgA-dominant immune deposits in vessel walls, palpable purpura (lower extremities), arthralgia, renal involvement (IgA nephropathy), and abdominal pain. DIF showing IgA deposits in skin vessels is pathognomonic.",
+      "source": "Cloud fallback",
+      "topic": "Vasculitis"
+    },
+    {
+      "q": "A 35-year-old man presents with localised patches of complete depigmentation on the dorsum of hands and around the mouth, with leukotrichia. Wood's lamp examination shows chalk-white fluorescence. The most appropriate treatment for stable, localised vitiligo is:",
+      "opts": [
+        "Oral PUVA",
+        "Narrowband UVB phototherapy",
+        "Topical tacrolimus 0.1%",
+        "Systemic corticosteroids"
+      ],
+      "ans": 2,
+      "exp": "For stable, localised vitiligo, topical tacrolimus (calcineurin inhibitor) is preferred, especially on the face and in children, due to its efficacy and safety profile without skin atrophy risk. Narrowband UVB is first-line for widespread disease. Oral PUVA has higher side effects.",
+      "source": "Cloud fallback",
+      "topic": "Pigmentation disorders"
+    },
+    {
+      "q": "A 48-year-old woman presents with multiple comedones (open and closed), inflammatory papules and pustules, and nodules on her cheeks and forehead. She was prescribed isotretinoin. Which monitoring is essential before and during treatment?",
+      "opts": [
+        "Pregnancy test and serum lipids",
+        "Serum creatinine and uric acid",
+        "Thyroid function tests",
+        "Chest X-ray"
+      ],
+      "ans": 0,
+      "exp": "Isotretinoin is a potent teratogen (Category X). iPLEDGE/mandatory pregnancy prevention program requires two negative pregnancy tests before starting, monthly tests during treatment, and reliable contraception. Serum lipids (triglycerides) and liver function tests are also monitored.",
+      "source": "Cloud fallback",
+      "topic": "Dermatological drugs"
+    },
+    {
+      "q": "A 52-year-old woman presents with chronic pruritic, violaceous, flat-topped polygonal papules on the flexor surface of the wrists. Biopsy shows a 'sawtooth' pattern of rete ridges, band-like lymphocytic infiltrate at the DEJ, and colloid bodies. The oral equivalent shows a lacy white pattern. Diagnosis:",
+      "opts": [
+        "Lichen sclerosus",
+        "Lichen planus",
+        "Discoid lupus erythematosus",
+        "Psoriasis"
+      ],
+      "ans": 1,
+      "exp": "Lichen planus — the 5 Ps: Pruritic, Purple, Polygonal, Planar (flat-topped) Papules. Histology: sawtooth rete ridges, band-like lymphocytic infiltrate at DEJ, Max Joseph spaces, colloid (civatte) bodies. Wickham's striae (lacy white) on oral mucosa.",
+      "source": "Cloud fallback",
+      "topic": "Basic dermatology science"
+    },
+    {
+      "q": "A 60-year-old male farmer presents with verrucous plaques on the lower leg with suppurating sinuses discharging black granules. Culture on Sabouraud's dextrose agar grows slow-growing dark colonies. Diagnosis and treatment of choice:",
+      "opts": [
+        "Chromoblastomycosis; itraconazole",
+        "Mycetoma (Madura foot); surgery + itraconazole",
+        "Sporotrichosis; itraconazole",
+        "Rhinosporidiosis; dapsone"
+      ],
+      "ans": 1,
+      "exp": "Mycetoma (Madura foot) presents with triad of: tumefaction, sinuses, and granule discharge. Black granules suggest eumycetoma (fungal, e.g., Madurella mycetomatis). Treatment: itraconazole/voriconazole with surgical debulking. Chromoblastomycosis shows sclerotic bodies on histology without grain discharge.",
+      "source": "Cloud fallback",
+      "topic": "Fungal infections"
+    },
+    {
+      "q": "A 25-year-old nurse presents with erythema, vesicles, and weeping on the dorsum of both hands after starting work with latex gloves and disinfectants. Patch testing shows positive reaction to thiuram at 48 and 72 hours. The type of hypersensitivity involved is:",
+      "opts": [
+        "Type I (IgE-mediated)",
+        "Type IV (delayed-type/cell-mediated)",
+        "Type II (cytotoxic)",
+        "Type III (immune complex)"
+      ],
+      "ans": 1,
+      "exp": "Allergic contact dermatitis is a Type IV (delayed-type) hypersensitivity reaction mediated by sensitized T lymphocytes. Patch testing is the gold standard diagnostic test, reading at 48h and 72-96h. Irritant contact dermatitis does not require sensitization and is not immune-mediated.",
+      "source": "Cloud fallback",
+      "topic": "Eczema/Dermatitis"
+    },
+    {
+      "q": "A 45-year-old HIV-positive man (CD4 50 cells/μL) develops rapidly progressive, extensive molluscum contagiosum lesions (>100) with giant forms on the face. The most effective management strategy is:",
+      "opts": [
+        "Cryotherapy to all lesions",
+        "Combination antiretroviral therapy (cART)",
+        "Topical cidofovir",
+        "Intralesional interferon-alpha"
+      ],
+      "ans": 1,
+      "exp": "In severely immunocompromised HIV patients (CD4 <100), molluscum contagiosum becomes extensive and giant. The most effective treatment is immune reconstitution through cART, which allows the immune system to clear the virus. Local destructive therapies are adjuncts but unsustainable for hundreds of lesions.",
+      "source": "Cloud fallback",
+      "topic": "Viral infections"
     }
   ]
 }
